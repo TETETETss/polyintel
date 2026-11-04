@@ -1,43 +1,72 @@
-"""Score a midterm snapshot after resolution.
-Usage: python3 scripts/score_snapshot.py data/snapshots/midterms-2026-11-04.json [--out report.json]
-Resolution comes from the gamma API (closed market, outcomePrices of 1/0). Unresolved markets are listed as pending and left out of accuracy.
-Accuracy = share of resolved positions that won (also $-weighted by cost). Realized PnL = shares*payout - cost basis (held to resolution)."""
-import json,sys,urllib.request,time,collections
+#!/usr/bin/env python3
+"""Score a midterm snapshot. Usage: score_snapshot.py SNAP.json [OUT.json]
+Official = gamma market closed & outcomePrices 1/0 (or umaResolutionStatus resolved).
+Provisional = official OR live price >=0.97 on one side."""
+import json,sys,time,urllib.request,urllib.parse
+from collections import defaultdict
+snap=json.load(open(sys.argv[1])); out=sys.argv[2] if len(sys.argv)>2 else sys.argv[1].replace('.json','-score.json')
+P=snap['positions']; cids=sorted({p['condition_id'] for p in P})
 def get(u):
-    for i in range(4):
-        try: return json.load(urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"polyintel"}),timeout=30))
-        except Exception as e: err=e; time.sleep(2*(i+1))
-    raise err
-def resolutions(cids):
-    R={}; cids=list(cids)
-    for i in range(0,len(cids),40):
-        q="&".join("condition_ids="+c for c in cids[i:i+40])
-        for m in get(f"https://gamma-api.polymarket.com/markets?{q}&limit=100&closed=true")+get(f"https://gamma-api.polymarket.com/markets?{q}&limit=100"):
-            outs=json.loads(m.get("outcomes") or "[]"); px=[float(p) for p in json.loads(m.get("outcomePrices") or "[]")]
-            done=bool(m.get("closed")) and px and max(px)>=0.99 and sum(px)<=1.01
-            R[m["conditionId"]]=dict(resolved=done,payout=dict(zip(outs,px)) if done else None,winner=outs[px.index(max(px))] if done else None)
-    return R
-def main():
-    S=json.load(open(sys.argv[1])); R=resolutions({p["condition_id"] for p in S["positions"]})
-    T=collections.defaultdict(lambda:dict(n=0,won=0,cost=0,cost_won=0,payout=0)); pending=0; O=T["__ALL__"]
-    for p in S["positions"]:
-        r=R.get(p["condition_id"])
-        if not r or not r["resolved"]: pending+=1; continue
-        pay=p["shares"]*r["payout"].get(p["outcome"],0); win=r["winner"]==p["outcome"]
-        for t in (T[p["trader"]],O): t["n"]+=1; t["won"]+=win; t["cost"]+=p["cost_basis"]; t["cost_won"]+=p["cost_basis"]*win; t["payout"]+=pay
-    def fin(t): return dict(positions=t["n"],won=t["won"],accuracy_pct=round(100*t["won"]/t["n"],1) if t["n"] else None,
-        cost_weighted_accuracy_pct=round(100*t["cost_won"]/t["cost"],1) if t["cost"] else None,cost=round(t["cost"],2),payout=round(t["payout"],2),
-        pnl=round(t["payout"]-t["cost"],2),roi_pct=round(100*(t["payout"]-t["cost"])/t["cost"],1) if t["cost"] else None)
-    lean=dict(n=0,right=0,cost=0,cost_right=0)
-    for m in S["markets"]:
-        r=R.get(m["condition_id"])
-        if not r or not r["resolved"]: continue
-        ok=r["winner"]==m["lean"]; lean["n"]+=1; lean["right"]+=ok; lean["cost"]+=m["total_cost"]; lean["cost_right"]+=m["total_cost"]*ok
-    rep=dict(snapshot=S["snapshot_awst"],positions_total=len(S["positions"]),positions_pending=pending,
-      markets_resolved=lean["n"],markets_total=len(S["markets"]),overall=fin(O),
-      smart_money_lean=dict(markets=lean["n"],correct=lean["right"],accuracy_pct=round(100*lean["right"]/lean["n"],1) if lean["n"] else None,
-        dollar_weighted_accuracy_pct=round(100*lean["cost_right"]/lean["cost"],1) if lean["cost"] else None),
-      traders=sorted(({"trader":k,**fin(v)} for k,v in T.items() if k!="__ALL__"),key=lambda x:-x["pnl"]))
-    js=json.dumps(rep,indent=1); print(js)
-    if "--out" in sys.argv: open(sys.argv[sys.argv.index("--out")+1],"w").write(js)
-main()
+  for i in range(4):
+    try: return json.load(urllib.request.urlopen(urllib.request.Request(u,headers={'User-Agent':'polyintel'}),timeout=30))
+    except Exception: time.sleep(2)
+  return []
+M={}
+for i in range(0,len(cids),40):
+  q='&'.join('condition_ids='+c for c in cids[i:i+40])
+  for closed in ('true','false'):
+    for m in get(f'https://gamma-api.polymarket.com/markets?limit=100&closed={closed}&{q}') or []:
+      M[m['conditionId'].lower()]=m
+def info(cid):
+  m=M.get(cid.lower())
+  if not m: return None
+  pr=m.get('outcomePrices'); pr=json.loads(pr) if isinstance(pr,str) else pr
+  pr=[float(x) for x in pr] if pr else None
+  uma=(m.get('umaResolutionStatus') or '').lower()
+  off=None
+  if pr and (m.get('closed') or uma=='resolved'):
+    if max(pr)>=0.999 and min(pr)<=0.001: off=pr.index(max(pr))
+  prov=off
+  if prov is None and pr and max(pr)>=0.97: prov=pr.index(max(pr))
+  return dict(official=off,provisional=prov,prices=pr,closed=m.get('closed'),uma=uma)
+I={c:info(c) for c in cids}
+def score(key):
+  tot=dict(n=0,win=0,cost=0,cost_win=0,payout=0); tr=defaultdict(lambda:dict(n=0,win=0,cost=0,cost_win=0,payout=0))
+  for p in P:
+    i=I[p['condition_id']]; w=i and i[key]
+    if w is None: continue
+    win=(w==p['outcome_index']); pay=p['shares'] if win else 0
+    for d in (tot,tr[p['trader']]):
+      d['n']+=1; d['win']+=win; d['cost']+=p['cost_basis']; d['cost_win']+=p['cost_basis']*win; d['payout']+=pay
+  def fin(d):
+    d['pnl']=round(d['payout']-d['cost'],2); d['roi_pct']=round(100*d['pnl']/d['cost'],2) if d['cost'] else None
+    d['acc_count_pct']=round(100*d['win']/d['n'],1) if d['n'] else None
+    d['acc_cost_pct']=round(100*d['cost_win']/d['cost'],1) if d['cost'] else None
+    for k in ('cost','cost_win','payout'): d[k]=round(d[k],2)
+    return d
+  board=sorted(({'trader':t,**fin(d)} for t,d in tr.items()),key=lambda x:-x['pnl'])
+  # smart money lean per market: side with more cost
+  lean=defaultdict(lambda:defaultdict(float))
+  for p in P: lean[p['condition_id']][p['outcome_index']]+=p['cost_basis']
+  lh=ln=0
+  for c,s in lean.items():
+    w=I[c] and I[c][key]
+    if w is None: continue
+    ln+=1; lh+= max(s,key=s.get)==w
+  mk=sum(1 for c in cids if I[c] and I[c][key] is not None)
+  return dict(markets_decided=mk,markets_pending=len(cids)-mk,positions_decided=tot['n'],positions_pending=len(P)-tot['n'],
+    overall=fin(tot),lean_hit=lh,lean_n=ln,lean_hit_pct=round(100*lh/ln,1) if ln else None,leaderboard=board)
+keys=['democratic-party-control-the-house','republican-party-control-the-house','control-the-senate','texas-senate','governor']
+key_races=[]
+seen=set()
+for p in P:
+  s=p['slug']
+  if p['condition_id'] in seen or not any(k in s for k in ('control-the-house','control-the-senate','texas','california-governor','becerra')): continue
+  seen.add(p['condition_id']); i=I[p['condition_id']] or {}
+  cost=sum(q['cost_basis'] for q in P if q['condition_id']==p['condition_id'])
+  key_races.append(dict(title=p['title'],slug=s,smart_cost=round(cost,2),prices=i.get('prices'),closed=i.get('closed'),uma=i.get('uma'),official_winner_idx=i.get('official'),provisional_winner_idx=i.get('provisional')))
+key_races.sort(key=lambda x:-x['smart_cost'])
+R=dict(snapshot=sys.argv[1],scored_utc=time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),n_markets=len(cids),n_positions=len(P),
+  markets_not_found=sum(1 for c in cids if I[c] is None),official=score('official'),provisional_97c=score('provisional'),key_races=key_races[:15],
+  note='Assumes positions held to resolution. provisional_97c treats >=97c sides as decided and is NOT official.')
+json.dump(R,open(out,'w'),indent=1); print(out)

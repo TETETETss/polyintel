@@ -1,0 +1,825 @@
+{
+ "snapshot": "data/snapshots/midterms-2026-11-04.json",
+ "scored_utc": "2026-11-04T04:01:12Z",
+ "n_markets": 704,
+ "n_positions": 1212,
+ "markets_not_found": 0,
+ "official": {
+  "markets_decided": 26,
+  "markets_pending": 678,
+  "positions_decided": 50,
+  "positions_pending": 1162,
+  "overall": {
+   "n": 50,
+   "win": 46,
+   "cost": 181112.17,
+   "cost_win": 180697.8,
+   "payout": 194952.71,
+   "pnl": 13840.54,
+   "roi_pct": 7.64,
+   "acc_count_pct": 92.0,
+   "acc_cost_pct": 99.8
+  },
+  "lean_hit": 24,
+  "lean_n": 26,
+  "lean_hit_pct": 92.3,
+  "leaderboard": [
+   {
+    "trader": "Trump2028",
+    "n": 2,
+    "win": 2,
+    "cost": 129559.85,
+    "cost_win": 129559.85,
+    "payout": 136499.04,
+    "pnl": 6939.19,
+    "roi_pct": 5.36,
+    "acc_count_pct": 100.0,
+    "acc_cost_pct": 100.0
+   },
+   {
+    "trader": "SnowLover7",
+    "n": 3,
+    "win": 3,
+    "cost": 24203.46,
+    "cost_win": 24203.46,
+    "payout": 28224.16,
+    "pnl": 4020.7,
+    "roi_pct": 16.61,
+    "acc_count_pct": 100.0,
+    "acc_cost_pct": 100.0
+   },
+   {
+    "trader": "gopfan2",
+    "n": 4,
+    "win": 4,
+    "cost": 2770.93,
+    "cost_win": 2770.93,
+    "payout": 4036.52,
+    "pnl": 1265.59,
+    "roi_pct": 45.67,
+    "acc_count_pct": 100.0,
+    "acc_cost_pct": 100.0
+   },
+   {
+    "trader": "Ryxon21",
+    "n": 15,
+    "win": 15,
+    "cost": 11037.2,
+    "cost_win": 11037.2,
+    "payout": 11898.35,
+    "pnl": 861.15,
+    "roi_pct": 7.8,
+    "acc_count_pct": 100.0,
+    "acc_cost_pct": 100.0
+   },
+   {
+    "trader": "tunatyler",
+    "n": 1,
+    "win": 1,
+    "cost": 3319.99,
+    "cost_win": 3319.99,
+    "payout": 3999.99,
+    "pnl": 680.0,
+    "roi_pct": 20.48,
+    "acc_count_pct": 100.0,
+    "acc_cost_pct": 100.0
+   },
+   {
+    "trader": "aenews2",
+    "n": 2,
+    "win": 2,
+    "cost": 963.79,
+    "cost_win": 963.79,
+    "payout": 1204.74,
+    "pnl": 240.95,
+    "roi_pct": 25.0,
+    "acc_count_pct": 100.0,
+    "acc_cost_pct": 100.0
+   },
+   {
+    "trader": "StarMaster",
+    "n": 1,
+    "win": 1,
+    "cost": 1395.0,
+    "cost_win": 1395.0,
+    "payout": 1500.0,
+    "pnl": 105.0,
+    "roi_pct": 7.53,
+    "acc_count_pct": 100.0,
+    "acc_cost_pct": 100.0
+   },
+   {
+    "trader": "Car",
+    "n": 5,
+    "win": 5,
+    "cost": 2310.6,
+    "cost_win": 2310.6,
+    "payout": 2347.99,
+    "pnl": 37.39,
+    "roi_pct": 1.62,
+    "acc_count_pct": 100.0,
+    "acc_cost_pct": 100.0
+   },
+   {
+    "trader": "elmcap2",
+    "n": 2,
+    "win": 2,
+    "cost": 1652.76,
+    "cost_win": 1652.76,
+    "payout": 1686.49,
+    "pnl": 33.73,
+    "roi_pct": 2.04,
+    "acc_count_pct": 100.0,
+    "acc_cost_pct": 100.0
+   },
+   {
+    "trader": "JJo",
+    "n": 2,
+    "win": 2,
+    "cost": 2817.83,
+    "cost_win": 2817.83,
+    "payout": 2831.43,
+    "pnl": 13.6,
+    "roi_pct": 0.48,
+    "acc_count_pct": 100.0,
+    "acc_cost_pct": 100.0
+   },
+   {
+    "trader": "HolyMoses7",
+    "n": 2,
+    "win": 2,
+    "cost": 73.05,
+    "cost_win": 73.05,
+    "payout": 74.99,
+    "pnl": 1.94,
+    "roi_pct": 2.66,
+    "acc_count_pct": 100.0,
+    "acc_cost_pct": 100.0
+   },
+   {
+    "trader": "bernardbulletin",
+    "n": 6,
+    "win": 5,
+    "cost": 550.12,
+    "cost_win": 490.25,
+    "payout": 514.01,
+    "pnl": -36.11,
+    "roi_pct": -6.56,
+    "acc_count_pct": 83.3,
+    "acc_cost_pct": 89.1
+   },
+   {
+    "trader": "wokerjoesleeper",
+    "n": 3,
+    "win": 2,
+    "cost": 206.1,
+    "cost_win": 103.09,
+    "payout": 135.0,
+    "pnl": -71.1,
+    "roi_pct": -34.5,
+    "acc_count_pct": 66.7,
+    "acc_cost_pct": 50.0
+   },
+   {
+    "trader": "ImJustKen",
+    "n": 2,
+    "win": 0,
+    "cost": 251.49,
+    "cost_win": 0.0,
+    "payout": 0,
+    "pnl": -251.49,
+    "roi_pct": -100.0,
+    "acc_count_pct": 0.0,
+    "acc_cost_pct": 0.0
+   }
+  ]
+ },
+ "provisional_97c": {
+  "markets_decided": 450,
+  "markets_pending": 254,
+  "positions_decided": 871,
+  "positions_pending": 341,
+  "overall": {
+   "n": 871,
+   "win": 624,
+   "cost": 6140319.89,
+   "cost_win": 5917547.96,
+   "payout": 7292470.64,
+   "pnl": 1152150.75,
+   "roi_pct": 18.76,
+   "acc_count_pct": 71.6,
+   "acc_cost_pct": 96.4
+  },
+  "lean_hit": 309,
+  "lean_n": 450,
+  "lean_hit_pct": 68.7,
+  "leaderboard": [
+   {
+    "trader": "SlavaUkraini",
+    "n": 13,
+    "win": 12,
+    "cost": 587464.75,
+    "cost_win": 579880.41,
+    "payout": 766974.75,
+    "pnl": 179510.0,
+    "roi_pct": 30.56,
+    "acc_count_pct": 92.3,
+    "acc_cost_pct": 98.7
+   },
+   {
+    "trader": "SnowLover7",
+    "n": 65,
+    "win": 57,
+    "cost": 275029.07,
+    "cost_win": 265325.37,
+    "payout": 439944.32,
+    "pnl": 164915.25,
+    "roi_pct": 59.96,
+    "acc_count_pct": 87.7,
+    "acc_cost_pct": 96.5
+   },
+   {
+    "trader": "aenews2",
+    "n": 12,
+    "win": 11,
+    "cost": 90208.23,
+    "cost_win": 83173.57,
+    "payout": 241649.17,
+    "pnl": 151440.94,
+    "roi_pct": 167.88,
+    "acc_count_pct": 91.7,
+    "acc_cost_pct": 92.2
+   },
+   {
+    "trader": "Dropper",
+    "n": 12,
+    "win": 10,
+    "cost": 371425.93,
+    "cost_win": 334784.86,
+    "payout": 512097.07,
+    "pnl": 140671.14,
+    "roi_pct": 37.87,
+    "acc_count_pct": 83.3,
+    "acc_cost_pct": 90.1
+   },
+   {
+    "trader": "elmcap2",
+    "n": 32,
+    "win": 32,
+    "cost": 2057807.69,
+    "cost_win": 2057807.69,
+    "payout": 2149289.73,
+    "pnl": 91482.04,
+    "roi_pct": 4.45,
+    "acc_count_pct": 100.0,
+    "acc_cost_pct": 100.0
+   },
+   {
+    "trader": "tunatyler",
+    "n": 33,
+    "win": 27,
+    "cost": 103626.54,
+    "cost_win": 98740.45,
+    "payout": 170280.05,
+    "pnl": 66653.51,
+    "roi_pct": 64.32,
+    "acc_count_pct": 81.8,
+    "acc_cost_pct": 95.3
+   },
+   {
+    "trader": "bernardbulletin",
+    "n": 97,
+    "win": 89,
+    "cost": 84701.72,
+    "cost_win": 80707.12,
+    "payout": 132610.0,
+    "pnl": 47908.28,
+    "roi_pct": 56.56,
+    "acc_count_pct": 91.8,
+    "acc_cost_pct": 95.3
+   },
+   {
+    "trader": "JJo",
+    "n": 22,
+    "win": 19,
+    "cost": 264993.18,
+    "cost_win": 262246.5,
+    "payout": 310656.03,
+    "pnl": 45662.85,
+    "roi_pct": 17.23,
+    "acc_count_pct": 86.4,
+    "acc_cost_pct": 99.0
+   },
+   {
+    "trader": "Trump2028",
+    "n": 15,
+    "win": 15,
+    "cost": 449250.36,
+    "cost_win": 449250.36,
+    "payout": 489958.35,
+    "pnl": 40707.99,
+    "roi_pct": 9.06,
+    "acc_count_pct": 100.0,
+    "acc_cost_pct": 100.0
+   },
+   {
+    "trader": "0xe639e4",
+    "n": 2,
+    "win": 2,
+    "cost": 642885.92,
+    "cost_win": 642885.92,
+    "payout": 678630.92,
+    "pnl": 35745.0,
+    "roi_pct": 5.56,
+    "acc_count_pct": 100.0,
+    "acc_cost_pct": 100.0
+   },
+   {
+    "trader": "mr.ozi",
+    "n": 9,
+    "win": 5,
+    "cost": 99420.63,
+    "cost_win": 83661.12,
+    "payout": 129551.63,
+    "pnl": 30131.0,
+    "roi_pct": 30.31,
+    "acc_count_pct": 55.6,
+    "acc_cost_pct": 84.1
+   },
+   {
+    "trader": "Kickstand7",
+    "n": 6,
+    "win": 2,
+    "cost": 15335.14,
+    "cost_win": 13363.57,
+    "payout": 41258.01,
+    "pnl": 25922.87,
+    "roi_pct": 169.04,
+    "acc_count_pct": 33.3,
+    "acc_cost_pct": 87.1
+   },
+   {
+    "trader": "Ryxon21",
+    "n": 111,
+    "win": 101,
+    "cost": 148551.05,
+    "cost_win": 143756.99,
+    "payout": 173330.79,
+    "pnl": 24779.74,
+    "roi_pct": 16.68,
+    "acc_count_pct": 91.0,
+    "acc_cost_pct": 96.8
+   },
+   {
+    "trader": "ImJustKen",
+    "n": 81,
+    "win": 27,
+    "cost": 244993.97,
+    "cost_win": 201431.03,
+    "payout": 266859.19,
+    "pnl": 21865.22,
+    "roi_pct": 8.92,
+    "acc_count_pct": 33.3,
+    "acc_cost_pct": 82.2
+   },
+   {
+    "trader": "occasionalAwareness",
+    "n": 3,
+    "win": 3,
+    "cost": 59566.62,
+    "cost_win": 59566.62,
+    "payout": 78590.93,
+    "pnl": 19024.31,
+    "roi_pct": 31.94,
+    "acc_count_pct": 100.0,
+    "acc_cost_pct": 100.0
+   },
+   {
+    "trader": "paddaa",
+    "n": 15,
+    "win": 11,
+    "cost": 38873.79,
+    "cost_win": 30146.13,
+    "payout": 53997.74,
+    "pnl": 15123.95,
+    "roi_pct": 38.91,
+    "acc_count_pct": 73.3,
+    "acc_cost_pct": 77.5
+   },
+   {
+    "trader": "gopfan2",
+    "n": 23,
+    "win": 17,
+    "cost": 82747.54,
+    "cost_win": 63390.33,
+    "payout": 95555.87,
+    "pnl": 12808.33,
+    "roi_pct": 15.48,
+    "acc_count_pct": 73.9,
+    "acc_cost_pct": 76.6
+   },
+   {
+    "trader": "StarMaster",
+    "n": 17,
+    "win": 14,
+    "cost": 41651.37,
+    "cost_win": 41084.89,
+    "payout": 50751.32,
+    "pnl": 9099.95,
+    "roi_pct": 21.85,
+    "acc_count_pct": 82.4,
+    "acc_cost_pct": 98.6
+   },
+   {
+    "trader": "Car",
+    "n": 40,
+    "win": 32,
+    "cost": 70081.59,
+    "cost_win": 69876.67,
+    "payout": 78685.94,
+    "pnl": 8604.35,
+    "roi_pct": 12.28,
+    "acc_count_pct": 80.0,
+    "acc_cost_pct": 99.7
+   },
+   {
+    "trader": "wokerjoesleeper",
+    "n": 47,
+    "win": 32,
+    "cost": 116769.64,
+    "cost_win": 115357.54,
+    "payout": 123594.11,
+    "pnl": 6824.47,
+    "roi_pct": 5.84,
+    "acc_count_pct": 68.1,
+    "acc_cost_pct": 98.8
+   },
+   {
+    "trader": "whig",
+    "n": 7,
+    "win": 5,
+    "cost": 14503.49,
+    "cost_win": 12785.82,
+    "payout": 20849.79,
+    "pnl": 6346.3,
+    "roi_pct": 43.76,
+    "acc_count_pct": 71.4,
+    "acc_cost_pct": 88.2
+   },
+   {
+    "trader": "MEPP",
+    "n": 3,
+    "win": 3,
+    "cost": 23073.08,
+    "cost_win": 23073.08,
+    "payout": 29262.42,
+    "pnl": 6189.34,
+    "roi_pct": 26.82,
+    "acc_count_pct": 100.0,
+    "acc_cost_pct": 100.0
+   },
+   {
+    "trader": "M888",
+    "n": 8,
+    "win": 4,
+    "cost": 31447.51,
+    "cost_win": 30589.09,
+    "payout": 36226.92,
+    "pnl": 4779.41,
+    "roi_pct": 15.2,
+    "acc_count_pct": 50.0,
+    "acc_cost_pct": 97.3
+   },
+   {
+    "trader": "tsybka",
+    "n": 1,
+    "win": 1,
+    "cost": 34417.84,
+    "cost_win": 34417.84,
+    "payout": 37410.7,
+    "pnl": 2992.86,
+    "roi_pct": 8.7,
+    "acc_count_pct": 100.0,
+    "acc_cost_pct": 100.0
+   },
+   {
+    "trader": "cashy",
+    "n": 10,
+    "win": 5,
+    "cost": 42587.26,
+    "cost_win": 30639.36,
+    "payout": 45555.03,
+    "pnl": 2967.77,
+    "roi_pct": 6.97,
+    "acc_count_pct": 50.0,
+    "acc_cost_pct": 71.9
+   },
+   {
+    "trader": "Lolakis",
+    "n": 33,
+    "win": 7,
+    "cost": 27039.48,
+    "cost_win": 25834.02,
+    "payout": 29528.83,
+    "pnl": 2489.35,
+    "roi_pct": 9.21,
+    "acc_count_pct": 21.2,
+    "acc_cost_pct": 95.5
+   },
+   {
+    "trader": "archaic",
+    "n": 15,
+    "win": 15,
+    "cost": 12852.87,
+    "cost_win": 12852.87,
+    "payout": 13658.16,
+    "pnl": 805.29,
+    "roi_pct": 6.27,
+    "acc_count_pct": 100.0,
+    "acc_cost_pct": 100.0
+   },
+   {
+    "trader": "vinii",
+    "n": 16,
+    "win": 11,
+    "cost": 6590.22,
+    "cost_win": 6531.72,
+    "payout": 7309.48,
+    "pnl": 719.26,
+    "roi_pct": 10.91,
+    "acc_count_pct": 68.8,
+    "acc_cost_pct": 99.1
+   },
+   {
+    "trader": "HolyMoses7",
+    "n": 40,
+    "win": 30,
+    "cost": 6012.58,
+    "cost_win": 5939.37,
+    "payout": 6235.79,
+    "pnl": 223.21,
+    "roi_pct": 3.71,
+    "acc_count_pct": 75.0,
+    "acc_cost_pct": 98.8
+   },
+   {
+    "trader": "classified",
+    "n": 2,
+    "win": 2,
+    "cost": 3601.46,
+    "cost_win": 3601.46,
+    "payout": 3767.28,
+    "pnl": 165.82,
+    "roi_pct": 4.6,
+    "acc_count_pct": 100.0,
+    "acc_cost_pct": 100.0
+   },
+   {
+    "trader": "aff3",
+    "n": 1,
+    "win": 1,
+    "cost": 27.0,
+    "cost_win": 27.0,
+    "payout": 50.0,
+    "pnl": 23.0,
+    "roi_pct": 85.19,
+    "acc_count_pct": 100.0,
+    "acc_cost_pct": 100.0
+   },
+   {
+    "trader": "GollumGekko",
+    "n": 20,
+    "win": 11,
+    "cost": 20004.71,
+    "cost_win": 11590.06,
+    "payout": 18779.05,
+    "pnl": -1225.66,
+    "roi_pct": -6.13,
+    "acc_count_pct": 55.0,
+    "acc_cost_pct": 57.9
+   },
+   {
+    "trader": "MisTKy",
+    "n": 7,
+    "win": 3,
+    "cost": 44260.4,
+    "cost_win": 31687.18,
+    "payout": 42596.8,
+    "pnl": -1663.6,
+    "roi_pct": -3.76,
+    "acc_count_pct": 42.9,
+    "acc_cost_pct": 71.6
+   },
+   {
+    "trader": "881112",
+    "n": 53,
+    "win": 8,
+    "cost": 28517.26,
+    "cost_win": 11541.95,
+    "payout": 16974.45,
+    "pnl": -11542.81,
+    "roi_pct": -40.48,
+    "acc_count_pct": 15.1,
+    "acc_cost_pct": 40.5
+   }
+  ]
+ },
+ "key_races": [
+  {
+   "title": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+   "slug": "will-the-democratic-party-control-the-house-after-the-2026-midterm-elections",
+   "smart_cost": 1129385.96,
+   "prices": [
+    0.9985,
+    0.0015
+   ],
+   "closed": false,
+   "uma": "",
+   "official_winner_idx": null,
+   "provisional_winner_idx": 0
+  },
+  {
+   "title": "Will the Republican Party control the House after the 2026 Midterm elections?",
+   "slug": "will-the-republican-party-control-the-house-after-the-2026-midterm-elections",
+   "smart_cost": 812874.44,
+   "prices": [
+    0.0015,
+    0.9985
+   ],
+   "closed": false,
+   "uma": "",
+   "official_winner_idx": null,
+   "provisional_winner_idx": 1
+  },
+  {
+   "title": "Will the Republicans win the Texas Senate race in 2026?",
+   "slug": "will-the-republicans-win-the-texas-senate-race-in-2026",
+   "smart_cost": 422672.49,
+   "prices": [
+    0.0015,
+    0.9985
+   ],
+   "closed": false,
+   "uma": "",
+   "official_winner_idx": null,
+   "provisional_winner_idx": 1
+  },
+  {
+   "title": "Will Xavier Becerra win the California Governor Election in 2026?",
+   "slug": "will-xavier-becerra-win-the-california-governor-election-in-2026",
+   "smart_cost": 309240.26,
+   "prices": [
+    0.9955,
+    0.0045
+   ],
+   "closed": false,
+   "uma": "",
+   "official_winner_idx": null,
+   "provisional_winner_idx": 0
+  },
+  {
+   "title": "Will Steve Hilton win the California Governor Election in 2026?",
+   "slug": "will-steve-hilton-win-the-california-governor-election-in-2026",
+   "smart_cost": 262531.93,
+   "prices": [
+    0.0035,
+    0.9965
+   ],
+   "closed": false,
+   "uma": "",
+   "official_winner_idx": null,
+   "provisional_winner_idx": 1
+  },
+  {
+   "title": "Will the Democrats win the Texas Senate race in 2026?",
+   "slug": "will-the-democrats-win-the-texas-senate-race-in-2026",
+   "smart_cost": 190463.87,
+   "prices": [
+    0.9995,
+    0.0005
+   ],
+   "closed": false,
+   "uma": "",
+   "official_winner_idx": null,
+   "provisional_winner_idx": 0
+  },
+  {
+   "title": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+   "slug": "will-the-republican-party-control-the-senate-after-the-2026-midterm-elections",
+   "smart_cost": 152439.17,
+   "prices": [
+    0.004,
+    0.996
+   ],
+   "closed": false,
+   "uma": "",
+   "official_winner_idx": null,
+   "provisional_winner_idx": 1
+  },
+  {
+   "title": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+   "slug": "will-the-democratic-party-control-the-senate-after-the-2026-midterm-elections",
+   "smart_cost": 51133.76,
+   "prices": [
+    0.996,
+    0.004
+   ],
+   "closed": false,
+   "uma": "",
+   "official_winner_idx": null,
+   "provisional_winner_idx": 0
+  },
+  {
+   "title": "Will the Democrats win the Texas governor race in 2026?",
+   "slug": "will-the-democrats-win-the-texas-governor-race-in-2026",
+   "smart_cost": 46660.31,
+   "prices": [
+    0.993,
+    0.007
+   ],
+   "closed": false,
+   "uma": "",
+   "official_winner_idx": null,
+   "provisional_winner_idx": 0
+  },
+  {
+   "title": "Will the Republicans win the Texas governor race in 2026?",
+   "slug": "will-the-republicans-win-the-texas-governor-race-in-2026",
+   "smart_cost": 46357.88,
+   "prices": [
+    0.007,
+    0.993
+   ],
+   "closed": false,
+   "uma": "",
+   "official_winner_idx": null,
+   "provisional_winner_idx": 1
+  },
+  {
+   "title": "Will Democrats win the Texas, Michigan, and Maine Senate seats?",
+   "slug": "will-democrats-win-the-texas-michigan-and-maine-senate-seats",
+   "smart_cost": 11381.88,
+   "prices": [
+    0.915,
+    0.085
+   ],
+   "closed": false,
+   "uma": "",
+   "official_winner_idx": null,
+   "provisional_winner_idx": null
+  },
+  {
+   "title": "Will the Texas 2026 Senate race be within 5%?",
+   "slug": "will-the-texas-2026-senate-race-be-within-5-20260727153827322",
+   "smart_cost": 3675.3,
+   "prices": [
+    0.0125,
+    0.9875
+   ],
+   "closed": false,
+   "uma": "",
+   "official_winner_idx": null,
+   "provisional_winner_idx": 1
+  },
+  {
+   "title": "Will the Democrats win Tarrant County in the Texas Senate race in 2026?",
+   "slug": "will-the-democrats-win-tarrant-county-in-the-texas-senate-race-in-2026",
+   "smart_cost": 2356.37,
+   "prices": [
+    0.965,
+    0.035
+   ],
+   "closed": false,
+   "uma": "",
+   "official_winner_idx": null,
+   "provisional_winner_idx": null
+  },
+  {
+   "title": "Will Tom Steyer win the California Governor Election in 2026?",
+   "slug": "will-tom-steyer-win-the-california-governor-election-in-2026",
+   "smart_cost": 2119.64,
+   "prices": [
+    0.0005,
+    0.9995
+   ],
+   "closed": false,
+   "uma": "",
+   "official_winner_idx": null,
+   "provisional_winner_idx": 1
+  },
+  {
+   "title": "Will Texas use a new congressional map for the 2026 United States midterm elections?",
+   "slug": "will-texas-use-a-new-congressional-map-for-the-2026-united-states-midterm-elections",
+   "smart_cost": 1455.98,
+   "prices": [
+    0.9835,
+    0.0165
+   ],
+   "closed": false,
+   "uma": "",
+   "official_winner_idx": null,
+   "provisional_winner_idx": 0
+  }
+ ],
+ "note": "Assumes positions held to resolution. provisional_97c treats >=97c sides as decided and is NOT official."
+}
