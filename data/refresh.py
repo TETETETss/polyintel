@@ -9,12 +9,17 @@ def get(u):
     raise err
 W=json.load(open(f"{D}/wallets.json"))
 def positions(w):
-    out,off=[],0
-    while True:
-        p=get(f"https://data-api.polymarket.com/positions?user={w['wallet']}&sizeThreshold=1&limit=500&offset={off}")
-        out+=p
-        if len(p)<500: break
-        off+=500
+    # Data API v2 (v1 retired Nov 2026): cursor pagination, snake_case fields, sorted by current value desc
+    out,cur=[],None
+    for _ in range(20):
+        u=f"https://data-api.polymarket.com/v2/positions?user={w['wallet']}&limit=500"+(f"&cursor={cur}" if cur else "")
+        d=get(u); rows=d.get("data",[])
+        for x in rows:
+            out.append(dict(conditionId=x["condition_id"],title=x["title"],slug=x["slug"],eventSlug=x["event_slug"],endDate=x.get("end_date"),icon=x.get("icon"),
+              outcome=x["outcome"],size=x["current_size"],avgPrice=x["avg_price"],curPrice=x["current_price"],currentValue=x["current_value"],asset=x["token_id"],redeemable=x.get("redeemable")))
+        pg=d.get("pagination") or {}
+        if not pg.get("has_more") or not rows or rows[-1]["current_value"]<DUST: break
+        cur=pg.get("next_cursor")
     return [x for x in out if not x.get("redeemable") and x["currentValue"]>=DUST]
 with cf.ThreadPoolExecutor(8) as ex: P=dict(zip([w["name"] for w in W],ex.map(positions,W)))
 by={}
