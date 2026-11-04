@@ -32,5 +32,5 @@ out=[o for o in out if float(o['ask'])<=0.98]
 out.sort(key=lambda x:(-x['cnt'],-x['cnt']/x['n'],-x['tot']))
 #nocap
 print([(o['t'][:40],o['cnt'],o['n'],o['cat']) for o in out])
-html=open('tpl.html').read().replace('__DATA__',json.dumps(out)).replace('__TRADERS__',open('traders.json').read())
+html=open('tpl.html').read().replace('__DATA__',json.dumps(out)).replace('__TRADERS__',open('traders.json').read()).replace('{{NTRADERS}}',str(len(json.load(open('data/wallets.json')))))
 open('index.html.new','w').write(html)
