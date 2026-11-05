@@ -3,8 +3,14 @@ on:
   schedule:
     - cron: '*/10 * * * *'
   workflow_dispatch:
+    inputs:
+      chain:
+        description: 'Automatic 10-minute chain run (not manual)'
+        type: boolean
+        default: false
 permissions:
   contents: write
+  actions: write
 concurrency:
   group: refresh-deploy
   cancel-in-progress: false
@@ -13,6 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
+      - name: Mark start
+        run: echo "T0=$(date +%s)" >> $GITHUB_ENV
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: '3.11' }
@@ -29,11 +37,11 @@ jobs:
             else echo "Too few markets ($n), keeping old, skipping deploy"; rm -f index.html.new; cp /tmp/overlap.bak data/overlap.json; echo "ok=0" >> $GITHUB_OUTPUT; fi
           else echo "Refresh/build failed, keeping old"; rm -f index.html.new; cp /tmp/overlap.bak data/overlap.json; echo "ok=0" >> $GITHUB_OUTPUT; fi
       - name: Traders PnL (every ~6h)
-        if: github.event_name == 'workflow_dispatch' || (steps.build.outputs.ok == '1')
+        if: (github.event_name == 'workflow_dispatch' && !inputs.chain) || (steps.build.outputs.ok == '1')
         continue-on-error: true
         run: |
           H=$(date -u +%H); M=$(date -u +%M)
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || { [ $((10#$H % 6)) -eq 0 ] && [ $((10#$M)) -lt 10 ]; }; then
+          if { [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.chain }}" != "true" ]; } || { [ $((10#$H % 6)) -eq 0 ] && [ $((10#$M)) -lt 10 ]; }; then
             cp traders.json /tmp/traders.bak
             timeout 300 python3 mktraders.py || { echo "mktraders failed, keeping old"; cp /tmp/traders.bak traders.json; }
             python3 -c "import json;assert len(json.load(open('traders.json')))>0" || cp /tmp/traders.bak traders.json
@@ -56,3 +64,13 @@ jobs:
           if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
           git commit -m "data refresh $(date -u '+%F %H:%M UTC')"
           for i in 1 2 3; do git pull --rebase -X theirs origin main && git push origin HEAD:main && break; sleep 5; done
+      - name: Queue next run in ~10 min (GitHub cron is unreliable)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          left=$(( 600 - ( $(date +%s) - T0 ) - 30 ))
+          [ $left -gt 0 ] && sleep $left
+          others=$(gh run list -R ${{ github.repository }} -w refresh.yml --json databaseId,status -q "[.[] | select((.status==\"queued\" or .status==\"in_progress\" or .status==\"pending\" or .status==\"waiting\") and .databaseId != ${{ github.run_id }})] | length")
+          if [ "${others:-0}" -gt 0 ]; then echo "another run already queued, not chaining"; exit 0; fi
+          gh workflow run refresh.yml -R ${{ github.repository }} --ref main -f chain=true
