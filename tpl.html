@@ -32,7 +32,7 @@ header .r{display:flex;gap:18px;align-items:center;font-size:13px}
 .out{border:1px solid #333;border-radius:99px;padding:8px 16px;background:none;color:#fff;cursor:pointer;font:inherit}
 .hero{padding:36px 36px 10px;display:flex;justify-content:space-between;align-items:flex-end;gap:20px}
 .hero h2{font-size:44px;font-weight:400;letter-spacing:-1.5px}
-.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chips{display:flex;gap:8px;flex-wrap:wrap}@media(min-width:901px){.chips{justify-content:flex-end}#v-markets .hero{align-items:flex-start}#v-markets .hero .chips{margin-top:34px}}
 .chip{border:1px solid #333;border-radius:99px;padding:8px 15px;font-size:12px;cursor:pointer;background:none;color:#ccc}
 .chip.on{background:#fff;color:#000;border-color:#fff}
 .grid{display:flex;gap:14px;align-items:flex-start;padding:22px 36px 60px}.mcol{flex:1;min-width:0;display:flex;flex-direction:column;gap:14px}
@@ -139,6 +139,7 @@ nav{border-top:0!important}
 .hero h2{text-transform:uppercase;font-weight:600;letter-spacing:.3px;font-size:40px}
 .hero .muted,.sortnote,.st label,.tst label,.kn,.tip span,.pill{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace!important;letter-spacing:.6px}
 .ttl{font-weight:600;letter-spacing:-.1px}.tch .tlk{font-weight:600;text-transform:uppercase;font-size:15px;letter-spacing:.3px}.tip b{text-transform:uppercase;font-weight:600;letter-spacing:.3px}.tnote h3{font-weight:600}
+#v-traders .hero{padding-bottom:4px!important}#v-traders .tnote{padding-top:4px}@media(max-width:900px){#v-traders .hero{padding-bottom:2px!important}#v-traders .tnote{padding-top:4px}}
 .card,.tc,.tip{border:1px solid #1f2430;transition:border-color .25s,box-shadow .25s}.card:hover,.tc:hover,.tip:hover{border-color:#2E5CFF66;box-shadow:0 0 24px rgba(255,255,255,.07)}
 
 .scanl{position:fixed;left:0;right:0;top:0;height:120px;pointer-events:none;z-index:5;background:linear-gradient(180deg,transparent,rgba(46,92,255,.015) 60%,rgba(120,170,255,.045) 98%,transparent);animation:scn 9s linear infinite}
@@ -248,7 +249,7 @@ html{zoom:1.02}
  </aside>
  <main>
   <div class="v" id="v-markets">
-   <div class="hero"><div><div class="muted" style="font-size:12px;margin-bottom:8px" id="mkline">MACRO · {{NTRADERS}} TRACKED TRADERS</div><h2>Markets</h2><div class="sortnote" id="sortnote"></div><div class="updt" id="updt"></div></div>
+   <div class="hero"><div><div class="muted" style="font-size:12px;margin-bottom:8px" id="mkline">MACRO · SMART TRADERS</div><h2>Markets</h2><div class="sortnote" id="sortnote"></div><div class="updt" id="updt"></div></div>
     <div class="chips" id="chips"></div></div>
    <div class="sortbar"><div class="sbr"><div class="seg" id="seg"></div><label class="srch"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="q" type="search" placeholder="Search markets or traders" autocomplete="off" spellcheck="false" oninput="Q=this.value;render()" onkeydown="if(event.key=='Escape'){this.value='';Q='';render()}"></label></div></div>
    <div id="savedx"></div>
@@ -256,7 +257,7 @@ html{zoom:1.02}
    <div id="more"></div>
   </div>
   <div class="v" id="v-traders" style="display:none">
-   <div class="hero"><div><div class="muted" style="font-size:12px;margin-bottom:8px" id="tline">{{NTRADERS}} HAND-PICKED TRADERS · SORTED BY ALL-TIME PNL</div><h2>Traders</h2></div></div>
+   <div class="hero"><div><div class="muted" style="font-size:12px;margin-bottom:8px" id="tline">SMART TRADERS · SORTED BY ALL-TIME PNL</div><h2>Traders</h2></div></div>
    <div class="tnote"><h3>Why these traders</h3><ul>
     <li>Steady, consistently rising all-time PnL with small drawdowns</li>
     <li>Focus on politics, elections, geopolitics and wars, with no sports, weather or esports</li>
@@ -327,7 +328,7 @@ function unsaveU(u){delete SAV[u];LS.set('sm_saved',SAV);render()}
 function savedN(){const el=document.getElementById('savn');if(el){const n=Object.keys(SAV).length;el.textContent=n||'';el.style.display=n?'':'none'}}
 function headR(){
  const [lab,note]=SORTS[SORT];
- document.querySelector('#v-markets h2').textContent=SV?'Bookmarked':GROUP=='macro'?'Macro':'Markets';document.getElementById('mkline').textContent=SV?'BOOKMARKED MARKETS':GROUP=='macro'?NT.macro+' MACRO TRADERS · POLITICS & GEOPOLITICS':'MACRO · '+NT.main+' TRACKED TRADERS';
+ document.querySelector('#v-markets h2').textContent=SV?'Bookmarked':GROUP=='macro'?'Macro':'Markets';document.getElementById('mkline').textContent=SV?'BOOKMARKED MARKETS':GROUP=='macro'?NT.macro+' MACRO TRADERS · POLITICS & GEOPOLITICS':'MACRO · SMART TRADERS';
  document.getElementById('sortnote').textContent=SV?'Your bookmarked markets · only visible in this browser':note;
  seg.innerHTML=Object.entries(SORTS).map(([k,v])=>`<button class="${k==SORT?'on':''}" onclick="setSort('${k}')">${v[0]}</button>`).join('');
  const live=new Set(D.map(m=>m.url)),gone=Object.entries(SAV).filter(([u])=>!live.has(u));
@@ -376,7 +377,7 @@ const fm=v=>v==null?'—':(v>=0?'+':'−')+'$'+K(Math.abs(v));
 function spark(s){if(!s||s.length<2)return '<div class="muted" style="font-size:12px;padding:30px 0">No chart data</div>';const W=300,H=70,mn=Math.min(...s,0),mx=Math.max(...s),rg=mx-mn||1;const pts=s.map((v,i)=>[(i/(s.length-1)*W).toFixed(1),(H-4-(v-mn)/rg*(H-8)).toFixed(1)]);const d='M'+pts.join('L');
  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" class="spk"><defs><linearGradient id="fg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4ade80" stop-opacity=".25"/><stop offset="1" stop-color="#4ade80" stop-opacity="0"/></linearGradient></defs><path d="${d}L${W},${H}L0,${H}Z" fill="url(#fg)"/><path d="${d}" fill="none" stroke="#4ade80" stroke-width="1.8" vector-effect="non-scaling-stroke" style="filter:drop-shadow(0 0 4px rgba(74,222,128,.8))"/></svg>`}
 function trR(){TR=TRS[TG];cntM={};DS[TG].forEach(m=>new Set(m.tr.filter(t=>!t.ex).map(t=>t.n)).forEach(n=>cntM[n]=(cntM[n]||0)+1));
- document.getElementById('tline').textContent=TR.length+(TG=='macro'?' MACRO':' HAND-PICKED')+' TRADERS · SORTED BY ALL-TIME PNL';
+ document.getElementById('tline').textContent=(TG=='macro'?TR.length+' MACRO TRADERS':'SMART TRADERS')+' · SORTED BY ALL-TIME PNL';
  tgrid.innerHTML=TR.map((t,i)=>`<div class="tc"><div class="tch"><span class="muted">${String(i+1).padStart(2,'0')}</span><a class="tlk" href="https://polymarket.com/@${t.n}" target="_blank">${t.n}</a><a class="arr" href="https://polymarket.com/@${t.n}" target="_blank" title="Open profile on Polymarket"><span class="cir"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11L11 3M5 3h6v6"/></svg></span></a></div>
  <div class="tst"><div><label>MONTHLY PNL</label><b class="${t.mpnl>=0?'g':'rd'}">${fm(t.mpnl)}</b></div><div><label>ALL-TIME PNL</label><b class="${t.pnl>=0?'g':'rd'}">${fm(t.pnl)}</b></div></div>${spark(t.s)}</div>`).join('');}
 trR();
@@ -467,7 +468,7 @@ requestAnimationFrame(fr)})();
 /* last updated (build time injected by build.py) */
 const BUILT=Date.parse('{{BUILT}}');
 function ago(ms){const m=Math.floor(ms/60000);if(m<1)return 'just now';if(m<60)return m+' min ago';const h=Math.floor(m/60);if(h<24)return h+' h '+(m%60?m%60+' min ':'')+'ago';return Math.floor(h/24)+' d ago'}
-function updR(){const e=document.getElementById('updt');if(!e||isNaN(BUILT))return;const d=Date.now()-BUILT;e.innerHTML='<i></i>Updated '+ago(Math.max(0,d));e.classList.add('on');e.classList.toggle('old',d>45*60000)}
+function updR(){const e=document.getElementById('updt');if(!e||isNaN(BUILT))return;const d=Date.now()-BUILT;const old=d>60*60000;e.innerHTML='<i></i>'+(old?'Last updated '+ago(d):'Updating every 10 min');e.classList.add('on');e.classList.toggle('old',old)}
 updR();setInterval(updR,30000);
 /* every Polymarket link carries the referral */
 (function(){const V='brams';function fx(a){try{const h=a.getAttribute('href')||'';if(!/^https?:\/\/(www\.)?polymarket\.com(\/|$|\?|#)/i.test(h)||/[?&]via=/.test(h))return;const i=h.indexOf('#'),p=i<0?h:h.slice(0,i),f=i<0?'':h.slice(i);a.setAttribute('href',p+(p.includes('?')?'&':'?')+'via='+V+f)}catch(e){}}
