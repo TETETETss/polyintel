@@ -221,7 +221,7 @@ html{zoom:1.02}
 @media(hover:hover) and (pointer:fine){#grid:has(.card:hover) .card:not(:hover){opacity:.9}#grid .card:hover{border-color:#fff!important}}
 @media not ((hover:hover) and (pointer:fine)){#grid .card{cursor:pointer}}
 #grid.focusing .card:not(.foc){opacity:.9}#grid .card.foc{border-color:#fff!important}
-.split .sp .v{color:#fff!important;font-weight:500!important}.split .sp small{color:#fff!important;opacity:1!important;font-weight:400}.nowv{display:flex;flex-direction:column;gap:3px;font-weight:600;line-height:1.1;padding:7px 0 0 1px;font-size:1.2em}.nows{font-size:9px;font-weight:700;letter-spacing:.8px}@media(min-width:901px){.nowv{font-size:1.15em}}</style></head><body>
+.split .sp .v{color:#fff!important;font-weight:500!important}.split .sp small{color:#fff!important;opacity:1!important;font-weight:400}.nowv{display:flex;flex-direction:column;gap:3px;font-weight:600;line-height:1.1;padding:7px 0 0 1px;font-size:1.2em}.nows{font-size:9px;font-weight:700;letter-spacing:.8px}@media(min-width:901px){.nowv{font-size:1.15em}}.segw{display:flex;flex-direction:column;gap:6px;max-width:100%}.sortlbl{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:10px;letter-spacing:1px;color:#8a8a8a;padding-left:4px}.sbr{align-items:flex-end}</style></head><body>
 <canvas id="orb"></canvas>
 <section id="login">
  <div class="lwrap">
@@ -251,7 +251,7 @@ html{zoom:1.02}
   <div class="v" id="v-markets">
    <div class="hero"><div><div class="muted" style="font-size:12px;margin-bottom:8px" id="mkline">MACRO · SMART TRADERS</div><h2>Markets</h2><div class="sortnote" id="sortnote"></div><div class="updt" id="updt"></div></div>
     <div class="chips" id="chips"></div></div>
-   <div class="sortbar"><div class="sbr"><div class="seg" id="seg"></div><label class="srch"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="q" type="search" placeholder="Search markets or traders" autocomplete="off" spellcheck="false" oninput="Q=this.value;render()" onkeydown="if(event.key=='Escape'){this.value='';Q='';render()}"></label></div></div>
+   <div class="sortbar"><div class="sbr"><div class="segw"><div class="sortlbl">SORT BY</div><div class="seg" id="seg"></div></div><label class="srch"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><input id="q" type="search" placeholder="Search markets or traders" autocomplete="off" spellcheck="false" oninput="Q=this.value;render()" onkeydown="if(event.key=='Escape'){this.value='';Q='';render()}"></label></div></div>
    <div id="savedx"></div>
    <div class="grid" id="grid"></div>
    <div id="more"></div>
