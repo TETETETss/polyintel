@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 """Pull open positions for tracked wallets, find markets with >=2 holders (excl. sports/weather). Writes overlap.json."""
-import json, urllib.request, concurrent.futures as cf, os, time
+import json, urllib.request, concurrent.futures as cf, os, time, re
 D=os.path.dirname(os.path.abspath(__file__)); DUST=500
+# mention markets ("Will X say ...") have no $ minimum
+MENTION=re.compile(r'\b(say|says|said|mention|mentions|mentioned|tweet|post)\b.*["\u201c]|\bmention',re.I)
+keep=lambda x: x["currentValue"]>=DUST or bool(MENTION.search(x["title"] or ""))
 def get(u):
     for i in range(3):
         try: return json.load(urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0"}),timeout=30))
@@ -16,11 +19,11 @@ def positions(w):
         d=get(u); rows=d.get("data",[])
         for x in rows:
             out.append(dict(conditionId=x["condition_id"],title=x["title"],slug=x["slug"],eventSlug=x["event_slug"],endDate=x.get("end_date"),icon=x.get("icon"),
-              outcome=x["outcome"],size=x["current_size"],avgPrice=x["avg_price"],curPrice=x["current_price"],currentValue=x["current_value"],asset=x["token_id"],redeemable=x.get("redeemable")))
+              outcome=x["outcome"],size=x["current_size"],avgPrice=x["avg_price"],curPrice=x["current_price"],currentValue=x["current_value"],asset=x["token_id"],redeemable=x.get("redeemable"),fe=x.get("first_entry_at")))
         pg=d.get("pagination") or {}
-        if not pg.get("has_more") or not rows or rows[-1]["current_value"]<DUST: break
+        if not pg.get("has_more") or not rows: break
         cur=pg.get("next_cursor")
-    return [x for x in out if not x.get("redeemable") and x["currentValue"]>=DUST]
+    return [x for x in out if not x.get("redeemable") and keep(x)]
 with cf.ThreadPoolExecutor(8) as ex: P=dict(zip([w["name"] for w in W],ex.map(positions,W)))
 by={}
 for n,ps in P.items():
@@ -38,7 +41,7 @@ for cid,hs in by.items():
     if any(t.lower() in BAD for t in tags): continue
     res.append(dict(conditionId=cid,title=hs[0]["title"],slug=hs[0]["slug"],eventSlug=es,tags=tags,endDate=hs[0].get("endDate"),icon=hs[0].get("icon") or hs[0].get("image"),
       total=sum(h["currentValue"] for h in hs),
-      holders=[{k:h[k] for k in("trader","outcome","size","avgPrice","curPrice","currentValue","asset")} for h in hs]))
+      holders=[{k:h[k] for k in("trader","outcome","size","avgPrice","curPrice","currentValue","asset","fe")} for h in hs]))
 json.dump(cache,open(cache_f,"w"))
 res.sort(key=lambda r:-r["total"]); json.dump(res,open(f"{D}/overlap.json","w"),indent=1)
 print({n:len(p) for n,p in P.items()})
