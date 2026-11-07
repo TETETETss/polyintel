@@ -633,15 +633,15 @@
   ],
   "endDate": "2026-11-03",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-senate-pass-funding-bill-by-7NO2CCO7a2Mk.png",
-  "total": 339259.8179999999,
+  "total": 339087.6048,
   "holders": [
    {
     "trader": "Dropper",
     "outcome": "Yes",
     "size": 67492.1,
     "avgPrice": 0.4028,
-    "curPrice": 0.985,
-    "currentValue": 66479.7185,
+    "curPrice": 0.9845,
+    "currentValue": 66445.9724,
     "asset": "13535941900723044344907002451427688051727855016747811259193368015899108383450",
     "fe": 1793638390
    },
@@ -650,8 +650,8 @@
     "outcome": "Yes",
     "size": 192405.47,
     "avgPrice": 0.3321,
-    "curPrice": 0.985,
-    "currentValue": 189519.3879,
+    "curPrice": 0.9845,
+    "currentValue": 189423.1852,
     "asset": "13535941900723044344907002451427688051727855016747811259193368015899108383450",
     "fe": 1793615031
    },
@@ -660,8 +660,8 @@
     "outcome": "Yes",
     "size": 8393.3584,
     "avgPrice": 0.845,
-    "curPrice": 0.985,
-    "currentValue": 8267.4581,
+    "curPrice": 0.9845,
+    "currentValue": 8263.2614,
     "asset": "13535941900723044344907002451427688051727855016747811259193368015899108383450",
     "fe": 1793800173
    },
@@ -670,8 +670,8 @@
     "outcome": "Yes",
     "size": 15036.9933,
     "avgPrice": 0.6738,
-    "curPrice": 0.985,
-    "currentValue": 14811.4384,
+    "curPrice": 0.9845,
+    "currentValue": 14803.9199,
     "asset": "13535941900723044344907002451427688051727855016747811259193368015899108383450",
     "fe": 1793590654
    },
@@ -680,8 +680,8 @@
     "outcome": "Yes",
     "size": 30188.1433,
     "avgPrice": 0.9189,
-    "curPrice": 0.985,
-    "currentValue": 29735.3212,
+    "curPrice": 0.9845,
+    "currentValue": 29720.2271,
     "asset": "13535941900723044344907002451427688051727855016747811259193368015899108383450",
     "fe": 1793827263
    },
@@ -690,8 +690,8 @@
     "outcome": "Yes",
     "size": 3250.0,
     "avgPrice": 0.32,
-    "curPrice": 0.985,
-    "currentValue": 3201.25,
+    "curPrice": 0.9845,
+    "currentValue": 3199.625,
     "asset": "13535941900723044344907002451427688051727855016747811259193368015899108383450",
     "fe": 1793747031
    },
@@ -700,8 +700,8 @@
     "outcome": "Yes",
     "size": 12650.3891,
     "avgPrice": 0.9367,
-    "curPrice": 0.985,
-    "currentValue": 12460.6332,
+    "curPrice": 0.9845,
+    "currentValue": 12454.308,
     "asset": "13535941900723044344907002451427688051727855016747811259193368015899108383450",
     "fe": 1793430223
    },
@@ -710,8 +710,8 @@
     "outcome": "Yes",
     "size": 3000.0,
     "avgPrice": 0.36,
-    "curPrice": 0.985,
-    "currentValue": 2955.0,
+    "curPrice": 0.9845,
+    "currentValue": 2953.5,
     "asset": "13535941900723044344907002451427688051727855016747811259193368015899108383450",
     "fe": 1793747836
    },
@@ -720,8 +720,8 @@
     "outcome": "Yes",
     "size": 2009.78,
     "avgPrice": 0.7499,
-    "curPrice": 0.985,
-    "currentValue": 1979.6333,
+    "curPrice": 0.9845,
+    "currentValue": 1978.6284,
     "asset": "13535941900723044344907002451427688051727855016747811259193368015899108383450",
     "fe": 1793758495
    },
@@ -730,14 +730,14 @@
     "outcome": "Yes",
     "size": 9999.977,
     "avgPrice": 0.3149,
-    "curPrice": 0.985,
-    "currentValue": 9849.9774,
+    "curPrice": 0.9845,
+    "currentValue": 9844.9774,
     "asset": "13535941900723044344907002451427688051727855016747811259193368015899108383450",
     "fe": 1793590608
    }
   ],
   "bid": 0.984,
-  "ask": 0.986
+  "ask": 0.985
  },
  {
   "conditionId": "0xa467b14d51f01b957109d9cbb1d6c124fab2a089d52ed8f471d23c2812e743b7",
@@ -2068,7 +2068,7 @@
   ],
   "endDate": "2026-11-20",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/gta-6-launch-postponed-Uhqeftr_j_N4.jpg",
-  "total": 46257.854199999994,
+  "total": 46168.4986,
   "holders": [
    {
     "trader": "StarMaster",
@@ -2085,14 +2085,59 @@
     "outcome": "No",
     "size": 44677.816,
     "avgPrice": 0.9017,
-    "curPrice": 0.9805,
-    "currentValue": 43806.5986,
+    "curPrice": 0.9785,
+    "currentValue": 43717.243,
     "asset": "78843465762942534439325485216626496263376463773713149868808423998036009560357",
     "fe": 1779918656
    }
   ],
   "bid": 0.014,
   "ask": 0.025
+ },
+ {
+  "conditionId": "0x8c9b8ad3a64088a06d45e0b296a9a836203bc7f3ef35d134c57abead446a8b72",
+  "title": "Will the Democrats win the Mississippi Senate race in 2026?",
+  "slug": "will-the-democrats-win-the-mississippi-senate-race-in-2026",
+  "eventSlug": "mississippi-senate-election-winner",
+  "tags": [
+   "Mississippi Midterm",
+   "Senate Elections",
+   "Midterms",
+   "US Election",
+   "Elections",
+   "Politics",
+   "Senate Midterm Winners",
+   "Tossup Senate Races",
+   "Tossups",
+   "Mississippi Senate"
+  ],
+  "endDate": "2026-11-04",
+  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-democrats-win-the-mississippi-senate-race-in-2026-Ia91kToCQ9TT.jpg",
+  "total": 46035.2233,
+  "holders": [
+   {
+    "trader": "SlavaUkraini",
+    "outcome": "Yes",
+    "size": 30415.72,
+    "avgPrice": 0.7565,
+    "curPrice": 0.9935,
+    "currentValue": 30218.0178,
+    "asset": "77001639760095266374534198365421436593389036687975321536722226607654949914567",
+    "fe": 1793762928
+   },
+   {
+    "trader": "Trump2028",
+    "outcome": "Yes",
+    "size": 15920.69,
+    "avgPrice": 0.9923,
+    "curPrice": 0.9935,
+    "currentValue": 15817.2055,
+    "asset": "77001639760095266374534198365421436593389036687975321536722226607654949914567",
+    "fe": 1793993902
+   }
+  ],
+  "bid": 0.993,
+  "ask": 0.994
  },
  {
   "conditionId": "0x0fcfcfc35d71424c0693c717d2e3bc9b8992910835d124d80cd2f01498f1d3dc",
@@ -2204,51 +2249,6 @@
   ],
   "bid": 0.31,
   "ask": 0.32
- },
- {
-  "conditionId": "0x8c9b8ad3a64088a06d45e0b296a9a836203bc7f3ef35d134c57abead446a8b72",
-  "title": "Will the Democrats win the Mississippi Senate race in 2026?",
-  "slug": "will-the-democrats-win-the-mississippi-senate-race-in-2026",
-  "eventSlug": "mississippi-senate-election-winner",
-  "tags": [
-   "Mississippi Midterm",
-   "Senate Elections",
-   "Midterms",
-   "US Election",
-   "Elections",
-   "Politics",
-   "Senate Midterm Winners",
-   "Tossup Senate Races",
-   "Tossups",
-   "Mississippi Senate"
-  ],
-  "endDate": "2026-11-04",
-  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-democrats-win-the-mississippi-senate-race-in-2026-Ia91kToCQ9TT.jpg",
-  "total": 45430.599,
-  "holders": [
-   {
-    "trader": "SlavaUkraini",
-    "outcome": "Yes",
-    "size": 30415.72,
-    "avgPrice": 0.7565,
-    "curPrice": 0.9935,
-    "currentValue": 30218.0178,
-    "asset": "77001639760095266374534198365421436593389036687975321536722226607654949914567",
-    "fe": 1793762928
-   },
-   {
-    "trader": "Trump2028",
-    "outcome": "Yes",
-    "size": 15312.11,
-    "avgPrice": 0.9923,
-    "curPrice": 0.9935,
-    "currentValue": 15212.5812,
-    "asset": "77001639760095266374534198365421436593389036687975321536722226607654949914567",
-    "fe": 1793993902
-   }
-  ],
-  "bid": 0.993,
-  "ask": 0.994
  },
  {
   "conditionId": "0x84c625fdccf5c5246a15e476361e4563033906ee225800e1136c0d737596a72f",
@@ -2616,6 +2616,93 @@
   "ask": 0.77
  },
  {
+  "conditionId": "0x9072fd1470ae1fd0e143a4946cb4d38c49ad040cc9c54bfab499b9873af63343",
+  "title": "US x Iran effective ceasefire continues through November 15, 2026?",
+  "slug": "us-x-iran-effective-ceasefire-continues-through-november-15-20261103",
+  "eventSlug": "us-iran-effective-ceasefire-continues-throughptptpt-20261103",
+  "tags": [
+   "Iran",
+   "Trump",
+   "Israel",
+   "Military",
+   "Politics",
+   "Geopolitics",
+   "Middle East",
+   "U.S. x Iran",
+   "Israel x Iran",
+   "Iran Ceasefire",
+   "Military Actions",
+   "Military Strikes"
+  ],
+  "endDate": "2026-11-16",
+  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-ceasefire-continues-throughptptpt-fKOnupyGfr2q.jpg",
+  "total": 30039.6447,
+  "holders": [
+   {
+    "trader": "paddaa",
+    "outcome": "No",
+    "size": 15514.7416,
+    "avgPrice": 0.4138,
+    "curPrice": 0.706,
+    "currentValue": 10953.4076,
+    "asset": "91301230446649789357791318352573361562403258022669247407694602183224505954465",
+    "fe": 1793790588
+   },
+   {
+    "trader": "Car",
+    "outcome": "Yes",
+    "size": 3065.65,
+    "avgPrice": 0.0769,
+    "curPrice": 0.2935,
+    "currentValue": 899.7682,
+    "asset": "90419247464759355633552711225422740756104404997182678776776696213655914735400",
+    "fe": 1793835001
+   },
+   {
+    "trader": "classified",
+    "outcome": "Yes",
+    "size": 27147.1506,
+    "avgPrice": 0.4689,
+    "curPrice": 0.2935,
+    "currentValue": 7967.6887,
+    "asset": "90419247464759355633552711225422740756104404997182678776776696213655914735400",
+    "fe": 1793790961
+   },
+   {
+    "trader": "classified",
+    "outcome": "No",
+    "size": 6921.76,
+    "avgPrice": 0.7795,
+    "curPrice": 0.706,
+    "currentValue": 4886.7626,
+    "asset": "91301230446649789357791318352573361562403258022669247407694602183224505954465",
+    "fe": 1793807851
+   },
+   {
+    "trader": "MEPP",
+    "outcome": "No",
+    "size": 3006.91,
+    "avgPrice": 0.4,
+    "curPrice": 0.706,
+    "currentValue": 2122.8784,
+    "asset": "91301230446649789357791318352573361562403258022669247407694602183224505954465",
+    "fe": 1793913087
+   },
+   {
+    "trader": "Lolakis",
+    "outcome": "No",
+    "size": 4545.5229,
+    "avgPrice": 0.7177,
+    "curPrice": 0.706,
+    "currentValue": 3209.1392,
+    "asset": "91301230446649789357791318352573361562403258022669247407694602183224505954465",
+    "fe": 1793921653
+   }
+  ],
+  "bid": 0.29,
+  "ask": 0.329
+ },
+ {
   "conditionId": "0x9345d5142a67f5541264c96515496affee02580f1c572680759eac9fd2a1588a",
   "title": "Billionaire one-time wealth tax passes in California election 2026?",
   "slug": "billionaire-one-time-wealth-tax-passes-in-california-election-2026",
@@ -2772,83 +2859,6 @@
   ],
   "bid": 0.47,
   "ask": 0.48
- },
- {
-  "conditionId": "0x9072fd1470ae1fd0e143a4946cb4d38c49ad040cc9c54bfab499b9873af63343",
-  "title": "US x Iran effective ceasefire continues through November 15, 2026?",
-  "slug": "us-x-iran-effective-ceasefire-continues-through-november-15-20261103",
-  "eventSlug": "us-iran-effective-ceasefire-continues-throughptptpt-20261103",
-  "tags": [
-   "Iran",
-   "Trump",
-   "Israel",
-   "Military",
-   "Politics",
-   "Geopolitics",
-   "Middle East",
-   "U.S. x Iran",
-   "Israel x Iran",
-   "Iran Ceasefire",
-   "Military Actions",
-   "Military Strikes"
-  ],
-  "endDate": "2026-11-16",
-  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-ceasefire-continues-throughptptpt-fKOnupyGfr2q.jpg",
-  "total": 27909.497199999998,
-  "holders": [
-   {
-    "trader": "paddaa",
-    "outcome": "No",
-    "size": 15514.7416,
-    "avgPrice": 0.4138,
-    "curPrice": 0.9625,
-    "currentValue": 14932.9388,
-    "asset": "91301230446649789357791318352573361562403258022669247407694602183224505954465",
-    "fe": 1793790588
-   },
-   {
-    "trader": "classified",
-    "outcome": "No",
-    "size": 4921.76,
-    "avgPrice": 0.831,
-    "curPrice": 0.9625,
-    "currentValue": 4737.194,
-    "asset": "91301230446649789357791318352573361562403258022669247407694602183224505954465",
-    "fe": 1793807851
-   },
-   {
-    "trader": "classified",
-    "outcome": "Yes",
-    "size": 25870.6106,
-    "avgPrice": 0.5062,
-    "curPrice": 0.0375,
-    "currentValue": 970.1478,
-    "asset": "90419247464759355633552711225422740756104404997182678776776696213655914735400",
-    "fe": 1793790961
-   },
-   {
-    "trader": "MEPP",
-    "outcome": "No",
-    "size": 3006.91,
-    "avgPrice": 0.4,
-    "curPrice": 0.9625,
-    "currentValue": 2894.1508,
-    "asset": "91301230446649789357791318352573361562403258022669247407694602183224505954465",
-    "fe": 1793913087
-   },
-   {
-    "trader": "Lolakis",
-    "outcome": "No",
-    "size": 4545.5229,
-    "avgPrice": 0.7177,
-    "curPrice": 0.9625,
-    "currentValue": 4375.0658,
-    "asset": "91301230446649789357791318352573361562403258022669247407694602183224505954465",
-    "fe": 1793921653
-   }
-  ],
-  "bid": 0.034,
-  "ask": 0.054
  },
  {
   "conditionId": "0xdce84960dce38aa4a5800a5eba7c9ac34d2ce49ba9d44c42572c472d468af264",
@@ -3082,6 +3092,123 @@
   "ask": 0.09
  },
  {
+  "conditionId": "0xc52d0ad0d001293473fa50126015c9d6db3baab756002f7b4ccf9eb179b1c403",
+  "title": "US x Iran effective ceasefire continues through November 8, 2026?",
+  "slug": "us-x-iran-effective-ceasefire-continues-through-november-8-20261103",
+  "eventSlug": "us-iran-effective-ceasefire-continues-throughptptpt-20261103",
+  "tags": [
+   "Iran",
+   "Trump",
+   "Israel",
+   "Military",
+   "Politics",
+   "Geopolitics",
+   "Middle East",
+   "U.S. x Iran",
+   "Israel x Iran",
+   "Iran Ceasefire",
+   "Military Actions",
+   "Military Strikes"
+  ],
+  "endDate": "2026-11-09",
+  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-ceasefire-continues-throughptptpt-fKOnupyGfr2q.jpg",
+  "total": 24943.0849,
+  "holders": [
+   {
+    "trader": "paddaa",
+    "outcome": "Yes",
+    "size": 7811.211,
+    "avgPrice": 0.2863,
+    "curPrice": 0.342,
+    "currentValue": 2671.4341,
+    "asset": "87249160725268576761318544637015834078260647399120993899333685851926400469347",
+    "fe": 1794002382
+   },
+   {
+    "trader": "paddaa",
+    "outcome": "No",
+    "size": 2364.1106,
+    "avgPrice": 0.8899,
+    "curPrice": 0.658,
+    "currentValue": 1555.5848,
+    "asset": "106320855195694279661941533472708568713914524545665319398192516085236524694148",
+    "fe": 1793785993
+   },
+   {
+    "trader": "mr.ozi",
+    "outcome": "Yes",
+    "size": 6776.1,
+    "avgPrice": 0.4198,
+    "curPrice": 0.342,
+    "currentValue": 2317.4262,
+    "asset": "87249160725268576761318544637015834078260647399120993899333685851926400469347",
+    "fe": 1794004225
+   },
+   {
+    "trader": "Car",
+    "outcome": "No",
+    "size": 7338.8605,
+    "avgPrice": 0.7534,
+    "curPrice": 0.658,
+    "currentValue": 4828.9702,
+    "asset": "106320855195694279661941533472708568713914524545665319398192516085236524694148",
+    "fe": 1793999050
+   },
+   {
+    "trader": "classified",
+    "outcome": "No",
+    "size": 14560.7181,
+    "avgPrice": 0.5883,
+    "curPrice": 0.658,
+    "currentValue": 9580.9525,
+    "asset": "106320855195694279661941533472708568713914524545665319398192516085236524694148",
+    "fe": 1793804850
+   },
+   {
+    "trader": "classified",
+    "outcome": "Yes",
+    "size": 4111.5934,
+    "avgPrice": 0.1434,
+    "curPrice": 0.342,
+    "currentValue": 1406.1649,
+    "asset": "87249160725268576761318544637015834078260647399120993899333685851926400469347",
+    "fe": 1793794731
+   },
+   {
+    "trader": "Lolakis",
+    "outcome": "No",
+    "size": 1504.0551,
+    "avgPrice": 0.6899,
+    "curPrice": 0.658,
+    "currentValue": 989.6683,
+    "asset": "106320855195694279661941533472708568713914524545665319398192516085236524694148",
+    "fe": 1793916264
+   },
+   {
+    "trader": "StarMaster",
+    "outcome": "Yes",
+    "size": 1499.96,
+    "avgPrice": 0.732,
+    "curPrice": 0.342,
+    "currentValue": 512.9863,
+    "asset": "87249160725268576761318544637015834078260647399120993899333685851926400469347",
+    "fe": 1793967463
+   },
+   {
+    "trader": "GollumGekko",
+    "outcome": "Yes",
+    "size": 3157.5955,
+    "avgPrice": 0.08,
+    "curPrice": 0.342,
+    "currentValue": 1079.8976,
+    "asset": "87249160725268576761318544637015834078260647399120993899333685851926400469347",
+    "fe": 1794001021
+   }
+  ],
+  "bid": 0.278,
+  "ask": 0.289
+ },
+ {
   "conditionId": "0xac7deb260d4926829a16fb8b55a57b483ec2379644742ef9926fe7a9b1d67993",
   "title": "Israel x Iran ceasefire continues through November 7?",
   "slug": "israel-x-iran-ceasefire-continues-through-november-7",
@@ -3096,15 +3223,15 @@
   ],
   "endDate": "2026-11-08",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963-FEQHrNm5Q53X.jpg",
-  "total": 24655.0291,
+  "total": 24693.3331,
   "holders": [
    {
     "trader": "paddaa",
     "outcome": "Yes",
     "size": 6399.9712,
     "avgPrice": 0.9426,
-    "curPrice": 0.9655,
-    "currentValue": 6179.1722,
+    "curPrice": 0.967,
+    "currentValue": 6188.7721,
     "asset": "15707328176527456759678868855667660030738069444951598508574029683550162720104",
     "fe": 1793306889
    },
@@ -3113,8 +3240,8 @@
     "outcome": "Yes",
     "size": 10888.1974,
     "avgPrice": 0.9162,
-    "curPrice": 0.9655,
-    "currentValue": 10512.5546,
+    "curPrice": 0.967,
+    "currentValue": 10528.8869,
     "asset": "15707328176527456759678868855667660030738069444951598508574029683550162720104",
     "fe": 1793633416
    },
@@ -3123,8 +3250,8 @@
     "outcome": "Yes",
     "size": 5999.8733,
     "avgPrice": 0.9428,
-    "curPrice": 0.9655,
-    "currentValue": 5792.8777,
+    "curPrice": 0.967,
+    "currentValue": 5801.8775,
     "asset": "15707328176527456759678868855667660030738069444951598508574029683550162720104",
     "fe": 1793891212
    },
@@ -3133,14 +3260,14 @@
     "outcome": "Yes",
     "size": 2247.98,
     "avgPrice": 0.86,
-    "curPrice": 0.9655,
-    "currentValue": 2170.4246,
+    "curPrice": 0.967,
+    "currentValue": 2173.7966,
     "asset": "15707328176527456759678868855667660030738069444951598508574029683550162720104",
     "fe": 1793642734
    }
   ],
-  "bid": 0.959,
-  "ask": 0.974
+  "bid": 0.961,
+  "ask": 0.973
  },
  {
   "conditionId": "0xb40b0cd531184a1e436d23ca898e1590418187b116f387158753d1adb9853e47",
@@ -3157,15 +3284,15 @@
   ],
   "endDate": "2027-01-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "total": 24075.3727,
+  "total": 24020.985999999997,
   "holders": [
    {
     "trader": "aenews2",
     "outcome": "Yes",
     "size": 12465.91,
     "avgPrice": 0.7399,
-    "curPrice": 0.8845,
-    "currentValue": 11026.0973,
+    "curPrice": 0.8855,
+    "currentValue": 11038.5633,
     "asset": "48566046548914168443252668519852295704538578584318207505303160546351275413281",
     "fe": 1792370196
    },
@@ -3174,8 +3301,8 @@
     "outcome": "No",
     "size": 52447.8196,
     "avgPrice": 0.1344,
-    "curPrice": 0.116,
-    "currentValue": 6083.947,
+    "curPrice": 0.1145,
+    "currentValue": 6005.2753,
     "asset": "93059136868154519251041831451057854973981985548329066772466504724611138205828",
     "fe": 1781344593
    },
@@ -3184,61 +3311,14 @@
     "outcome": "Yes",
     "size": 7879.3307,
     "avgPrice": 0.7483,
-    "curPrice": 0.884,
-    "currentValue": 6965.3284,
+    "curPrice": 0.8855,
+    "currentValue": 6977.1474,
     "asset": "48566046548914168443252668519852295704538578584318207505303160546351275413281",
     "fe": 1785497652
    }
   ],
-  "bid": 0.887,
-  "ask": 0.898
- },
- {
-  "conditionId": "0x3e955041da27be8f185249445868b6037f200a8cca1da9a6aaac4ced49a3d038",
-  "title": "US x Iran effective ceasefire continues through December 31, 2026?",
-  "slug": "us-x-iran-effective-ceasefire-continues-through-december-31-20261103",
-  "eventSlug": "us-iran-effective-ceasefire-continues-throughptptpt-20261103",
-  "tags": [
-   "Iran",
-   "Trump",
-   "Israel",
-   "Military",
-   "Politics",
-   "Geopolitics",
-   "Middle East",
-   "U.S. x Iran",
-   "Israel x Iran",
-   "Iran Ceasefire",
-   "Military Actions",
-   "Military Strikes"
-  ],
-  "endDate": "2027-01-01",
-  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-ceasefire-continues-throughptptpt-fKOnupyGfr2q.jpg",
-  "total": 24012.8537,
-  "holders": [
-   {
-    "trader": "classified",
-    "outcome": "No",
-    "size": 23955.5137,
-    "avgPrice": 0.7057,
-    "curPrice": 0.9805,
-    "currentValue": 23488.3812,
-    "asset": "14969100039852937953488326037025917406453009294943912296705547831641020913205",
-    "fe": 1793790832
-   },
-   {
-    "trader": "Lolakis",
-    "outcome": "No",
-    "size": 534.9031,
-    "avgPrice": 0.9589,
-    "curPrice": 0.9805,
-    "currentValue": 524.4725,
-    "asset": "14969100039852937953488326037025917406453009294943912296705547831641020913205",
-    "fe": 1793914180
-   }
-  ],
-  "bid": 0.016,
-  "ask": 0.023
+  "bid": 0.873,
+  "ask": 0.897
  },
  {
   "conditionId": "0xc8c5760c26490b0cd0bedcf1c61aa86c5e09c8b2886b84ff4ea2db81d5f29388",
@@ -3368,15 +3448,15 @@
   ],
   "endDate": "2026-12-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-ceasefire-continues-throughptptpt-fKOnupyGfr2q.jpg",
-  "total": 22186.4177,
+  "total": 21572.2867,
   "holders": [
    {
     "trader": "paddaa",
     "outcome": "No",
-    "size": 8904.5376,
-    "avgPrice": 0.5869,
-    "curPrice": 0.951,
-    "currentValue": 8468.2152,
+    "size": 8986.0287,
+    "avgPrice": 0.5881,
+    "curPrice": 0.793,
+    "currentValue": 7125.9208,
     "asset": "90793314640219415057431958146323110642072872943679146762385151363324946645219",
     "fe": 1793783214
    },
@@ -3385,18 +3465,28 @@
     "outcome": "No",
     "size": 4248.69,
     "avgPrice": 0.9688,
-    "curPrice": 0.951,
-    "currentValue": 4040.5041,
+    "curPrice": 0.793,
+    "currentValue": 3369.2111,
     "asset": "90793314640219415057431958146323110642072872943679146762385151363324946645219",
     "fe": 1794010321
    },
    {
+    "trader": "classified",
+    "outcome": "Yes",
+    "size": 2475.3875,
+    "avgPrice": 0.3922,
+    "curPrice": 0.207,
+    "currentValue": 512.4052,
+    "asset": "80580816064991269593761124436011363919023633115188884752833861800759716963733",
+    "fe": 1793818450
+   },
+   {
     "trader": "Lolakis",
     "outcome": "No",
-    "size": 1938.3218,
-    "avgPrice": 0.9499,
-    "curPrice": 0.951,
-    "currentValue": 1843.344,
+    "size": 5728.1618,
+    "avgPrice": 0.8978,
+    "curPrice": 0.793,
+    "currentValue": 4542.4323,
     "asset": "90793314640219415057431958146323110642072872943679146762385151363324946645219",
     "fe": 1793774593
    },
@@ -3405,24 +3495,24 @@
     "outcome": "No",
     "size": 1000.0,
     "avgPrice": 0.6502,
-    "curPrice": 0.951,
-    "currentValue": 951.0,
+    "curPrice": 0.793,
+    "currentValue": 793.0,
     "asset": "90793314640219415057431958146323110642072872943679146762385151363324946645219",
     "fe": 1793916648
    },
    {
     "trader": "GollumGekko",
     "outcome": "No",
-    "size": 7238.0172,
+    "size": 6594.3472,
     "avgPrice": 0.73,
-    "curPrice": 0.951,
-    "currentValue": 6883.3544,
+    "curPrice": 0.793,
+    "currentValue": 5229.3173,
     "asset": "90793314640219415057431958146323110642072872943679146762385151363324946645219",
     "fe": 1794001366
    }
   ],
-  "bid": 0.032,
-  "ask": 0.05
+  "bid": 0.222,
+  "ask": 0.275
  },
  {
   "conditionId": "0xeae757a623cf6a8e4d63ab5ebca6739519f87f3506accbfdd75ae514a72bf461",
@@ -3882,8 +3972,8 @@
     "fe": 1787085784
    }
   ],
-  "bid": 0.033,
-  "ask": 0.046
+  "bid": 0.034,
+  "ask": 0.048
  },
  {
   "conditionId": "0xe66f6bc1b92d873779c2ffd142511c29492602a732a49e4b1c2bef1653149f24",
@@ -3943,8 +4033,8 @@
     "fe": 1793809447
    }
   ],
-  "bid": 0.66,
-  "ask": 0.67
+  "bid": 0.64,
+  "ask": 0.66
  },
  {
   "conditionId": "0x684e5b72d4e407695397a79ed75ef37273c2655ca2548791a4153233d3744696",
@@ -4635,15 +4725,15 @@
   ],
   "endDate": "2026-11-07",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-ceasefire-continues-throughptptpt-fKOnupyGfr2q.jpg",
-  "total": 13194.154100000002,
+  "total": 13330.5277,
   "holders": [
    {
     "trader": "classified",
     "outcome": "Yes",
     "size": 1729.3653,
     "avgPrice": 0.9705,
-    "curPrice": 0.9675,
-    "currentValue": 1673.1609,
+    "curPrice": 0.9775,
+    "currentValue": 1690.4545,
     "asset": "104299387727422045448411555020199708905052990522160588543749492739147154998576",
     "fe": 1793867089
    },
@@ -4652,14 +4742,14 @@
     "outcome": "Yes",
     "size": 11908.0033,
     "avgPrice": 0.949,
-    "curPrice": 0.9675,
-    "currentValue": 11520.9932,
+    "curPrice": 0.9775,
+    "currentValue": 11640.0732,
     "asset": "104299387727422045448411555020199708905052990522160588543749492739147154998576",
     "fe": 1794001884
    }
   ],
-  "bid": 0.956,
-  "ask": 0.98
+  "bid": 0.977,
+  "ask": 0.981
  },
  {
   "conditionId": "0x7e99b040fa7b9dbc61428d2d66b50173d44b3862c25765305b839da140278b79",
@@ -4785,15 +4875,15 @@
   ],
   "endDate": "2028-11-08",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-ron-desantis-win-the-2028-us-presidential-election-qQ7i72caXvAW.png",
-  "total": 13035.458999999999,
+  "total": 13039.214800000002,
   "holders": [
    {
     "trader": "paddaa",
     "outcome": "No",
     "size": 11821.692,
     "avgPrice": 0.8744,
-    "curPrice": 0.858,
-    "currentValue": 10143.0117,
+    "curPrice": 0.8585,
+    "currentValue": 10148.9226,
     "asset": "95344728193244020854716971584323868633691370479151373416918812532794690491367",
     "fe": 1793828262
    },
@@ -4802,8 +4892,8 @@
     "outcome": "No",
     "size": 2280.4278,
     "avgPrice": 0.8642,
-    "curPrice": 0.858,
-    "currentValue": 1956.6071,
+    "curPrice": 0.8585,
+    "currentValue": 1957.7473,
     "asset": "95344728193244020854716971584323868633691370479151373416918812532794690491367",
     "fe": 1793796400
    },
@@ -4812,14 +4902,14 @@
     "outcome": "Yes",
     "size": 6590.424,
     "avgPrice": 0.1397,
-    "curPrice": 0.142,
-    "currentValue": 935.8402,
+    "curPrice": 0.1415,
+    "currentValue": 932.5449,
     "asset": "12127975650736113116407758794754973741525044713193258995588171654429754588610",
     "fe": 1758283074
    }
   ],
   "bid": 0.141,
-  "ask": 0.143
+  "ask": 0.142
  },
  {
   "conditionId": "0xb3298af85e00aafad937c119444a5f2800a55343b7482eb75581f6e454432501",
@@ -4895,7 +4985,7 @@
   ],
   "endDate": "2026-10-28",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/israel-gadi-eizenkot-ccb92a000c.jpg",
-  "total": 12808.359199999999,
+  "total": 12808.4027,
   "holders": [
    {
     "trader": "denizz",
@@ -4930,10 +5020,10 @@
    {
     "trader": "Lolakis",
     "outcome": "Yes",
-    "size": 3607.7264,
+    "size": 3607.7964,
     "avgPrice": 0.6377,
     "curPrice": 0.622,
-    "currentValue": 2244.0058,
+    "currentValue": 2244.0493,
     "asset": "52487256270918227930942830546248720603566203568229607048093730748840489555808",
     "fe": 1792334868
    }
@@ -4959,15 +5049,15 @@
   ],
   "endDate": "2028-11-08",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-marco-rubio-win-the-2028-us-presidential-election-snF_pVUw4Ymx.png",
-  "total": 12580.0763,
+  "total": 12647.7112,
   "holders": [
    {
     "trader": "Car",
     "outcome": "Yes",
     "size": 25278.41,
     "avgPrice": 0.0862,
-    "curPrice": 0.093,
-    "currentValue": 2350.8921,
+    "curPrice": 0.0935,
+    "currentValue": 2363.5313,
     "asset": "11171618905857319805355893398009978356002287408842633593535559412449299952250",
     "fe": 1789134675
    },
@@ -4976,8 +5066,8 @@
     "outcome": "Yes",
     "size": 109991.2289,
     "avgPrice": 0.0995,
-    "curPrice": 0.093,
-    "currentValue": 10229.1842,
+    "curPrice": 0.0935,
+    "currentValue": 10284.1799,
     "asset": "11171618905857319805355893398009978356002287408842633593535559412449299952250",
     "fe": 1754984974
    }
@@ -5075,63 +5165,6 @@
   ],
   "bid": 0.23,
   "ask": 0.24
- },
- {
-  "conditionId": "0xc52d0ad0d001293473fa50126015c9d6db3baab756002f7b4ccf9eb179b1c403",
-  "title": "US x Iran effective ceasefire continues through November 8, 2026?",
-  "slug": "us-x-iran-effective-ceasefire-continues-through-november-8-20261103",
-  "eventSlug": "us-iran-effective-ceasefire-continues-throughptptpt-20261103",
-  "tags": [
-   "Iran",
-   "Trump",
-   "Israel",
-   "Military",
-   "Politics",
-   "Geopolitics",
-   "Middle East",
-   "U.S. x Iran",
-   "Israel x Iran",
-   "Iran Ceasefire",
-   "Military Actions",
-   "Military Strikes"
-  ],
-  "endDate": "2026-11-09",
-  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-ceasefire-continues-throughptptpt-fKOnupyGfr2q.jpg",
-  "total": 12345.923200000001,
-  "holders": [
-   {
-    "trader": "paddaa",
-    "outcome": "No",
-    "size": 2364.1106,
-    "avgPrice": 0.8899,
-    "curPrice": 0.9295,
-    "currentValue": 2197.4408,
-    "asset": "106320855195694279661941533472708568713914524545665319398192516085236524694148",
-    "fe": 1793785993
-   },
-   {
-    "trader": "Car",
-    "outcome": "No",
-    "size": 1701.7005,
-    "avgPrice": 0.9575,
-    "curPrice": 0.9295,
-    "currentValue": 1581.7306,
-    "asset": "106320855195694279661941533472708568713914524545665319398192516085236524694148",
-    "fe": 1793999050
-   },
-   {
-    "trader": "classified",
-    "outcome": "No",
-    "size": 9216.5162,
-    "avgPrice": 0.574,
-    "curPrice": 0.9295,
-    "currentValue": 8566.7518,
-    "asset": "106320855195694279661941533472708568713914524545665319398192516085236524694148",
-    "fe": 1793804850
-   }
-  ],
-  "bid": 0.061,
-  "ask": 0.078
  },
  {
   "conditionId": "0xff68b32e6543ae8b44ccb520604b6ea224a1bac071a186fb65f6f40949a758df",
@@ -5313,15 +5346,15 @@
   ],
   "endDate": "2026-11-29",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/tw2026-puma-shen-bf993af0a2.jpg",
-  "total": 10996.3207,
+  "total": 10985.600299999998,
   "holders": [
    {
     "trader": "paddaa",
     "outcome": "Yes",
     "size": 3754.6042,
     "avgPrice": 0.3119,
-    "curPrice": 0.3245,
-    "currentValue": 1218.369,
+    "curPrice": 0.3255,
+    "currentValue": 1222.1236,
     "asset": "71621185653281721927174401118354054745399424014255544529977515442951477963801",
     "fe": 1793116830
    },
@@ -5330,8 +5363,8 @@
     "outcome": "No",
     "size": 1799.9919,
     "avgPrice": 0.6419,
-    "curPrice": 0.6755,
-    "currentValue": 1215.8945,
+    "curPrice": 0.6745,
+    "currentValue": 1214.0946,
     "asset": "72820619922053432516748905329266890906103969024802768151634670763988243600546",
     "fe": 1792969533
    },
@@ -5340,8 +5373,8 @@
     "outcome": "No",
     "size": 4999.9859,
     "avgPrice": 0.653,
-    "curPrice": 0.6755,
-    "currentValue": 3377.4905,
+    "curPrice": 0.6745,
+    "currentValue": 3372.4905,
     "asset": "72820619922053432516748905329266890906103969024802768151634670763988243600546",
     "fe": 1793640940
    },
@@ -5350,8 +5383,8 @@
     "outcome": "No",
     "size": 7675.1543,
     "avgPrice": 0.6035,
-    "curPrice": 0.6755,
-    "currentValue": 5184.5667,
+    "curPrice": 0.6745,
+    "currentValue": 5176.8916,
     "asset": "72820619922053432516748905329266890906103969024802768151634670763988243600546",
     "fe": 1791734389
    }
@@ -5470,7 +5503,7 @@
    }
   ],
   "bid": 0.59,
-  "ask": 0.61
+  "ask": 0.6
  },
  {
   "conditionId": "0x794fbb668b14dacd636ff47a39e2294148420577e38278e11adf14655ad6cfe0",
@@ -5737,15 +5770,15 @@
   ],
   "endDate": "2027-01-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/israel-and-saudi-arabia-normalize-relations-in-2025-rbKna7H0Z1bN.jpg",
-  "total": 9582.5709,
+  "total": 9617.074999999999,
   "holders": [
    {
     "trader": "denizz",
     "outcome": "No",
     "size": 5044.0757,
     "avgPrice": 0.8908,
-    "curPrice": 0.9635,
-    "currentValue": 4859.9669,
+    "curPrice": 0.967,
+    "currentValue": 4877.6212,
     "asset": "63409286016973577903012142269621228305682014726736632772295861872995350316136",
     "fe": 1772341499
    },
@@ -5754,8 +5787,8 @@
     "outcome": "No",
     "size": 4292.3032,
     "avgPrice": 0.8625,
-    "curPrice": 0.9635,
-    "currentValue": 4135.6341,
+    "curPrice": 0.967,
+    "currentValue": 4150.6572,
     "asset": "63409286016973577903012142269621228305682014726736632772295861872995350316136",
     "fe": 1778816303
    },
@@ -5764,14 +5797,14 @@
     "outcome": "No",
     "size": 608.89,
     "avgPrice": 0.82,
-    "curPrice": 0.964,
-    "currentValue": 586.9699,
+    "curPrice": 0.967,
+    "currentValue": 588.7966,
     "asset": "63409286016973577903012142269621228305682014726736632772295861872995350316136",
     "fe": 1779719131
    }
   ],
   "bid": 0.023,
-  "ask": 0.039
+  "ask": 0.043
  },
  {
   "conditionId": "0x6db92cee58b72e61b3874cce633a0457ade010ef377a0eeeaf1fcf88ad0c3fd4",
@@ -5941,15 +5974,15 @@
   ],
   "endDate": "2027-01-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cuban-regime-falls-in-2026-MKyeGIfY1O2c.jpg",
-  "total": 8696.1467,
+  "total": 8690.1367,
   "holders": [
    {
     "trader": "MEPP",
     "outcome": "No",
     "size": 5999.9914,
     "avgPrice": 0.775,
-    "curPrice": 0.965,
-    "currentValue": 5789.9917,
+    "curPrice": 0.9645,
+    "currentValue": 5786.9917,
     "asset": "72413274791623935706318436448441626129741116452837525058113815959729031743718",
     "fe": 1774704357
    },
@@ -5958,14 +5991,14 @@
     "outcome": "No",
     "size": 3010.0,
     "avgPrice": 0.9241,
-    "curPrice": 0.9655,
-    "currentValue": 2906.155,
+    "curPrice": 0.9645,
+    "currentValue": 2903.145,
     "asset": "72413274791623935706318436448441626129741116452837525058113815959729031743718",
     "fe": 1774128561
    }
   ],
   "bid": 0.028,
-  "ask": 0.042
+  "ask": 0.041
  },
  {
   "conditionId": "0xd1796c09d0d6f876f8580086ae9808ec991784e3a74b25a1830a25de71a78c96",
@@ -6017,7 +6050,7 @@
    }
   ],
   "bid": 0.37,
-  "ask": 0.39
+  "ask": 0.4
  },
  {
   "conditionId": "0x14d327328063504ab74b2ab11fe68ad305525fafc70effcd5ba5c5c688971988",
@@ -6317,15 +6350,15 @@
   ],
   "endDate": "2027-01-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-in-2025-0YSxfN5k1mYY.png",
-  "total": 7136.1091,
+  "total": 7292.5315,
   "holders": [
    {
     "trader": "ImJustKen",
     "outcome": "Yes",
     "size": 5571.885,
     "avgPrice": 0.8244,
-    "curPrice": 0.9,
-    "currentValue": 5014.6965,
+    "curPrice": 0.89,
+    "currentValue": 4958.9776,
     "asset": "31650083965282390269113502048883725495895331661148956202621012482964650485070",
     "fe": 1786158949
    },
@@ -6334,8 +6367,8 @@
     "outcome": "No",
     "size": 11599.9964,
     "avgPrice": 0.1206,
-    "curPrice": 0.1,
-    "currentValue": 1159.9996,
+    "curPrice": 0.11,
+    "currentValue": 1275.9996,
     "asset": "79659126453744117609155577783430286183745820479892256192797614957132714720158",
     "fe": 1780330136
    },
@@ -6344,14 +6377,14 @@
     "outcome": "No",
     "size": 9614.13,
     "avgPrice": 0.1771,
-    "curPrice": 0.1,
-    "currentValue": 961.413,
+    "curPrice": 0.11,
+    "currentValue": 1057.5543,
     "asset": "79659126453744117609155577783430286183745820479892256192797614957132714720158",
     "fe": 1789767102
    }
   ],
-  "bid": 0.9,
-  "ask": 0.92
+  "bid": 0.88,
+  "ask": 0.9
  },
  {
   "conditionId": "0x1d519b87999e3d4e90e1e8f57b5eee73a0ba488ff3fdb70867f294733aba84a9",
@@ -6478,7 +6511,7 @@
    }
   ],
   "bid": 0.04,
-  "ask": 0.07
+  "ask": 0.06
  },
  {
   "conditionId": "0x719da011baed5f543e28d07c9ce08dc8d0ea946b64f9a4609176b1c969bd4a45",
@@ -6520,7 +6553,7 @@
    }
   ],
   "bid": 0.22,
-  "ask": 0.24
+  "ask": 0.23
  },
  {
   "conditionId": "0xe29b33ef5bf351c8a22bfd79f8b58e62649d54ceee6f9735387cef79f52fecae",
@@ -7603,15 +7636,15 @@
   ],
   "endDate": "2026-11-04",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jonathan-kreiss-tomkins-win-the-2026-alaska-governor-election-ahKu7du1GtlI.jpg",
-  "total": 3227.2061999999996,
+  "total": 3223.9741,
   "holders": [
    {
     "trader": "StarMaster",
     "outcome": "Yes",
     "size": 1999.9805,
     "avgPrice": 0.8909,
-    "curPrice": 0.9985,
-    "currentValue": 1996.9805,
+    "curPrice": 0.9975,
+    "currentValue": 1994.9805,
     "asset": "20244362049417025533374049121400436676833898969884666612361039499958684857530",
     "fe": 1793548825
    },
@@ -7620,13 +7653,13 @@
     "outcome": "Yes",
     "size": 1232.0738,
     "avgPrice": 0.8919,
-    "curPrice": 0.9985,
-    "currentValue": 1230.2257,
+    "curPrice": 0.9975,
+    "currentValue": 1228.9936,
     "asset": "20244362049417025533374049121400436676833898969884666612361039499958684857530",
     "fe": 1793656402
    }
   ],
-  "bid": 0.998,
+  "bid": 0.996,
   "ask": 0.999
  },
  {
@@ -7924,15 +7957,15 @@
   ],
   "endDate": "2026-12-31",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-iran-talks-2026-donald-trump-84f6c460ee.jpg",
-  "total": 2807.0949,
+  "total": 2805.6105000000002,
   "holders": [
    {
     "trader": "Car",
     "outcome": "No",
     "size": 791.7,
     "avgPrice": 0.9142,
-    "curPrice": 0.9455,
-    "currentValue": 748.5523,
+    "curPrice": 0.945,
+    "currentValue": 748.1565,
     "asset": "51507303413678619423008134643353183515975688499348408949989619776882972045778",
     "fe": 1791995647
    },
@@ -7941,13 +7974,13 @@
     "outcome": "No",
     "size": 2177.2,
     "avgPrice": 0.8873,
-    "curPrice": 0.9455,
-    "currentValue": 2058.5426,
+    "curPrice": 0.945,
+    "currentValue": 2057.454,
     "asset": "51507303413678619423008134643353183515975688499348408949989619776882972045778",
     "fe": 1789951102
    }
   ],
-  "bid": 0.051,
+  "bid": 0.052,
   "ask": 0.058
  },
  {
@@ -7994,7 +8027,7 @@
    }
   ],
   "bid": 0.459,
-  "ask": 0.47
+  "ask": 0.469
  },
  {
   "conditionId": "0x1c008508d424634eb01e47889e0fefb2fad4c776f973148f80a86b5be8331c63",
@@ -8012,15 +8045,15 @@
   ],
   "endDate": "2026-11-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/houthis-invades-saudi-arabia-byptptpt-vTKjAO6uhTiZ.jpg",
-  "total": 2637.6925,
+  "total": 2639.8316999999997,
   "holders": [
    {
     "trader": "Car",
     "outcome": "Yes",
     "size": 2361.0357,
     "avgPrice": 0.4485,
-    "curPrice": 0.6165,
-    "currentValue": 1455.5785,
+    "curPrice": 0.617,
+    "currentValue": 1456.759,
     "asset": "80378924601131529440632503659713964672311679972235277678506383908671689921262",
     "fe": 1793998569
    },
@@ -8029,8 +8062,8 @@
     "outcome": "Yes",
     "size": 1018.47,
     "avgPrice": 0.1142,
-    "curPrice": 0.6165,
-    "currentValue": 627.8867,
+    "curPrice": 0.617,
+    "currentValue": 628.3959,
     "asset": "80378924601131529440632503659713964672311679972235277678506383908671689921262",
     "fe": 1790837769
    },
@@ -8039,14 +8072,14 @@
     "outcome": "Yes",
     "size": 898.99,
     "avgPrice": 0.4933,
-    "curPrice": 0.6165,
-    "currentValue": 554.2273,
+    "curPrice": 0.617,
+    "currentValue": 554.6768,
     "asset": "80378924601131529440632503659713964672311679972235277678506383908671689921262",
     "fe": 1794005842
    }
   ],
   "bid": 0.567,
-  "ask": 0.666
+  "ask": 0.667
  },
  {
   "conditionId": "0x0886c17000a2bf15a759dfef6379dbf907e50ec5dffa462a9bae221578d1a908",
@@ -8146,15 +8179,15 @@
   ],
   "endDate": "2026-09-14",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/sweden-regional-3-peter-olofsson-a3b83bef56.jpg",
-  "total": 2222.9604,
+  "total": 2224.1421,
   "holders": [
    {
     "trader": "paddaa",
     "outcome": "Yes",
     "size": 1407.8517,
     "avgPrice": 0.8017,
-    "curPrice": 0.9405,
-    "currentValue": 1324.0845,
+    "curPrice": 0.941,
+    "currentValue": 1324.7884,
     "asset": "27222569747189818400861640004352672734676198263093232969976399089982030580127",
     "fe": 1788397531
    },
@@ -8163,8 +8196,8 @@
     "outcome": "Yes",
     "size": 955.7426,
     "avgPrice": 0.9138,
-    "curPrice": 0.9405,
-    "currentValue": 898.8759,
+    "curPrice": 0.941,
+    "currentValue": 899.3537,
     "asset": "27222569747189818400861640004352672734676198263093232969976399089982030580127",
     "fe": 1789245318
    }
@@ -8399,7 +8432,7 @@
   ],
   "endDate": "2027-01-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/weed-rescheduled-in-2025-tOxPo1ll_sSa.jpg",
-  "total": 1878.3081,
+  "total": 1878.8081,
   "holders": [
    {
     "trader": "ImJustKen",
@@ -8416,14 +8449,14 @@
     "outcome": "No",
     "size": 1000.0,
     "avgPrice": 0.871,
-    "curPrice": 0.9015,
-    "currentValue": 901.5,
+    "curPrice": 0.902,
+    "currentValue": 902.0,
     "asset": "109661757968686077522974792938650999760140615540736938967881958072068279154168",
     "fe": 1793629170
    }
   ],
   "bid": 0.083,
-  "ask": 0.114
+  "ask": 0.113
  },
  {
   "conditionId": "0xd594753a5d2b4d3b9e65cdd06c3cbb0645d70be7626fad94774f45560b150d23",
