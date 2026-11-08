@@ -1,4 +1,4 @@
-import json,urllib.parse,re
+import json,urllib.parse,re,os
 d=json.load(open('data/overlap.json'))
 MENTION=re.compile(r'\b(say|says|said|mention|mentions|mentioned|tweet|post)\b.*["\u201c]|\bmention')
 CATS=[('Mention',MENTION.pattern),
@@ -40,5 +40,7 @@ out=[o for o in out if float(o['ask'])<=0.98]
 out.sort(key=lambda x:(-x['cnt'],-x['cnt']/x['n'],-x['tot']))
 #nocap
 print([(o['t'][:40],o['cnt'],o['n'],o['cat']) for o in out])
-html=open('tpl.html').read().replace('__DATA__',json.dumps(out)).replace('__TRADERS__',open('traders.json').read()).replace('{{BUILT}}',__import__('datetime').datetime.now(__import__('datetime').timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')).replace('{{NTRADERS}}',str(len(json.load(open('data/wallets.json')))))
+_live=json.load(open('data/live.json')) if os.path.exists('data/live.json') else []
+def _js(o): return json.dumps(o,separators=(',',':')).replace('<','\\u003c')
+html=open('tpl.html').read().replace('__NLIVE__',str(len(_live))).replace('__LIVE__',_js(_live)).replace('__DATA__',json.dumps(out)).replace('__TRADERS__',open('traders.json').read()).replace('{{BUILT}}',__import__('datetime').datetime.now(__import__('datetime').timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')).replace('{{NTRADERS}}',str(len(json.load(open('data/wallets.json')))))
 open('index.html.new','w').write(html)

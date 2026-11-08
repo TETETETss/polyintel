@@ -23,6 +23,8 @@ def positions(w):
         pg=d.get("pagination") or {}
         if not pg.get("has_more") or not rows: break
         cur=pg.get("next_cursor")
+    # full book, including dust, for the Live Trades held bar and consensus; overlap still uses the filtered list
+    w["_pos"]=out
     return [x for x in out if not x.get("redeemable") and keep(x)]
 with cf.ThreadPoolExecutor(8) as ex: P=dict(zip([w["name"] for w in W],ex.map(positions,W)))
 by={}
@@ -46,3 +48,10 @@ json.dump(cache,open(cache_f,"w"))
 res.sort(key=lambda r:-r["total"]); json.dump(res,open(f"{D}/overlap.json","w"),indent=1)
 print({n:len(p) for n,p in P.items()})
 for r in res: print(f"${r['total']:,.0f} | {r['slug']} | {r['tags'][:4]} | "+"; ".join(f"{h['trader']} {h['outcome']} {h['size']:.0f}@{h['avgPrice']:.2f} cur{h['curPrice']}" for h in r["holders"]))
+try:
+    import live_trades
+    raw={w["wallet"].lower():w.pop("_pos",[]) for w in W}
+    live_trades.publish(W, raw)
+except Exception:
+    import traceback; traceback.print_exc()
+    print("live trades refresh failed; keeping previous data/live.json")
