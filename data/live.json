@@ -1,5 +1,90 @@
 [
  {
+  "n": "archaic",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/d_d_usepic_b134fd85-ac75-4474-b983-d5196b546338_1739983370667.webp",
+  "t": "Will Marine Le Pen be on the ballot for the 2027 French presidential election?",
+  "url": "https://polymarket.com/event/2027-french-presidential-election-who-will-be-on-the-ballot/will-marine-le-pen-be-on-the-ballot-for-the-2027-french-presidential-election",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-marine-le-pen-win-the-2027-french-presidential-election-8hg67PHSk27M.jpg",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.91,
+  "usd": 40.99,
+  "shares": 45.04,
+  "ts": 1794192477,
+  "held": 152.41,
+  "peak": 202.45,
+  "chip": "Against",
+  "split": "1/1",
+  "arrow": "",
+  "fills": [],
+  "id": 0
+ },
+ {
+  "n": "Car",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
+  "t": "Will Trump and Putin meet next in China?",
+  "url": "https://polymarket.com/event/where-will-trump-and-putin-meet-next-678/will-trump-and-putin-meet-next-in-china-784",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-trump-and-putin-meet-next-in-china-586-328-LXYSr0wiodpx.jpg",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.88,
+  "usd": 475.2,
+  "shares": 540.0,
+  "ts": 1794192396,
+  "held": 111.91,
+  "peak": 2573.0,
+  "chip": "Against",
+  "split": "2/2",
+  "arrow": "",
+  "fills": [],
+  "id": 1
+ },
+ {
+  "n": "archaic",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/d_d_usepic_b134fd85-ac75-4474-b983-d5196b546338_1739983370667.webp",
+  "t": "Will the U.S. invade Iran before 2027?",
+  "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-us-invade-iran-in-2025-0Eh3J0ku_Fbj.jpg",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.87,
+  "usd": 69.75,
+  "shares": 80.17,
+  "ts": 1794191944,
+  "held": 80.18,
+  "peak": 1437.45,
+  "chip": "With",
+  "split": "14/16",
+  "arrow": "",
+  "fills": [
+   {
+    "ts": 1794191862,
+    "usd": 2.84,
+    "shares": 3.26,
+    "price": 0.87
+   },
+   {
+    "ts": 1794191865,
+    "usd": 58.02,
+    "shares": 66.69,
+    "price": 0.87
+   },
+   {
+    "ts": 1794191940,
+    "usd": 4.45,
+    "shares": 5.11,
+    "price": 0.87
+   },
+   {
+    "ts": 1794191944,
+    "usd": 4.45,
+    "shares": 5.11,
+    "price": 0.87
+   }
+  ],
+  "id": 2
+ },
+ {
   "n": "Lolakis",
   "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
   "t": "Will Gavin Newsom win the 2028 Democratic presidential nomination?",
@@ -11,13 +96,13 @@
   "usd": 597.25,
   "shares": 6864.93,
   "ts": 1794191896,
-  "held": 6864.93,
-  "peak": 14139.56,
+  "held": 0.0,
+  "peak": 7274.63,
   "chip": "Against",
-  "split": "6/6",
-  "arrow": "",
+  "split": "5/5",
+  "arrow": "\u2193",
   "fills": [],
-  "id": 0
+  "id": 3
  },
  {
   "n": "MisTKy",
@@ -37,40 +122,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 1
- },
- {
-  "n": "archaic",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/d_d_usepic_b134fd85-ac75-4474-b983-d5196b546338_1739983370667.webp",
-  "t": "Will the U.S. invade Iran before 2027?",
-  "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-us-invade-iran-in-2025-0Eh3J0ku_Fbj.jpg",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.87,
-  "usd": 60.86,
-  "shares": 69.95,
-  "ts": 1794191865,
-  "held": 69.96,
-  "peak": 1437.45,
-  "chip": "With",
-  "split": "14/16",
-  "arrow": "",
-  "fills": [
-   {
-    "ts": 1794191862,
-    "usd": 2.84,
-    "shares": 3.26,
-    "price": 0.87
-   },
-   {
-    "ts": 1794191865,
-    "usd": 58.02,
-    "shares": 66.69,
-    "price": 0.87
-   }
-  ],
-  "id": 2
+  "id": 4
  },
  {
   "n": "Lolakis",
@@ -109,7 +161,7 @@
     "price": 0.91
    }
   ],
-  "id": 3
+  "id": 5
  },
  {
   "n": "Car",
@@ -129,7 +181,7 @@
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 4
+  "id": 6
  },
  {
   "n": "elmcap2",
@@ -149,7 +201,7 @@
   "split": "3/3",
   "arrow": "",
   "fills": [],
-  "id": 5
+  "id": 7
  },
  {
   "n": "Lolakis",
@@ -169,7 +221,7 @@
   "split": "2/3",
   "arrow": "\u2193",
   "fills": [],
-  "id": 6
+  "id": 8
  },
  {
   "n": "Car",
@@ -189,7 +241,7 @@
   "split": "4/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 7
+  "id": 9
  },
  {
   "n": "archaic",
@@ -209,7 +261,7 @@
   "split": "9/9",
   "arrow": "\u2191",
   "fills": [],
-  "id": 8
+  "id": 10
  },
  {
   "n": "MisTKy",
@@ -242,7 +294,7 @@
     "price": 0.51
    }
   ],
-  "id": 9
+  "id": 11
  },
  {
   "n": "archaic",
@@ -275,7 +327,7 @@
     "price": 0.023
    }
   ],
-  "id": 10
+  "id": 12
  },
  {
   "n": "elmcap2",
@@ -295,7 +347,7 @@
   "split": "2/3",
   "arrow": "\u2193",
   "fills": [],
-  "id": 11
+  "id": 13
  },
  {
   "n": "MisTKy",
@@ -315,7 +367,7 @@
   "split": "4/7",
   "arrow": "\u2191",
   "fills": [],
-  "id": 12
+  "id": 14
  },
  {
   "n": "Lolakis",
@@ -348,7 +400,7 @@
     "price": 0.17
    }
   ],
-  "id": 13
+  "id": 15
  },
  {
   "n": "archaic",
@@ -381,7 +433,7 @@
     "price": 0.929
    }
   ],
-  "id": 14
+  "id": 16
  },
  {
   "n": "Lolakis",
@@ -401,7 +453,7 @@
   "split": "4/7",
   "arrow": "\u2193",
   "fills": [],
-  "id": 15
+  "id": 17
  },
  {
   "n": "Lolakis",
@@ -421,7 +473,7 @@
   "split": "6/7",
   "arrow": "\u2191",
   "fills": [],
-  "id": 16
+  "id": 18
  },
  {
   "n": "paddaa",
@@ -441,7 +493,7 @@
   "split": "1/2",
   "arrow": "",
   "fills": [],
-  "id": 17
+  "id": 19
  },
  {
   "n": "paddaa",
@@ -461,7 +513,7 @@
   "split": "1/2",
   "arrow": "",
   "fills": [],
-  "id": 18
+  "id": 20
  },
  {
   "n": "PaddyAlpha",
@@ -481,7 +533,7 @@
   "split": "1/2",
   "arrow": "",
   "fills": [],
-  "id": 19
+  "id": 21
  },
  {
   "n": "Lolakis",
@@ -520,7 +572,7 @@
     "price": 0.89
    }
   ],
-  "id": 20
+  "id": 22
  },
  {
   "n": "MisTKy",
@@ -540,7 +592,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 21
+  "id": 23
  },
  {
   "n": "Lolakis",
@@ -560,7 +612,7 @@
   "split": "4/7",
   "arrow": "\u2193",
   "fills": [],
-  "id": 22
+  "id": 24
  },
  {
   "n": "Lolakis",
@@ -580,7 +632,7 @@
   "split": "5/6",
   "arrow": "\u2191",
   "fills": [],
-  "id": 23
+  "id": 25
  },
  {
   "n": "MisTKy",
@@ -600,7 +652,7 @@
   "split": "4/7",
   "arrow": "\u2191",
   "fills": [],
-  "id": 24
+  "id": 26
  },
  {
   "n": "archaic",
@@ -620,7 +672,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 25
+  "id": 27
  },
  {
   "n": "MisTKy",
@@ -640,7 +692,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 26
+  "id": 28
  },
  {
   "n": "Lolakis",
@@ -660,7 +712,7 @@
   "split": "2/3",
   "arrow": "\u2193",
   "fills": [],
-  "id": 27
+  "id": 29
  },
  {
   "n": "JJo",
@@ -693,7 +745,7 @@
     "price": 0.88
    }
   ],
-  "id": 28
+  "id": 30
  },
  {
   "n": "archaic",
@@ -707,13 +759,13 @@
   "usd": 878.13,
   "shares": 997.88,
   "ts": 1794189796,
-  "held": 69.96,
+  "held": 80.18,
   "peak": 1437.45,
   "chip": "Against",
   "split": "14/16",
   "arrow": "",
   "fills": [],
-  "id": 29
+  "id": 31
  },
  {
   "n": "paddaa",
@@ -746,7 +798,7 @@
     "price": 0.29
    }
   ],
-  "id": 30
+  "id": 32
  },
  {
   "n": "MisTKy",
@@ -797,7 +849,7 @@
     "price": 0.72
    }
   ],
-  "id": 31
+  "id": 33
  },
  {
   "n": "MisTKy",
@@ -817,7 +869,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 32
+  "id": 34
  },
  {
   "n": "StarMaster",
@@ -837,7 +889,7 @@
   "split": "4/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 33
+  "id": 35
  },
  {
   "n": "PaddyAlpha",
@@ -870,7 +922,7 @@
     "price": 0.2
    }
   ],
-  "id": 34
+  "id": 36
  },
  {
   "n": "Car",
@@ -890,7 +942,7 @@
   "split": "4/5",
   "arrow": "\u2191",
   "fills": [],
-  "id": 35
+  "id": 37
  },
  {
   "n": "Lolakis",
@@ -910,7 +962,7 @@
   "split": "4/5",
   "arrow": "",
   "fills": [],
-  "id": 36
+  "id": 38
  },
  {
   "n": "Lolakis",
@@ -943,7 +995,7 @@
     "price": 0.598
    }
   ],
-  "id": 37
+  "id": 39
  },
  {
   "n": "Lolakis",
@@ -1018,7 +1070,7 @@
     "price": 0.37
    }
   ],
-  "id": 38
+  "id": 40
  },
  {
   "n": "archaic",
@@ -1032,7 +1084,7 @@
   "usd": 769.75,
   "shares": 884.77,
   "ts": 1794188862,
-  "held": 69.96,
+  "held": 80.18,
   "peak": 1437.45,
   "chip": "With",
   "split": "14/16",
@@ -1051,7 +1103,7 @@
     "price": 0.87
    }
   ],
-  "id": 39
+  "id": 41
  },
  {
   "n": "MisTKy",
@@ -1102,7 +1154,7 @@
     "price": 0.72
    }
   ],
-  "id": 40
+  "id": 42
  },
  {
   "n": "paddaa",
@@ -1122,7 +1174,7 @@
   "split": "4/7",
   "arrow": "\u2191",
   "fills": [],
-  "id": 41
+  "id": 43
  },
  {
   "n": "Lolakis",
@@ -1142,7 +1194,7 @@
   "split": "4/5",
   "arrow": "\u2191",
   "fills": [],
-  "id": 42
+  "id": 44
  },
  {
   "n": "Car",
@@ -1162,7 +1214,7 @@
   "split": "6/8",
   "arrow": "\u2193",
   "fills": [],
-  "id": 43
+  "id": 45
  },
  {
   "n": "Lolakis",
@@ -1182,7 +1234,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 44
+  "id": 46
  },
  {
   "n": "MEPP",
@@ -1233,7 +1285,7 @@
     "price": 0.17
    }
   ],
-  "id": 45
+  "id": 47
  },
  {
   "n": "Car",
@@ -1253,7 +1305,7 @@
   "split": "4/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 46
+  "id": 48
  },
  {
   "n": "PaddyAlpha",
@@ -1286,7 +1338,7 @@
     "price": 0.18
    }
   ],
-  "id": 47
+  "id": 49
  },
  {
   "n": "Lolakis",
@@ -1306,7 +1358,7 @@
   "split": "2/3",
   "arrow": "\u2193",
   "fills": [],
-  "id": 48
+  "id": 50
  },
  {
   "n": "Lolakis",
@@ -1326,7 +1378,7 @@
   "split": "5/6",
   "arrow": "\u2191",
   "fills": [],
-  "id": 49
+  "id": 51
  },
  {
   "n": "archaic",
@@ -1340,13 +1392,13 @@
   "usd": 98.01,
   "shares": 112.65,
   "ts": 1794188494,
-  "held": 69.96,
+  "held": 80.18,
   "peak": 1437.45,
   "chip": "With",
   "split": "14/16",
   "arrow": "",
   "fills": [],
-  "id": 50
+  "id": 52
  },
  {
   "n": "Car",
@@ -1366,7 +1418,7 @@
   "split": "4/5",
   "arrow": "\u2191",
   "fills": [],
-  "id": 51
+  "id": 53
  },
  {
   "n": "MisTKy",
@@ -1399,7 +1451,7 @@
     "price": 0.77
    }
   ],
-  "id": 52
+  "id": 54
  },
  {
   "n": "elmcap2",
@@ -1419,7 +1471,7 @@
   "split": "2/3",
   "arrow": "\u2193",
   "fills": [],
-  "id": 53
+  "id": 55
  },
  {
   "n": "MisTKy",
@@ -1464,7 +1516,7 @@
     "price": 0.72
    }
   ],
-  "id": 54
+  "id": 56
  },
  {
   "n": "paddaa",
@@ -1484,7 +1536,7 @@
   "split": "4/7",
   "arrow": "\u2191",
   "fills": [],
-  "id": 55
+  "id": 57
  },
  {
   "n": "Lolakis",
@@ -1504,7 +1556,7 @@
   "split": "3/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 56
+  "id": 58
  },
  {
   "n": "MisTKy",
@@ -1524,7 +1576,7 @@
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 57
+  "id": 59
  },
  {
   "n": "Lolakis",
@@ -1544,7 +1596,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 58
+  "id": 60
  },
  {
   "n": "Car",
@@ -1564,7 +1616,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 59
+  "id": 61
  },
  {
   "n": "Car",
@@ -1578,13 +1630,13 @@
   "usd": 131.12,
   "shares": 149.0,
   "ts": 1794187782,
-  "held": 651.91,
+  "held": 111.91,
   "peak": 2573.0,
   "chip": "Against",
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 60
+  "id": 62
  },
  {
   "n": "vinii",
@@ -1604,7 +1656,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 61
+  "id": 63
  },
  {
   "n": "MisTKy",
@@ -1624,7 +1676,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 62
+  "id": 64
  },
  {
   "n": "Lolakis",
@@ -1644,7 +1696,7 @@
   "split": "2/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 63
+  "id": 65
  },
  {
   "n": "MisTKy",
@@ -1664,7 +1716,7 @@
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 64
+  "id": 66
  },
  {
   "n": "MisTKy",
@@ -1684,7 +1736,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 65
+  "id": 67
  },
  {
   "n": "Lolakis",
@@ -1704,7 +1756,7 @@
   "split": "1/1",
   "arrow": "\u2193",
   "fills": [],
-  "id": 66
+  "id": 68
  },
  {
   "n": "StarMaster",
@@ -1724,7 +1776,7 @@
   "split": "3/5",
   "arrow": "\u2191",
   "fills": [],
-  "id": 67
+  "id": 69
  },
  {
   "n": "Euan",
@@ -1744,7 +1796,7 @@
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 68
+  "id": 70
  },
  {
   "n": "Martinus-",
@@ -1764,7 +1816,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 69
+  "id": 71
  },
  {
   "n": "Martinus-",
@@ -1784,7 +1836,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 70
+  "id": 72
  },
  {
   "n": "Martinus-",
@@ -1804,7 +1856,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 71
+  "id": 73
  },
  {
   "n": "Martinus-",
@@ -1824,7 +1876,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 72
+  "id": 74
  },
  {
   "n": "Martinus-",
@@ -1844,7 +1896,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 73
+  "id": 75
  },
  {
   "n": "Martinus-",
@@ -1864,7 +1916,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 74
+  "id": 76
  },
  {
   "n": "Car",
@@ -1884,7 +1936,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 75
+  "id": 77
  },
  {
   "n": "MisTKy",
@@ -1904,7 +1956,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 76
+  "id": 78
  },
  {
   "n": "Lolakis",
@@ -1924,7 +1976,7 @@
   "split": "2/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 77
+  "id": 79
  },
  {
   "n": "Lolakis",
@@ -1944,7 +1996,7 @@
   "split": "3/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 78
+  "id": 80
  },
  {
   "n": "MEPP",
@@ -1964,7 +2016,7 @@
   "split": "3/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 79
+  "id": 81
  },
  {
   "n": "Martinus-",
@@ -1984,7 +2036,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 80
+  "id": 82
  },
  {
   "n": "Martinus-",
@@ -2004,7 +2056,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 81
+  "id": 83
  },
  {
   "n": "Martinus-",
@@ -2024,7 +2076,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 82
+  "id": 84
  },
  {
   "n": "Martinus-",
@@ -2044,7 +2096,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 83
+  "id": 85
  },
  {
   "n": "Martinus-",
@@ -2064,7 +2116,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 84
+  "id": 86
  },
  {
   "n": "archaic",
@@ -2078,13 +2130,13 @@
   "usd": 821.83,
   "shares": 933.9,
   "ts": 1794186292,
-  "held": 69.96,
+  "held": 80.18,
   "peak": 1437.45,
   "chip": "Against",
   "split": "14/16",
   "arrow": "",
   "fills": [],
-  "id": 85
+  "id": 87
  },
  {
   "n": "Lolakis",
@@ -2104,7 +2156,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 86
+  "id": 88
  },
  {
   "n": "whig",
@@ -2124,7 +2176,7 @@
   "split": "4/4",
   "arrow": "",
   "fills": [],
-  "id": 87
+  "id": 89
  },
  {
   "n": "paddaa",
@@ -2144,7 +2196,7 @@
   "split": "4/5",
   "arrow": "\u2191",
   "fills": [],
-  "id": 88
+  "id": 90
  },
  {
   "n": "MisTKy",
@@ -2225,7 +2277,7 @@
     "price": 0.72
    }
   ],
-  "id": 89
+  "id": 91
  },
  {
   "n": "Lolakis",
@@ -2245,7 +2297,7 @@
   "split": "2/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 90
+  "id": 92
  },
  {
   "n": "paddaa",
@@ -2278,7 +2330,7 @@
     "price": 0.29
    }
   ],
-  "id": 91
+  "id": 93
  },
  {
   "n": "Car",
@@ -2298,7 +2350,7 @@
   "split": "4/7",
   "arrow": "\u2191",
   "fills": [],
-  "id": 92
+  "id": 94
  },
  {
   "n": "paddaa",
@@ -2318,7 +2370,7 @@
   "split": "4/5",
   "arrow": "\u2191",
   "fills": [],
-  "id": 93
+  "id": 95
  },
  {
   "n": "paddaa",
@@ -2338,7 +2390,7 @@
   "split": "2/3",
   "arrow": "",
   "fills": [],
-  "id": 94
+  "id": 96
  },
  {
   "n": "archaic",
@@ -2358,7 +2410,7 @@
   "split": "1/2",
   "arrow": "",
   "fills": [],
-  "id": 95
+  "id": 97
  },
  {
   "n": "MEPP",
@@ -2378,7 +2430,7 @@
   "split": "5/7",
   "arrow": "\u2193",
   "fills": [],
-  "id": 96
+  "id": 98
  },
  {
   "n": "PMTraderAdam",
@@ -2411,7 +2463,7 @@
     "price": 0.86
    }
   ],
-  "id": 97
+  "id": 99
  },
  {
   "n": "Car",
@@ -2431,7 +2483,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 98
+  "id": 100
  },
  {
   "n": "Lolakis",
@@ -2451,7 +2503,7 @@
   "split": "1/1",
   "arrow": "\u2191",
   "fills": [],
-  "id": 99
+  "id": 101
  },
  {
   "n": "Car",
@@ -2471,7 +2523,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 100
+  "id": 102
  },
  {
   "n": "archaic",
@@ -2491,7 +2543,7 @@
   "split": "1/1",
   "arrow": "\u2191",
   "fills": [],
-  "id": 101
+  "id": 103
  },
  {
   "n": "Lolakis",
@@ -2511,7 +2563,7 @@
   "split": "4/5",
   "arrow": "\u2193",
   "fills": [],
-  "id": 102
+  "id": 104
  },
  {
   "n": "Car",
@@ -2544,7 +2596,7 @@
     "price": 0.6551
    }
   ],
-  "id": 103
+  "id": 105
  },
  {
   "n": "PaddyAlpha",
@@ -2564,7 +2616,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 104
+  "id": 106
  },
  {
   "n": "Lolakis",
@@ -2584,7 +2636,7 @@
   "split": "2/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 105
+  "id": 107
  },
  {
   "n": "occasionalAwareness",
@@ -2604,7 +2656,7 @@
   "split": "2/3",
   "arrow": "",
   "fills": [],
-  "id": 106
+  "id": 108
  },
  {
   "n": "Martinus-",
@@ -2624,7 +2676,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 107
+  "id": 109
  },
  {
   "n": "Martinus-",
@@ -2644,7 +2696,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 108
+  "id": 110
  },
  {
   "n": "Martinus-",
@@ -2664,7 +2716,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 109
+  "id": 111
  },
  {
   "n": "Car",
@@ -2684,7 +2736,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 110
+  "id": 112
  },
  {
   "n": "Lolakis",
@@ -2704,7 +2756,7 @@
   "split": "2/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 111
+  "id": 113
  },
  {
   "n": "Lolakis",
@@ -2737,7 +2789,7 @@
     "price": 0.86
    }
   ],
-  "id": 112
+  "id": 114
  },
  {
   "n": "archaic",
@@ -2770,7 +2822,7 @@
     "price": 0.026
    }
   ],
-  "id": 113
+  "id": 115
  },
  {
   "n": "Trump2028",
@@ -2790,7 +2842,7 @@
   "split": "3/4",
   "arrow": "",
   "fills": [],
-  "id": 114
+  "id": 116
  },
  {
   "n": "Lolakis",
@@ -2810,7 +2862,7 @@
   "split": "6/7",
   "arrow": "\u2191",
   "fills": [],
-  "id": 115
+  "id": 117
  },
  {
   "n": "archaic",
@@ -2824,13 +2876,13 @@
   "usd": 812.49,
   "shares": 933.9,
   "ts": 1794184833,
-  "held": 69.96,
+  "held": 80.18,
   "peak": 1437.45,
   "chip": "With",
   "split": "14/16",
   "arrow": "",
   "fills": [],
-  "id": 116
+  "id": 118
  },
  {
   "n": "classified",
@@ -2848,46 +2900,6 @@
   "peak": 57405.68,
   "chip": "With",
   "split": "2/3",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 117
- },
- {
-  "n": "archaic",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/d_d_usepic_b134fd85-ac75-4474-b983-d5196b546338_1739983370667.webp",
-  "t": "Aleksandar Vu\u010di\u0107 arrested by November 30, 2026?",
-  "url": "https://polymarket.com/event/aleksandar-vucic-arrested-byptptpt/aleksandar-vucic-arrested-by-november-30-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/vucic-sad-00ff34a947.png",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9307,
-  "usd": 202.89,
-  "shares": 218.0,
-  "ts": 1794184746,
-  "held": 1001.21,
-  "peak": 1001.21,
-  "chip": "First",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 118
- },
- {
-  "n": "Lolakis",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
-  "t": "Jensen Huang divorce in 2026?",
-  "url": "https://polymarket.com/event/jensen-huang-divorce-in-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/jensen-huang-divorce-in-2026-TwqKa0CMsYm6.jpg",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.89,
-  "usd": 222.5,
-  "shares": 250.0,
-  "ts": 1794184746,
-  "held": 250.0,
-  "peak": 250.0,
-  "chip": "With",
-  "split": "1/1",
   "arrow": "\u2191",
   "fills": [],
   "id": 119
