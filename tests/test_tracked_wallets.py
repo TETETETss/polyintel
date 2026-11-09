@@ -13,13 +13,15 @@ WALLETS = ROOT / "data" / "wallets.json"
 ADDR = re.compile(r"0x[0-9a-fA-F]{40}$")
 
 # Live gamma public-profile name + proxyWallet, checked 2026-11-07.
-# Lolakis was already tracked; the other five were not.
+# Lolakis was already tracked. lamyk and Martinus- were removed 2026-11-09.
 REQUESTED = {
     "0x154794795d978c5890b3f69264311f0bd966d066": "PMTraderAdam",
     "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d": "PaddyAlpha",
     "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9": "Lolakis",
-    "0xc004b035b67be284e0d1db56c39e865df6cac095": "lamyk",
     "0x0787a58e205a70320db638113fe8da18c8800ca3": "melonmanm",
+}
+REMOVED = {
+    "0xc004b035b67be284e0d1db56c39e865df6cac095": "lamyk",
     "0xc4c46d8e1f58c360c4607de7f70f89880f9c393d": "Martinus-",
 }
 ALREADY_TRACKED = {
@@ -79,12 +81,18 @@ class TrackedWalletsTest(unittest.TestCase):
             "wallet": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
         }])
 
+    def test_removed_wallets_absent(self):
+        names = {e["name"] for e in self.entries}
+        for addr, name in REMOVED.items():
+            self.assertNotIn(addr, self.by_addr)
+            self.assertNotIn(name, names)
+
     def test_distinct_count_before_and_after(self):
         added = set(REQUESTED) - set(ALREADY_TRACKED)
-        self.assertEqual(len(added), 5)
+        self.assertEqual(len(added), 3)
         self.assertEqual(len(self.entries), BEFORE_DISTINCT + len(added))
         self.assertEqual(len(self.by_addr), BEFORE_DISTINCT + len(added))
-        self.assertEqual(len(self.by_addr), 41)
+        self.assertEqual(len(self.by_addr), 39)
 
     def test_existing_entries_are_addresses_not_usernames(self):
         for entry in self.entries:
