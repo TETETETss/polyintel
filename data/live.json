@@ -10,11 +10,129 @@
   "side": "SELL",
   "out": "No",
   "price": 0.54,
-  "usd": 7.0,
-  "shares": 12.96,
-  "ts": 1794300472,
-  "held": 899.76,
-  "heldUsd": 481.37,
+  "usd": 1.0,
+  "shares": 1.85,
+  "ts": 1794300921,
+  "held": 892.35,
+  "heldUsd": 477.41,
+  "peak": 1988.68,
+  "chip": "With",
+  "split": "2/2",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 0
+ },
+ {
+  "n": "MisTKy",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5070263-f290eb6b-11db-423d-b532-cd773195842b.jpg",
+  "t": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+  "url": "https://polymarket.com/event/fed-decision-in-december-20260729232808632/will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/fed-decision-in-september-762-c4RyWuxRPo1L.jpg",
+  "cid": "0x8a4196617dcb703e49d9bb36d3847bf6a75fd364dbd19f8d408ac944bf1a03d8",
+  "slug": "will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.8,
+  "usd": 168.58,
+  "shares": 210.72,
+  "ts": 1794300913,
+  "held": 26497.92,
+  "heldUsd": 20800.87,
+  "peak": 50562.64,
+  "chip": "Against",
+  "split": "2/2",
+  "arrow": "\u2191",
+  "fills": [
+   {
+    "ts": 1794300822,
+    "usd": 167.58,
+    "shares": 209.47,
+    "price": 0.8
+   },
+   {
+    "ts": 1794300913,
+    "usd": 1.0,
+    "shares": 1.25,
+    "price": 0.8
+   }
+  ],
+  "id": 1
+ },
+ {
+  "n": "Lolakis",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
+  "t": "US-Iran Hormuz Agreement by December 31?",
+  "url": "https://polymarket.com/event/us-iran-hormuz-agreement-byptptpt-20260803235957575/us-iran-hormuz-agreement-by-december-31",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-iran-hormuz-agreement-byptptpt-20260803235957575-P9NU_cJydPqS.png",
+  "cid": "0x664f36528d54361c2579fd5ddc8072a831e7039ac849615d6aafcafd256aa9ec",
+  "slug": "us-iran-hormuz-agreement-by-december-31",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.34,
+  "usd": 68.0,
+  "shares": 199.99,
+  "ts": 1794300780,
+  "held": 3687.91,
+  "heldUsd": 1235.45,
+  "peak": 4175.8,
+  "chip": "Against",
+  "split": "3/6",
+  "arrow": "",
+  "fills": [],
+  "id": 2
+ },
+ {
+  "n": "Lolakis",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
+  "t": "Will there be no change in Fed interest rates after the December 2026 meeting?",
+  "url": "https://polymarket.com/event/fed-decision-in-december-20260729232808632/will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/fed-decision-in-september-762-c4RyWuxRPo1L.jpg",
+  "cid": "0x723822eb2b143cee54c0bd7c1efba322b21f0051984c266df8879c394f1011c0",
+  "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.81,
+  "usd": 8.91,
+  "shares": 11.0,
+  "ts": 1794300687,
+  "held": 6363.13,
+  "heldUsd": 5122.32,
+  "peak": 9037.4,
+  "chip": "With",
+  "split": "3/4",
+  "arrow": "\u2193",
+  "fills": [
+   {
+    "ts": 1794300591,
+    "usd": 4.05,
+    "shares": 5.0,
+    "price": 0.81
+   },
+   {
+    "ts": 1794300687,
+    "usd": 4.86,
+    "shares": 6.0,
+    "price": 0.81
+   }
+  ],
+  "id": 3
+ },
+ {
+  "n": "Lolakis",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
+  "t": "US x Iran Effective Ceasefire by November 15?",
+  "url": "https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108/us-x-iran-effective-ceasefire-by-november-15-20261108",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-strikes-iran-by-october-3-2sVnIHq3sjqF.jpg",
+  "cid": "0x0f4cc90457bc2a22fdc4dd705e6941cd719015ab117af3e55bdbdb1dfa13dc90",
+  "slug": "us-x-iran-effective-ceasefire-by-november-15-20261108",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.54,
+  "usd": 10.0,
+  "shares": 18.52,
+  "ts": 1794300652,
+  "held": 892.35,
+  "heldUsd": 477.41,
   "peak": 1988.68,
   "chip": "With",
   "split": "2/2",
@@ -61,9 +179,50 @@
     "usd": 1.0,
     "shares": 1.85,
     "price": 0.54
+   },
+   {
+    "ts": 1794300586,
+    "usd": 1.0,
+    "shares": 1.85,
+    "price": 0.54
+   },
+   {
+    "ts": 1794300591,
+    "usd": 1.0,
+    "shares": 1.85,
+    "price": 0.54
+   },
+   {
+    "ts": 1794300652,
+    "usd": 1.0,
+    "shares": 1.85,
+    "price": 0.54
    }
   ],
-  "id": 0
+  "id": 4
+ },
+ {
+  "n": "Lolakis",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
+  "t": "Israel x Iran ceasefire continues through November 15?",
+  "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963/israel-x-iran-ceasefire-continues-through-november-15",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963-FEQHrNm5Q53X.jpg",
+  "cid": "0xca394e0db041f91ac2d69f3ea06efdfc8643acb0d2751283bd594e7b8bd581f9",
+  "slug": "israel-x-iran-ceasefire-continues-through-november-15",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.031,
+  "usd": 51.36,
+  "shares": 1656.87,
+  "ts": 1794300544,
+  "held": 2262.86,
+  "heldUsd": 67.89,
+  "peak": 5000.0,
+  "chip": "With",
+  "split": "5/6",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 5
  },
  {
   "n": "JJo",
@@ -80,13 +239,13 @@
   "shares": 2680.51,
   "ts": 1794300462,
   "held": 2680.51,
-  "heldUsd": 2677.83,
+  "heldUsd": 2676.49,
   "peak": 2680.51,
   "chip": "With",
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 1
+  "id": 6
  },
  {
   "n": "Lolakis",
@@ -134,7 +293,7 @@
     "price": 0.41
    }
   ],
-  "id": 2
+  "id": 7
  },
  {
   "n": "Car",
@@ -176,7 +335,7 @@
     "price": 0.65
    }
   ],
-  "id": 3
+  "id": 8
  },
  {
   "n": "PaddyAlpha",
@@ -199,7 +358,7 @@
   "split": "1/1",
   "arrow": "\u2193",
   "fills": [],
-  "id": 4
+  "id": 9
  },
  {
   "n": "PaddyAlpha",
@@ -222,7 +381,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 5
+  "id": 10
  },
  {
   "n": "Lolakis",
@@ -245,7 +404,7 @@
   "split": "3/5",
   "arrow": "",
   "fills": [],
-  "id": 6
+  "id": 11
  },
  {
   "n": "JJo",
@@ -268,7 +427,7 @@
   "split": "13/15",
   "arrow": "",
   "fills": [],
-  "id": 7
+  "id": 12
  },
  {
   "n": "PaddyAlpha",
@@ -291,7 +450,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 8
+  "id": 13
  },
  {
   "n": "JJo",
@@ -308,13 +467,13 @@
   "shares": 484.89,
   "ts": 1794299733,
   "held": 484.89,
-  "heldUsd": 329.48,
+  "heldUsd": 363.18,
   "peak": 484.89,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 9
+  "id": 14
  },
  {
   "n": "Lolakis",
@@ -356,7 +515,7 @@
     "price": 0.68
    }
   ],
-  "id": 10
+  "id": 15
  },
  {
   "n": "Lolakis",
@@ -379,7 +538,7 @@
   "split": "3/5",
   "arrow": "",
   "fills": [],
-  "id": 11
+  "id": 16
  },
  {
   "n": "PaddyAlpha",
@@ -402,7 +561,7 @@
   "split": "6/7",
   "arrow": "\u2193",
   "fills": [],
-  "id": 12
+  "id": 17
  },
  {
   "n": "Lolakis",
@@ -438,7 +597,7 @@
     "price": 0.91
    }
   ],
-  "id": 13
+  "id": 18
  },
  {
   "n": "Lolakis",
@@ -454,14 +613,14 @@
   "usd": 1.0,
   "shares": 1.85,
   "ts": 1794299238,
-  "held": 899.76,
-  "heldUsd": 481.37,
+  "held": 892.35,
+  "heldUsd": 477.41,
   "peak": 1988.68,
   "chip": "With",
   "split": "2/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 14
+  "id": 19
  },
  {
   "n": "Car",
@@ -484,7 +643,7 @@
   "split": "2/4",
   "arrow": "",
   "fills": [],
-  "id": 15
+  "id": 20
  },
  {
   "n": "Lolakis",
@@ -500,14 +659,14 @@
   "usd": 1.0,
   "shares": 1.85,
   "ts": 1794299022,
-  "held": 899.76,
-  "heldUsd": 481.37,
+  "held": 892.35,
+  "heldUsd": 477.41,
   "peak": 1988.68,
   "chip": "With",
   "split": "2/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 16
+  "id": 21
  },
  {
   "n": "Lolakis",
@@ -543,7 +702,7 @@
     "price": 0.68
    }
   ],
-  "id": 17
+  "id": 22
  },
  {
   "n": "PaddyAlpha",
@@ -566,7 +725,7 @@
   "split": "2/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 18
+  "id": 23
  },
  {
   "n": "Lolakis",
@@ -582,8 +741,8 @@
   "usd": 45.08,
   "shares": 132.59,
   "ts": 1794298984,
-  "held": 3887.9,
-  "heldUsd": 1302.45,
+  "held": 3687.91,
+  "heldUsd": 1235.45,
   "peak": 4175.8,
   "chip": "Against",
   "split": "3/6",
@@ -602,7 +761,7 @@
     "price": 0.34
    }
   ],
-  "id": 19
+  "id": 24
  },
  {
   "n": "Lolakis",
@@ -618,14 +777,14 @@
   "usd": 1.0,
   "shares": 2.94,
   "ts": 1794298848,
-  "held": 3887.9,
-  "heldUsd": 1302.45,
+  "held": 3687.91,
+  "heldUsd": 1235.45,
   "peak": 4175.8,
   "chip": "Against",
   "split": "3/6",
   "arrow": "",
   "fills": [],
-  "id": 20
+  "id": 25
  },
  {
   "n": "Lolakis",
@@ -641,8 +800,8 @@
   "usd": 2.0,
   "shares": 3.7,
   "ts": 1794298822,
-  "held": 899.76,
-  "heldUsd": 481.37,
+  "held": 892.35,
+  "heldUsd": 477.41,
   "peak": 1988.68,
   "chip": "With",
   "split": "2/2",
@@ -661,7 +820,7 @@
     "price": 0.54
    }
   ],
-  "id": 21
+  "id": 26
  },
  {
   "n": "JJo",
@@ -684,7 +843,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 22
+  "id": 27
  },
  {
   "n": "PaddyAlpha",
@@ -707,7 +866,7 @@
   "split": "3/5",
   "arrow": "\u2191",
   "fills": [],
-  "id": 23
+  "id": 28
  },
  {
   "n": "Lolakis",
@@ -723,8 +882,8 @@
   "usd": 5.0,
   "shares": 9.26,
   "ts": 1794298644,
-  "held": 899.76,
-  "heldUsd": 481.37,
+  "held": 892.35,
+  "heldUsd": 477.41,
   "peak": 1988.68,
   "chip": "With",
   "split": "2/2",
@@ -761,7 +920,7 @@
     "price": 0.54
    }
   ],
-  "id": 24
+  "id": 29
  },
  {
   "n": "Lolakis",
@@ -784,7 +943,7 @@
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 25
+  "id": 30
  },
  {
   "n": "PaddyAlpha",
@@ -807,7 +966,7 @@
   "split": "4/7",
   "arrow": "",
   "fills": [],
-  "id": 26
+  "id": 31
  },
  {
   "n": "Lolakis",
@@ -823,14 +982,14 @@
   "usd": 2.66,
   "shares": 7.81,
   "ts": 1794298593,
-  "held": 3887.9,
-  "heldUsd": 1302.45,
+  "held": 3687.91,
+  "heldUsd": 1235.45,
   "peak": 4175.8,
   "chip": "Against",
   "split": "3/6",
   "arrow": "",
   "fills": [],
-  "id": 27
+  "id": 32
  },
  {
   "n": "Lolakis",
@@ -853,7 +1012,7 @@
   "split": "9/11",
   "arrow": "\u2193",
   "fills": [],
-  "id": 28
+  "id": 33
  },
  {
   "n": "MisTKy",
@@ -869,14 +1028,14 @@
   "usd": 5.0,
   "shares": 6.25,
   "ts": 1794298513,
-  "held": 26708.64,
-  "heldUsd": 20966.29,
+  "held": 26497.92,
+  "heldUsd": 20800.87,
   "peak": 50562.64,
   "chip": "Against",
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 29
+  "id": 34
  },
  {
   "n": "PaddyAlpha",
@@ -899,7 +1058,7 @@
   "split": "2/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 30
+  "id": 35
  },
  {
   "n": "Car",
@@ -922,7 +1081,7 @@
   "split": "5/9",
   "arrow": "\u2193",
   "fills": [],
-  "id": 31
+  "id": 36
  },
  {
   "n": "MisTKy",
@@ -945,7 +1104,7 @@
   "split": "2/3",
   "arrow": "",
   "fills": [],
-  "id": 32
+  "id": 37
  },
  {
   "n": "MisTKy",
@@ -961,14 +1120,14 @@
   "usd": 4.76,
   "shares": 5.95,
   "ts": 1794298192,
-  "held": 26708.64,
-  "heldUsd": 20966.29,
+  "held": 26497.92,
+  "heldUsd": 20800.87,
   "peak": 50562.64,
   "chip": "Against",
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 33
+  "id": 38
  },
  {
   "n": "Lolakis",
@@ -991,7 +1150,7 @@
   "split": "3/5",
   "arrow": "",
   "fills": [],
-  "id": 34
+  "id": 39
  },
  {
   "n": "Lolakis",
@@ -1007,14 +1166,14 @@
   "usd": 22.36,
   "shares": 41.41,
   "ts": 1794298131,
-  "held": 899.76,
-  "heldUsd": 481.37,
+  "held": 892.35,
+  "heldUsd": 477.41,
   "peak": 1988.68,
   "chip": "With",
   "split": "2/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 35
+  "id": 40
  },
  {
   "n": "Lolakis",
@@ -1037,7 +1196,7 @@
   "split": "3/6",
   "arrow": "\u2193",
   "fills": [],
-  "id": 36
+  "id": 41
  },
  {
   "n": "Lolakis",
@@ -1060,7 +1219,7 @@
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 37
+  "id": 42
  },
  {
   "n": "Lolakis",
@@ -1083,7 +1242,7 @@
   "split": "5/6",
   "arrow": "\u2191",
   "fills": [],
-  "id": 38
+  "id": 43
  },
  {
   "n": "classified",
@@ -1106,7 +1265,7 @@
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 39
+  "id": 44
  },
  {
   "n": "cashy",
@@ -1123,13 +1282,13 @@
   "shares": 1290.36,
   "ts": 1794297796,
   "held": 1290.36,
-  "heldUsd": 1129.07,
+  "heldUsd": 1148.42,
   "peak": 1290.36,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 40
+  "id": 45
  },
  {
   "n": "Lolakis",
@@ -1145,14 +1304,14 @@
   "usd": 50.0,
   "shares": 92.59,
   "ts": 1794297531,
-  "held": 899.76,
-  "heldUsd": 481.37,
+  "held": 892.35,
+  "heldUsd": 477.41,
   "peak": 1988.68,
   "chip": "With",
   "split": "2/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 41
+  "id": 46
  },
  {
   "n": "MisTKy",
@@ -1168,14 +1327,14 @@
   "usd": 1.0,
   "shares": 1.25,
   "ts": 1794297427,
-  "held": 26708.64,
-  "heldUsd": 20966.29,
+  "held": 26497.92,
+  "heldUsd": 20800.87,
   "peak": 50562.64,
   "chip": "Against",
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 42
+  "id": 47
  },
  {
   "n": "MisTKy",
@@ -1198,7 +1357,7 @@
   "split": "6/6",
   "arrow": "\u2191",
   "fills": [],
-  "id": 43
+  "id": 48
  },
  {
   "n": "Lolakis",
@@ -1214,8 +1373,8 @@
   "usd": 5.67,
   "shares": 7.0,
   "ts": 1794297316,
-  "held": 6374.13,
-  "heldUsd": 5131.17,
+  "held": 6363.13,
+  "heldUsd": 5122.32,
   "peak": 9037.4,
   "chip": "With",
   "split": "3/4",
@@ -1234,7 +1393,7 @@
     "price": 0.81
    }
   ],
-  "id": 44
+  "id": 49
  },
  {
   "n": "Lolakis",
@@ -1257,7 +1416,7 @@
   "split": "3/5",
   "arrow": "",
   "fills": [],
-  "id": 45
+  "id": 50
  },
  {
   "n": "MisTKy",
@@ -1280,7 +1439,7 @@
   "split": "4/7",
   "arrow": "\u2191",
   "fills": [],
-  "id": 46
+  "id": 51
  },
  {
   "n": "Lolakis",
@@ -1296,8 +1455,8 @@
   "usd": 52.0,
   "shares": 96.3,
   "ts": 1794296842,
-  "held": 899.76,
-  "heldUsd": 481.37,
+  "held": 892.35,
+  "heldUsd": 477.41,
   "peak": 1988.68,
   "chip": "With",
   "split": "2/2",
@@ -1322,7 +1481,7 @@
     "price": 0.54
    }
   ],
-  "id": 47
+  "id": 52
  },
  {
   "n": "PaddyAlpha",
@@ -1345,7 +1504,7 @@
   "split": "1/1",
   "arrow": "\u2193",
   "fills": [],
-  "id": 48
+  "id": 53
  },
  {
   "n": "Ryxon21",
@@ -1368,7 +1527,7 @@
   "split": "3/3",
   "arrow": "",
   "fills": [],
-  "id": 49
+  "id": 54
  },
  {
   "n": "Car",
@@ -1391,7 +1550,7 @@
   "split": "6/9",
   "arrow": "\u2193",
   "fills": [],
-  "id": 50
+  "id": 55
  },
  {
   "n": "classified",
@@ -1414,7 +1573,7 @@
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 51
+  "id": 56
  },
  {
   "n": "MisTKy",
@@ -1437,7 +1596,7 @@
   "split": "4/7",
   "arrow": "\u2191",
   "fills": [],
-  "id": 52
+  "id": 57
  },
  {
   "n": "MisTKy",
@@ -1460,7 +1619,7 @@
   "split": "4/7",
   "arrow": "\u2191",
   "fills": [],
-  "id": 53
+  "id": 58
  },
  {
   "n": "M888",
@@ -1483,7 +1642,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 54
+  "id": 59
  },
  {
   "n": "Car",
@@ -1506,7 +1665,7 @@
   "split": "6/9",
   "arrow": "\u2193",
   "fills": [],
-  "id": 55
+  "id": 60
  },
  {
   "n": "Lolakis",
@@ -1542,7 +1701,7 @@
     "price": 0.93
    }
   ],
-  "id": 56
+  "id": 61
  },
  {
   "n": "MisTKy",
@@ -1584,7 +1743,7 @@
     "price": 0.8
    }
   ],
-  "id": 57
+  "id": 62
  },
  {
   "n": "Lolakis",
@@ -1600,14 +1759,14 @@
   "usd": 5.0,
   "shares": 6.17,
   "ts": 1794296032,
-  "held": 6374.13,
-  "heldUsd": 5131.17,
+  "held": 6363.13,
+  "heldUsd": 5122.32,
   "peak": 9037.4,
   "chip": "With",
   "split": "3/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 58
+  "id": 63
  },
  {
   "n": "Lolakis",
@@ -1623,8 +1782,8 @@
   "usd": 2.0,
   "shares": 3.7,
   "ts": 1794295998,
-  "held": 899.76,
-  "heldUsd": 481.37,
+  "held": 892.35,
+  "heldUsd": 477.41,
   "peak": 1988.68,
   "chip": "With",
   "split": "2/2",
@@ -1643,7 +1802,7 @@
     "price": 0.54
    }
   ],
-  "id": 59
+  "id": 64
  },
  {
   "n": "paddaa",
@@ -1666,7 +1825,7 @@
   "split": "3/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 60
+  "id": 65
  },
  {
   "n": "Lolakis",
@@ -1702,7 +1861,7 @@
     "price": 0.77
    }
   ],
-  "id": 61
+  "id": 66
  },
  {
   "n": "classified",
@@ -1725,7 +1884,7 @@
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 62
+  "id": 67
  },
  {
   "n": "Lolakis",
@@ -1748,7 +1907,7 @@
   "split": "9/11",
   "arrow": "\u2193",
   "fills": [],
-  "id": 63
+  "id": 68
  },
  {
   "n": "M888",
@@ -1771,7 +1930,7 @@
   "split": "6/9",
   "arrow": "\u2193",
   "fills": [],
-  "id": 64
+  "id": 69
  },
  {
   "n": "MisTKy",
@@ -1813,7 +1972,7 @@
     "price": 0.8
    }
   ],
-  "id": 65
+  "id": 70
  },
  {
   "n": "Lolakis",
@@ -1849,7 +2008,7 @@
     "price": 0.34
    }
   ],
-  "id": 66
+  "id": 71
  },
  {
   "n": "Lolakis",
@@ -1865,9 +2024,9 @@
   "usd": 27.16,
   "shares": 1071.21,
   "ts": 1794295744,
-  "held": 3944.73,
-  "heldUsd": 116.37,
-  "peak": 5000.01,
+  "held": 2262.86,
+  "heldUsd": 67.89,
+  "peak": 5000.0,
   "chip": "Against",
   "split": "5/6",
   "arrow": "\u2193",
@@ -1885,7 +2044,7 @@
     "price": 0.026
    }
   ],
-  "id": 67
+  "id": 72
  },
  {
   "n": "MisTKy",
@@ -1908,7 +2067,7 @@
   "split": "4/7",
   "arrow": "\u2191",
   "fills": [],
-  "id": 68
+  "id": 73
  },
  {
   "n": "Lolakis",
@@ -1962,7 +2121,7 @@
     "price": 0.8
    }
   ],
-  "id": 69
+  "id": 74
  },
  {
   "n": "Lolakis",
@@ -1978,14 +2137,14 @@
   "usd": 1.0,
   "shares": 1.85,
   "ts": 1794295668,
-  "held": 899.76,
-  "heldUsd": 481.37,
+  "held": 892.35,
+  "heldUsd": 477.41,
   "peak": 1988.68,
   "chip": "With",
   "split": "2/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 70
+  "id": 75
  },
  {
   "n": "PaddyAlpha",
@@ -2008,7 +2167,7 @@
   "split": "4/7",
   "arrow": "\u2191",
   "fills": [],
-  "id": 71
+  "id": 76
  },
  {
   "n": "Lolakis",
@@ -2024,8 +2183,8 @@
   "usd": 3.0,
   "shares": 5.56,
   "ts": 1794295542,
-  "held": 899.76,
-  "heldUsd": 481.37,
+  "held": 892.35,
+  "heldUsd": 477.41,
   "peak": 1988.68,
   "chip": "With",
   "split": "2/2",
@@ -2050,7 +2209,7 @@
     "price": 0.54
    }
   ],
-  "id": 72
+  "id": 77
  },
  {
   "n": "Car",
@@ -2073,7 +2232,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 73
+  "id": 78
  },
  {
   "n": "Lolakis",
@@ -2096,7 +2255,7 @@
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 74
+  "id": 79
  },
  {
   "n": "Car",
@@ -2119,7 +2278,7 @@
   "split": "5/9",
   "arrow": "\u2193",
   "fills": [],
-  "id": 75
+  "id": 80
  },
  {
   "n": "PaddyAlpha",
@@ -2142,7 +2301,7 @@
   "split": "6/9",
   "arrow": "\u2193",
   "fills": [],
-  "id": 76
+  "id": 81
  },
  {
   "n": "Lolakis",
@@ -2165,7 +2324,7 @@
   "split": "3/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 77
+  "id": 82
  },
  {
   "n": "Lolakis",
@@ -2181,14 +2340,14 @@
   "usd": 49.15,
   "shares": 144.56,
   "ts": 1794295329,
-  "held": 3887.9,
-  "heldUsd": 1302.45,
+  "held": 3687.91,
+  "heldUsd": 1235.45,
   "peak": 4175.8,
   "chip": "Against",
   "split": "3/6",
   "arrow": "",
   "fills": [],
-  "id": 78
+  "id": 83
  },
  {
   "n": "classified",
@@ -2205,13 +2364,13 @@
   "shares": 507.0,
   "ts": 1794295323,
   "held": 1837.2,
-  "heldUsd": 1783.01,
+  "heldUsd": 1782.09,
   "peak": 15539.81,
   "chip": "Against",
   "split": "5/6",
   "arrow": "\u2193",
   "fills": [],
-  "id": 79
+  "id": 84
  },
  {
   "n": "PaddyAlpha",
@@ -2234,7 +2393,7 @@
   "split": "3/5",
   "arrow": "\u2191",
   "fills": [],
-  "id": 80
+  "id": 85
  },
  {
   "n": "Lolakis",
@@ -2270,7 +2429,7 @@
     "price": 0.41
    }
   ],
-  "id": 81
+  "id": 86
  },
  {
   "n": "Lolakis",
@@ -2330,7 +2489,7 @@
     "price": 0.93
    }
   ],
-  "id": 82
+  "id": 87
  },
  {
   "n": "MisTKy",
@@ -2378,7 +2537,7 @@
     "price": 0.6
    }
   ],
-  "id": 83
+  "id": 88
  },
  {
   "n": "Lolakis",
@@ -2394,8 +2553,8 @@
   "usd": 3.0,
   "shares": 5.56,
   "ts": 1794295252,
-  "held": 899.76,
-  "heldUsd": 481.37,
+  "held": 892.35,
+  "heldUsd": 477.41,
   "peak": 1988.68,
   "chip": "With",
   "split": "2/2",
@@ -2420,7 +2579,7 @@
     "price": 0.54
    }
   ],
-  "id": 84
+  "id": 89
  },
  {
   "n": "Lolakis",
@@ -2443,7 +2602,7 @@
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 85
+  "id": 90
  },
  {
   "n": "PaddyAlpha",
@@ -2479,7 +2638,7 @@
     "price": 0.045
    }
   ],
-  "id": 86
+  "id": 91
  },
  {
   "n": "PaddyAlpha",
@@ -2502,7 +2661,7 @@
   "split": "6/8",
   "arrow": "",
   "fills": [],
-  "id": 87
+  "id": 92
  },
  {
   "n": "PaddyAlpha",
@@ -2538,7 +2697,7 @@
     "price": 0.94
    }
   ],
-  "id": 88
+  "id": 93
  },
  {
   "n": "Lolakis",
@@ -2561,7 +2720,7 @@
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 89
+  "id": 94
  },
  {
   "n": "paddaa",
@@ -2584,7 +2743,7 @@
   "split": "3/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 90
+  "id": 95
  },
  {
   "n": "Lolakis",
@@ -2620,7 +2779,7 @@
     "price": 0.724
    }
   ],
-  "id": 91
+  "id": 96
  },
  {
   "n": "Lolakis",
@@ -2643,7 +2802,7 @@
   "split": "9/12",
   "arrow": "\u2191",
   "fills": [],
-  "id": 92
+  "id": 97
  },
  {
   "n": "Lolakis",
@@ -2659,14 +2818,14 @@
   "usd": 1.0,
   "shares": 1.85,
   "ts": 1794294828,
-  "held": 899.76,
-  "heldUsd": 481.37,
+  "held": 892.35,
+  "heldUsd": 477.41,
   "peak": 1988.68,
   "chip": "With",
   "split": "2/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 93
+  "id": 98
  },
  {
   "n": "PaddyAlpha",
@@ -2689,7 +2848,7 @@
   "split": "3/5",
   "arrow": "\u2191",
   "fills": [],
-  "id": 94
+  "id": 99
  },
  {
   "n": "PaddyAlpha",
@@ -2712,7 +2871,7 @@
   "split": "6/9",
   "arrow": "\u2193",
   "fills": [],
-  "id": 95
+  "id": 100
  },
  {
   "n": "Lolakis",
@@ -2735,7 +2894,7 @@
   "split": "1/1",
   "arrow": "\u2191",
   "fills": [],
-  "id": 96
+  "id": 101
  },
  {
   "n": "Lolakis",
@@ -2751,8 +2910,8 @@
   "usd": 48.97,
   "shares": 60.45,
   "ts": 1794294625,
-  "held": 6374.13,
-  "heldUsd": 5131.17,
+  "held": 6363.13,
+  "heldUsd": 5122.32,
   "peak": 9037.4,
   "chip": "With",
   "split": "3/4",
@@ -2783,7 +2942,7 @@
     "price": 0.81
    }
   ],
-  "id": 97
+  "id": 102
  },
  {
   "n": "Car",
@@ -2806,7 +2965,7 @@
   "split": "5/9",
   "arrow": "\u2193",
   "fills": [],
-  "id": 98
+  "id": 103
  },
  {
   "n": "Lolakis",
@@ -2822,8 +2981,8 @@
   "usd": 2.0,
   "shares": 3.7,
   "ts": 1794294424,
-  "held": 899.76,
-  "heldUsd": 481.37,
+  "held": 892.35,
+  "heldUsd": 477.41,
   "peak": 1988.68,
   "chip": "With",
   "split": "2/2",
@@ -2842,7 +3001,7 @@
     "price": 0.54
    }
   ],
-  "id": 99
+  "id": 104
  },
  {
   "n": "MisTKy",
@@ -2858,14 +3017,14 @@
   "usd": 5.0,
   "shares": 6.25,
   "ts": 1794294408,
-  "held": 26708.64,
-  "heldUsd": 20966.29,
+  "held": 26497.92,
+  "heldUsd": 20800.87,
   "peak": 50562.64,
   "chip": "Against",
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 100
+  "id": 105
  },
  {
   "n": "Lolakis",
@@ -2888,7 +3047,7 @@
   "split": "3/5",
   "arrow": "",
   "fills": [],
-  "id": 101
+  "id": 106
  },
  {
   "n": "paddaa",
@@ -2911,7 +3070,7 @@
   "split": "3/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 102
+  "id": 107
  },
  {
   "n": "Lolakis",
@@ -2927,14 +3086,14 @@
   "usd": 23.24,
   "shares": 28.69,
   "ts": 1794294382,
-  "held": 6374.13,
-  "heldUsd": 5131.17,
+  "held": 6363.13,
+  "heldUsd": 5122.32,
   "peak": 9037.4,
   "chip": "With",
   "split": "3/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 103
+  "id": 108
  },
  {
   "n": "MEPP",
@@ -2957,7 +3116,7 @@
   "split": "3/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 104
+  "id": 109
  },
  {
   "n": "Lolakis",
@@ -2973,14 +3132,14 @@
   "usd": 1.0,
   "shares": 1.85,
   "ts": 1794294268,
-  "held": 899.76,
-  "heldUsd": 481.37,
+  "held": 892.35,
+  "heldUsd": 477.41,
   "peak": 1988.68,
   "chip": "With",
   "split": "2/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 105
+  "id": 110
  },
  {
   "n": "Lolakis",
@@ -2996,14 +3155,14 @@
   "usd": 4.53,
   "shares": 122.43,
   "ts": 1794294198,
-  "held": 3944.73,
-  "heldUsd": 116.37,
-  "peak": 5000.01,
+  "held": 2262.86,
+  "heldUsd": 67.89,
+  "peak": 5000.0,
   "chip": "With",
   "split": "5/6",
   "arrow": "\u2193",
   "fills": [],
-  "id": 106
+  "id": 111
  },
  {
   "n": "Lolakis",
@@ -3026,7 +3185,7 @@
   "split": "9/11",
   "arrow": "\u2193",
   "fills": [],
-  "id": 107
+  "id": 112
  },
  {
   "n": "Lolakis",
@@ -3062,7 +3221,7 @@
     "price": 0.93
    }
   ],
-  "id": 108
+  "id": 113
  },
  {
   "n": "Lolakis",
@@ -3085,7 +3244,7 @@
   "split": "9/12",
   "arrow": "\u2191",
   "fills": [],
-  "id": 109
+  "id": 114
  },
  {
   "n": "MisTKy",
@@ -3102,13 +3261,13 @@
   "shares": 65.04,
   "ts": 1794293953,
   "held": 7463.36,
-  "heldUsd": 4645.94,
+  "heldUsd": 4649.67,
   "peak": 10037.86,
   "chip": "Against",
   "split": "5/9",
   "arrow": "\u2193",
   "fills": [],
-  "id": 110
+  "id": 115
  },
  {
   "n": "Lolakis",
@@ -3124,14 +3283,14 @@
   "usd": 2053.94,
   "shares": 2560.05,
   "ts": 1794293880,
-  "held": 6374.13,
-  "heldUsd": 5131.17,
+  "held": 6363.13,
+  "heldUsd": 5122.32,
   "peak": 9037.4,
   "chip": "With",
   "split": "3/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 111
+  "id": 116
  },
  {
   "n": "Lolakis",
@@ -3147,8 +3306,8 @@
   "usd": 7320.29,
   "shares": 9037.4,
   "ts": 1794293859,
-  "held": 6374.13,
-  "heldUsd": 5131.17,
+  "held": 6363.13,
+  "heldUsd": 5122.32,
   "peak": 9037.4,
   "chip": "Against",
   "split": "3/4",
@@ -3167,7 +3326,7 @@
     "price": 0.81
    }
   ],
-  "id": 112
+  "id": 117
  },
  {
   "n": "Lolakis",
@@ -3190,7 +3349,7 @@
   "split": "2/3",
   "arrow": "",
   "fills": [],
-  "id": 113
+  "id": 118
  },
  {
   "n": "Lolakis",
@@ -3207,7 +3366,7 @@
   "shares": 2272.98,
   "ts": 1794293838,
   "held": 3652.23,
-  "heldUsd": 529.57,
+  "heldUsd": 547.83,
   "peak": 5925.21,
   "chip": "Against",
   "split": "3/4",
@@ -3230,165 +3389,6 @@
     "usd": 334.32,
     "shares": 2228.78,
     "price": 0.15
-   }
-  ],
-  "id": 114
- },
- {
-  "n": "PaddyAlpha",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
-  "t": "Will a \u22645% Uranium Enrichment Cap (1+ Year) be in a US-Iran deal in 2026?",
-  "url": "https://polymarket.com/event/what-will-be-in-a-us-iran-deal-in-2026-20260624150226501/will-a-5-uranium-enrichment-cap-1-year-be-in-a-us-iran-deal-in-2026-20260623023201637",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/five-6e4e5ee4fe.jpg",
-  "cid": "0x6087a0c22a3cfe3dda0314c8cdc246708f463e677194d23beca9f23293bd7c07",
-  "slug": "will-a-5-uranium-enrichment-cap-1-year-be-in-a-us-iran-deal-in-2026-20260623023201637",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.88,
-  "usd": 26.4,
-  "shares": 30.0,
-  "ts": 1794293824,
-  "held": 744.93,
-  "heldUsd": 651.82,
-  "peak": 862.06,
-  "chip": "With",
-  "split": "1/1",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 115
- },
- {
-  "n": "Lolakis",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
-  "t": "US x Iran Effective Ceasefire by November 15?",
-  "url": "https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108/us-x-iran-effective-ceasefire-by-november-15-20261108",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-strikes-iran-by-october-3-2sVnIHq3sjqF.jpg",
-  "cid": "0x0f4cc90457bc2a22fdc4dd705e6941cd719015ab117af3e55bdbdb1dfa13dc90",
-  "slug": "us-x-iran-effective-ceasefire-by-november-15-20261108",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.54,
-  "usd": 1.0,
-  "shares": 1.85,
-  "ts": 1794293782,
-  "held": 899.76,
-  "heldUsd": 481.37,
-  "peak": 1988.68,
-  "chip": "With",
-  "split": "2/2",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 116
- },
- {
-  "n": "Lolakis",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
-  "t": "Jensen Huang announced resignation or removal by March 31, 2027?",
-  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31/jensen-huang-announced-resignation-or-removal-by-march-31-2027",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0x3f1eec161a0b6185cfa74ece375a8dc54f110efade9d20aae37d2f30e34f1c4a",
-  "slug": "jensen-huang-announced-resignation-or-removal-by-march-31-2027",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.77,
-  "usd": 3.94,
-  "shares": 5.12,
-  "ts": 1794293775,
-  "held": 97.86,
-  "heldUsd": 75.84,
-  "peak": 2106.62,
-  "chip": "Against",
-  "split": "2/3",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1794293775,
-    "usd": 1.99,
-    "shares": 2.59,
-    "price": 0.77
-   },
-   {
-    "ts": 1794293775,
-    "usd": 1.95,
-    "shares": 2.53,
-    "price": 0.77
-   }
-  ],
-  "id": 117
- },
- {
-  "n": "PaddyAlpha",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
-  "t": "Next US-Iran senior diplomatic meeting by November 30, 2026?",
-  "url": "https://polymarket.com/event/next-us-iran-senior-diplomatic-meeting-byptptpt/next-us-iran-senior-diplomatic-meeting-by-november-30-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-meeting-by-9btZGbUg-ikA.jpg",
-  "cid": "0x6db92cee58b72e61b3874cce633a0457ade010ef377a0eeeaf1fcf88ad0c3fd4",
-  "slug": "next-us-iran-senior-diplomatic-meeting-by-november-30-2026",
-  "side": "SELL",
-  "out": "Yes",
-  "price": 0.21,
-  "usd": 2.37,
-  "shares": 11.28,
-  "ts": 1794293751,
-  "held": 1785.52,
-  "heldUsd": 357.1,
-  "peak": 1975.52,
-  "chip": "With",
-  "split": "4/7",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 118
- },
- {
-  "n": "Lolakis",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
-  "t": "Israel x Iran ceasefire continues through December 15?",
-  "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963/israel-x-iran-ceasefire-continues-through-december-15",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963-FEQHrNm5Q53X.jpg",
-  "cid": "0x3a0c86d7d9d3e4e82d533d2b1351b5d3e63577f8e1495e2804b9ae540135a556",
-  "slug": "israel-x-iran-ceasefire-continues-through-december-15",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.24,
-  "usd": 69.24,
-  "shares": 288.5,
-  "ts": 1794293748,
-  "held": 288.51,
-  "heldUsd": 64.91,
-  "peak": 786.21,
-  "chip": "Against",
-  "split": "3/5",
-  "arrow": "\u2193",
-  "fills": [
-   {
-    "ts": 1794293634,
-    "usd": 4.17,
-    "shares": 17.37,
-    "price": 0.24
-   },
-   {
-    "ts": 1794293637,
-    "usd": 3.36,
-    "shares": 14.01,
-    "price": 0.24
-   },
-   {
-    "ts": 1794293638,
-    "usd": 5.56,
-    "shares": 23.16,
-    "price": 0.24
-   },
-   {
-    "ts": 1794293638,
-    "usd": 48.0,
-    "shares": 200.0,
-    "price": 0.24
-   },
-   {
-    "ts": 1794293748,
-    "usd": 8.15,
-    "shares": 33.96,
-    "price": 0.24
    }
   ],
   "id": 119
