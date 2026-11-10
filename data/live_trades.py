@@ -150,7 +150,7 @@ def parse_trades(addr, name, rows, now=None):
 
 def pos_index(raw_by_addr):
     """addr -> condition -> outcome -> shares. Also a cid -> title/slug/icon fallback."""
-    idx, meta = {}, {}
+    idx, meta, vals = {}, {}, {}
     for addr, rows in (raw_by_addr or {}).items():
         addr = addr.lower()
         for p in rows or []:
@@ -168,12 +168,19 @@ def pos_index(raw_by_addr):
             out = F(p, "outcome") or ("Yes" if str(F(p, "outcome_index", "outcomeIndex")) == "0" else "No")
             slot = idx.setdefault(addr, {}).setdefault(cid, {})
             slot[out] = slot.get(out, 0.0) + sh
+            try:
+                cv = F(p, "currentValue", "current_value")
+                cv = float(cv) if cv is not None else sh * float(F(p, "curPrice", "current_price", "cur_price", default=0) or 0)
+            except (TypeError, ValueError):
+                cv = 0.0
+            vslot = vals.setdefault(addr, {}).setdefault(cid, {})
+            vslot[out] = vslot.get(out, 0.0) + cv
             m = meta.setdefault(cid, {"t": "", "slug": "", "ev": "", "img": ""})
             m["t"] = m["t"] or F(p, "title", default="") or ""
             m["slug"] = m["slug"] or F(p, "slug", default="") or ""
             m["ev"] = m["ev"] or F(p, "eventSlug", "event_slug", default="") or ""
             m["img"] = m["img"] or F(p, "icon", "image", default="") or ""
-    return idx, meta
+    return idx, meta, vals
 
 def _holders(state):
     """One wallet on both outcomes is a hedge and is left out of the count."""
@@ -234,8 +241,9 @@ def _held_peak(held, events):
             peak = cur
     return max(peak, held)
 
-def build(trades, idx, meta=None):
+def build(trades, idx, meta=None, vals=None):
     meta = meta or {}
+    vals = vals or {}
     by_cid = {}
     for t in trades:
         by_cid.setdefault(t["cid"], []).append(t)
@@ -283,6 +291,7 @@ def build(trades, idx, meta=None):
         held = float((idx.get(g["a"], {}).get(g["cid"], {}) or {}).get(g["out"], 0.0) or 0.0)
         if held <= 0.01:
             held = 0.0
+        held_usd = float((vals.get(g["a"], {}).get(g["cid"], {}) or {}).get(g["out"], 0.0) or 0.0) if held else 0.0
         peak = _held_peak(held, ev_key.get((g["a"], g["cid"], g["out"]), []))
         now, holders = cons.get(g["cid"], (_summary({}), {}))
         chip, split = _chip(g["side"], g["out"], now, g["a"], holders)
@@ -297,7 +306,7 @@ def build(trades, idx, meta=None):
             "n": head["n"], "avatar": head["avatar"] or "", "t": title, "url": market_url(slug, ev), "img": img or "",
             "cid": g["cid"], "slug": slug or "",
             "side": g["side"], "out": g["out"], "price": round(price, 4), "usd": round(usd, 2),
-            "shares": round(shares, 2), "ts": head["ts"], "held": round(held, 2), "peak": round(max(peak, held), 2),
+            "shares": round(shares, 2), "ts": head["ts"], "held": round(held, 2), "heldUsd": round(held_usd, 2), "peak": round(max(peak, held), 2),
             "chip": chip, "split": split, "arrow": arrows.get(g["cid"], ""),
             "fills": [{"ts": f["ts"], "usd": round(f["usd"], 2), "shares": round(f["shares"], 2), "price": round(f["price"], 4)} for f in fills] if len(fills) > 1 else [],
         })
@@ -327,8 +336,8 @@ def publish(wallets, raw_by_addr, path=None, now=None):
     for addr, rows in zip(addrs, fetched):
         trades += parse_trades(addr, names.get(addr), rows, now=now)
     print(f"  activity rows priced >= ${MIN_TRADE_USD:g}: {len(trades)} in {time.time() - t0:.0f}s")
-    idx, meta = pos_index(raw_by_addr)
-    rows = build(trades, idx, meta)
+    idx, meta, vals = pos_index(raw_by_addr)
+    rows = build(trades, idx, meta, vals)
     if not rows:
         print("live trades: no rows, keeping previous data/live.json")
         return 0

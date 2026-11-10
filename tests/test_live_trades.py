@@ -47,6 +47,16 @@ class LiveTradesTest(unittest.TestCase):
         self.assertEqual(r["t"], "Will it happen?")
         self.assertEqual(r["cid"], CID)
         self.assertEqual(r["slug"], "will-it")
+        self.assertEqual(r["heldUsd"], 0)
+
+    def test_holding_value_comes_from_current_position(self):
+        a = "0x" + "b" * 40
+        idx = {a: {CID: {"No": 5000.0}}}
+        vals = {a: {CID: {"No": 3500.5}}}
+        row = lt.build([trade(a, "BUY", "No", 10, NOW, usd=8, n="Bea")], idx, None, vals)[0]
+        self.assertEqual(row["held"], 5000)
+        self.assertEqual(row["heldUsd"], 3500.5)
+        self.assertEqual(row["out"], "No")
 
     def test_with_first_and_exited(self):
         a, b = "0x" + "1" * 40, "0x" + "2" * 40
