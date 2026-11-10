@@ -90,9 +90,19 @@ class TrackedWalletsTest(unittest.TestCase):
     def test_distinct_count_before_and_after(self):
         added = set(REQUESTED) - set(ALREADY_TRACKED)
         self.assertEqual(len(added), 3)
-        self.assertEqual(len(self.entries), BEFORE_DISTINCT + len(added))
-        self.assertEqual(len(self.by_addr), BEFORE_DISTINCT + len(added))
-        self.assertEqual(len(self.by_addr), 39)
+        # Two more profiles added 2026-11-10: Tenebrus7 and balthazar.
+        self.assertEqual(len(self.entries), BEFORE_DISTINCT + len(added) + 2)
+        self.assertEqual(len(self.by_addr), BEFORE_DISTINCT + len(added) + 2)
+        self.assertEqual(len(self.by_addr), 41)
+
+    def test_nov10_profiles_present_once(self):
+        added = {
+            "0xa8c63f775ddbbe66b56614191747def3021444e8": "Tenebrus7",
+            "0x5a218c7ad04135830a45c41aaed7294df7809318": "balthazar",
+        }
+        for addr, name in added.items():
+            self.assertEqual(self.by_addr[addr]["name"], name)
+            self.assertEqual(self.by_addr[addr]["wallet"], addr)
 
     def test_existing_entries_are_addresses_not_usernames(self):
         for entry in self.entries:
