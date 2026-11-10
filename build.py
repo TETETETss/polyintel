@@ -31,7 +31,7 @@ for m in d:
     tr+=[{'n':e['trader'],'side':e['outcome'],'sh':e['size'],'avg':None,'val':0,'ex':e['price']} for e in m.get('exits',[]) if e['trader'] not in {h['trader'] for h in hs}]
     url=f"https://polymarket.com/event/{m['eventSlug']}"+(f"/{m['slug']}" if m['slug']!=m['eventSlug'] else '')
     q=urllib.parse.quote_plus(m['title'].replace('Will ','').rstrip('?'))
-    out.append(dict(t=m['title'],url=url,cat=cat(m),bid=m.get('bid'),ask=m.get('ask'),top=top,cnt=len(sides[top]),n=len(names),tot=m['total'],tr=tr,q=q,end=m.get('endDate',''),img=m.get('icon') or ''))
+    out.append(dict(t=m['title'],url=url,cat=cat(m),bid=m.get('bid'),ask=m.get('ask'),top=top,cnt=len(sides[top]),n=len(names),tot=m['total'],tr=tr,q=q,end=m.get('endDate',''),img=m.get('icon') or '',cid=m.get('conditionId') or '',slug=m.get('slug') or ''))
 def _now(o):
     try: return float(o['ask']) if o['top']=='Yes' else 1-float(o['bid'])
     except: return None

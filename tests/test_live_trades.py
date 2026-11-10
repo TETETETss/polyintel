@@ -45,6 +45,8 @@ class LiveTradesTest(unittest.TestCase):
         self.assertTrue(r["url"].startswith("https://polymarket.com/event/"))
         self.assertEqual(r["img"], "https://cdn.example/m.png")
         self.assertEqual(r["t"], "Will it happen?")
+        self.assertEqual(r["cid"], CID)
+        self.assertEqual(r["slug"], "will-it")
 
     def test_with_first_and_exited(self):
         a, b = "0x" + "1" * 40, "0x" + "2" * 40

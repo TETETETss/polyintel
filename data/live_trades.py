@@ -295,6 +295,7 @@ def build(trades, idx, meta=None):
         img = img or fb.get("img") or ""
         rows.append({
             "n": head["n"], "avatar": head["avatar"] or "", "t": title, "url": market_url(slug, ev), "img": img or "",
+            "cid": g["cid"], "slug": slug or "",
             "side": g["side"], "out": g["out"], "price": round(price, 4), "usd": round(usd, 2),
             "shares": round(shares, 2), "ts": head["ts"], "held": round(held, 2), "peak": round(max(peak, held), 2),
             "chip": chip, "split": split, "arrow": arrows.get(g["cid"], ""),
