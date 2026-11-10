@@ -169,6 +169,7 @@ def pos_index(raw_by_addr):
             slot = idx.setdefault(addr, {}).setdefault(cid, {})
             slot[out] = slot.get(out, 0.0) + sh
             try:
+                # Dollar value is the v2 position currentValue when the API sends it, otherwise curPrice × size.
                 cv = F(p, "currentValue", "current_value")
                 cv = float(cv) if cv is not None else sh * float(F(p, "curPrice", "current_price", "cur_price", default=0) or 0)
             except (TypeError, ValueError):
