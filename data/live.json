@@ -1,5 +1,41 @@
 [
  {
+  "n": "JJo",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-508207-408334b1-8add-4dd3-96b4-52c69671de6c.png",
+  "t": "Jensen Huang divorce by December 31, 2026?",
+  "url": "https://polymarket.com/event/jensen-huang-divorce-in-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/jensen-huang-divorce-in-2026-TwqKa0CMsYm6.jpg",
+  "cid": "0x9b786700f51dc9540f016267a69245616f53e93563de3fc5a1ac3a16f66310c4",
+  "slug": "jensen-huang-divorce-in-2026",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.92,
+  "usd": 105.75,
+  "shares": 114.95,
+  "ts": 1794390019,
+  "held": 15252.85,
+  "heldUsd": 13956.35,
+  "peak": 16190.4,
+  "chip": "Against",
+  "split": "3/3",
+  "arrow": "",
+  "fills": [
+   {
+    "ts": 1794389949,
+    "usd": 100.0,
+    "shares": 108.7,
+    "price": 0.92
+   },
+   {
+    "ts": 1794390019,
+    "usd": 5.75,
+    "shares": 6.25,
+    "price": 0.92
+   }
+  ],
+  "id": 0
+ },
+ {
   "n": "balthazar",
   "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
   "t": "Will the highest score achieved by an Anthropic Claude model on Humanity\u2019s Last Exam in 2026 be 75% or higher?",
@@ -14,7 +50,7 @@
   "shares": 40.0,
   "ts": 1794389769,
   "held": 41.15,
-  "heldUsd": 31.93,
+  "heldUsd": 36.35,
   "peak": 41.15,
   "chip": "First",
   "split": "",
@@ -33,7 +69,7 @@
     "price": 0.673
    }
   ],
-  "id": 0
+  "id": 1
  },
  {
   "n": "balthazar",
@@ -50,13 +86,13 @@
   "shares": 39.99,
   "ts": 1794389767,
   "held": 40.99,
-  "heldUsd": 10.45,
+  "heldUsd": 10.04,
   "peak": 40.99,
   "chip": "First",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 1
+  "id": 2
  },
  {
   "n": "balthazar",
@@ -72,12 +108,12 @@
   "usd": 98.27,
   "shares": 99.98,
   "ts": 1794389725,
-  "held": 99.98,
-  "heldUsd": 97.98,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 109.65,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [
    {
     "ts": 1794389670,
@@ -110,7 +146,7 @@
     "price": 0.99
    }
   ],
-  "id": 2
+  "id": 3
  },
  {
   "n": "Ryxon21",
@@ -133,7 +169,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 3
+  "id": 4
  },
  {
   "n": "balthazar",
@@ -149,12 +185,12 @@
   "usd": 18.66,
   "shares": 55.33,
   "ts": 1794389694,
-  "held": 55.33,
-  "heldUsd": 14.11,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 55.33,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [
    {
     "ts": 1794389694,
@@ -169,7 +205,7 @@
     "price": 0.33
    }
   ],
-  "id": 4
+  "id": 5
  },
  {
   "n": "balthazar",
@@ -185,12 +221,12 @@
   "usd": 51.75,
   "shares": 55.33,
   "ts": 1794389694,
-  "held": 55.33,
-  "heldUsd": 53.67,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 55.33,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [
    {
     "ts": 1794389694,
@@ -205,7 +241,7 @@
     "price": 0.93
    }
   ],
-  "id": 5
+  "id": 6
  },
  {
   "n": "balthazar",
@@ -221,14 +257,14 @@
   "usd": 19.94,
   "shares": 20.0,
   "ts": 1794389584,
-  "held": 20.0,
-  "heldUsd": 19.81,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 20.0,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 6
+  "id": 7
  },
  {
   "n": "balthazar",
@@ -244,14 +280,14 @@
   "usd": 19.9,
   "shares": 20.0,
   "ts": 1794389584,
-  "held": 20.0,
-  "heldUsd": 19.84,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 20.0,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 7
+  "id": 8
  },
  {
   "n": "balthazar",
@@ -267,14 +303,14 @@
   "usd": 19.76,
   "shares": 19.99,
   "ts": 1794389584,
-  "held": 19.99,
-  "heldUsd": 18.79,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 19.99,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 8
+  "id": 9
  },
  {
   "n": "balthazar",
@@ -290,14 +326,14 @@
   "usd": 8.6,
   "shares": 20.0,
   "ts": 1794389584,
-  "held": 20.0,
-  "heldUsd": 10.8,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 20.0,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 9
+  "id": 10
  },
  {
   "n": "balthazar",
@@ -313,14 +349,14 @@
   "usd": 19.71,
   "shares": 20.0,
   "ts": 1794389584,
-  "held": 20.0,
-  "heldUsd": 19.34,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 20.0,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 10
+  "id": 11
  },
  {
   "n": "balthazar",
@@ -336,14 +372,14 @@
   "usd": 13.36,
   "shares": 20.0,
   "ts": 1794389584,
-  "held": 20.0,
-  "heldUsd": 12.62,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 20.0,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 11
+  "id": 12
  },
  {
   "n": "balthazar",
@@ -360,13 +396,13 @@
   "shares": 29.11,
   "ts": 1794389574,
   "held": 49.11,
-  "heldUsd": 4.0,
+  "heldUsd": 3.78,
   "peak": 49.11,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 12
+  "id": 13
  },
  {
   "n": "balthazar",
@@ -389,7 +425,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 13
+  "id": 14
  },
  {
   "n": "balthazar",
@@ -412,7 +448,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 14
+  "id": 15
  },
  {
   "n": "balthazar",
@@ -428,14 +464,14 @@
   "usd": 73.89,
   "shares": 80.0,
   "ts": 1794389542,
-  "held": 80.19,
-  "heldUsd": 72.97,
-  "peak": 80.19,
+  "held": 0.64,
+  "heldUsd": 0.58,
+  "peak": 80.0,
   "chip": "First",
   "split": "",
-  "arrow": "",
+  "arrow": "\u2191",
   "fills": [],
-  "id": 15
+  "id": 16
  },
  {
   "n": "balthazar",
@@ -451,14 +487,14 @@
   "usd": 67.57,
   "shares": 79.99,
   "ts": 1794389542,
-  "held": 80.18,
-  "heldUsd": 66.95,
+  "held": 0.63,
+  "heldUsd": 0.53,
   "peak": 152.95,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 16
+  "id": 17
  },
  {
   "n": "balthazar",
@@ -474,14 +510,14 @@
   "usd": 58.4,
   "shares": 80.0,
   "ts": 1794389542,
-  "held": 80.19,
-  "heldUsd": 56.13,
+  "held": 0.64,
+  "heldUsd": 0.45,
   "peak": 152.96,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 17
+  "id": 18
  },
  {
   "n": "balthazar",
@@ -497,14 +533,14 @@
   "usd": 79.7,
   "shares": 80.0,
   "ts": 1794389541,
-  "held": 80.0,
-  "heldUsd": 79.24,
+  "held": 0.46,
+  "heldUsd": 0.45,
   "peak": 152.77,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 18
+  "id": 19
  },
  {
   "n": "balthazar",
@@ -520,14 +556,14 @@
   "usd": 78.85,
   "shares": 79.86,
   "ts": 1794389541,
-  "held": 80.05,
-  "heldUsd": 78.48,
+  "held": 0.5,
+  "heldUsd": 0.49,
   "peak": 152.82,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 19
+  "id": 20
  },
  {
   "n": "balthazar",
@@ -543,14 +579,14 @@
   "usd": 78.47,
   "shares": 79.82,
   "ts": 1794389541,
-  "held": 80.01,
-  "heldUsd": 77.61,
+  "held": 0.46,
+  "heldUsd": 0.45,
   "peak": 152.78,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 20
+  "id": 21
  },
  {
   "n": "paddaa",
@@ -567,13 +603,13 @@
   "shares": 19.99,
   "ts": 1794389457,
   "held": 3176.65,
-  "heldUsd": 1413.61,
+  "heldUsd": 1397.72,
   "peak": 3695.71,
   "chip": "With",
   "split": "2/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 21
+  "id": 22
  },
  {
   "n": "balthazar",
@@ -596,7 +632,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 22
+  "id": 23
  },
  {
   "n": "balthazar",
@@ -619,7 +655,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 23
+  "id": 24
  },
  {
   "n": "balthazar",
@@ -635,14 +671,14 @@
   "usd": 197.35,
   "shares": 210.0,
   "ts": 1794389205,
-  "held": 7.69,
-  "heldUsd": 7.21,
+  "held": 2.9,
+  "heldUsd": 2.72,
   "peak": 249.99,
   "chip": "Exited",
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 24
+  "id": 25
  },
  {
   "n": "balthazar",
@@ -658,14 +694,14 @@
   "usd": 209.39,
   "shares": 210.0,
   "ts": 1794389205,
-  "held": 7.69,
-  "heldUsd": 7.67,
+  "held": 2.9,
+  "heldUsd": 2.89,
   "peak": 250.0,
   "chip": "Exited",
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 25
+  "id": 26
  },
  {
   "n": "balthazar",
@@ -681,14 +717,14 @@
   "usd": 207.76,
   "shares": 210.0,
   "ts": 1794389205,
-  "held": 7.7,
-  "heldUsd": 7.62,
+  "held": 2.92,
+  "heldUsd": 2.88,
   "peak": 250.0,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 26
+  "id": 27
  },
  {
   "n": "balthazar",
@@ -704,14 +740,14 @@
   "usd": 206.74,
   "shares": 210.0,
   "ts": 1794389205,
-  "held": 210.0,
-  "heldUsd": 206.53,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 250.0,
-  "chip": "Exited",
+  "chip": "First",
   "split": "",
-  "arrow": "\u2193",
+  "arrow": "",
   "fills": [],
-  "id": 27
+  "id": 28
  },
  {
   "n": "balthazar",
@@ -727,14 +763,14 @@
   "usd": 204.7,
   "shares": 210.0,
   "ts": 1794389205,
-  "held": 7.69,
-  "heldUsd": 7.49,
+  "held": 2.9,
+  "heldUsd": 2.83,
   "peak": 250.0,
   "chip": "Exited",
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 28
+  "id": 29
  },
  {
   "n": "balthazar",
@@ -757,7 +793,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 29
+  "id": 30
  },
  {
   "n": "balthazar",
@@ -773,14 +809,14 @@
   "usd": 204.12,
   "shares": 210.0,
   "ts": 1794389205,
-  "held": 7.69,
-  "heldUsd": 7.49,
+  "held": 2.9,
+  "heldUsd": 2.83,
   "peak": 250.0,
   "chip": "Exited",
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 30
+  "id": 31
  },
  {
   "n": "balthazar",
@@ -803,7 +839,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 31
+  "id": 32
  },
  {
   "n": "balthazar",
@@ -826,7 +862,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 32
+  "id": 33
  },
  {
   "n": "balthazar",
@@ -849,7 +885,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 33
+  "id": 34
  },
  {
   "n": "balthazar",
@@ -865,14 +901,14 @@
   "usd": 200.81,
   "shares": 209.99,
   "ts": 1794389205,
-  "held": 7.68,
-  "heldUsd": 7.33,
+  "held": 2.89,
+  "heldUsd": 2.76,
   "peak": 249.99,
   "chip": "Exited",
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 34
+  "id": 35
  },
  {
   "n": "balthazar",
@@ -895,7 +931,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 35
+  "id": 36
  },
  {
   "n": "balthazar",
@@ -918,7 +954,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 36
+  "id": 37
  },
  {
   "n": "balthazar",
@@ -934,14 +970,14 @@
   "usd": 202.86,
   "shares": 210.0,
   "ts": 1794389205,
-  "held": 210.0,
-  "heldUsd": 202.54,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 250.0,
-  "chip": "Exited",
+  "chip": "First",
   "split": "",
-  "arrow": "\u2193",
+  "arrow": "",
   "fills": [],
-  "id": 37
+  "id": 38
  },
  {
   "n": "balthazar",
@@ -964,7 +1000,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 38
+  "id": 39
  },
  {
   "n": "balthazar",
@@ -980,14 +1016,14 @@
   "usd": 205.52,
   "shares": 210.0,
   "ts": 1794389205,
-  "held": 7.69,
-  "heldUsd": 7.52,
+  "held": 2.9,
+  "heldUsd": 2.84,
   "peak": 250.0,
   "chip": "Exited",
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 39
+  "id": 40
  },
  {
   "n": "balthazar",
@@ -1003,14 +1039,14 @@
   "usd": 184.64,
   "shares": 210.0,
   "ts": 1794389205,
-  "held": 7.69,
-  "heldUsd": 6.75,
+  "held": 2.9,
+  "heldUsd": 2.55,
   "peak": 210.0,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 40
+  "id": 41
  },
  {
   "n": "balthazar",
@@ -1026,14 +1062,14 @@
   "usd": 208.98,
   "shares": 210.0,
   "ts": 1794389205,
-  "held": 7.69,
-  "heldUsd": 7.65,
+  "held": 2.9,
+  "heldUsd": 2.89,
   "peak": 250.0,
   "chip": "Exited",
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 41
+  "id": 42
  },
  {
   "n": "balthazar",
@@ -1049,14 +1085,14 @@
   "usd": 200.21,
   "shares": 210.0,
   "ts": 1794389203,
-  "held": 7.69,
-  "heldUsd": 7.32,
+  "held": 2.9,
+  "heldUsd": 2.76,
   "peak": 250.0,
   "chip": "Exited",
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 42
+  "id": 43
  },
  {
   "n": "balthazar",
@@ -1072,14 +1108,14 @@
   "usd": 1.22,
   "shares": 210.0,
   "ts": 1794389203,
-  "held": 1218.9,
-  "heldUsd": 7.92,
-  "peak": 1428.9,
+  "held": 1223.69,
+  "heldUsd": 7.95,
+  "peak": 1433.69,
   "chip": "Against",
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 43
+  "id": 44
  },
  {
   "n": "MEPP",
@@ -1102,7 +1138,7 @@
   "split": "4/7",
   "arrow": "\u2193",
   "fills": [],
-  "id": 44
+  "id": 45
  },
  {
   "n": "SnowLover7",
@@ -1125,7 +1161,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 45
+  "id": 46
  },
  {
   "n": "0xe639e4",
@@ -1148,7 +1184,7 @@
   "split": "3/5",
   "arrow": "",
   "fills": [],
-  "id": 46
+  "id": 47
  },
  {
   "n": "Car",
@@ -1171,7 +1207,7 @@
   "split": "2/3",
   "arrow": "",
   "fills": [],
-  "id": 47
+  "id": 48
  },
  {
   "n": "PaddyAlpha",
@@ -1188,13 +1224,13 @@
   "shares": 200.0,
   "ts": 1794388369,
   "held": 529.43,
-  "heldUsd": 349.69,
+  "heldUsd": 350.22,
   "peak": 879.43,
   "chip": "Against",
   "split": "5/8",
   "arrow": "\u2191",
   "fills": [],
-  "id": 48
+  "id": 49
  },
  {
   "n": "Tenebrus7",
@@ -1211,13 +1247,13 @@
   "shares": 3085.9,
   "ts": 1794388369,
   "held": 9552.41,
-  "heldUsd": 6309.37,
+  "heldUsd": 6318.92,
   "peak": 9552.41,
   "chip": "With",
   "split": "5/8",
   "arrow": "\u2191",
   "fills": [],
-  "id": 49
+  "id": 50
  },
  {
   "n": "PaddyAlpha",
@@ -1234,7 +1270,7 @@
   "shares": 50.0,
   "ts": 1794388249,
   "held": 55.0,
-  "heldUsd": 42.08,
+  "heldUsd": 41.53,
   "peak": 55.0,
   "chip": "With",
   "split": "3/4",
@@ -1253,7 +1289,7 @@
     "price": 0.78
    }
   ],
-  "id": 50
+  "id": 51
  },
  {
   "n": "balthazar",
@@ -1276,7 +1312,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 51
+  "id": 52
  },
  {
   "n": "bernardbulletin",
@@ -1299,7 +1335,7 @@
   "split": "3/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 52
+  "id": 53
  },
  {
   "n": "0xe639e4",
@@ -1322,7 +1358,7 @@
   "split": "3/5",
   "arrow": "",
   "fills": [],
-  "id": 53
+  "id": 54
  },
  {
   "n": "melonmanm",
@@ -1339,7 +1375,7 @@
   "shares": 150.0,
   "ts": 1794388215,
   "held": 390.0,
-  "heldUsd": 263.25,
+  "heldUsd": 267.15,
   "peak": 390.74,
   "chip": "With",
   "split": "2/4",
@@ -1358,7 +1394,7 @@
     "price": 0.7
    }
   ],
-  "id": 54
+  "id": 55
  },
  {
   "n": "PaddyAlpha",
@@ -1375,13 +1411,13 @@
   "shares": 9.52,
   "ts": 1794388213,
   "held": 546.72,
-  "heldUsd": 369.04,
+  "heldUsd": 374.5,
   "peak": 651.74,
   "chip": "Against",
   "split": "2/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 55
+  "id": 56
  },
  {
   "n": "PaddyAlpha",
@@ -1398,13 +1434,13 @@
   "shares": 3.1,
   "ts": 1794388206,
   "held": 546.72,
-  "heldUsd": 369.04,
+  "heldUsd": 374.5,
   "peak": 651.74,
   "chip": "With",
   "split": "2/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 56
+  "id": 57
  },
  {
   "n": "balthazar",
@@ -1427,7 +1463,7 @@
   "split": "8/12",
   "arrow": "\u2193",
   "fills": [],
-  "id": 57
+  "id": 58
  },
  {
   "n": "balthazar",
@@ -1450,7 +1486,7 @@
   "split": "9/9",
   "arrow": "\u2191",
   "fills": [],
-  "id": 58
+  "id": 59
  },
  {
   "n": "balthazar",
@@ -1467,7 +1503,7 @@
   "shares": 94.45,
   "ts": 1794388035,
   "held": 94.45,
-  "heldUsd": 91.62,
+  "heldUsd": 92.37,
   "peak": 94.45,
   "chip": "First",
   "split": "",
@@ -1492,7 +1528,7 @@
     "price": 0.955
    }
   ],
-  "id": 59
+  "id": 60
  },
  {
   "n": "balthazar",
@@ -1515,7 +1551,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 60
+  "id": 61
  },
  {
   "n": "balthazar",
@@ -1538,7 +1574,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 61
+  "id": 62
  },
  {
   "n": "balthazar",
@@ -1555,13 +1591,13 @@
   "shares": 54.23,
   "ts": 1794387928,
   "held": 94.23,
-  "heldUsd": 2.45,
+  "heldUsd": 2.4,
   "peak": 94.23,
   "chip": "First",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 62
+  "id": 63
  },
  {
   "n": "balthazar",
@@ -1584,7 +1620,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 63
+  "id": 64
  },
  {
   "n": "balthazar",
@@ -1607,7 +1643,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 64
+  "id": 65
  },
  {
   "n": "PaddyAlpha",
@@ -1630,7 +1666,7 @@
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 65
+  "id": 66
  },
  {
   "n": "balthazar",
@@ -1653,7 +1689,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 66
+  "id": 67
  },
  {
   "n": "balthazar",
@@ -1676,7 +1712,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 67
+  "id": 68
  },
  {
   "n": "balthazar",
@@ -1699,7 +1735,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 68
+  "id": 69
  },
  {
   "n": "balthazar",
@@ -1722,7 +1758,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 69
+  "id": 70
  },
  {
   "n": "balthazar",
@@ -1745,7 +1781,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 70
+  "id": 71
  },
  {
   "n": "balthazar",
@@ -1768,7 +1804,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 71
+  "id": 72
  },
  {
   "n": "balthazar",
@@ -1791,7 +1827,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 72
+  "id": 73
  },
  {
   "n": "balthazar",
@@ -1814,7 +1850,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 73
+  "id": 74
  },
  {
   "n": "balthazar",
@@ -1831,13 +1867,13 @@
   "shares": 40.0,
   "ts": 1794387784,
   "held": 2228.41,
-  "heldUsd": 2206.12,
+  "heldUsd": 2211.69,
   "peak": 2228.41,
   "chip": "First",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 74
+  "id": 75
  },
  {
   "n": "balthazar",
@@ -1860,7 +1896,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 75
+  "id": 76
  },
  {
   "n": "balthazar",
@@ -1883,7 +1919,7 @@
   "split": "2/3",
   "arrow": "",
   "fills": [],
-  "id": 76
+  "id": 77
  },
  {
   "n": "balthazar",
@@ -1902,11 +1938,11 @@
   "held": 0.0,
   "heldUsd": 0.0,
   "peak": 9.65,
-  "chip": "Exited",
+  "chip": "First",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 77
+  "id": 78
  },
  {
   "n": "balthazar",
@@ -1922,14 +1958,14 @@
   "usd": 8.15,
   "shares": 9.67,
   "ts": 1794387748,
-  "held": 99.98,
-  "heldUsd": 97.98,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 109.65,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 78
+  "id": 79
  },
  {
   "n": "balthazar",
@@ -1945,14 +1981,14 @@
   "usd": 1.26,
   "shares": 9.68,
   "ts": 1794387748,
-  "held": 100.03,
-  "heldUsd": 1.0,
-  "peak": 100.03,
-  "chip": "First",
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 9.68,
+  "chip": "Exited",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 79
+  "id": 80
  },
  {
   "n": "balthazar",
@@ -1968,14 +2004,14 @@
   "usd": 23.16,
   "shares": 40.0,
   "ts": 1794387708,
-  "held": 14.5,
-  "heldUsd": 8.28,
+  "held": 0.62,
+  "heldUsd": 0.36,
   "peak": 40.0,
   "chip": "With",
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 80
+  "id": 81
  },
  {
   "n": "balthazar",
@@ -1991,14 +2027,14 @@
   "usd": 19.55,
   "shares": 40.0,
   "ts": 1794387708,
-  "held": 13.88,
-  "heldUsd": 6.6,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 40.0,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "\u2193",
   "fills": [],
-  "id": 81
+  "id": 82
  },
  {
   "n": "balthazar",
@@ -2021,7 +2057,7 @@
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 82
+  "id": 83
  },
  {
   "n": "balthazar",
@@ -2044,7 +2080,7 @@
   "split": "1/2",
   "arrow": "",
   "fills": [],
-  "id": 83
+  "id": 84
  },
  {
   "n": "balthazar",
@@ -2067,7 +2103,7 @@
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 84
+  "id": 85
  },
  {
   "n": "PaddyAlpha",
@@ -2084,13 +2120,13 @@
   "shares": 50.0,
   "ts": 1794387622,
   "held": 529.43,
-  "heldUsd": 349.69,
+  "heldUsd": 350.22,
   "peak": 879.43,
   "chip": "With",
   "split": "5/8",
   "arrow": "\u2191",
   "fills": [],
-  "id": 85
+  "id": 86
  },
  {
   "n": "Tenebrus7",
@@ -2113,7 +2149,7 @@
   "split": "4/6",
   "arrow": "\u2191",
   "fills": [],
-  "id": 86
+  "id": 87
  },
  {
   "n": "PaddyAlpha",
@@ -2130,13 +2166,13 @@
   "shares": 20.07,
   "ts": 1794387531,
   "held": 546.72,
-  "heldUsd": 369.04,
+  "heldUsd": 374.5,
   "peak": 651.74,
   "chip": "With",
   "split": "2/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 87
+  "id": 88
  },
  {
   "n": "paddaa",
@@ -2153,13 +2189,13 @@
   "shares": 69.18,
   "ts": 1794387456,
   "held": 3176.65,
-  "heldUsd": 1413.61,
+  "heldUsd": 1397.72,
   "peak": 3695.71,
   "chip": "With",
   "split": "2/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 88
+  "id": 89
  },
  {
   "n": "Tenebrus7",
@@ -2182,7 +2218,7 @@
   "split": "4/6",
   "arrow": "\u2191",
   "fills": [],
-  "id": 89
+  "id": 90
  },
  {
   "n": "paddaa",
@@ -2199,13 +2235,13 @@
   "shares": 55.59,
   "ts": 1794387208,
   "held": 3176.65,
-  "heldUsd": 1413.61,
+  "heldUsd": 1397.72,
   "peak": 3695.71,
   "chip": "With",
   "split": "2/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 90
+  "id": 91
  },
  {
   "n": "PaddyAlpha",
@@ -2222,13 +2258,13 @@
   "shares": 1.82,
   "ts": 1794387184,
   "held": 546.72,
-  "heldUsd": 369.04,
+  "heldUsd": 374.5,
   "peak": 651.74,
   "chip": "With",
   "split": "2/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 91
+  "id": 92
  },
  {
   "n": "Tenebrus7",
@@ -2251,7 +2287,7 @@
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 92
+  "id": 93
  },
  {
   "n": "paddaa",
@@ -2268,13 +2304,13 @@
   "shares": 94.3,
   "ts": 1794386814,
   "held": 3176.65,
-  "heldUsd": 1413.61,
+  "heldUsd": 1397.72,
   "peak": 3695.71,
   "chip": "With",
   "split": "2/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 93
+  "id": 94
  },
  {
   "n": "PaddyAlpha",
@@ -2291,13 +2327,13 @@
   "shares": 200.0,
   "ts": 1794386622,
   "held": 529.43,
-  "heldUsd": 349.69,
+  "heldUsd": 350.22,
   "peak": 879.43,
   "chip": "With",
   "split": "5/8",
   "arrow": "\u2191",
   "fills": [],
-  "id": 94
+  "id": 95
  },
  {
   "n": "Tenebrus7",
@@ -2320,7 +2356,7 @@
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 95
+  "id": 96
  },
  {
   "n": "whig",
@@ -2362,7 +2398,7 @@
     "price": 0.05
    }
   ],
-  "id": 96
+  "id": 97
  },
  {
   "n": "paddaa",
@@ -2379,13 +2415,13 @@
   "shares": 100.0,
   "ts": 1794386370,
   "held": 3176.65,
-  "heldUsd": 1413.61,
+  "heldUsd": 1397.72,
   "peak": 3695.71,
   "chip": "With",
   "split": "2/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 97
+  "id": 98
  },
  {
   "n": "balthazar",
@@ -2421,7 +2457,7 @@
     "price": 0.57
    }
   ],
-  "id": 98
+  "id": 99
  },
  {
   "n": "balthazar",
@@ -2457,7 +2493,7 @@
     "price": 0.992
    }
   ],
-  "id": 99
+  "id": 100
  },
  {
   "n": "balthazar",
@@ -2493,7 +2529,7 @@
     "price": 0.5
    }
   ],
-  "id": 100
+  "id": 101
  },
  {
   "n": "balthazar",
@@ -2529,7 +2565,7 @@
     "price": 0.998
    }
   ],
-  "id": 101
+  "id": 102
  },
  {
   "n": "paddaa",
@@ -2546,13 +2582,13 @@
   "shares": 90.0,
   "ts": 1794385921,
   "held": 3176.65,
-  "heldUsd": 1413.61,
+  "heldUsd": 1397.72,
   "peak": 3695.71,
   "chip": "With",
   "split": "2/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 102
+  "id": 103
  },
  {
   "n": "Lolakis",
@@ -2575,7 +2611,7 @@
   "split": "7/11",
   "arrow": "\u2193",
   "fills": [],
-  "id": 103
+  "id": 104
  },
  {
   "n": "MEPP",
@@ -2598,7 +2634,7 @@
   "split": "4/7",
   "arrow": "\u2193",
   "fills": [],
-  "id": 104
+  "id": 105
  },
  {
   "n": "paddaa",
@@ -2615,13 +2651,13 @@
   "shares": 90.0,
   "ts": 1794385761,
   "held": 3176.65,
-  "heldUsd": 1413.61,
+  "heldUsd": 1397.72,
   "peak": 3695.71,
   "chip": "With",
   "split": "2/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 105
+  "id": 106
  },
  {
   "n": "balthazar",
@@ -2644,7 +2680,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 106
+  "id": 107
  },
  {
   "n": "balthazar",
@@ -2667,7 +2703,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 107
+  "id": 108
  },
  {
   "n": "balthazar",
@@ -2690,7 +2726,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 108
+  "id": 109
  },
  {
   "n": "balthazar",
@@ -2713,7 +2749,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 109
+  "id": 110
  },
  {
   "n": "MEPP",
@@ -2736,7 +2772,7 @@
   "split": "4/7",
   "arrow": "\u2193",
   "fills": [],
-  "id": 110
+  "id": 111
  },
  {
   "n": "Tenebrus7",
@@ -2759,7 +2795,7 @@
   "split": "5/5",
   "arrow": "",
   "fills": [],
-  "id": 111
+  "id": 112
  },
  {
   "n": "Tenebrus7",
@@ -2782,7 +2818,7 @@
   "split": "2/3",
   "arrow": "",
   "fills": [],
-  "id": 112
+  "id": 113
  },
  {
   "n": "Tenebrus7",
@@ -2805,7 +2841,7 @@
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 113
+  "id": 114
  },
  {
   "n": "balthazar",
@@ -2828,7 +2864,7 @@
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 114
+  "id": 115
  },
  {
   "n": "Tenebrus7",
@@ -2864,7 +2900,7 @@
     "price": 0.08
    }
   ],
-  "id": 115
+  "id": 116
  },
  {
   "n": "Tenebrus7",
@@ -2887,7 +2923,7 @@
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 116
+  "id": 117
  },
  {
   "n": "balthazar",
@@ -2910,7 +2946,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 117
+  "id": 118
  },
  {
   "n": "balthazar",
@@ -2932,29 +2968,6 @@
   "chip": "Against",
   "split": "1/1",
   "arrow": "",
-  "fills": [],
-  "id": 118
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the Fed increase interest rates by 25 bps after the January 2027 meeting?",
-  "url": "https://polymarket.com/event/fed-decision-in-january-20260729233815502/will-the-fed-increase-interest-rates-by-25-bps-after-the-january-2027-meeting-20260729233815506",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/fed-decision-in-september-762-c4RyWuxRPo1L.jpg",
-  "cid": "0x50642b28be893e8752649e9ae6d687558fc5dcfeeecd10713cf59ef6ea0edce4",
-  "slug": "will-the-fed-increase-interest-rates-by-25-bps-after-the-january-2027-meeting-20260729233815506",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.51,
-  "usd": 510.0,
-  "shares": 1000.0,
-  "ts": 1794385227,
-  "held": 1.85,
-  "heldUsd": 0.91,
-  "peak": 1000.0,
-  "chip": "First",
-  "split": "",
-  "arrow": "\u2191",
   "fills": [],
   "id": 119
  }
