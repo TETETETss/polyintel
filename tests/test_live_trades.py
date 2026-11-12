@@ -212,6 +212,10 @@ class LiveTradesTest(unittest.TestCase):
         self.assertIn("Mostly sold ", html)
         self.assertIn("__INFLOW__", html)
         self.assertNotIn(">Top Inflows</a>", html)
+        self.assertIn("const V='programs'", html)
+        self.assertIn("https://polymarket.com?via=programs", html)
+        self.assertNotIn("via=brams", html)
+        self.assertNotIn("poly.market/brams", html)
         # markets search and how-to image stay put
         self.assertIn('id="q"', html)
         self.assertIn("read-a-market-card.webp", html)
