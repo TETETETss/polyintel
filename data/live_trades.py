@@ -352,6 +352,189 @@ def publish(wallets, raw_by_addr, path=None, now=None):
     print(f"  newest: {s['n']} {s['side']} {s['out']} ${s['usd']} · {s['chip']} {s['split']} {s['arrow']} · img={'yes' if s['img'] else 'no'} · {s['t'][:70]}")
     return len(rows)
 
+INFLOW_HOURS = 24
+INFLOW_PAGES = 20
+MIN_INFLOW = 2000.0
+
+def activity_since(addr, hours, pages, now=None):
+    """TRADE rows newer than `hours`, paging until the window is covered. v2 only."""
+    now = time.time() if now is None else now
+    cutoff = now - hours * 3600
+    rows, cur, ok = [], None, False
+    for _ in range(max(1, pages)):
+        q = {"user": addr, "limit": 100, "type": "TRADE"}
+        if cur:
+            q["cursor"] = cur
+        d = get(V2 + "activity?" + urllib.parse.urlencode(q))
+        if d is None:
+            break
+        ok = True
+        r, cur = rows_of(d)
+        rows += r or []
+        if not r or not cur:
+            break
+        if min(norm_ts(x) or cutoff for x in r) < cutoff:
+            break
+    trades = [x for x in rows if str(F(x, "type", default="TRADE")).upper() == "TRADE"
+              and str(F(x, "side", default="")).upper() in ("BUY", "SELL") and norm_ts(x) >= cutoff]
+    return trades, ok
+
+def _bucket(outcome):
+    o = str(outcome or "").strip().lower()
+    if o == "yes":
+        return "yes"
+    if o == "no":
+        return "no"
+    return None
+
+def aggregate_inflows(trades, min_net=MIN_INFLOW):
+    """yes/no are net dollars (buys − sells). net = max(yes,0)+max(no,0). Traders keep positive nets only."""
+    mk = {}
+    for t in trades or []:
+        bucket = _bucket(t.get("out"))
+        if not bucket or not t.get("cid"):
+            continue
+        usd = float(t.get("usd") or 0)
+        if usd <= 0:
+            continue
+        sign = 1.0 if str(t.get("side") or "").upper() == "BUY" else -1.0
+        m = mk.setdefault(t["cid"], {"cid": t["cid"], "t": t.get("t") or "", "slug": t.get("slug") or "", "ev": t.get("ev") or "",
+            "img": t.get("img") or "", "ts": 0, "yes": 0.0, "no": 0.0, "px": None, "who": {}})
+        if (t.get("ts") or 0) >= m["ts"]:
+            m["ts"] = t.get("ts") or 0
+            if t.get("t"):
+                m["t"] = t["t"]
+            m["slug"] = t.get("slug") or m["slug"]
+            m["ev"] = t.get("ev") or m["ev"]
+            m["img"] = t.get("img") or m["img"]
+            price = t.get("price")
+            if price is not None:
+                m["px"] = float(price) if bucket == "yes" else 1.0 - float(price)
+        m[bucket] += sign * usd
+        who = m["who"].setdefault(t.get("name") or "?", {"n": t.get("name") or "?", "avatar": "", "yes": 0.0, "no": 0.0})
+        if t.get("avatar"):
+            who["avatar"] = t["avatar"]
+        who[bucket] += sign * usd
+    out = []
+    for m in mk.values():
+        y, n = m["yes"], m["no"]
+        net = max(y, 0.0) + max(n, 0.0)
+        if net < min_net or not m["t"] or m["t"] == "Market":
+            continue
+        tr = []
+        for w in m["who"].values():
+            if w["yes"] > 0.5:
+                tr.append({"n": w["n"], "avatar": w["avatar"], "out": "Yes", "usd": round(w["yes"], 2)})
+            if w["no"] > 0.5:
+                tr.append({"n": w["n"], "avatar": w["avatar"], "out": "No", "usd": round(w["no"], 2)})
+        tr.sort(key=lambda z: -z["usd"])
+        if not tr:
+            continue
+        out.append({"cid": m["cid"], "t": m["t"], "url": market_url(m["slug"], m["ev"]), "slug": m["slug"], "img": m["img"],
+            "yes": round(y, 2), "no": round(n, 2), "px": None if m["px"] is None else round(m["px"], 4), "tr": tr})
+    out.sort(key=lambda z: -(max(z["yes"], 0) + max(z["no"], 0)))
+    return out
+
+def yes_prices(cids):
+    """Current YES price (0-1) from gamma, keyed by condition id."""
+    out = {}
+    ids = [c for c in dict.fromkeys(cids) if c]
+    for i in range(0, len(ids), 20):
+        q = "&".join("condition_ids=" + urllib.parse.quote(c) for c in ids[i:i + 20])
+        d = get("https://gamma-api.polymarket.com/markets?limit=50&" + q)
+        if not isinstance(d, list):
+            continue
+        for m in d:
+            cid = m.get("conditionId") or m.get("condition_id")
+            if not cid:
+                continue
+            try:
+                names = json.loads(m.get("outcomes") or "[]")
+                prices = json.loads(m.get("outcomePrices") or "[]")
+            except (TypeError, ValueError):
+                continue
+            px = None
+            for name, price in zip(names, prices):
+                if str(name).strip().lower() == "yes":
+                    try:
+                        px = float(price)
+                    except (TypeError, ValueError):
+                        px = None
+                    break
+            if px is None and prices:
+                try:
+                    px = float(prices[0])
+                except (TypeError, ValueError):
+                    px = None
+            if px is not None:
+                out[cid] = round(px, 4)
+    return out
+
+def inflow_trades(addr, name, rows):
+    out = []
+    for x in rows or []:
+        side = str(F(x, "side", default="")).upper()
+        if side not in ("BUY", "SELL"):
+            continue
+        try:
+            usd = F(x, "usdc_size", "usdcSize")
+            usd = float(usd) if usd is not None else float(F(x, "size", default=0) or 0) * float(F(x, "price", default=0) or 0)
+            price = float(F(x, "price", default=0) or 0)
+        except (TypeError, ValueError):
+            continue
+        if usd <= 0:
+            continue
+        cid = F(x, "condition_id", "conditionId") or ""
+        if not cid:
+            continue
+        out.append({"cid": cid, "side": side, "out": F(x, "outcome") or "", "usd": usd, "price": price,
+            "name": name or F(x, "name") or F(x, "pseudonym") or addr[:6],
+            "avatar": F(x, "profile_image", "profileImage") or "",
+            "t": F(x, "title") or "", "slug": F(x, "slug") or "", "ev": F(x, "event_slug", "eventSlug") or "",
+            "img": F(x, "icon", "image") or "", "ts": norm_ts(x)})
+    return out
+
+def publish_inflows(wallets, path=None, now=None):
+    names, addrs = {}, []
+    seen = set()
+    for w in wallets:
+        a = w["wallet"].lower()
+        if w.get("name"):
+            names.setdefault(a, w["name"])
+        if a in seen:
+            continue
+        seen.add(a)
+        addrs.append(a)
+    print(f"top inflows: {len(addrs)} wallets, last {INFLOW_HOURS:g}h")
+    t0 = time.time()
+    with cf.ThreadPoolExecutor(8) as ex:
+        fetched = list(ex.map(lambda a: activity_since(a, INFLOW_HOURS, INFLOW_PAGES, now=now), addrs))
+    raw, ok = [], False
+    for addr, (rows, good) in zip(addrs, fetched):
+        ok = ok or good
+        raw += inflow_trades(addr, names.get(addr), rows)
+    print(f"  24h trades: {len(raw)} in {time.time() - t0:.0f}s")
+    path = path or os.path.join(HERE, "inflows.json")
+    if not ok and not raw:
+        print("top inflows: fetch failed, keeping previous data/inflows.json")
+        return 0
+    markets = aggregate_inflows(raw)
+    px = yes_prices([m["cid"] for m in markets])
+    for m in markets:
+        if m["cid"] in px:
+            m["px"] = px[m["cid"]]
+    payload = {"mk": markets}
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(payload, f)
+    os.replace(tmp, path)
+    print(f"top inflows: {len(markets)} markets >= ${MIN_INFLOW:.0f} -> {path}")
+    if markets:
+        top = markets[0]
+        net = max(top["yes"], 0) + max(top["no"], 0)
+        print(f"  biggest: ${net:,.0f} · {top['t'][:70]}")
+    return len(markets)
+
 def fetch_positions(addr):
     """Unfiltered v2 positions (dust included) so the held bar and consensus see every share."""
     out, cur = [], None

@@ -58,6 +58,22 @@ class LiveTradesTest(unittest.TestCase):
         self.assertEqual(row["heldUsd"], 3500.5)
         self.assertEqual(row["out"], "No")
 
+    def test_inflows_keep_positive_nets_over_2000(self):
+        cid = "0x" + "ab" * 32
+        trades = [
+            {"cid": cid, "side": "BUY", "out": "Yes", "usd": 3000, "price": 0.4, "name": "Ada", "avatar": "", "t": "Will it happen?", "slug": "will-it", "ev": "ev", "img": "i.png", "ts": 10},
+            {"cid": cid, "side": "SELL", "out": "Yes", "usd": 500, "price": 0.5, "name": "Ada", "avatar": "a.png", "t": "Will it happen?", "slug": "will-it", "ev": "ev", "img": "i.png", "ts": 20},
+            {"cid": cid, "side": "BUY", "out": "No", "usd": 100, "price": 0.6, "name": "Bea", "avatar": "", "t": "Will it happen?", "slug": "will-it", "ev": "ev", "img": "i.png", "ts": 15},
+            {"cid": "0xsmall", "side": "BUY", "out": "Yes", "usd": 1500, "price": 0.2, "name": "Cy", "avatar": "", "t": "Small market", "slug": "small", "ev": "small", "img": "", "ts": 5},
+        ]
+        rows = lt.aggregate_inflows(trades)
+        self.assertEqual([r["t"] for r in rows], ["Will it happen?"])
+        self.assertEqual(rows[0]["yes"], 2500)
+        self.assertEqual(rows[0]["no"], 100)
+        self.assertEqual([(t["n"], t["out"], t["usd"]) for t in rows[0]["tr"]], [("Ada", "Yes", 2500), ("Bea", "No", 100)])
+        self.assertEqual(rows[0]["px"], 0.5)
+        self.assertTrue(rows[0]["url"].startswith("https://polymarket.com/event/"))
+
     def test_with_first_and_exited(self):
         a, b = "0x" + "1" * 40, "0x" + "2" * 40
         idx = {a: {CID: {"Yes": 50.0}}, b: {CID: {"Yes": 20.0}}}
@@ -132,6 +148,10 @@ class LiveTradesTest(unittest.TestCase):
         self.assertIn('id="v-traders"', html)
         self.assertIn("__LIVE__", html)
         self.assertIn("__NLIVE__", html)
+        self.assertIn('data-v="inflows"', html)
+        self.assertIn(">Top Inflows</a>", html)
+        self.assertIn('id="v-inflows"', html)
+        self.assertIn("__INFLOW__", html)
         # markets search and how-to image stay put
         self.assertIn('id="q"', html)
         self.assertIn("read-a-market-card.webp", html)
@@ -144,6 +164,8 @@ class LiveTradesTest(unittest.TestCase):
         workflow = (ROOT / ".github" / "workflows" / "refresh.yml").read_text(encoding="utf-8")
         self.assertIn("__LIVE__", build)
         self.assertIn("__NLIVE__", build)
+        self.assertIn("__INFLOW__", build)
+        self.assertIn("publish_inflows", refresh)
         self.assertIn("data/live.json", build)
         self.assertIn("live_trades.publish", refresh)
         self.assertIn("/v2/positions?user=", refresh)

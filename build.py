@@ -41,6 +41,7 @@ out.sort(key=lambda x:(-x['cnt'],-x['cnt']/x['n'],-x['tot']))
 #nocap
 print([(o['t'][:40],o['cnt'],o['n'],o['cat']) for o in out])
 _live=json.load(open('data/live.json')) if os.path.exists('data/live.json') else []
+_in=json.load(open('data/inflows.json')) if os.path.exists('data/inflows.json') else {'mk':[]}
 def _js(o): return json.dumps(o,separators=(',',':')).replace('<','\\u003c')
-html=open('tpl.html').read().replace('__NLIVE__',str(len(_live))).replace('__LIVE__',_js(_live)).replace('__DATA__',json.dumps(out)).replace('__TRADERS__',open('traders.json').read()).replace('{{BUILT}}',__import__('datetime').datetime.now(__import__('datetime').timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')).replace('{{NTRADERS}}',str(len(json.load(open('data/wallets.json')))))
+html=open('tpl.html').read().replace('__INFLOW__',_js(_in)).replace('__NLIVE__',str(len(_live))).replace('__LIVE__',_js(_live)).replace('__DATA__',json.dumps(out)).replace('__TRADERS__',open('traders.json').read()).replace('{{BUILT}}',__import__('datetime').datetime.now(__import__('datetime').timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')).replace('{{NTRADERS}}',str(len(json.load(open('data/wallets.json')))))
 open('index.html.new','w').write(html)

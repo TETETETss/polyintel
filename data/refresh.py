@@ -55,3 +55,9 @@ try:
 except Exception:
     import traceback; traceback.print_exc()
     print("live trades refresh failed; keeping previous data/live.json")
+try:
+    import live_trades
+    live_trades.publish_inflows(W)
+except Exception:
+    import traceback; traceback.print_exc()
+    print("top inflows refresh failed; keeping previous data/inflows.json")
