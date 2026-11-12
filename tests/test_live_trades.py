@@ -206,6 +206,8 @@ class LiveTradesTest(unittest.TestCase):
         self.assertIn('class="sub"', html)
         self.assertIn('class="if-sh"', html)
         self.assertIn("shares · avg", html)
+        self.assertIn("#v-inflows .if-row .sub{display:block;margin:0;line-height:normal", html)
+        self.assertIn("#v-inflows .if-sh .y,#v-inflows .if-sh .n{white-space:nowrap", html)
         self.assertIn("m.ysh", html)
         self.assertIn("Mostly sold ", html)
         self.assertIn("__INFLOW__", html)
