@@ -439,7 +439,40 @@ def _touch_market(mk, t, bucket):
         who["avatar"] = t["avatar"]
     return m, who
 
-def _finish(mk, min_net, held=None, exited=False):
+def _trade_shares(t, usd):
+    raw = t.get("sh")
+    if raw is not None:
+        try:
+            sh = float(raw)
+            if sh > 0:
+                return sh
+        except (TypeError, ValueError):
+            pass
+    try:
+        price = float(t.get("price") or 0)
+    except (TypeError, ValueError):
+        price = 0.0
+    if price > 0 and usd > 0:
+        return usd / price
+    return 0.0
+
+def _bump(holder, key, amt):
+    holder[key] = holder.get(key, 0.0) + amt
+
+def _px(usd, sh):
+    if sh <= 0:
+        return None
+    return round(usd / sh, 4)
+
+def _side_book(holder, bucket, flow):
+    """Inflows: net shares and the average buy. Outflows: shares sold and the average sell."""
+    bsh = float(holder.get(bucket + "_bsh") or 0)
+    ssh = float(holder.get(bucket + "_ssh") or 0)
+    if flow == "out":
+        return round(ssh, 2), _px(float(holder.get(bucket) or 0), ssh)
+    return round(bsh - ssh, 2), _px(float(holder.get(bucket + "_busd") or 0), bsh)
+
+def _finish(mk, min_net, held=None, exited=False, flow="in"):
     out = []
     for m in mk.values():
         y, n = m["yes"], m["no"]
@@ -452,6 +485,10 @@ def _finish(mk, min_net, held=None, exited=False):
                 if amt <= 0.5:
                     continue
                 row = {"n": w["n"], "avatar": w["avatar"], "out": side, "usd": round(amt, 2)}
+                sh, avg = _side_book(w, "yes" if side == "Yes" else "no", flow)
+                row["sh"] = sh
+                if avg is not None:
+                    row["avg"] = avg
                 if exited:
                     left = _held_shares(held, w.get("addr"), m["cid"], side)
                     row["exited"] = left <= 0.01
@@ -459,8 +496,16 @@ def _finish(mk, min_net, held=None, exited=False):
         tr.sort(key=lambda z: -z["usd"])
         if not tr:
             continue
-        out.append({"cid": m["cid"], "t": m["t"], "url": market_url(m["slug"], m["ev"]), "slug": m["slug"], "img": m["img"],
-            "yes": round(y, 2), "no": round(n, 2), "px": None if m["px"] is None else round(max(0.0, min(1.0, m["px"])), 4), "tr": tr})
+        ysh, yavg = _side_book(m, "yes", flow)
+        nsh, navg = _side_book(m, "no", flow)
+        item = {"cid": m["cid"], "t": m["t"], "url": market_url(m["slug"], m["ev"]), "slug": m["slug"], "img": m["img"],
+            "yes": round(y, 2), "no": round(n, 2), "yesSh": ysh, "noSh": nsh,
+            "px": None if m["px"] is None else round(max(0.0, min(1.0, m["px"])), 4), "tr": tr}
+        if yavg is not None:
+            item["yesAvg"] = yavg
+        if navg is not None:
+            item["noAvg"] = navg
+        out.append(item)
     out.sort(key=lambda z: -(max(z["yes"], 0) + max(z["no"], 0)))
     return out
 
@@ -475,10 +520,19 @@ def aggregate_inflows(trades, min_net=MIN_INFLOW):
         if usd <= 0:
             continue
         sign = 1.0 if str(t.get("side") or "").upper() == "BUY" else -1.0
+        sh = _trade_shares(t, usd)
         m, who = _touch_market(mk, t, bucket)
         m[bucket] += sign * usd
         who[bucket] += sign * usd
-    return _finish(mk, min_net)
+        if sign > 0:
+            _bump(m, bucket + "_bsh", sh)
+            _bump(m, bucket + "_busd", usd)
+            _bump(who, bucket + "_bsh", sh)
+            _bump(who, bucket + "_busd", usd)
+        else:
+            _bump(m, bucket + "_ssh", sh)
+            _bump(who, bucket + "_ssh", sh)
+    return _finish(mk, min_net, flow="in")
 
 def aggregate_outflows(trades, held=None, min_net=MIN_INFLOW):
     """yes/no are dollars sold of YES/NO. Sells at 95c or more, and redemptions, are left out."""
@@ -498,10 +552,13 @@ def aggregate_outflows(trades, held=None, min_net=MIN_INFLOW):
         usd = float(t.get("usd") or 0)
         if usd <= 0:
             continue
+        sh = _trade_shares(t, usd)
         m, who = _touch_market(mk, t, bucket)
         m[bucket] += usd
         who[bucket] += usd
-    return _finish(mk, min_net, held=held, exited=True)
+        _bump(m, bucket + "_ssh", sh)
+        _bump(who, bucket + "_ssh", sh)
+    return _finish(mk, min_net, held=held, exited=True, flow="out")
 
 def yes_prices(cids):
     """Current YES price (0-1) from gamma, keyed by condition id."""
@@ -548,14 +605,18 @@ def inflow_trades(addr, name, rows):
             usd = F(x, "usdc_size", "usdcSize")
             usd = float(usd) if usd is not None else float(F(x, "size", default=0) or 0) * float(F(x, "price", default=0) or 0)
             price = float(F(x, "price", default=0) or 0)
+            size = F(x, "size")
+            sh = float(size) if size is not None else 0.0
         except (TypeError, ValueError):
             continue
         if usd <= 0:
             continue
+        if sh <= 0 and price > 0:
+            sh = usd / price
         cid = F(x, "condition_id", "conditionId") or ""
         if not cid:
             continue
-        out.append({"cid": cid, "side": side, "out": F(x, "outcome") or "", "usd": usd, "price": price,
+        out.append({"cid": cid, "side": side, "out": F(x, "outcome") or "", "usd": usd, "price": price, "sh": sh,
             "addr": addr.lower(), "redeem": str(F(x, "type", default="TRADE")).upper() != "TRADE",
             "name": name or F(x, "name") or F(x, "pseudonym") or addr[:6],
             "avatar": F(x, "profile_image", "profileImage") or "",

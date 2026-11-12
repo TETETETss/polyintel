@@ -71,11 +71,24 @@ class LiveTradesTest(unittest.TestCase):
         self.assertEqual(rows[0]["yes"], 2500)
         self.assertEqual(rows[0]["no"], 100)
         self.assertEqual([(t["n"], t["out"], t["usd"]) for t in rows[0]["tr"]], [("Ada", "Yes", 2500), ("Bea", "No", 100)])
+        # Buy 3000 at 40c is 7,500 shares; the 500 sell at 50c comes off the net, not the avg buy.
+        self.assertEqual(rows[0]["tr"][0]["sh"], 6500)
+        self.assertEqual(rows[0]["tr"][0]["avg"], 0.4)
+        self.assertEqual(rows[0]["yesSh"], 6500)
+        self.assertEqual(rows[0]["yesAvg"], 0.4)
+        self.assertEqual(rows[0]["noSh"], 166.67)
+        self.assertEqual(rows[0]["noAvg"], 0.6)
         self.assertEqual(rows[0]["px"], 0.5)
         self.assertTrue(rows[0]["url"].startswith("https://polymarket.com/event/"))
         # A sell at 95c still counts against an inflow. That filter is outflows only.
         pricey = list(trades) + [{"cid": cid, "side": "SELL", "out": "Yes", "usd": 200, "price": 0.99, "name": "Ada", "avatar": "", "t": "Will it happen?", "slug": "will-it", "ev": "ev", "img": "i.png", "ts": 30}]
         self.assertEqual(lt.aggregate_inflows(pricey)[0]["yes"], 2300)
+        sized = [dict(trades[0], sh=12400, usd=5332)]
+        sized[0]["t"] = "Will it happen?"
+        one = lt.aggregate_inflows(sized)[0]
+        self.assertEqual(one["tr"][0]["sh"], 12400)
+        self.assertEqual(one["tr"][0]["avg"], round(5332 / 12400, 4))
+        self.assertEqual(one["yesSh"], 12400)
 
     def test_outflows_skip_95c_sells_and_redemptions(self):
         cid = "0x" + "cd" * 32
@@ -98,6 +111,13 @@ class LiveTradesTest(unittest.TestCase):
         by = {(t["n"], t["out"]): t for t in rows[0]["tr"]}
         self.assertFalse(by[("Ada", "Yes")]["exited"])
         self.assertTrue(by[("Bea", "No")]["exited"])
+        # 3,000 at 50c is 6,000 shares; the 500 at 94.9c counts, the 95c sell does not.
+        self.assertEqual(by[("Ada", "Yes")]["sh"], 6526.87)
+        self.assertEqual(by[("Ada", "Yes")]["avg"], 0.5362)
+        self.assertEqual(rows[0]["yesSh"], 6526.87)
+        self.assertEqual(rows[0]["yesAvg"], 0.5362)
+        self.assertEqual(by[("Bea", "No")]["sh"], 3500)
+        self.assertEqual(by[("Bea", "No")]["avg"], 0.2)
 
     def test_with_first_and_exited(self):
         a, b = "0x" + "1" * 40, "0x" + "2" * 40
@@ -181,6 +201,9 @@ class LiveTradesTest(unittest.TestCase):
         self.assertIn("BIGGEST EXIT", html)
         self.assertIn("Sold · 24h", html)
         self.assertIn("Open market ↗", html)
+        self.assertIn("function ifFlow", html)
+        self.assertIn("if-meta", html)
+        self.assertIn("yesSh", html)
         self.assertIn("Mostly sold ", html)
         self.assertIn("__INFLOW__", html)
         self.assertNotIn(">Top Inflows</a>", html)
