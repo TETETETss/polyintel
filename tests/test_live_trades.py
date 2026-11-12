@@ -74,10 +74,10 @@ class LiveTradesTest(unittest.TestCase):
         # Buy 3000 at 40c is 7,500 shares; the 500 sell at 50c comes off the net, not the avg buy.
         self.assertEqual(rows[0]["tr"][0]["sh"], 6500)
         self.assertEqual(rows[0]["tr"][0]["avg"], 0.4)
-        self.assertEqual(rows[0]["yesSh"], 6500)
-        self.assertEqual(rows[0]["yesAvg"], 0.4)
-        self.assertEqual(rows[0]["noSh"], 166.67)
-        self.assertEqual(rows[0]["noAvg"], 0.6)
+        self.assertEqual(rows[0]["ysh"], 6500)
+        self.assertEqual(rows[0]["yavg"], 0.4)
+        self.assertEqual(rows[0]["nsh"], 166.67)
+        self.assertEqual(rows[0]["navg"], 0.6)
         self.assertEqual(rows[0]["px"], 0.5)
         self.assertTrue(rows[0]["url"].startswith("https://polymarket.com/event/"))
         # A sell at 95c still counts against an inflow. That filter is outflows only.
@@ -88,7 +88,7 @@ class LiveTradesTest(unittest.TestCase):
         one = lt.aggregate_inflows(sized)[0]
         self.assertEqual(one["tr"][0]["sh"], 12400)
         self.assertEqual(one["tr"][0]["avg"], round(5332 / 12400, 4))
-        self.assertEqual(one["yesSh"], 12400)
+        self.assertEqual(one["ysh"], 12400)
 
     def test_outflows_skip_95c_sells_and_redemptions(self):
         cid = "0x" + "cd" * 32
@@ -114,8 +114,8 @@ class LiveTradesTest(unittest.TestCase):
         # 3,000 at 50c is 6,000 shares; the 500 at 94.9c counts, the 95c sell does not.
         self.assertEqual(by[("Ada", "Yes")]["sh"], 6526.87)
         self.assertEqual(by[("Ada", "Yes")]["avg"], 0.5362)
-        self.assertEqual(rows[0]["yesSh"], 6526.87)
-        self.assertEqual(rows[0]["yesAvg"], 0.5362)
+        self.assertEqual(rows[0]["ysh"], 6526.87)
+        self.assertEqual(rows[0]["yavg"], 0.5362)
         self.assertEqual(by[("Bea", "No")]["sh"], 3500)
         self.assertEqual(by[("Bea", "No")]["avg"], 0.2)
 
@@ -201,9 +201,12 @@ class LiveTradesTest(unittest.TestCase):
         self.assertIn("BIGGEST EXIT", html)
         self.assertIn("Sold · 24h", html)
         self.assertIn("Open market ↗", html)
-        self.assertIn("function ifFlow", html)
-        self.assertIn("if-meta", html)
-        self.assertIn("yesSh", html)
+        self.assertIn("function ifSh", html)
+        self.assertIn('class="who"', html)
+        self.assertIn('class="sub"', html)
+        self.assertIn('class="if-sh"', html)
+        self.assertIn("shares · avg", html)
+        self.assertIn("m.ysh", html)
         self.assertIn("Mostly sold ", html)
         self.assertIn("__INFLOW__", html)
         self.assertNotIn(">Top Inflows</a>", html)

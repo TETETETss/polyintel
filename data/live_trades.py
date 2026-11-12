@@ -499,12 +499,12 @@ def _finish(mk, min_net, held=None, exited=False, flow="in"):
         ysh, yavg = _side_book(m, "yes", flow)
         nsh, navg = _side_book(m, "no", flow)
         item = {"cid": m["cid"], "t": m["t"], "url": market_url(m["slug"], m["ev"]), "slug": m["slug"], "img": m["img"],
-            "yes": round(y, 2), "no": round(n, 2), "yesSh": ysh, "noSh": nsh,
+            "yes": round(y, 2), "no": round(n, 2), "ysh": ysh, "nsh": nsh,
             "px": None if m["px"] is None else round(max(0.0, min(1.0, m["px"])), 4), "tr": tr}
         if yavg is not None:
-            item["yesAvg"] = yavg
+            item["yavg"] = yavg
         if navg is not None:
-            item["noAvg"] = navg
+            item["navg"] = navg
         out.append(item)
     out.sort(key=lambda z: -(max(z["yes"], 0) + max(z["no"], 0)))
     return out
