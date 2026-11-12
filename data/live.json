@@ -1,5 +1,939 @@
 [
  {
+  "n": "MisTKy",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5070263-f290eb6b-11db-423d-b532-cd773195842b.jpg",
+  "t": "Jensen Huang announced resignation or removal by December 31, 2026?",
+  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
+  "cid": "0xe0881460dcd53df2f8410ff9ec4c151f22c15ad29ff581d8eb8ac9bce5124eef",
+  "slug": "jensen-huang-announced-resignation-or-removal-by-december-31",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.17,
+  "usd": 227.55,
+  "shares": 1338.54,
+  "ts": 1794448734,
+  "held": 25233.64,
+  "heldUsd": 4163.55,
+  "peak": 34983.39,
+  "chip": "Against",
+  "split": "6/10",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 0
+ },
+ {
+  "n": "Lolakis",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
+  "t": "Jensen Huang announced resignation or removal by December 31, 2026?",
+  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
+  "cid": "0xe0881460dcd53df2f8410ff9ec4c151f22c15ad29ff581d8eb8ac9bce5124eef",
+  "slug": "jensen-huang-announced-resignation-or-removal-by-december-31",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.835,
+  "usd": 8349.99,
+  "shares": 9999.99,
+  "ts": 1794448734,
+  "held": 38269.09,
+  "heldUsd": 31954.69,
+  "peak": 38655.12,
+  "chip": "Against",
+  "split": "6/10",
+  "arrow": "\u2193",
+  "fills": [
+   {
+    "ts": 1794448620,
+    "usd": 4200.0,
+    "shares": 5000.0,
+    "price": 0.84
+   },
+   {
+    "ts": 1794448698,
+    "usd": 3799.73,
+    "shares": 4577.99,
+    "price": 0.83
+   },
+   {
+    "ts": 1794448711,
+    "usd": 24.41,
+    "shares": 29.41,
+    "price": 0.83
+   },
+   {
+    "ts": 1794448717,
+    "usd": 5.93,
+    "shares": 7.14,
+    "price": 0.83
+   },
+   {
+    "ts": 1794448732,
+    "usd": 19.92,
+    "shares": 24.0,
+    "price": 0.83
+   },
+   {
+    "ts": 1794448734,
+    "usd": 300.0,
+    "shares": 361.45,
+    "price": 0.83
+   }
+  ],
+  "id": 1
+ },
+ {
+  "n": "Lolakis",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
+  "t": "Jensen Huang announced resignation or removal by November 30, 2026?",
+  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31/jensen-huang-announced-resignation-or-removal-by-november-30-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
+  "cid": "0x6537d883f6dd80cb7c159d20e81fe7f23a2b5296c04114540aefc046f3439859",
+  "slug": "jensen-huang-announced-resignation-or-removal-by-november-30-2026",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.84,
+  "usd": 201.79,
+  "shares": 240.23,
+  "ts": 1794448717,
+  "held": 3495.2,
+  "heldUsd": 2866.07,
+  "peak": 3735.44,
+  "chip": "Against",
+  "split": "3/4",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 2
+ },
+ {
+  "n": "JJo",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-508207-408334b1-8add-4dd3-96b4-52c69671de6c.png",
+  "t": "Jensen Huang announced resignation or removal by November 11, 2026?",
+  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31/jensen-huang-announced-resignation-or-removal-by-november-11-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
+  "cid": "0x6215a6b38b51de4e1d0254da3cbb1d25bd75497276fedbbcd6bbcc7e126bff19",
+  "slug": "jensen-huang-announced-resignation-or-removal-by-november-11-2026",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.34,
+  "usd": 683.4,
+  "shares": 2010.0,
+  "ts": 1794448710,
+  "held": 2010.0,
+  "heldUsd": 733.65,
+  "peak": 2010.0,
+  "chip": "With",
+  "split": "5/10",
+  "arrow": "\u2191",
+  "fills": [
+   {
+    "ts": 1794448699,
+    "usd": 599.44,
+    "shares": 1763.07,
+    "price": 0.34
+   },
+   {
+    "ts": 1794448699,
+    "usd": 49.53,
+    "shares": 145.68,
+    "price": 0.34
+   },
+   {
+    "ts": 1794448707,
+    "usd": 1.7,
+    "shares": 5.0,
+    "price": 0.34
+   },
+   {
+    "ts": 1794448710,
+    "usd": 32.73,
+    "shares": 96.26,
+    "price": 0.34
+   }
+  ],
+  "id": 3
+ },
+ {
+  "n": "archaic",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/d_d_usepic_b134fd85-ac75-4474-b983-d5196b546338_1739983370667.webp",
+  "t": "Will Roger Crist\u00f3bal Gronerth Pinedo win the next Maynas mayoral elections?",
+  "url": "https://polymarket.com/event/maynas-mayoral-election-winner-20260811165718694/will-roger-cristobal-gronerth-pinedo-win-the-next-maynas-mayoral-elections-20260811165718010",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/maynas-mayor-26-roger-cristobal-gronerth-pinedo-fa1d176494.jpg",
+  "cid": "0x5789211cf122748d8af91e5df91c0a9877e60ca63de3d110acf7130c37a34a3d",
+  "slug": "will-roger-cristobal-gronerth-pinedo-win-the-next-maynas-mayoral-elections-20260811165718010",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.998,
+  "usd": 160.37,
+  "shares": 160.69,
+  "ts": 1794448708,
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 160.69,
+  "chip": "Exited",
+  "split": "",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 4
+ },
+ {
+  "n": "Lolakis",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
+  "t": "Jensen Huang announced resignation or removal by November 13, 2026?",
+  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31/jensen-huang-announced-resignation-or-removal-by-november-13-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
+  "cid": "0x72d0d224c0e02942c86b32ac385f14ca419120abc485c2601991d85cceac8b8f",
+  "slug": "jensen-huang-announced-resignation-or-removal-by-november-13-2026",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.67,
+  "usd": 80.5,
+  "shares": 120.15,
+  "ts": 1794448707,
+  "held": 4019.78,
+  "heldUsd": 2693.25,
+  "peak": 4019.78,
+  "chip": "With",
+  "split": "4/5",
+  "arrow": "\u2193",
+  "fills": [
+   {
+    "ts": 1794448644,
+    "usd": 10.15,
+    "shares": 15.15,
+    "price": 0.67
+   },
+   {
+    "ts": 1794448698,
+    "usd": 3.35,
+    "shares": 5.0,
+    "price": 0.67
+   },
+   {
+    "ts": 1794448707,
+    "usd": 67.0,
+    "shares": 100.0,
+    "price": 0.67
+   }
+  ],
+  "id": 5
+ },
+ {
+  "n": "JJo",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-508207-408334b1-8add-4dd3-96b4-52c69671de6c.png",
+  "t": "Jensen Huang announced resignation or removal by December 31, 2026?",
+  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
+  "cid": "0xe0881460dcd53df2f8410ff9ec4c151f22c15ad29ff581d8eb8ac9bce5124eef",
+  "slug": "jensen-huang-announced-resignation-or-removal-by-december-31",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.83,
+  "usd": 2490.0,
+  "shares": 3000.0,
+  "ts": 1794448698,
+  "held": 7999.97,
+  "heldUsd": 6679.98,
+  "peak": 7999.97,
+  "chip": "Against",
+  "split": "6/10",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 6
+ },
+ {
+  "n": "vinii",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3182982-b6b5b95b-0f9e-4483-ac26-fd178a3bcfdf.jpeg",
+  "t": "Jensen Huang announced resignation or removal by November 11, 2026?",
+  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31/jensen-huang-announced-resignation-or-removal-by-november-11-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
+  "cid": "0x6215a6b38b51de4e1d0254da3cbb1d25bd75497276fedbbcd6bbcc7e126bff19",
+  "slug": "jensen-huang-announced-resignation-or-removal-by-november-11-2026",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.65,
+  "usd": 1300.0,
+  "shares": 2000.0,
+  "ts": 1794448686,
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 2000.0,
+  "chip": "With",
+  "split": "5/10",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 7
+ },
+ {
+  "n": "Tenebrus7",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
+  "t": "Will Rapha\u00ebl Glucksmann win the 2027 French presidential election?",
+  "url": "https://polymarket.com/event/next-french-presidential-election/will-raphal-glucksmann-win-the-2027-french-presidential-election",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/fr27-raphael-glucksmann-c0032d60f6.jpg",
+  "cid": "0xcfc6e088b78e695e831e094f7aa1197c16b2436e5984b12fb9286361804b8e1b",
+  "slug": "will-raphal-glucksmann-win-the-2027-french-presidential-election",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.018,
+  "usd": 9.0,
+  "shares": 500.0,
+  "ts": 1794448561,
+  "held": 8952.42,
+  "heldUsd": 165.62,
+  "peak": 8952.42,
+  "chip": "With",
+  "split": "3/4",
+  "arrow": "",
+  "fills": [
+   {
+    "ts": 1794448320,
+    "usd": 1.8,
+    "shares": 100.0,
+    "price": 0.018
+   },
+   {
+    "ts": 1794448381,
+    "usd": 1.8,
+    "shares": 100.0,
+    "price": 0.018
+   },
+   {
+    "ts": 1794448440,
+    "usd": 1.8,
+    "shares": 100.0,
+    "price": 0.018
+   },
+   {
+    "ts": 1794448500,
+    "usd": 1.8,
+    "shares": 100.0,
+    "price": 0.018
+   },
+   {
+    "ts": 1794448561,
+    "usd": 1.8,
+    "shares": 100.0,
+    "price": 0.018
+   }
+  ],
+  "id": 8
+ },
+ {
+  "n": "MisTKy",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5070263-f290eb6b-11db-423d-b532-cd773195842b.jpg",
+  "t": "Jensen Huang announced resignation or removal by March 31, 2027?",
+  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31/jensen-huang-announced-resignation-or-removal-by-march-31-2027",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
+  "cid": "0x3f1eec161a0b6185cfa74ece375a8dc54f110efade9d20aae37d2f30e34f1c4a",
+  "slug": "jensen-huang-announced-resignation-or-removal-by-march-31-2027",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.15,
+  "usd": 191.29,
+  "shares": 1275.26,
+  "ts": 1794448545,
+  "held": 20363.56,
+  "heldUsd": 2647.26,
+  "peak": 21638.82,
+  "chip": "With",
+  "split": "4/7",
+  "arrow": "\u2193",
+  "fills": [
+   {
+    "ts": 1794448545,
+    "usd": 161.29,
+    "shares": 1075.26,
+    "price": 0.15
+   },
+   {
+    "ts": 1794448545,
+    "usd": 30.0,
+    "shares": 200.0,
+    "price": 0.15
+   }
+  ],
+  "id": 9
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the Democratic Party win the LA-05 House seat?",
+  "url": "https://polymarket.com/event/la-05-house-election-winner/will-the-democratic-party-win-the-la-05-house-seat",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/state_flags/LA.png",
+  "cid": "0x025f95f592adfae90aeb05697026f0024faf8c6388d4da85a3a33dfc5427c9a2",
+  "slug": "will-the-democratic-party-win-the-la-05-house-seat",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.955,
+  "usd": 19.1,
+  "shares": 20.0,
+  "ts": 1794448503,
+  "held": 34.93,
+  "heldUsd": 33.26,
+  "peak": 34.93,
+  "chip": "First",
+  "split": "",
+  "arrow": "",
+  "fills": [],
+  "id": 10
+ },
+ {
+  "n": "Lolakis",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
+  "t": "Jensen Huang announced resignation or removal by November 13, 2026?",
+  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31/jensen-huang-announced-resignation-or-removal-by-november-13-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
+  "cid": "0x72d0d224c0e02942c86b32ac385f14ca419120abc485c2601991d85cceac8b8f",
+  "slug": "jensen-huang-announced-resignation-or-removal-by-november-13-2026",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.69,
+  "usd": 689.98,
+  "shares": 999.98,
+  "ts": 1794448482,
+  "held": 4019.78,
+  "heldUsd": 2693.25,
+  "peak": 4019.78,
+  "chip": "With",
+  "split": "4/5",
+  "arrow": "\u2193",
+  "fills": [
+   {
+    "ts": 1794448428,
+    "usd": 86.37,
+    "shares": 125.17,
+    "price": 0.69
+   },
+   {
+    "ts": 1794448444,
+    "usd": 111.29,
+    "shares": 161.29,
+    "price": 0.69
+   },
+   {
+    "ts": 1794448462,
+    "usd": 55.65,
+    "shares": 80.65,
+    "price": 0.69
+   },
+   {
+    "ts": 1794448482,
+    "usd": 436.68,
+    "shares": 632.87,
+    "price": 0.69
+   }
+  ],
+  "id": 11
+ },
+ {
+  "n": "Lolakis",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
+  "t": "Jensen Huang announced resignation or removal by November 12, 2026?",
+  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31/jensen-huang-announced-resignation-or-removal-by-november-12-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
+  "cid": "0x835acf3bffe67dcfb5e5f97aba52414739b6f5ff1970195b52d97bb374796155",
+  "slug": "jensen-huang-announced-resignation-or-removal-by-november-12-2026",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.62,
+  "usd": 28.32,
+  "shares": 45.68,
+  "ts": 1794448443,
+  "held": 45.68,
+  "heldUsd": 29.01,
+  "peak": 45.68,
+  "chip": "With",
+  "split": "4/5",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 12
+ },
+ {
+  "n": "PaddyAlpha",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
+  "t": "Jensen Huang announced resignation or removal by December 31, 2026?",
+  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
+  "cid": "0xe0881460dcd53df2f8410ff9ec4c151f22c15ad29ff581d8eb8ac9bce5124eef",
+  "slug": "jensen-huang-announced-resignation-or-removal-by-december-31",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.15,
+  "usd": 15.0,
+  "shares": 100.0,
+  "ts": 1794448420,
+  "held": 558.61,
+  "heldUsd": 92.17,
+  "peak": 758.61,
+  "chip": "Against",
+  "split": "6/10",
+  "arrow": "\u2193",
+  "fills": [
+   {
+    "ts": 1794448395,
+    "usd": 5.36,
+    "shares": 35.71,
+    "price": 0.15
+   },
+   {
+    "ts": 1794448420,
+    "usd": 9.64,
+    "shares": 64.29,
+    "price": 0.15
+   }
+  ],
+  "id": 13
+ },
+ {
+  "n": "Tenebrus7",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
+  "t": "Israel x Iran ceasefire continues through November 30?",
+  "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963/israel-x-iran-ceasefire-continues-through-november-30",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963-FEQHrNm5Q53X.jpg",
+  "cid": "0x2dcbc71a3f8108936e768b503d565fbda7a644b2a0bd9ed45f74982a2bb11fba",
+  "slug": "israel-x-iran-ceasefire-continues-through-november-30",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.83,
+  "usd": 27.05,
+  "shares": 32.59,
+  "ts": 1794448413,
+  "held": 3580.27,
+  "heldUsd": 3007.43,
+  "peak": 3580.27,
+  "chip": "With",
+  "split": "4/6",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 14
+ },
+ {
+  "n": "aenews2",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-154436-a84dabd0-06ee-40d3-be95-e454283cdfc0.jpg",
+  "t": "Jensen Huang announced resignation or removal by November 11, 2026?",
+  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31/jensen-huang-announced-resignation-or-removal-by-november-11-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
+  "cid": "0x6215a6b38b51de4e1d0254da3cbb1d25bd75497276fedbbcd6bbcc7e126bff19",
+  "slug": "jensen-huang-announced-resignation-or-removal-by-november-11-2026",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.3692,
+  "usd": 19483.62,
+  "shares": 52770.24,
+  "ts": 1794448399,
+  "held": 52770.24,
+  "heldUsd": 19261.14,
+  "peak": 52770.24,
+  "chip": "With",
+  "split": "5/10",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 15
+ },
+ {
+  "n": "Car",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
+  "t": "Will another city host the final of the 2030 FIFA World Cup?",
+  "url": "https://polymarket.com/event/world-cup-2030-location-of-final-20260805200159829/will-another-city-host-the-final-of-the-2030-fifa-world-cup-20260805200159843",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/infantino-shrug-e70363f7ce.png",
+  "cid": "0x07414b5c367c107a563491fe8b354abd5b07f099fce3b25cd57e80110ce780ff",
+  "slug": "will-another-city-host-the-final-of-the-2030-fifa-world-cup-20260805200159843",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.49,
+  "usd": 1.13,
+  "shares": 2.31,
+  "ts": 1794448381,
+  "held": 6514.87,
+  "heldUsd": 3159.71,
+  "peak": 6517.18,
+  "chip": "Against",
+  "split": "2/2",
+  "arrow": "",
+  "fills": [],
+  "id": 16
+ },
+ {
+  "n": "Tenebrus7",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
+  "t": "US announces end of Iranian blockade by March 31, 2027?",
+  "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080/us-announces-end-of-iranian-blockade-by-march-31-2027",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-announces-blockade-on-iran-byptptpt-20260622191049039-hE3ZTZ51JJy3.jpg",
+  "cid": "0x8db33416a2d1ebde7438c80129e898f89a5deb3852ca64b37c4bf46513204409",
+  "slug": "us-announces-end-of-iranian-blockade-by-march-31-2027",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.36,
+  "usd": 1.61,
+  "shares": 4.47,
+  "ts": 1794448377,
+  "held": 3654.83,
+  "heldUsd": 1334.01,
+  "peak": 13410.54,
+  "chip": "Against",
+  "split": "2/4",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 17
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Elon Musk post 320-339 tweets from November 6 to November 13, 2026?",
+  "url": "https://polymarket.com/event/elon-musk-of-tweets-november-6-november-13-2026/elon-musk-of-tweets-november-6-november-13-2026-320-339",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/elon-musk-of-tweets-nov-22-29-apMPG21-pzx_.jpg",
+  "cid": "0x0204d2aeb28e04609a758a7a7a6b37a7fd98e926c487bf307f4c94ce2b9eaa82",
+  "slug": "elon-musk-of-tweets-november-6-november-13-2026-320-339",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9952,
+  "usd": 218.91,
+  "shares": 219.96,
+  "ts": 1794448342,
+  "held": 220.17,
+  "heldUsd": 218.74,
+  "peak": 220.17,
+  "chip": "First",
+  "split": "",
+  "arrow": "",
+  "fills": [],
+  "id": 18
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Elon Musk post 280-299 tweets from November 6 to November 13, 2026?",
+  "url": "https://polymarket.com/event/elon-musk-of-tweets-november-6-november-13-2026/elon-musk-of-tweets-november-6-november-13-2026-280-299",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/elon-musk-of-tweets-nov-22-29-apMPG21-pzx_.jpg",
+  "cid": "0x1514baad075fa09ac5a74bd3267dbe8769bceb80280ecb255181812486fa4ee1",
+  "slug": "elon-musk-of-tweets-november-6-november-13-2026-280-299",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9619,
+  "usd": 211.56,
+  "shares": 219.94,
+  "ts": 1794448342,
+  "held": 220.18,
+  "heldUsd": 209.61,
+  "peak": 220.18,
+  "chip": "First",
+  "split": "",
+  "arrow": "",
+  "fills": [],
+  "id": 19
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Elon Musk post 300-319 tweets from November 6 to November 13, 2026?",
+  "url": "https://polymarket.com/event/elon-musk-of-tweets-november-6-november-13-2026/elon-musk-of-tweets-november-6-november-13-2026-300-319",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/elon-musk-of-tweets-nov-22-29-apMPG21-pzx_.jpg",
+  "cid": "0x21b5e692507d3cd2d1fcb312c5fb8691e05f691b398823e8528108347ffeedfb",
+  "slug": "elon-musk-of-tweets-november-6-november-13-2026-300-319",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9837,
+  "usd": 216.18,
+  "shares": 219.76,
+  "ts": 1794448342,
+  "held": 220.01,
+  "heldUsd": 214.29,
+  "peak": 220.01,
+  "chip": "First",
+  "split": "",
+  "arrow": "",
+  "fills": [],
+  "id": 20
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Elon Musk post 180-199 tweets from November 6 to November 13, 2026?",
+  "url": "https://polymarket.com/event/elon-musk-of-tweets-november-6-november-13-2026/elon-musk-of-tweets-november-6-november-13-2026-180-199",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/elon-musk-of-tweets-nov-22-29-apMPG21-pzx_.jpg",
+  "cid": "0x2747b06126dcc29805d43dfbe83834700b280d804b78b710502b46f9b71198f8",
+  "slug": "elon-musk-of-tweets-november-6-november-13-2026-180-199",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9895,
+  "usd": 217.65,
+  "shares": 219.95,
+  "ts": 1794448342,
+  "held": 220.19,
+  "heldUsd": 217.88,
+  "peak": 220.19,
+  "chip": "First",
+  "split": "",
+  "arrow": "",
+  "fills": [],
+  "id": 21
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Elon Musk post 260-279 tweets from November 6 to November 13, 2026?",
+  "url": "https://polymarket.com/event/elon-musk-of-tweets-november-6-november-13-2026/elon-musk-of-tweets-november-6-november-13-2026-260-279",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/elon-musk-of-tweets-nov-22-29-apMPG21-pzx_.jpg",
+  "cid": "0x3eba7c962f756f94682ed765bde0119414a4c85a8513e7511638dcd7adc65e3a",
+  "slug": "elon-musk-of-tweets-november-6-november-13-2026-260-279",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.7259,
+  "usd": 159.7,
+  "shares": 220.0,
+  "ts": 1794448342,
+  "held": 220.24,
+  "heldUsd": 181.7,
+  "peak": 220.24,
+  "chip": "First",
+  "split": "",
+  "arrow": "",
+  "fills": [
+   {
+    "ts": 1794448342,
+    "usd": 106.5,
+    "shares": 150.0,
+    "price": 0.71
+   },
+   {
+    "ts": 1794448342,
+    "usd": 53.2,
+    "shares": 70.0,
+    "price": 0.76
+   }
+  ],
+  "id": 22
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Elon Musk post 220-239 tweets from November 6 to November 13, 2026?",
+  "url": "https://polymarket.com/event/elon-musk-of-tweets-november-6-november-13-2026/elon-musk-of-tweets-november-6-november-13-2026-220-239",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/elon-musk-of-tweets-nov-22-29-apMPG21-pzx_.jpg",
+  "cid": "0x59d88f3b4456d372219ecb3469b60ec328649687a2285cf7ae46f4499b6ffda1",
+  "slug": "elon-musk-of-tweets-november-6-november-13-2026-220-239",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.6824,
+  "usd": 150.13,
+  "shares": 219.99,
+  "ts": 1794448342,
+  "held": 210.23,
+  "heldUsd": 139.49,
+  "peak": 219.99,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 23
+ },
+ {
+  "n": "vinii",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3182982-b6b5b95b-0f9e-4483-ac26-fd178a3bcfdf.jpeg",
+  "t": "Jensen Huang announced resignation or removal by November 11, 2026?",
+  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31/jensen-huang-announced-resignation-or-removal-by-november-11-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
+  "cid": "0x6215a6b38b51de4e1d0254da3cbb1d25bd75497276fedbbcd6bbcc7e126bff19",
+  "slug": "jensen-huang-announced-resignation-or-removal-by-november-11-2026",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.6492,
+  "usd": 1298.43,
+  "shares": 2000.0,
+  "ts": 1794448297,
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 2000.0,
+  "chip": "Against",
+  "split": "5/10",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 24
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will GPT Astra 6.1+ be released between November 9 and November 15, 2026?",
+  "url": "https://polymarket.com/event/when-will-gpt-astra-6pt1-be-released-20261020/will-gpt-astra-6pt1-be-released-between-november-9-and-november-15-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/when-will-gpt-5-be-released-vIPhU76RogZc.jpg",
+  "cid": "0x279291736878dc58d155b4a7be44c71144c41b80e1af6d1f16386311907a5e29",
+  "slug": "will-gpt-astra-6pt1-be-released-between-november-9-and-november-15-2026",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.2064,
+  "usd": 80.34,
+  "shares": 389.25,
+  "ts": 1794448279,
+  "held": 3600.73,
+  "heldUsd": 684.14,
+  "peak": 3600.73,
+  "chip": "First",
+  "split": "",
+  "arrow": "",
+  "fills": [
+   {
+    "ts": 1794448225,
+    "usd": 79.31,
+    "shares": 384.25,
+    "price": 0.2
+   },
+   {
+    "ts": 1794448279,
+    "usd": 1.03,
+    "shares": 5.0,
+    "price": 0.2
+   }
+  ],
+  "id": 25
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Next Astra Model (6.1+) released by November 15, 2026?",
+  "url": "https://polymarket.com/event/gpt-astra-6pt1-released-byptptpt/next-astra-model-6pt1-released-by-november-15-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/when-will-gpt-5-be-released-vIPhU76RogZc.jpg",
+  "cid": "0x5f7763c65b6cd52c991eb94266a77aa20fb9ce3897304ebd372437a808d2df2f",
+  "slug": "next-astra-model-6pt1-released-by-november-15-2026",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.78,
+  "usd": 303.65,
+  "shares": 389.29,
+  "ts": 1794448279,
+  "held": 1616.17,
+  "heldUsd": 1276.77,
+  "peak": 1616.17,
+  "chip": "First",
+  "split": "",
+  "arrow": "",
+  "fills": [
+   {
+    "ts": 1794448227,
+    "usd": 96.95,
+    "shares": 124.29,
+    "price": 0.78
+   },
+   {
+    "ts": 1794448227,
+    "usd": 202.8,
+    "shares": 260.0,
+    "price": 0.78
+   },
+   {
+    "ts": 1794448279,
+    "usd": 3.9,
+    "shares": 5.0,
+    "price": 0.78
+   }
+  ],
+  "id": 26
+ },
+ {
+  "n": "Dropper",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/images_0a57a0c2-437f-41be-9ab8-5376ab6f3ca7_1726693550341.jpeg",
+  "t": "Jensen Huang announced resignation or removal by November 12, 2026?",
+  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31/jensen-huang-announced-resignation-or-removal-by-november-12-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
+  "cid": "0x835acf3bffe67dcfb5e5f97aba52414739b6f5ff1970195b52d97bb374796155",
+  "slug": "jensen-huang-announced-resignation-or-removal-by-november-12-2026",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.62,
+  "usd": 1715.68,
+  "shares": 2767.23,
+  "ts": 1794448276,
+  "held": 26372.89,
+  "heldUsd": 16746.78,
+  "peak": 26372.89,
+  "chip": "With",
+  "split": "4/5",
+  "arrow": "\u2193",
+  "fills": [
+   {
+    "ts": 1794448246,
+    "usd": 20.45,
+    "shares": 32.99,
+    "price": 0.62
+   },
+   {
+    "ts": 1794448276,
+    "usd": 1695.23,
+    "shares": 2734.24,
+    "price": 0.62
+   }
+  ],
+  "id": 27
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will GPT Astra 6.1+ be released on November 12, 2026?",
+  "url": "https://polymarket.com/event/gpt-astra-6pt1-released-onptptpt/will-gpt-astra-6pt1-be-released-on-november-12-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/when-will-gpt-5-be-released-vIPhU76RogZc.jpg",
+  "cid": "0x88d8754beccebd199ccfd832b2e4616ab808543bc6d5a69511673ae02c998dcd",
+  "slug": "will-gpt-astra-6pt1-be-released-on-november-12-2026",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.1858,
+  "usd": 16.71,
+  "shares": 89.94,
+  "ts": 1794448216,
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 209.94,
+  "chip": "First",
+  "split": "",
+  "arrow": "",
+  "fills": [],
+  "id": 28
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Next Astra Model (6.1+) released by November 12, 2026?",
+  "url": "https://polymarket.com/event/gpt-astra-6pt1-released-byptptpt/next-astra-model-6pt1-released-by-november-12-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/when-will-gpt-5-be-released-vIPhU76RogZc.jpg",
+  "cid": "0x6187b2add32eae8be218a3cdf5da972f1e748fbf004dbe00eaee614cc7571a0d",
+  "slug": "next-astra-model-6pt1-released-by-november-12-2026",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.79,
+  "usd": 71.1,
+  "shares": 90.0,
+  "ts": 1794448215,
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 1382.95,
+  "chip": "Against",
+  "split": "2/2",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 29
+ },
+ {
+  "n": "PaddyAlpha",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
+  "t": "Jensen Huang announced resignation or removal by December 31, 2026?",
+  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
+  "cid": "0xe0881460dcd53df2f8410ff9ec4c151f22c15ad29ff581d8eb8ac9bce5124eef",
+  "slug": "jensen-huang-announced-resignation-or-removal-by-december-31",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.15,
+  "usd": 15.0,
+  "shares": 100.0,
+  "ts": 1794448204,
+  "held": 558.61,
+  "heldUsd": 92.17,
+  "peak": 758.61,
+  "chip": "Against",
+  "split": "6/10",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 30
+ },
+ {
   "n": "PaddyAlpha",
   "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
   "t": "Jensen Huang announced resignation or removal by November 11, 2026?",
@@ -14,13 +948,13 @@
   "shares": 55.0,
   "ts": 1794448141,
   "held": 105.0,
-  "heldUsd": 37.27,
+  "heldUsd": 38.33,
   "peak": 105.0,
-  "chip": "Against",
-  "split": "5/8",
+  "chip": "With",
+  "split": "5/10",
   "arrow": "\u2191",
   "fills": [],
-  "id": 0
+  "id": 31
  },
  {
   "n": "JJo",
@@ -36,9 +970,9 @@
   "usd": 908.6,
   "shares": 1068.94,
   "ts": 1794448141,
-  "held": 4999.97,
-  "heldUsd": 4274.98,
-  "peak": 4999.97,
+  "held": 7999.97,
+  "heldUsd": 6679.98,
+  "peak": 7999.97,
   "chip": "Against",
   "split": "6/10",
   "arrow": "\u2193",
@@ -74,7 +1008,7 @@
     "price": 0.85
    }
   ],
-  "id": 1
+  "id": 32
  },
  {
   "n": "vinii",
@@ -97,7 +1031,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 2
+  "id": 33
  },
  {
   "n": "Lolakis",
@@ -120,7 +1054,7 @@
   "split": "3/6",
   "arrow": "\u2193",
   "fills": [],
-  "id": 3
+  "id": 34
  },
  {
   "n": "Car",
@@ -137,13 +1071,13 @@
   "shares": 1111.0,
   "ts": 1794448051,
   "held": 7958.59,
-  "heldUsd": 5451.63,
+  "heldUsd": 5332.25,
   "peak": 7958.59,
   "chip": "With",
   "split": "4/5",
   "arrow": "\u2193",
   "fills": [],
-  "id": 4
+  "id": 35
  },
  {
   "n": "vinii",
@@ -160,13 +1094,13 @@
   "shares": 60.2,
   "ts": 1794448045,
   "held": 543.8,
-  "heldUsd": 250.15,
+  "heldUsd": 252.87,
   "peak": 543.8,
   "chip": "Against",
   "split": "1/2",
   "arrow": "",
   "fills": [],
-  "id": 5
+  "id": 36
  },
  {
   "n": "vinii",
@@ -187,9 +1121,9 @@
   "peak": 3159.79,
   "chip": "Against",
   "split": "2/2",
-  "arrow": "",
+  "arrow": "\u2191",
   "fills": [],
-  "id": 6
+  "id": 37
  },
  {
   "n": "JJo",
@@ -231,7 +1165,7 @@
     "price": 0.987
    }
   ],
-  "id": 7
+  "id": 38
  },
  {
   "n": "vinii",
@@ -254,7 +1188,7 @@
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 8
+  "id": 39
  },
  {
   "n": "balthazar",
@@ -270,14 +1204,14 @@
   "usd": 12.97,
   "shares": 99.8,
   "ts": 1794448000,
-  "held": 99.8,
-  "heldUsd": 13.47,
+  "held": 4.99,
+  "heldUsd": 0.67,
   "peak": 99.8,
   "chip": "Against",
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 9
+  "id": 40
  },
  {
   "n": "balthazar",
@@ -293,14 +1227,14 @@
   "usd": 99.51,
   "shares": 99.8,
   "ts": 1794447999,
-  "held": 100.22,
-  "heldUsd": 99.62,
-  "peak": 100.22,
+  "held": 5.41,
+  "heldUsd": 5.38,
+  "peak": 99.8,
   "chip": "First",
   "split": "",
-  "arrow": "",
+  "arrow": "\u2191",
   "fills": [],
-  "id": 10
+  "id": 41
  },
  {
   "n": "balthazar",
@@ -316,14 +1250,14 @@
   "usd": 98.55,
   "shares": 99.8,
   "ts": 1794447999,
-  "held": 99.8,
-  "heldUsd": 97.85,
+  "held": 4.99,
+  "heldUsd": 4.89,
   "peak": 99.8,
   "chip": "With",
   "split": "3/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 11
+  "id": 42
  },
  {
   "n": "balthazar",
@@ -339,14 +1273,14 @@
   "usd": 89.02,
   "shares": 99.8,
   "ts": 1794447999,
-  "held": 100.54,
-  "heldUsd": 89.58,
-  "peak": 100.54,
+  "held": 5.73,
+  "heldUsd": 5.1,
+  "peak": 99.8,
   "chip": "With",
   "split": "2/2",
-  "arrow": "",
+  "arrow": "\u2191",
   "fills": [],
-  "id": 12
+  "id": 43
  },
  {
   "n": "balthazar",
@@ -362,14 +1296,14 @@
   "usd": 98.65,
   "shares": 99.8,
   "ts": 1794447999,
-  "held": 99.8,
-  "heldUsd": 98.2,
+  "held": 4.99,
+  "heldUsd": 4.91,
   "peak": 99.8,
   "chip": "Exited",
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 13
+  "id": 44
  },
  {
   "n": "balthazar",
@@ -385,14 +1319,14 @@
   "usd": 790.0,
   "shares": 1000.0,
   "ts": 1794447994,
-  "held": 1001.36,
-  "heldUsd": 806.1,
-  "peak": 1001.36,
+  "held": 1.36,
+  "heldUsd": 1.1,
+  "peak": 1000.0,
   "chip": "First",
   "split": "",
-  "arrow": "",
+  "arrow": "\u2191",
   "fills": [],
-  "id": 14
+  "id": 45
  },
  {
   "n": "balthazar",
@@ -408,14 +1342,14 @@
   "usd": 216.64,
   "shares": 1000.0,
   "ts": 1794447993,
-  "held": 1000.0,
-  "heldUsd": 205.0,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 1000.0,
   "chip": "Against",
-  "split": "1/2",
-  "arrow": "\u2193",
+  "split": "1/1",
+  "arrow": "",
   "fills": [],
-  "id": 15
+  "id": 46
  },
  {
   "n": "balthazar",
@@ -431,14 +1365,14 @@
   "usd": 990.45,
   "shares": 999.93,
   "ts": 1794447993,
-  "held": 1000.08,
-  "heldUsd": 986.58,
-  "peak": 1000.08,
-  "chip": "First",
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 999.93,
+  "chip": "Exited",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 16
+  "id": 47
  },
  {
   "n": "balthazar",
@@ -461,7 +1395,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 17
+  "id": 48
  },
  {
   "n": "balthazar",
@@ -480,11 +1414,11 @@
   "held": 76.7,
   "heldUsd": 76.47,
   "peak": 1000.0,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "\u2193",
   "fills": [],
-  "id": 18
+  "id": 49
  },
  {
   "n": "paddaa",
@@ -507,7 +1441,7 @@
   "split": "3/3",
   "arrow": "",
   "fills": [],
-  "id": 19
+  "id": 50
  },
  {
   "n": "Dropper",
@@ -523,11 +1457,11 @@
   "usd": 99.4,
   "shares": 160.32,
   "ts": 1794447945,
-  "held": 23605.66,
-  "heldUsd": 14989.6,
-  "peak": 23605.66,
+  "held": 26372.89,
+  "heldUsd": 16746.78,
+  "peak": 26372.89,
   "chip": "With",
-  "split": "3/4",
+  "split": "4/5",
   "arrow": "\u2193",
   "fills": [
    {
@@ -549,7 +1483,7 @@
     "price": 0.62
    }
   ],
-  "id": 20
+  "id": 51
  },
  {
   "n": "Lolakis",
@@ -572,7 +1506,7 @@
   "split": "3/6",
   "arrow": "\u2193",
   "fills": [],
-  "id": 21
+  "id": 52
  },
  {
   "n": "Dropper",
@@ -589,7 +1523,7 @@
   "shares": 1780.0,
   "ts": 1794447942,
   "held": 22358.59,
-  "heldUsd": 18222.25,
+  "heldUsd": 18334.04,
   "peak": 22358.59,
   "chip": "With",
   "split": "3/4",
@@ -632,7 +1566,7 @@
     "price": 0.81
    }
   ],
-  "id": 22
+  "id": 53
  },
  {
   "n": "Tenebrus7",
@@ -674,7 +1608,7 @@
     "price": 0.896
    }
   ],
-  "id": 23
+  "id": 54
  },
  {
   "n": "vinii",
@@ -691,13 +1625,13 @@
   "shares": 368.1,
   "ts": 1794447882,
   "held": 368.1,
-  "heldUsd": 349.33,
+  "heldUsd": 349.69,
   "peak": 368.1,
   "chip": "First",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 24
+  "id": 55
  },
  {
   "n": "JJo",
@@ -713,9 +1647,9 @@
   "usd": 3340.67,
   "shares": 3930.2,
   "ts": 1794447802,
-  "held": 4999.97,
-  "heldUsd": 4274.98,
-  "peak": 4999.97,
+  "held": 7999.97,
+  "heldUsd": 6679.98,
+  "peak": 7999.97,
   "chip": "Against",
   "split": "6/10",
   "arrow": "\u2193",
@@ -781,7 +1715,7 @@
     "price": 0.85
    }
   ],
-  "id": 25
+  "id": 56
  },
  {
   "n": "Car",
@@ -798,13 +1732,13 @@
   "shares": 1094.6,
   "ts": 1794447783,
   "held": 7958.59,
-  "heldUsd": 5451.63,
+  "heldUsd": 5332.25,
   "peak": 7958.59,
   "chip": "With",
   "split": "4/5",
   "arrow": "\u2193",
   "fills": [],
-  "id": 26
+  "id": 57
  },
  {
   "n": "PaddyAlpha",
@@ -820,14 +1754,14 @@
   "usd": 28.7,
   "shares": 205.0,
   "ts": 1794447760,
-  "held": 758.61,
-  "heldUsd": 110.0,
+  "held": 558.61,
+  "heldUsd": 92.17,
   "peak": 758.61,
   "chip": "With",
   "split": "6/10",
   "arrow": "\u2193",
   "fills": [],
-  "id": 27
+  "id": 58
  },
  {
   "n": "PaddyAlpha",
@@ -844,13 +1778,13 @@
   "shares": 50.0,
   "ts": 1794447733,
   "held": 105.0,
-  "heldUsd": 37.27,
+  "heldUsd": 38.33,
   "peak": 105.0,
-  "chip": "With",
-  "split": "5/8",
+  "chip": "Against",
+  "split": "5/10",
   "arrow": "\u2191",
   "fills": [],
-  "id": 28
+  "id": 59
  },
  {
   "n": "Dropper",
@@ -867,13 +1801,13 @@
   "shares": 2603.16,
   "ts": 1794447694,
   "held": 22358.59,
-  "heldUsd": 18222.25,
+  "heldUsd": 18334.04,
   "peak": 22358.59,
   "chip": "With",
   "split": "3/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 29
+  "id": 60
  },
  {
   "n": "PaddyAlpha",
@@ -889,14 +1823,14 @@
   "usd": 30.0,
   "shares": 200.0,
   "ts": 1794447682,
-  "held": 758.61,
-  "heldUsd": 110.0,
+  "held": 558.61,
+  "heldUsd": 92.17,
   "peak": 758.61,
   "chip": "Against",
   "split": "6/10",
   "arrow": "\u2193",
   "fills": [],
-  "id": 30
+  "id": 61
  },
  {
   "n": "JJo",
@@ -962,7 +1896,7 @@
     "price": 0.15
    }
   ],
-  "id": 31
+  "id": 62
  },
  {
   "n": "PaddyAlpha",
@@ -979,13 +1913,13 @@
   "shares": 50.0,
   "ts": 1794447622,
   "held": 105.0,
-  "heldUsd": 37.27,
+  "heldUsd": 38.33,
   "peak": 105.0,
-  "chip": "Against",
-  "split": "5/8",
+  "chip": "With",
+  "split": "5/10",
   "arrow": "\u2191",
   "fills": [],
-  "id": 32
+  "id": 63
  },
  {
   "n": "Lolakis",
@@ -1001,8 +1935,8 @@
   "usd": 3037.81,
   "shares": 3703.39,
   "ts": 1794447609,
-  "held": 3735.44,
-  "heldUsd": 3044.38,
+  "held": 3495.2,
+  "heldUsd": 2866.07,
   "peak": 3735.44,
   "chip": "With",
   "split": "3/4",
@@ -1045,7 +1979,7 @@
     "price": 0.82
    }
   ],
-  "id": 33
+  "id": 64
  },
  {
   "n": "Lolakis",
@@ -1062,13 +1996,13 @@
   "shares": 2500.0,
   "ts": 1794447546,
   "held": 2645.93,
-  "heldUsd": 2235.81,
+  "heldUsd": 2222.58,
   "peak": 2645.93,
   "chip": "With",
   "split": "4/6",
   "arrow": "\u2191",
   "fills": [],
-  "id": 34
+  "id": 65
  },
  {
   "n": "Dropper",
@@ -1085,7 +2019,7 @@
   "shares": 296.12,
   "ts": 1794447525,
   "held": 22358.59,
-  "heldUsd": 18222.25,
+  "heldUsd": 18334.04,
   "peak": 22358.59,
   "chip": "With",
   "split": "3/4",
@@ -1110,7 +2044,7 @@
     "price": 0.81
    }
   ],
-  "id": 35
+  "id": 66
  },
  {
   "n": "tunatyler",
@@ -1127,10 +2061,10 @@
   "shares": 3999.98,
   "ts": 1794447481,
   "held": 7999.98,
-  "heldUsd": 2839.99,
+  "heldUsd": 2919.99,
   "peak": 7999.98,
-  "chip": "Against",
-  "split": "5/8",
+  "chip": "With",
+  "split": "5/10",
   "arrow": "\u2191",
   "fills": [
    {
@@ -1170,7 +2104,7 @@
     "price": 0.39
    }
   ],
-  "id": 36
+  "id": 67
  },
  {
   "n": "Tenebrus7",
@@ -1193,7 +2127,7 @@
   "split": "7/9",
   "arrow": "\u2191",
   "fills": [],
-  "id": 37
+  "id": 68
  },
  {
   "n": "melonmanm",
@@ -1216,7 +2150,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 38
+  "id": 69
  },
  {
   "n": "PaddyAlpha",
@@ -1232,8 +2166,8 @@
   "usd": 28.7,
   "shares": 205.0,
   "ts": 1794447229,
-  "held": 758.61,
-  "heldUsd": 110.0,
+  "held": 558.61,
+  "heldUsd": 92.17,
   "peak": 758.61,
   "chip": "With",
   "split": "6/10",
@@ -1252,7 +2186,7 @@
     "price": 0.14
    }
   ],
-  "id": 39
+  "id": 70
  },
  {
   "n": "Car",
@@ -1269,13 +2203,13 @@
   "shares": 10.0,
   "ts": 1794447169,
   "held": 7958.59,
-  "heldUsd": 5451.63,
+  "heldUsd": 5332.25,
   "peak": 7958.59,
   "chip": "With",
   "split": "4/5",
   "arrow": "\u2193",
   "fills": [],
-  "id": 40
+  "id": 71
  },
  {
   "n": "balthazar",
@@ -1291,14 +2225,14 @@
   "usd": 3.11,
   "shares": 22.19,
   "ts": 1794447088,
-  "held": 22.21,
-  "heldUsd": 3.77,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 205.94,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 41
+  "id": 72
  },
  {
   "n": "balthazar",
@@ -1321,7 +2255,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 42
+  "id": 73
  },
  {
   "n": "balthazar",
@@ -1337,14 +2271,14 @@
   "usd": 21.95,
   "shares": 22.18,
   "ts": 1794447088,
-  "held": 22.13,
-  "heldUsd": 21.65,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 205.86,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 43
+  "id": 74
  },
  {
   "n": "balthazar",
@@ -1360,14 +2294,14 @@
   "usd": 19.64,
   "shares": 22.18,
   "ts": 1794447088,
-  "held": 22.19,
-  "heldUsd": 19.31,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 205.93,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 44
+  "id": 75
  },
  {
   "n": "Dropper",
@@ -1384,7 +2318,7 @@
   "shares": 1789.16,
   "ts": 1794447058,
   "held": 22358.59,
-  "heldUsd": 18222.25,
+  "heldUsd": 18334.04,
   "peak": 22358.59,
   "chip": "With",
   "split": "3/4",
@@ -1415,7 +2349,7 @@
     "price": 0.81
    }
   ],
-  "id": 45
+  "id": 76
  },
  {
   "n": "Dropper",
@@ -1431,11 +2365,11 @@
   "usd": 4335.35,
   "shares": 6773.98,
   "ts": 1794447057,
-  "held": 23605.66,
-  "heldUsd": 14989.6,
-  "peak": 23605.66,
+  "held": 26372.89,
+  "heldUsd": 16746.78,
+  "peak": 26372.89,
   "chip": "With",
-  "split": "3/4",
+  "split": "4/5",
   "arrow": "\u2193",
   "fills": [
    {
@@ -1451,7 +2385,7 @@
     "price": 0.64
    }
   ],
-  "id": 46
+  "id": 77
  },
  {
   "n": "PaddyAlpha",
@@ -1468,13 +2402,13 @@
   "shares": 50.0,
   "ts": 1794447024,
   "held": 105.0,
-  "heldUsd": 37.27,
+  "heldUsd": 38.33,
   "peak": 105.0,
-  "chip": "Against",
-  "split": "5/8",
+  "chip": "With",
+  "split": "5/10",
   "arrow": "\u2191",
   "fills": [],
-  "id": 47
+  "id": 78
  },
  {
   "n": "balthazar",
@@ -1497,7 +2431,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 48
+  "id": 79
  },
  {
   "n": "Lolakis",
@@ -1513,14 +2447,14 @@
   "usd": 18.81,
   "shares": 23.81,
   "ts": 1794446851,
-  "held": 3735.44,
-  "heldUsd": 3044.38,
+  "held": 3495.2,
+  "heldUsd": 2866.07,
   "peak": 3735.44,
   "chip": "With",
   "split": "3/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 49
+  "id": 80
  },
  {
   "n": "balthazar",
@@ -1568,7 +2502,7 @@
     "price": 0.42
    }
   ],
-  "id": 50
+  "id": 81
  },
  {
   "n": "balthazar",
@@ -1610,7 +2544,7 @@
     "price": 0.99
    }
   ],
-  "id": 51
+  "id": 82
  },
  {
   "n": "balthazar",
@@ -1652,7 +2586,7 @@
     "price": 0.66
    }
   ],
-  "id": 52
+  "id": 83
  },
  {
   "n": "Dropper",
@@ -1669,7 +2603,7 @@
   "shares": 478.84,
   "ts": 1794446808,
   "held": 34374.06,
-  "heldUsd": 29389.82,
+  "heldUsd": 28702.34,
   "peak": 34374.06,
   "chip": "Against",
   "split": "6/10",
@@ -1688,7 +2622,7 @@
     "price": 0.84
    }
   ],
-  "id": 53
+  "id": 84
  },
  {
   "n": "Lolakis",
@@ -1705,13 +2639,13 @@
   "shares": 500.0,
   "ts": 1794446806,
   "held": 2546.2,
-  "heldUsd": 1642.3,
+  "heldUsd": 1616.83,
   "peak": 2546.2,
-  "chip": "With",
-  "split": "5/8",
+  "chip": "Against",
+  "split": "5/10",
   "arrow": "\u2191",
   "fills": [],
-  "id": 54
+  "id": 85
  },
  {
   "n": "MisTKy",
@@ -1734,7 +2668,7 @@
   "split": "2/3",
   "arrow": "",
   "fills": [],
-  "id": 55
+  "id": 86
  },
  {
   "n": "Tenebrus7",
@@ -1757,7 +2691,7 @@
   "split": "2/3",
   "arrow": "",
   "fills": [],
-  "id": 56
+  "id": 87
  },
  {
   "n": "balthazar",
@@ -1780,7 +2714,7 @@
   "split": "4/5",
   "arrow": "\u2191",
   "fills": [],
-  "id": 57
+  "id": 88
  },
  {
   "n": "MisTKy",
@@ -1803,7 +2737,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 58
+  "id": 89
  },
  {
   "n": "Tenebrus7",
@@ -1826,7 +2760,7 @@
   "split": "7/9",
   "arrow": "\u2191",
   "fills": [],
-  "id": 59
+  "id": 90
  },
  {
   "n": "Dropper",
@@ -1842,11 +2776,11 @@
   "usd": 3777.4,
   "shares": 5555.0,
   "ts": 1794446728,
-  "held": 23605.66,
-  "heldUsd": 14989.6,
-  "peak": 23605.66,
+  "held": 26372.89,
+  "heldUsd": 16746.78,
+  "peak": 26372.89,
   "chip": "With",
-  "split": "3/4",
+  "split": "4/5",
   "arrow": "\u2193",
   "fills": [
    {
@@ -1910,7 +2844,7 @@
     "price": 0.68
    }
   ],
-  "id": 60
+  "id": 91
  },
  {
   "n": "Lolakis",
@@ -1926,9 +2860,9 @@
   "usd": 1047.4,
   "shares": 1232.23,
   "ts": 1794446650,
-  "held": 28654.55,
-  "heldUsd": 24499.64,
-  "peak": 28655.13,
+  "held": 38269.09,
+  "heldUsd": 31954.69,
+  "peak": 38655.12,
   "chip": "Against",
   "split": "6/10",
   "arrow": "\u2193",
@@ -1946,7 +2880,7 @@
     "price": 0.85
    }
   ],
-  "id": 61
+  "id": 92
  },
  {
   "n": "MisTKy",
@@ -1963,13 +2897,13 @@
   "shares": 8411.21,
   "ts": 1794446649,
   "held": 25233.64,
-  "heldUsd": 3658.88,
-  "peak": 33644.85,
+  "heldUsd": 4163.55,
+  "peak": 34983.39,
   "chip": "Against",
   "split": "6/10",
   "arrow": "\u2193",
   "fills": [],
-  "id": 62
+  "id": 93
  },
  {
   "n": "Car",
@@ -1986,13 +2920,13 @@
   "shares": 50.0,
   "ts": 1794446638,
   "held": 50.0,
-  "heldUsd": 3.02,
+  "heldUsd": 4.17,
   "peak": 50.0,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 63
+  "id": 94
  },
  {
   "n": "balthazar",
@@ -2010,12 +2944,12 @@
   "ts": 1794446629,
   "held": 0.0,
   "heldUsd": 0.0,
-  "peak": 1292.95,
+  "peak": 1382.95,
   "chip": "Against",
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 64
+  "id": 95
  },
  {
   "n": "balthazar",
@@ -2032,13 +2966,13 @@
   "shares": 49.48,
   "ts": 1794446629,
   "held": 812.92,
-  "heldUsd": 146.33,
+  "heldUsd": 150.39,
   "peak": 812.92,
   "chip": "With",
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 65
+  "id": 96
  },
  {
   "n": "MEPP",
@@ -2055,10 +2989,10 @@
   "shares": 208.14,
   "ts": 1794446557,
   "held": 5208.15,
-  "heldUsd": 3359.26,
+  "heldUsd": 3307.17,
   "peak": 5208.15,
-  "chip": "With",
-  "split": "5/8",
+  "chip": "Against",
+  "split": "5/10",
   "arrow": "\u2191",
   "fills": [
    {
@@ -2074,7 +3008,7 @@
     "price": 0.57
    }
   ],
-  "id": 66
+  "id": 97
  },
  {
   "n": "Lolakis",
@@ -2090,9 +3024,9 @@
   "usd": 1704.86,
   "shares": 2029.59,
   "ts": 1794446527,
-  "held": 28654.55,
-  "heldUsd": 24499.64,
-  "peak": 28655.13,
+  "held": 38269.09,
+  "heldUsd": 31954.69,
+  "peak": 38655.12,
   "chip": "Against",
   "split": "6/10",
   "arrow": "\u2193",
@@ -2146,7 +3080,7 @@
     "price": 0.84
    }
   ],
-  "id": 67
+  "id": 98
  },
  {
   "n": "balthazar",
@@ -2162,14 +3096,14 @@
   "usd": 23.21,
   "shares": 23.26,
   "ts": 1794446515,
-  "held": 23.26,
-  "heldUsd": 23.02,
+  "held": 7.35,
+  "heldUsd": 7.28,
   "peak": 112.35,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 68
+  "id": 99
  },
  {
   "n": "paddaa",
@@ -2186,13 +3120,13 @@
   "shares": 2369.31,
   "ts": 1794446515,
   "held": 16233.38,
-  "heldUsd": 5762.85,
+  "heldUsd": 5925.18,
   "peak": 16233.38,
-  "chip": "Against",
-  "split": "5/8",
+  "chip": "With",
+  "split": "5/10",
   "arrow": "\u2191",
   "fills": [],
-  "id": 69
+  "id": 100
  },
  {
   "n": "balthazar",
@@ -2208,14 +3142,14 @@
   "usd": 4.95,
   "shares": 5.0,
   "ts": 1794446514,
-  "held": 15.9,
-  "heldUsd": 15.67,
-  "peak": 15.9,
-  "chip": "First",
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 5.0,
+  "chip": "Exited",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 70
+  "id": 101
  },
  {
   "n": "Car",
@@ -2232,10 +3166,10 @@
   "shares": 400.0,
   "ts": 1794446449,
   "held": 3429.12,
-  "heldUsd": 2211.78,
+  "heldUsd": 2177.49,
   "peak": 3529.12,
-  "chip": "With",
-  "split": "5/8",
+  "chip": "Against",
+  "split": "5/10",
   "arrow": "\u2191",
   "fills": [
    {
@@ -2251,7 +3185,7 @@
     "price": 0.59
    }
   ],
-  "id": 71
+  "id": 102
  },
  {
   "n": "Car",
@@ -2293,7 +3227,7 @@
     "price": 0.96
    }
   ],
-  "id": 72
+  "id": 103
  },
  {
   "n": "MEPP",
@@ -2310,13 +3244,13 @@
   "shares": 5000.0,
   "ts": 1794446389,
   "held": 5208.15,
-  "heldUsd": 3359.26,
+  "heldUsd": 3307.17,
   "peak": 5208.15,
-  "chip": "With",
-  "split": "5/8",
+  "chip": "Against",
+  "split": "5/10",
   "arrow": "\u2191",
   "fills": [],
-  "id": 73
+  "id": 104
  },
  {
   "n": "Car",
@@ -2339,7 +3273,7 @@
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 74
+  "id": 105
  },
  {
   "n": "Tenebrus7",
@@ -2355,14 +3289,14 @@
   "usd": 4.49,
   "shares": 12.47,
   "ts": 1794446380,
-  "held": 3650.36,
-  "heldUsd": 1332.38,
+  "held": 3654.83,
+  "heldUsd": 1334.01,
   "peak": 13410.54,
   "chip": "Against",
   "split": "2/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 75
+  "id": 106
  },
  {
   "n": "paddaa",
@@ -2385,7 +3319,7 @@
   "split": "2/3",
   "arrow": "",
   "fills": [],
-  "id": 76
+  "id": 107
  },
  {
   "n": "Lolakis",
@@ -2408,7 +3342,7 @@
   "split": "3/6",
   "arrow": "",
   "fills": [],
-  "id": 77
+  "id": 108
  },
  {
   "n": "PaddyAlpha",
@@ -2431,7 +3365,7 @@
   "split": "4/5",
   "arrow": "\u2191",
   "fills": [],
-  "id": 78
+  "id": 109
  },
  {
   "n": "Car",
@@ -2454,7 +3388,7 @@
   "split": "13/16",
   "arrow": "\u2193",
   "fills": [],
-  "id": 79
+  "id": 110
  },
  {
   "n": "JJo",
@@ -2490,7 +3424,7 @@
     "price": 0.91
    }
   ],
-  "id": 80
+  "id": 111
  },
  {
   "n": "Tenebrus7",
@@ -2506,14 +3440,14 @@
   "usd": 102.69,
   "shares": 285.24,
   "ts": 1794446239,
-  "held": 3650.36,
-  "heldUsd": 1332.38,
+  "held": 3654.83,
+  "heldUsd": 1334.01,
   "peak": 13410.54,
   "chip": "Against",
   "split": "2/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 81
+  "id": 112
  },
  {
   "n": "paddaa",
@@ -2536,7 +3470,7 @@
   "split": "3/6",
   "arrow": "",
   "fills": [],
-  "id": 82
+  "id": 113
  },
  {
   "n": "balthazar",
@@ -2552,14 +3486,14 @@
   "usd": 9.0,
   "shares": 60.0,
   "ts": 1794446190,
-  "held": 22.21,
-  "heldUsd": 3.77,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 205.94,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 83
+  "id": 114
  },
  {
   "n": "balthazar",
@@ -2578,11 +3512,11 @@
   "held": 0.0,
   "heldUsd": 0.0,
   "peak": 183.75,
-  "chip": "Exited",
+  "chip": "First",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 84
+  "id": 115
  },
  {
   "n": "balthazar",
@@ -2605,7 +3539,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 85
+  "id": 116
  },
  {
   "n": "balthazar",
@@ -2621,14 +3555,14 @@
   "usd": 59.36,
   "shares": 59.99,
   "ts": 1794446190,
-  "held": 22.13,
-  "heldUsd": 21.65,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 205.86,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 86
+  "id": 117
  },
  {
   "n": "balthazar",
@@ -2644,14 +3578,14 @@
   "usd": 52.64,
   "shares": 60.0,
   "ts": 1794446190,
-  "held": 22.19,
-  "heldUsd": 19.31,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 205.93,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 87
+  "id": 118
  },
  {
   "n": "whig",
@@ -2673,1094 +3607,6 @@
   "chip": "With",
   "split": "4/5",
   "arrow": "\u2191",
-  "fills": [],
-  "id": 88
- },
- {
-  "n": "Lolakis",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
-  "t": "Jensen Huang announced resignation or removal by November 30, 2026?",
-  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31/jensen-huang-announced-resignation-or-removal-by-november-30-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0x6537d883f6dd80cb7c159d20e81fe7f23a2b5296c04114540aefc046f3439859",
-  "slug": "jensen-huang-announced-resignation-or-removal-by-november-30-2026",
-  "side": "SELL",
-  "out": "Yes",
-  "price": 0.85,
-  "usd": 2406.93,
-  "shares": 2831.68,
-  "ts": 1794446176,
-  "held": 3735.44,
-  "heldUsd": 3044.38,
-  "peak": 3735.44,
-  "chip": "Against",
-  "split": "3/4",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1794445873,
-    "usd": 245.97,
-    "shares": 289.38,
-    "price": 0.85
-   },
-   {
-    "ts": 1794445954,
-    "usd": 3.39,
-    "shares": 3.99,
-    "price": 0.85
-   },
-   {
-    "ts": 1794446020,
-    "usd": 1.42,
-    "shares": 1.67,
-    "price": 0.85
-   },
-   {
-    "ts": 1794446022,
-    "usd": 2.0,
-    "shares": 2.35,
-    "price": 0.85
-   },
-   {
-    "ts": 1794446023,
-    "usd": 5.01,
-    "shares": 5.9,
-    "price": 0.85
-   },
-   {
-    "ts": 1794446025,
-    "usd": 31.04,
-    "shares": 36.52,
-    "price": 0.85
-   },
-   {
-    "ts": 1794446025,
-    "usd": 18.82,
-    "shares": 22.14,
-    "price": 0.85
-   },
-   {
-    "ts": 1794446028,
-    "usd": 7.84,
-    "shares": 9.22,
-    "price": 0.85
-   },
-   {
-    "ts": 1794446028,
-    "usd": 20.33,
-    "shares": 23.92,
-    "price": 0.85
-   },
-   {
-    "ts": 1794446031,
-    "usd": 15.05,
-    "shares": 17.71,
-    "price": 0.85
-   },
-   {
-    "ts": 1794446031,
-    "usd": 44.19,
-    "shares": 51.99,
-    "price": 0.85
-   },
-   {
-    "ts": 1794446082,
-    "usd": 424.96,
-    "shares": 499.95,
-    "price": 0.85
-   },
-   {
-    "ts": 1794446103,
-    "usd": 4.74,
-    "shares": 5.58,
-    "price": 0.85
-   },
-   {
-    "ts": 1794446112,
-    "usd": 874.84,
-    "shares": 1029.22,
-    "price": 0.85
-   },
-   {
-    "ts": 1794446124,
-    "usd": 176.07,
-    "shares": 207.14,
-    "price": 0.85
-   },
-   {
-    "ts": 1794446176,
-    "usd": 531.25,
-    "shares": 625.0,
-    "price": 0.85
-   }
-  ],
-  "id": 89
- },
- {
-  "n": "Car",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
-  "t": "Jensen Huang announced resignation or removal by November 13, 2026?",
-  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31/jensen-huang-announced-resignation-or-removal-by-november-13-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0x72d0d224c0e02942c86b32ac385f14ca419120abc485c2601991d85cceac8b8f",
-  "slug": "jensen-huang-announced-resignation-or-removal-by-november-13-2026",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.7,
-  "usd": 4.48,
-  "shares": 6.4,
-  "ts": 1794446173,
-  "held": 7958.59,
-  "heldUsd": 5451.63,
-  "peak": 7958.59,
-  "chip": "With",
-  "split": "4/5",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 90
- },
- {
-  "n": "Dropper",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/images_0a57a0c2-437f-41be-9ab8-5376ab6f3ca7_1726693550341.jpeg",
-  "t": "Jensen Huang announced resignation or removal by November 12, 2026?",
-  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31/jensen-huang-announced-resignation-or-removal-by-november-12-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0x835acf3bffe67dcfb5e5f97aba52414739b6f5ff1970195b52d97bb374796155",
-  "slug": "jensen-huang-announced-resignation-or-removal-by-november-12-2026",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.6903,
-  "usd": 7673.96,
-  "shares": 11116.36,
-  "ts": 1794446161,
-  "held": 23605.66,
-  "heldUsd": 14989.6,
-  "peak": 23605.66,
-  "chip": "With",
-  "split": "3/4",
-  "arrow": "\u2193",
-  "fills": [
-   {
-    "ts": 1794446074,
-    "usd": 299.51,
-    "shares": 428.75,
-    "price": 0.69
-   },
-   {
-    "ts": 1794446076,
-    "usd": 69.0,
-    "shares": 100.0,
-    "price": 0.69
-   },
-   {
-    "ts": 1794446100,
-    "usd": 45.17,
-    "shares": 65.47,
-    "price": 0.69
-   },
-   {
-    "ts": 1794446101,
-    "usd": 34.3,
-    "shares": 49.71,
-    "price": 0.69
-   },
-   {
-    "ts": 1794446121,
-    "usd": 2.23,
-    "shares": 3.23,
-    "price": 0.69
-   },
-   {
-    "ts": 1794446121,
-    "usd": 30.83,
-    "shares": 44.68,
-    "price": 0.69
-   },
-   {
-    "ts": 1794446130,
-    "usd": 111.29,
-    "shares": 161.29,
-    "price": 0.69
-   },
-   {
-    "ts": 1794446139,
-    "usd": 18.57,
-    "shares": 26.91,
-    "price": 0.69
-   },
-   {
-    "ts": 1794446161,
-    "usd": 7063.07,
-    "shares": 10236.33,
-    "price": 0.69
-   }
-  ],
-  "id": 91
- },
- {
-  "n": "Lolakis",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
-  "t": "Jensen Huang announced resignation or removal by December 31, 2026?",
-  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0xe0881460dcd53df2f8410ff9ec4c151f22c15ad29ff581d8eb8ac9bce5124eef",
-  "slug": "jensen-huang-announced-resignation-or-removal-by-december-31",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.855,
-  "usd": 8549.99,
-  "shares": 9999.99,
-  "ts": 1794446145,
-  "held": 28654.55,
-  "heldUsd": 24499.64,
-  "peak": 28655.13,
-  "chip": "Against",
-  "split": "6/10",
-  "arrow": "\u2193",
-  "fills": [
-   {
-    "ts": 1794445942,
-    "usd": 76.73,
-    "shares": 89.22,
-    "price": 0.86
-   },
-   {
-    "ts": 1794445957,
-    "usd": 29.97,
-    "shares": 34.85,
-    "price": 0.86
-   },
-   {
-    "ts": 1794445972,
-    "usd": 30.35,
-    "shares": 35.29,
-    "price": 0.86
-   },
-   {
-    "ts": 1794446011,
-    "usd": 29.55,
-    "shares": 34.36,
-    "price": 0.86
-   },
-   {
-    "ts": 1794446011,
-    "usd": 429.99,
-    "shares": 499.99,
-    "price": 0.86
-   },
-   {
-    "ts": 1794446038,
-    "usd": 3703.41,
-    "shares": 4306.29,
-    "price": 0.86
-   },
-   {
-    "ts": 1794446145,
-    "usd": 4250.0,
-    "shares": 5000.0,
-    "price": 0.85
-   }
-  ],
-  "id": 92
- },
- {
-  "n": "Dropper",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/images_0a57a0c2-437f-41be-9ab8-5376ab6f3ca7_1726693550341.jpeg",
-  "t": "Jensen Huang announced resignation or removal by November 30, 2026?",
-  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31/jensen-huang-announced-resignation-or-removal-by-november-30-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0x6537d883f6dd80cb7c159d20e81fe7f23a2b5296c04114540aefc046f3439859",
-  "slug": "jensen-huang-announced-resignation-or-removal-by-november-30-2026",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.84,
-  "usd": 4920.44,
-  "shares": 5857.67,
-  "ts": 1794446022,
-  "held": 22358.59,
-  "heldUsd": 18222.25,
-  "peak": 22358.59,
-  "chip": "With",
-  "split": "3/4",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1794445945,
-    "usd": 254.24,
-    "shares": 302.67,
-    "price": 0.84
-   },
-   {
-    "ts": 1794446022,
-    "usd": 4666.2,
-    "shares": 5555.0,
-    "price": 0.84
-   }
-  ],
-  "id": 93
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the highest temperature in Hong Kong be 27\u00b0C on November 12?",
-  "url": "https://polymarket.com/event/highest-temperature-in-hong-kong-on-november-12-2026/highest-temperature-in-hong-kong-on-november-12-2026-27c",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/hongkong-ae9cc75f37.jpg",
-  "cid": "0x9ff9a03df40f4e7be1e7dd60be614fae9b3849d92133c31bb28cf44e9f72a570",
-  "slug": "highest-temperature-in-hong-kong-on-november-12-2026-27c",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.3836,
-  "usd": 25.99,
-  "shares": 67.75,
-  "ts": 1794445972,
-  "held": 67.73,
-  "heldUsd": 38.94,
-  "peak": 67.75,
-  "chip": "First",
-  "split": "",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1794445972,
-    "usd": 9.99,
-    "shares": 27.75,
-    "price": 0.36
-   },
-   {
-    "ts": 1794445972,
-    "usd": 16.0,
-    "shares": 40.0,
-    "price": 0.4
-   }
-  ],
-  "id": 94
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the highest temperature in Hong Kong be 26\u00b0C on November 12?",
-  "url": "https://polymarket.com/event/highest-temperature-in-hong-kong-on-november-12-2026/highest-temperature-in-hong-kong-on-november-12-2026-26c",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/hongkong-ae9cc75f37.jpg",
-  "cid": "0x8690d96dd5c4b5497e66a17e8697104564b48b12e787acdf84aa6ae80ea22272",
-  "slug": "highest-temperature-in-hong-kong-on-november-12-2026-26c",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.3143,
-  "usd": 12.57,
-  "shares": 40.0,
-  "ts": 1794445971,
-  "held": 67.72,
-  "heldUsd": 15.24,
-  "peak": 67.72,
-  "chip": "First",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 95
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the highest temperature in Hong Kong be 28\u00b0C on November 12?",
-  "url": "https://polymarket.com/event/highest-temperature-in-hong-kong-on-november-12-2026/highest-temperature-in-hong-kong-on-november-12-2026-28c",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/hongkong-ae9cc75f37.jpg",
-  "cid": "0xf24ca30dff1f2cf697528984742501a51f6ab65fbcbba7af5066887e589bd8c6",
-  "slug": "highest-temperature-in-hong-kong-on-november-12-2026-28c",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.1674,
-  "usd": 4.63,
-  "shares": 27.63,
-  "ts": 1794445971,
-  "held": 67.6,
-  "heldUsd": 11.49,
-  "peak": 67.6,
-  "chip": "First",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 96
- },
- {
-  "n": "StarMaster",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3048498-bfb4f55b-462d-45d7-894f-ac0c462f2d85.webp",
-  "t": "Jensen Huang announced resignation or removal by November 13, 2026?",
-  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31/jensen-huang-announced-resignation-or-removal-by-november-13-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0x72d0d224c0e02942c86b32ac385f14ca419120abc485c2601991d85cceac8b8f",
-  "slug": "jensen-huang-announced-resignation-or-removal-by-november-13-2026",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.7281,
-  "usd": 109.21,
-  "shares": 150.0,
-  "ts": 1794445963,
-  "held": 749.61,
-  "heldUsd": 513.48,
-  "peak": 749.61,
-  "chip": "With",
-  "split": "4/5",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 97
- },
- {
-  "n": "vinii",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3182982-b6b5b95b-0f9e-4483-ac26-fd178a3bcfdf.jpeg",
-  "t": "Jensen Huang divorce by December 31, 2026?",
-  "url": "https://polymarket.com/event/jensen-huang-divorce-in-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/jensen-huang-divorce-in-2026-TwqKa0CMsYm6.jpg",
-  "cid": "0x9b786700f51dc9540f016267a69245616f53e93563de3fc5a1ac3a16f66310c4",
-  "slug": "jensen-huang-divorce-in-2026",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.7816,
-  "usd": 4380.31,
-  "shares": 5604.51,
-  "ts": 1794445891,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 5604.51,
-  "chip": "Against",
-  "split": "8/8",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1794445842,
-    "usd": 2213.78,
-    "shares": 2802.25,
-    "price": 0.79
-   },
-   {
-    "ts": 1794445891,
-    "usd": 2166.53,
-    "shares": 2802.26,
-    "price": 0.78
-   }
-  ],
-  "id": 98
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Jensen Huang divorce by December 31, 2026?",
-  "url": "https://polymarket.com/event/jensen-huang-divorce-in-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/jensen-huang-divorce-in-2026-TwqKa0CMsYm6.jpg",
-  "cid": "0x9b786700f51dc9540f016267a69245616f53e93563de3fc5a1ac3a16f66310c4",
-  "slug": "jensen-huang-divorce-in-2026",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.79,
-  "usd": 139.83,
-  "shares": 177.0,
-  "ts": 1794445842,
-  "held": 242.51,
-  "heldUsd": 192.8,
-  "peak": 840.0,
-  "chip": "Against",
-  "split": "8/8",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 99
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Jensen Huang's resignation or removal not be announced and Nvidia's market cap be above $4T at the end of 2026?",
-  "url": "https://polymarket.com/event/jensen-huang-resigned-or-removed-and-nvidia-market-cap-above-4t-end-of-2026/jensen-huang-resigned-or-removed-and-nvidia-4t-end-of-2026-not-resigned-over",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0xb2eb86aa4ea1c1c304eba0c8a83ea5e17f20e33b2357444c83748ede9982c1de",
-  "slug": "jensen-huang-resigned-or-removed-and-nvidia-4t-end-of-2026-not-resigned-over",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9133,
-  "usd": 18.27,
-  "shares": 20.0,
-  "ts": 1794445840,
-  "held": 0.18,
-  "heldUsd": 0.16,
-  "peak": 20.0,
-  "chip": "First",
-  "split": "",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 100
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Jensen Huang's resignation or removal be announced and Nvidia's market cap be below $4T at the end of 2026?",
-  "url": "https://polymarket.com/event/jensen-huang-resigned-or-removed-and-nvidia-market-cap-above-4t-end-of-2026/jensen-huang-resigned-or-removed-and-nvidia-4t-end-of-2026-resigned-under",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0xcbf48139a468c6ce0822022ad5e7547f27d281820bf68d37f236462201f75432",
-  "slug": "jensen-huang-resigned-or-removed-and-nvidia-4t-end-of-2026-resigned-under",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.55,
-  "usd": 11.0,
-  "shares": 20.0,
-  "ts": 1794445840,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 139.81,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 101
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Jensen Huang's resignation or removal not be announced and Nvidia's market cap be below $4T at the end of 2026?",
-  "url": "https://polymarket.com/event/jensen-huang-resigned-or-removed-and-nvidia-market-cap-above-4t-end-of-2026/jensen-huang-resigned-or-removed-and-nvidia-4t-end-of-2026-not-resigned-under",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0x925c37e9c9dda1dc6673640c93aed10a6d7c1a5149a402a95402c0d14a8c6799",
-  "slug": "jensen-huang-resigned-or-removed-and-nvidia-4t-end-of-2026-not-resigned-under",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9904,
-  "usd": 19.81,
-  "shares": 20.0,
-  "ts": 1794445839,
-  "held": 0.18,
-  "heldUsd": 0.17,
-  "peak": 139.99,
-  "chip": "First",
-  "split": "",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 102
- },
- {
-  "n": "StarMaster",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3048498-bfb4f55b-462d-45d7-894f-ac0c462f2d85.webp",
-  "t": "Will NVIDIA be the largest company in the world by market cap on December 31?",
-  "url": "https://polymarket.com/event/largest-company-end-of-december-2026/will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-december-31-244",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-december-31-g6lIgsIlD7lN.jpg",
-  "cid": "0x684e5b72d4e407695397a79ed75ef37273c2655ca2548791a4153233d3744696",
-  "slug": "will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-december-31-244",
-  "side": "SELL",
-  "out": "Yes",
-  "price": 0.1094,
-  "usd": 54.7,
-  "shares": 500.0,
-  "ts": 1794445791,
-  "held": 2000.01,
-  "heldUsd": 270.0,
-  "peak": 2500.01,
-  "chip": "With",
-  "split": "5/6",
-  "arrow": "",
-  "fills": [],
-  "id": 103
- },
- {
-  "n": "paddaa",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3154451-d1120fcc-6e76-4148-b6a3-3622eebeee2e.jpeg",
-  "t": "Jensen Huang announced resignation or removal by November 13, 2026?",
-  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31/jensen-huang-announced-resignation-or-removal-by-november-13-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0x72d0d224c0e02942c86b32ac385f14ca419120abc485c2601991d85cceac8b8f",
-  "slug": "jensen-huang-announced-resignation-or-removal-by-november-13-2026",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.7103,
-  "usd": 1704.77,
-  "shares": 2400.0,
-  "ts": 1794445786,
-  "held": 3950.01,
-  "heldUsd": 2705.76,
-  "peak": 3950.01,
-  "chip": "With",
-  "split": "4/5",
-  "arrow": "\u2193",
-  "fills": [
-   {
-    "ts": 1794445765,
-    "usd": 67.26,
-    "shares": 93.64,
-    "price": 0.71
-   },
-   {
-    "ts": 1794445773,
-    "usd": 345.18,
-    "shares": 486.17,
-    "price": 0.71
-   },
-   {
-    "ts": 1794445786,
-    "usd": 1292.33,
-    "shares": 1820.19,
-    "price": 0.71
-   }
-  ],
-  "id": 104
- },
- {
-  "n": "vinii",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3182982-b6b5b95b-0f9e-4483-ac26-fd178a3bcfdf.jpeg",
-  "t": "Will Claude Fable 5.2 debut with an HLE-Diamond score of 75% or higher?",
-  "url": "https://polymarket.com/event/claude-fable-5pt2-hle-diamond-debut-20261110/will-claude-fable-5pt2-debut-with-an-hle-diamond-score-of-75-or-higher",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/claude-4pt7-released-by-LSHFPBEUsncm.png",
-  "cid": "0x9936ad1d56b93862ddddad0c6d8593be9f60c84aee4c319867a8817252c2a459",
-  "slug": "will-claude-fable-5pt2-debut-with-an-hle-diamond-score-of-75-or-higher",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9791,
-  "usd": 491.29,
-  "shares": 501.79,
-  "ts": 1794445753,
-  "held": 501.79,
-  "heldUsd": 458.39,
-  "peak": 501.79,
-  "chip": "First",
-  "split": "",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 105
- },
- {
-  "n": "paddaa",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3154451-d1120fcc-6e76-4148-b6a3-3622eebeee2e.jpeg",
-  "t": "AI bubble burst by June 30, 2027?",
-  "url": "https://polymarket.com/event/ai-bubble-burst-by/ai-bubble-burst-by-june-30-2027",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ai-industry-downturn-by-fFNK9rGi-70Y.jpg",
-  "cid": "0x4e6916e7df7f81a6ffe55e512bc97942280f451ff133561f900f404177c52d89",
-  "slug": "ai-bubble-burst-by-june-30-2027",
-  "side": "SELL",
-  "out": "Yes",
-  "price": 0.26,
-  "usd": 2.6,
-  "shares": 10.0,
-  "ts": 1794445720,
-  "held": 9070.26,
-  "heldUsd": 2312.92,
-  "peak": 9080.26,
-  "chip": "Against",
-  "split": "1/1",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 106
- },
- {
-  "n": "tunatyler",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-566685-689e8606-e3cf-4fb0-b4b1-d55fa3c39874.jpg",
-  "t": "Jensen Huang announced resignation or removal by November 11, 2026?",
-  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31/jensen-huang-announced-resignation-or-removal-by-november-11-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0x6215a6b38b51de4e1d0254da3cbb1d25bd75497276fedbbcd6bbcc7e126bff19",
-  "slug": "jensen-huang-announced-resignation-or-removal-by-november-11-2026",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.4111,
-  "usd": 1644.45,
-  "shares": 3999.99,
-  "ts": 1794445699,
-  "held": 7999.98,
-  "heldUsd": 2839.99,
-  "peak": 7999.98,
-  "chip": "Against",
-  "split": "5/8",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1794445689,
-    "usd": 193.17,
-    "shares": 460.29,
-    "price": 0.41
-   },
-   {
-    "ts": 1794445693,
-    "usd": 69.49,
-    "shares": 169.49,
-    "price": 0.41
-   },
-   {
-    "ts": 1794445696,
-    "usd": 2.78,
-    "shares": 6.78,
-    "price": 0.41
-   },
-   {
-    "ts": 1794445699,
-    "usd": 1379.01,
-    "shares": 3363.43,
-    "price": 0.41
-   }
-  ],
-  "id": 107
- },
- {
-  "n": "vinii",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3182982-b6b5b95b-0f9e-4483-ac26-fd178a3bcfdf.jpeg",
-  "t": "Will the next Fable model (5.2+) debut with a Humanity's Last Exam score of 65% or higher?",
-  "url": "https://polymarket.com/event/next-fable-model-5pt2-humanitys-last-exam-debut-20260928/will-the-next-fable-model-5pt2-debut-with-a-humanitys-last-exam-score-of-65-or-higher",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/claude-4pt7-released-by-LSHFPBEUsncm.png",
-  "cid": "0xe10bb0de79d9a895fd9c77ce3c88c41bcd7225941921f2bc1939450cf855596c",
-  "slug": "will-the-next-fable-model-5pt2-debut-with-a-humanitys-last-exam-score-of-65-or-higher",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.9831,
-  "usd": 971.26,
-  "shares": 987.94,
-  "ts": 1794445696,
-  "held": 573.0,
-  "heldUsd": 546.64,
-  "peak": 987.94,
-  "chip": "First",
-  "split": "",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 108
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will \"How to Rob a Bank\" Opening Weekend Box Office be less than 7m?",
-  "url": "https://polymarket.com/event/how-to-rob-a-bank-opening-weekend-box-office-20261108/will-how-to-rob-a-bank-opening-weekend-box-office-be-less-than-7m-20261108",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/bo-poster-how-to-rob-a-bank-93ed7740af.jpg",
-  "cid": "0x1b1bfff5012a37c44605f02da8d74d0d8f0537ed68676be9bf3ccf11a1d71d00",
-  "slug": "will-how-to-rob-a-bank-opening-weekend-box-office-be-less-than-7m-20261108",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.2,
-  "usd": 24.75,
-  "shares": 123.75,
-  "ts": 1794445621,
-  "held": 22.21,
-  "heldUsd": 3.77,
-  "peak": 205.94,
-  "chip": "First",
-  "split": "",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 109
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will \"How to Rob a Bank\" Opening Weekend Box Office be between 13m and 15m?",
-  "url": "https://polymarket.com/event/how-to-rob-a-bank-opening-weekend-box-office-20261108/will-how-to-rob-a-bank-opening-weekend-box-office-be-between-13m-and-15m-20261108",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/bo-poster-how-to-rob-a-bank-93ed7740af.jpg",
-  "cid": "0x4275ec0cfec85fbdf9b47a8250445dc6cf1ee6070887271318dd6acad463d31a",
-  "slug": "will-how-to-rob-a-bank-opening-weekend-box-office-be-between-13m-and-15m-20261108",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9952,
-  "usd": 123.16,
-  "shares": 123.75,
-  "ts": 1794445621,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 183.75,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 110
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will \"How to Rob a Bank\" Opening Weekend Box Office be between 11m and 13m?",
-  "url": "https://polymarket.com/event/how-to-rob-a-bank-opening-weekend-box-office-20261108/will-how-to-rob-a-bank-opening-weekend-box-office-be-between-11m-and-13m-20261108",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/bo-poster-how-to-rob-a-bank-93ed7740af.jpg",
-  "cid": "0xd41e9e96d7c45452290862826eb6a373bf7e8a7d1cd8a715f51e78167f3c1045",
-  "slug": "will-how-to-rob-a-bank-opening-weekend-box-office-be-between-11m-and-13m-20261108",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9901,
-  "usd": 122.46,
-  "shares": 123.69,
-  "ts": 1794445621,
-  "held": 22.13,
-  "heldUsd": 21.65,
-  "peak": 205.86,
-  "chip": "First",
-  "split": "",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 111
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will \"How to Rob a Bank\" Opening Weekend Box Office be between 7m and 9m?",
-  "url": "https://polymarket.com/event/how-to-rob-a-bank-opening-weekend-box-office-20261108/will-how-to-rob-a-bank-opening-weekend-box-office-be-between-7m-and-9m-20261108",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/bo-poster-how-to-rob-a-bank-93ed7740af.jpg",
-  "cid": "0xd90b991272d01eb45816869302b2b8f4598757ba7f855c14c3f7f97926d0c6c4",
-  "slug": "will-how-to-rob-a-bank-opening-weekend-box-office-be-between-7m-and-9m-20261108",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.8274,
-  "usd": 102.38,
-  "shares": 123.74,
-  "ts": 1794445620,
-  "held": 22.19,
-  "heldUsd": 19.31,
-  "peak": 205.93,
-  "chip": "First",
-  "split": "",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 112
- },
- {
-  "n": "Dropper",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/images_0a57a0c2-437f-41be-9ab8-5376ab6f3ca7_1726693550341.jpeg",
-  "t": "Jensen Huang announced resignation or removal by November 30, 2026?",
-  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31/jensen-huang-announced-resignation-or-removal-by-november-30-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0x6537d883f6dd80cb7c159d20e81fe7f23a2b5296c04114540aefc046f3439859",
-  "slug": "jensen-huang-announced-resignation-or-removal-by-november-30-2026",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.84,
-  "usd": 4411.15,
-  "shares": 5251.37,
-  "ts": 1794445620,
-  "held": 22358.59,
-  "heldUsd": 18222.25,
-  "peak": 22358.59,
-  "chip": "With",
-  "split": "3/4",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1794444928,
-    "usd": 525.0,
-    "shares": 625.0,
-    "price": 0.84
-   },
-   {
-    "ts": 1794444934,
-    "usd": 525.0,
-    "shares": 625.0,
-    "price": 0.84
-   },
-   {
-    "ts": 1794444946,
-    "usd": 468.98,
-    "shares": 558.31,
-    "price": 0.84
-   },
-   {
-    "ts": 1794445059,
-    "usd": 315.0,
-    "shares": 375.0,
-    "price": 0.84
-   },
-   {
-    "ts": 1794445131,
-    "usd": 288.75,
-    "shares": 343.75,
-    "price": 0.84
-   },
-   {
-    "ts": 1794445210,
-    "usd": 252.0,
-    "shares": 300.0,
-    "price": 0.84
-   },
-   {
-    "ts": 1794445224,
-    "usd": 840.0,
-    "shares": 1000.0,
-    "price": 0.84
-   },
-   {
-    "ts": 1794445239,
-    "usd": 9.82,
-    "shares": 11.69,
-    "price": 0.84
-   },
-   {
-    "ts": 1794445294,
-    "usd": 525.0,
-    "shares": 625.0,
-    "price": 0.84
-   },
-   {
-    "ts": 1794445339,
-    "usd": 2.67,
-    "shares": 3.18,
-    "price": 0.84
-   },
-   {
-    "ts": 1794445339,
-    "usd": 1.21,
-    "shares": 1.44,
-    "price": 0.84
-   },
-   {
-    "ts": 1794445348,
-    "usd": 1.73,
-    "shares": 2.06,
-    "price": 0.84
-   },
-   {
-    "ts": 1794445396,
-    "usd": 28.25,
-    "shares": 33.62,
-    "price": 0.84
-   },
-   {
-    "ts": 1794445467,
-    "usd": 525.0,
-    "shares": 625.0,
-    "price": 0.84
-   },
-   {
-    "ts": 1794445533,
-    "usd": 52.5,
-    "shares": 62.5,
-    "price": 0.84
-   },
-   {
-    "ts": 1794445620,
-    "usd": 50.24,
-    "shares": 59.81,
-    "price": 0.84
-   }
-  ],
-  "id": 113
- },
- {
-  "n": "StarMaster",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3048498-bfb4f55b-462d-45d7-894f-ac0c462f2d85.webp",
-  "t": "Jensen Huang announced resignation or removal by November 13, 2026?",
-  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31/jensen-huang-announced-resignation-or-removal-by-november-13-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0x72d0d224c0e02942c86b32ac385f14ca419120abc485c2601991d85cceac8b8f",
-  "slug": "jensen-huang-announced-resignation-or-removal-by-november-13-2026",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.7182,
-  "usd": 71.11,
-  "shares": 99.0,
-  "ts": 1794445567,
-  "held": 749.61,
-  "heldUsd": 513.48,
-  "peak": 749.61,
-  "chip": "With",
-  "split": "4/5",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 114
- },
- {
-  "n": "PaddyAlpha",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
-  "t": "US-Iran Final Nuclear Deal by December 31, 2026?",
-  "url": "https://polymarket.com/event/us-iran-final-nuclear-deal-by-20260621201254412/us-iran-final-nuclear-deal-by-december-31-2026-191",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-iran-final-nuclear-deal-by-20260621201254412-2M_GeQ8diXxj.jpg",
-  "cid": "0x79b7408f02df2eba4034ca4c06ddf17b8dbeacc5adbe8595969e7573912c4e3b",
-  "slug": "us-iran-final-nuclear-deal-by-december-31-2026-191",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.88,
-  "usd": 176.0,
-  "shares": 200.0,
-  "ts": 1794445537,
-  "held": 55.02,
-  "heldUsd": 48.7,
-  "peak": 255.02,
-  "chip": "Against",
-  "split": "3/4",
-  "arrow": "",
-  "fills": [],
-  "id": 115
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Jensen Huang divorce by March 31, 2027?",
-  "url": "https://polymarket.com/event/jensen-huang-divorce-in-2026/jensen-huang-divorce-by-march-31-2027",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/jensen-huang-divorce-in-2026-TwqKa0CMsYm6.jpg",
-  "cid": "0x6b0d8ed1f588b7ea3f6e55d799bf818431751c1dc6f015c18e3c62174978f756",
-  "slug": "jensen-huang-divorce-by-march-31-2027",
-  "side": "SELL",
-  "out": "Yes",
-  "price": 0.29,
-  "usd": 51.33,
-  "shares": 177.0,
-  "ts": 1794445402,
-  "held": 338.92,
-  "heldUsd": 113.54,
-  "peak": 840.0,
-  "chip": "With",
-  "split": "4/5",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 116
- },
- {
-  "n": "paddaa",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3154451-d1120fcc-6e76-4148-b6a3-3622eebeee2e.jpeg",
-  "t": "Jensen Huang announced resignation or removal by November 11, 2026?",
-  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31/jensen-huang-announced-resignation-or-removal-by-november-11-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0x6215a6b38b51de4e1d0254da3cbb1d25bd75497276fedbbcd6bbcc7e126bff19",
-  "slug": "jensen-huang-announced-resignation-or-removal-by-november-11-2026",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.4096,
-  "usd": 983.04,
-  "shares": 2400.0,
-  "ts": 1794445351,
-  "held": 16233.38,
-  "heldUsd": 5762.85,
-  "peak": 16233.38,
-  "chip": "Against",
-  "split": "5/8",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 117
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Claude Fable 5.2 debut with an HLE-Diamond score of 55% or higher?",
-  "url": "https://polymarket.com/event/claude-fable-5pt2-hle-diamond-debut-20261110/will-claude-fable-5pt2-debut-with-an-hle-diamond-score-of-55-or-higher",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/claude-4pt7-released-by-LSHFPBEUsncm.png",
-  "cid": "0x7b04f9e5541a183bda7f62e9e311b51cc4e1e877095a622214099249fa909e17",
-  "slug": "will-claude-fable-5pt2-debut-with-an-hle-diamond-score-of-55-or-higher",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.9904,
-  "usd": 4.95,
-  "shares": 5.0,
-  "ts": 1794445324,
-  "held": 5.0,
-  "heldUsd": 4.87,
-  "peak": 5.0,
-  "chip": "First",
-  "split": "",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 118
- },
- {
-  "n": "Car",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
-  "t": "Jensen Huang announced resignation or removal by December 31, 2027?",
-  "url": "https://polymarket.com/event/jensen-huang-announced-resignation-or-removal-by-december-31/jensen-huang-announced-resignation-or-removal-by-december-31-2027",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0x2fa132a37c107078994db38d074b4c47adde51338bdb416c72a614f4d3fc6a8f",
-  "slug": "jensen-huang-announced-resignation-or-removal-by-december-31-2027",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.9,
-  "usd": 900.0,
-  "shares": 1000.0,
-  "ts": 1794445252,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 1000.0,
-  "chip": "With",
-  "split": "6/9",
-  "arrow": "\u2193",
   "fills": [],
   "id": 119
  }
