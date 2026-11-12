@@ -1,4 +1,12 @@
 import json,urllib.parse,re,os
+def shown_in_markets(bid, ask, top):
+    """Open positions stay listed through 100c. A consensus side under 10c stays off."""
+    try:
+        ask=float(ask); bid=float(bid)
+    except (TypeError, ValueError):
+        return False
+    now=ask if top=='Yes' else 1-bid
+    return now>=0.10 and ask<=1
 d=json.load(open('data/overlap.json'))
 MENTION=re.compile(r'\b(say|says|said|mention|mentions|mentioned|tweet|post)\b.*["\u201c]|\bmention')
 CATS=[('Mention',MENTION.pattern),
@@ -32,11 +40,7 @@ for m in d:
     url=f"https://polymarket.com/event/{m['eventSlug']}"+(f"/{m['slug']}" if m['slug']!=m['eventSlug'] else '')
     q=urllib.parse.quote_plus(m['title'].replace('Will ','').rstrip('?'))
     out.append(dict(t=m['title'],url=url,cat=cat(m),bid=m.get('bid'),ask=m.get('ask'),top=top,cnt=len(sides[top]),n=len(names),tot=m['total'],tr=tr,q=q,end=m.get('endDate',''),img=m.get('icon') or '',cid=m.get('conditionId') or '',slug=m.get('slug') or ''))
-def _now(o):
-    try: return float(o['ask']) if o['top']=='Yes' else 1-float(o['bid'])
-    except: return None
-out=[o for o in out if _now(o) is not None and _now(o)>=0.10]
-out=[o for o in out if float(o['ask'])<=0.98]
+out=[o for o in out if shown_in_markets(o.get('bid'), o.get('ask'), o.get('top'))]
 out.sort(key=lambda x:(-x['cnt'],-x['cnt']/x['n'],-x['tot']))
 #nocap
 print([(o['t'][:40],o['cnt'],o['n'],o['cat']) for o in out])

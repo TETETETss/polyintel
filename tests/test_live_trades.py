@@ -222,6 +222,25 @@ class LiveTradesTest(unittest.TestCase):
         self.assertEqual(html.count('id="v-markets"'), 1)
         self.assertEqual(html.count('id="v-tips"'), 1)
 
+    def test_markets_keep_open_positions_priced_at_a_dollar(self):
+        ns = {}
+        src = (ROOT / "build.py").read_text(encoding="utf-8").split("d=json.load", 1)[0]
+        exec(src, ns)
+        show = ns["shown_in_markets"]
+        self.assertTrue(show(0.999, 1, "Yes"))
+        self.assertTrue(show(0.97, 0.979, "Yes"))
+        self.assertFalse(show(0.04, 0.05, "Yes"))
+        self.assertFalse(show(None, None, "Yes"))
+        cid = "0x" + "ab" * 32
+        self.assertTrue(lt.keep_flow_market({"cid": cid}, set(), {cid}))
+        self.assertFalse(lt.keep_flow_market({"cid": cid.upper()}, {cid}, set()))
+        self.assertTrue(lt.keep_flow_market({"cid": cid}, {cid}, {cid}))
+        raw = {"0x" + "aa" * 20: [
+            {"conditionId": cid, "size": 12, "redeemable": False},
+            {"conditionId": "0x" + "cd" * 32, "size": 40, "redeemable": True},
+        ]}
+        self.assertEqual(lt.open_conditions(raw), {cid})
+
     def test_build_injects_live_tokens_and_refresh_keeps_v2_positions(self):
         build = (ROOT / "build.py").read_text(encoding="utf-8")
         refresh = (ROOT / "data" / "refresh.py").read_text(encoding="utf-8")

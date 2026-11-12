@@ -560,9 +560,34 @@ def aggregate_outflows(trades, held=None, min_net=MIN_INFLOW):
         _bump(who, bucket + "_ssh", sh)
     return _finish(mk, min_net, held=held, exited=True, flow="out")
 
+def open_conditions(raw_by_addr):
+    """Condition ids a tracked wallet still holds, ignoring redeemed positions."""
+    held = set()
+    for rows in (raw_by_addr or {}).values():
+        for p in rows or []:
+            if F(p, "redeemable") in (True, "True", "true", 1):
+                continue
+            try:
+                sh = float(F(p, "size", "current_size", default=0) or 0)
+            except (TypeError, ValueError):
+                continue
+            if sh <= 0.01:
+                continue
+            cid = F(p, "conditionId", "condition_id")
+            if cid:
+                held.add(str(cid).lower())
+    return held
+
+def keep_flow_market(market, closed, open_cids):
+    """A resolved market with nothing left to hold does not belong in Money Flow."""
+    cid = str((market or {}).get("cid") or "").lower()
+    if cid and cid in closed and cid not in (open_cids or set()):
+        return False
+    return True
+
 def yes_prices(cids):
-    """Current YES price (0-1) from gamma, keyed by condition id."""
-    out = {}
+    """Current YES price (0-1) from gamma, plus condition ids that have resolved."""
+    out, closed = {}, set()
     ids = [c for c in dict.fromkeys(cids) if c]
     for i in range(0, len(ids), 20):
         q = "&".join("condition_ids=" + urllib.parse.quote(c) for c in ids[i:i + 20])
@@ -573,6 +598,9 @@ def yes_prices(cids):
             cid = m.get("conditionId") or m.get("condition_id")
             if not cid:
                 continue
+            status = str(m.get("umaResolutionStatus") or "").lower()
+            if m.get("closed") in (True, "true", "True", 1) or status in ("resolved", "settled"):
+                closed.add(str(cid).lower())
             try:
                 names = json.loads(m.get("outcomes") or "[]")
                 prices = json.loads(m.get("outcomePrices") or "[]")
@@ -593,7 +621,7 @@ def yes_prices(cids):
                     px = None
             if px is not None:
                 out[cid] = round(px, 4)
-    return out
+    return out, closed
 
 def inflow_trades(addr, name, rows):
     out = []
@@ -651,7 +679,10 @@ def publish_inflows(wallets, raw_by_addr=None, path=None, now=None):
     held = shares_held(raw_by_addr)
     markets = aggregate_inflows(raw)
     outs = aggregate_outflows(raw, held)
-    px = yes_prices([m["cid"] for m in markets + outs])
+    px, closed = yes_prices([m["cid"] for m in markets + outs])
+    open_cids = open_conditions(raw_by_addr)
+    markets = [m for m in markets if keep_flow_market(m, closed, open_cids)]
+    outs = [m for m in outs if keep_flow_market(m, closed, open_cids)]
     for m in markets + outs:
         if m["cid"] in px:
             m["px"] = px[m["cid"]]
