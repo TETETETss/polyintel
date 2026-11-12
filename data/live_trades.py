@@ -387,6 +387,83 @@ def _bucket(outcome):
         return "no"
     return None
 
+def shares_held(raw_by_addr):
+    """addr -> condition -> outcome -> shares, including redeemable positions."""
+    idx = {}
+    for addr, rows in (raw_by_addr or {}).items():
+        addr = str(addr or "").lower()
+        for p in rows or []:
+            try:
+                sh = float(F(p, "size", "current_size", default=0) or 0)
+            except (TypeError, ValueError):
+                continue
+            if sh <= 0:
+                continue
+            cid = F(p, "conditionId", "condition_id")
+            if not cid:
+                continue
+            out = F(p, "outcome") or ("Yes" if str(F(p, "outcome_index", "outcomeIndex")) == "0" else "No")
+            slot = idx.setdefault(addr, {}).setdefault(str(cid).lower(), {})
+            slot[out] = slot.get(out, 0.0) + sh
+    return idx
+
+def _held_shares(held, addr, cid, outcome):
+    book = (held or {}).get(str(addr or "").lower()) or {}
+    sides = book.get(str(cid or "").lower())
+    if sides is None:
+        sides = book.get(cid) or {}
+    key = str(outcome or "").strip().lower()
+    for name, sh in sides.items():
+        if str(name).strip().lower() == key:
+            try:
+                return float(sh or 0)
+            except (TypeError, ValueError):
+                return 0.0
+    return 0.0
+
+def _touch_market(mk, t, bucket):
+    m = mk.setdefault(t["cid"], {"cid": t["cid"], "t": t.get("t") or "", "slug": t.get("slug") or "", "ev": t.get("ev") or "",
+        "img": t.get("img") or "", "ts": 0, "yes": 0.0, "no": 0.0, "px": None, "who": {}})
+    if (t.get("ts") or 0) >= m["ts"]:
+        m["ts"] = t.get("ts") or 0
+        if t.get("t"):
+            m["t"] = t["t"]
+        m["slug"] = t.get("slug") or m["slug"]
+        m["ev"] = t.get("ev") or m["ev"]
+        m["img"] = t.get("img") or m["img"]
+        price = t.get("price")
+        if price is not None:
+            m["px"] = float(price) if bucket == "yes" else 1.0 - float(price)
+    who = m["who"].setdefault((t.get("addr") or "", t.get("name") or "?"), {"n": t.get("name") or "?", "addr": t.get("addr") or "", "avatar": "", "yes": 0.0, "no": 0.0})
+    if t.get("avatar"):
+        who["avatar"] = t["avatar"]
+    return m, who
+
+def _finish(mk, min_net, held=None, exited=False):
+    out = []
+    for m in mk.values():
+        y, n = m["yes"], m["no"]
+        net = max(y, 0.0) + max(n, 0.0)
+        if net < min_net or not m["t"] or m["t"] == "Market":
+            continue
+        tr = []
+        for w in m["who"].values():
+            for side, amt in (("Yes", w["yes"]), ("No", w["no"])):
+                if amt <= 0.5:
+                    continue
+                row = {"n": w["n"], "avatar": w["avatar"], "out": side, "usd": round(amt, 2)}
+                if exited:
+                    left = _held_shares(held, w.get("addr"), m["cid"], side)
+                    row["exited"] = left <= 0.01
+                tr.append(row)
+        tr.sort(key=lambda z: -z["usd"])
+        if not tr:
+            continue
+        out.append({"cid": m["cid"], "t": m["t"], "url": market_url(m["slug"], m["ev"]), "slug": m["slug"], "img": m["img"],
+            "yes": round(y, 2), "no": round(n, 2), "px": None if m["px"] is None else round(max(0.0, min(1.0, m["px"])), 4), "tr": tr})
+    out.sort(key=lambda z: -(max(z["yes"], 0) + max(z["no"], 0)))
+    return out
+
 def aggregate_inflows(trades, min_net=MIN_INFLOW):
     """yes/no are net dollars (buys − sells). net = max(yes,0)+max(no,0). Traders keep positive nets only."""
     mk = {}
@@ -398,42 +475,33 @@ def aggregate_inflows(trades, min_net=MIN_INFLOW):
         if usd <= 0:
             continue
         sign = 1.0 if str(t.get("side") or "").upper() == "BUY" else -1.0
-        m = mk.setdefault(t["cid"], {"cid": t["cid"], "t": t.get("t") or "", "slug": t.get("slug") or "", "ev": t.get("ev") or "",
-            "img": t.get("img") or "", "ts": 0, "yes": 0.0, "no": 0.0, "px": None, "who": {}})
-        if (t.get("ts") or 0) >= m["ts"]:
-            m["ts"] = t.get("ts") or 0
-            if t.get("t"):
-                m["t"] = t["t"]
-            m["slug"] = t.get("slug") or m["slug"]
-            m["ev"] = t.get("ev") or m["ev"]
-            m["img"] = t.get("img") or m["img"]
-            price = t.get("price")
-            if price is not None:
-                m["px"] = float(price) if bucket == "yes" else 1.0 - float(price)
+        m, who = _touch_market(mk, t, bucket)
         m[bucket] += sign * usd
-        who = m["who"].setdefault(t.get("name") or "?", {"n": t.get("name") or "?", "avatar": "", "yes": 0.0, "no": 0.0})
-        if t.get("avatar"):
-            who["avatar"] = t["avatar"]
         who[bucket] += sign * usd
-    out = []
-    for m in mk.values():
-        y, n = m["yes"], m["no"]
-        net = max(y, 0.0) + max(n, 0.0)
-        if net < min_net or not m["t"] or m["t"] == "Market":
+    return _finish(mk, min_net)
+
+def aggregate_outflows(trades, held=None, min_net=MIN_INFLOW):
+    """yes/no are dollars sold of YES/NO. Sells at 95c or more, and redemptions, are left out."""
+    mk = {}
+    for t in trades or []:
+        if str(t.get("side") or "").upper() != "SELL" or t.get("redeem"):
             continue
-        tr = []
-        for w in m["who"].values():
-            if w["yes"] > 0.5:
-                tr.append({"n": w["n"], "avatar": w["avatar"], "out": "Yes", "usd": round(w["yes"], 2)})
-            if w["no"] > 0.5:
-                tr.append({"n": w["n"], "avatar": w["avatar"], "out": "No", "usd": round(w["no"], 2)})
-        tr.sort(key=lambda z: -z["usd"])
-        if not tr:
+        try:
+            price = float(t.get("price") or 0)
+        except (TypeError, ValueError):
+            price = 0.0
+        if price >= 0.95:
             continue
-        out.append({"cid": m["cid"], "t": m["t"], "url": market_url(m["slug"], m["ev"]), "slug": m["slug"], "img": m["img"],
-            "yes": round(y, 2), "no": round(n, 2), "px": None if m["px"] is None else round(m["px"], 4), "tr": tr})
-    out.sort(key=lambda z: -(max(z["yes"], 0) + max(z["no"], 0)))
-    return out
+        bucket = _bucket(t.get("out"))
+        if not bucket or not t.get("cid"):
+            continue
+        usd = float(t.get("usd") or 0)
+        if usd <= 0:
+            continue
+        m, who = _touch_market(mk, t, bucket)
+        m[bucket] += usd
+        who[bucket] += usd
+    return _finish(mk, min_net, held=held, exited=True)
 
 def yes_prices(cids):
     """Current YES price (0-1) from gamma, keyed by condition id."""
@@ -488,13 +556,14 @@ def inflow_trades(addr, name, rows):
         if not cid:
             continue
         out.append({"cid": cid, "side": side, "out": F(x, "outcome") or "", "usd": usd, "price": price,
+            "addr": addr.lower(), "redeem": str(F(x, "type", default="TRADE")).upper() != "TRADE",
             "name": name or F(x, "name") or F(x, "pseudonym") or addr[:6],
             "avatar": F(x, "profile_image", "profileImage") or "",
             "t": F(x, "title") or "", "slug": F(x, "slug") or "", "ev": F(x, "event_slug", "eventSlug") or "",
             "img": F(x, "icon", "image") or "", "ts": norm_ts(x)})
     return out
 
-def publish_inflows(wallets, path=None, now=None):
+def publish_inflows(wallets, raw_by_addr=None, path=None, now=None):
     names, addrs = {}, []
     seen = set()
     for w in wallets:
@@ -518,21 +587,27 @@ def publish_inflows(wallets, path=None, now=None):
     if not ok and not raw:
         print("top inflows: fetch failed, keeping previous data/inflows.json")
         return 0
+    held = shares_held(raw_by_addr)
     markets = aggregate_inflows(raw)
-    px = yes_prices([m["cid"] for m in markets])
-    for m in markets:
+    outs = aggregate_outflows(raw, held)
+    px = yes_prices([m["cid"] for m in markets + outs])
+    for m in markets + outs:
         if m["cid"] in px:
             m["px"] = px[m["cid"]]
-    payload = {"mk": markets}
+    payload = {"built": int(now if now is not None else time.time()), "mk": markets, "out": outs}
     tmp = path + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(payload, f)
     os.replace(tmp, path)
-    print(f"top inflows: {len(markets)} markets >= ${MIN_INFLOW:.0f} -> {path}")
+    print(f"top inflows: {len(markets)} in, {len(outs)} out, >= ${MIN_INFLOW:.0f} -> {path}")
     if markets:
         top = markets[0]
         net = max(top["yes"], 0) + max(top["no"], 0)
-        print(f"  biggest: ${net:,.0f} · {top['t'][:70]}")
+        print(f"  biggest in: ${net:,.0f} · {top['t'][:70]}")
+    if outs:
+        top = outs[0]
+        net = max(top["yes"], 0) + max(top["no"], 0)
+        print(f"  biggest out: ${net:,.0f} · {top['t'][:70]}")
     return len(markets)
 
 def fetch_positions(addr):

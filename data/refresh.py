@@ -48,6 +48,7 @@ json.dump(cache,open(cache_f,"w"))
 res.sort(key=lambda r:-r["total"]); json.dump(res,open(f"{D}/overlap.json","w"),indent=1)
 print({n:len(p) for n,p in P.items()})
 for r in res: print(f"${r['total']:,.0f} | {r['slug']} | {r['tags'][:4]} | "+"; ".join(f"{h['trader']} {h['outcome']} {h['size']:.0f}@{h['avgPrice']:.2f} cur{h['curPrice']}" for h in r["holders"]))
+raw={}
 try:
     import live_trades
     raw={w["wallet"].lower():w.pop("_pos",[]) for w in W}
@@ -57,7 +58,7 @@ except Exception:
     print("live trades refresh failed; keeping previous data/live.json")
 try:
     import live_trades
-    live_trades.publish_inflows(W)
+    live_trades.publish_inflows(W, raw)
 except Exception:
     import traceback; traceback.print_exc()
     print("top inflows refresh failed; keeping previous data/inflows.json")

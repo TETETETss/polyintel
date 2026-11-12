@@ -73,6 +73,31 @@ class LiveTradesTest(unittest.TestCase):
         self.assertEqual([(t["n"], t["out"], t["usd"]) for t in rows[0]["tr"]], [("Ada", "Yes", 2500), ("Bea", "No", 100)])
         self.assertEqual(rows[0]["px"], 0.5)
         self.assertTrue(rows[0]["url"].startswith("https://polymarket.com/event/"))
+        # A sell at 95c still counts against an inflow. That filter is outflows only.
+        pricey = list(trades) + [{"cid": cid, "side": "SELL", "out": "Yes", "usd": 200, "price": 0.99, "name": "Ada", "avatar": "", "t": "Will it happen?", "slug": "will-it", "ev": "ev", "img": "i.png", "ts": 30}]
+        self.assertEqual(lt.aggregate_inflows(pricey)[0]["yes"], 2300)
+
+    def test_outflows_skip_95c_sells_and_redemptions(self):
+        cid = "0x" + "cd" * 32
+        ada, bea = "0x" + "aa" * 20, "0x" + "bb" * 20
+        base = {"cid": cid, "t": "Will it happen?", "slug": "will-it", "ev": "ev", "img": "", "avatar": ""}
+        trades = [
+            dict(base, side="SELL", out="Yes", usd=3000, price=0.5, name="Ada", addr=ada, ts=10),
+            dict(base, side="SELL", out="Yes", usd=4000, price=0.95, name="Ada", addr=ada, ts=11),
+            dict(base, side="SELL", out="No", usd=900, price=0.4, name="Bea", addr=bea, ts=12, redeem=True),
+            dict(base, side="BUY", out="Yes", usd=8000, price=0.3, name="Cy", addr="0x" + "cc" * 20, ts=13),
+            dict(base, side="SELL", out="No", usd=700, price=0.2, name="Bea", addr=bea, ts=14),
+            dict(base, side="SELL", out="Yes", usd=500, price=0.949, name="Ada", addr=ada, ts=15),
+            {"cid": "0xsmall", "side": "SELL", "out": "Yes", "usd": 1500, "price": 0.2, "name": "Cy", "addr": "0x" + "cc" * 20, "t": "Small market", "slug": "small", "ev": "small", "img": "", "ts": 5},
+        ]
+        held = {ada: {cid: {"Yes": 12.0}}}
+        rows = lt.aggregate_outflows(trades, held)
+        self.assertEqual([r["t"] for r in rows], ["Will it happen?"])
+        self.assertEqual(rows[0]["yes"], 3500)
+        self.assertEqual(rows[0]["no"], 700)
+        by = {(t["n"], t["out"]): t for t in rows[0]["tr"]}
+        self.assertFalse(by[("Ada", "Yes")]["exited"])
+        self.assertTrue(by[("Bea", "No")]["exited"])
 
     def test_with_first_and_exited(self):
         a, b = "0x" + "1" * 40, "0x" + "2" * 40
@@ -149,9 +174,16 @@ class LiveTradesTest(unittest.TestCase):
         self.assertIn("__LIVE__", html)
         self.assertIn("__NLIVE__", html)
         self.assertIn('data-v="inflows"', html)
-        self.assertIn(">Top Inflows</a>", html)
+        self.assertIn(">Money Flow</a>", html)
         self.assertIn('id="v-inflows"', html)
+        self.assertIn('id="iflist"', html)
+        self.assertIn("function ifMode", html)
+        self.assertIn("BIGGEST EXIT", html)
+        self.assertIn("Sold · 24h", html)
+        self.assertIn("Open market ↗", html)
+        self.assertIn("Mostly sold ", html)
         self.assertIn("__INFLOW__", html)
+        self.assertNotIn(">Top Inflows</a>", html)
         # markets search and how-to image stay put
         self.assertIn('id="q"', html)
         self.assertIn("read-a-market-card.webp", html)
