@@ -306,7 +306,7 @@ html{zoom:1.02}
 #v-inflows .if-bar{display:flex;height:6px;border-radius:3px;overflow:hidden;background:#262626;gap:2px}
 #v-inflows .if-bar i{display:block;height:100%;border-radius:3px}#v-inflows .if-bar .y{background:#4ade80}#v-inflows .if-bar .n{background:#5a5a5a}
 #v-inflows .if-sh{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:2px 12px;font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace;font-size:11px;letter-spacing:.4px;font-variant-numeric:tabular-nums;line-height:normal}
-#v-inflows .if-sh .y,#v-inflows .if-sh .n{white-space:nowrap;flex:0 0 auto}
+#v-inflows .if-sh .y,#v-inflows .if-sh .n{white-space:nowrap!important;flex:0 0 auto;display:block}
 #v-inflows .if-sh .y{color:#86c99c}#v-inflows .if-sh .n{color:#d79a9a;text-align:right}
 #v-inflows .if-net{text-align:left;padding-right:28px;border-right:1px solid #222}
 #v-inflows .if-net b{display:block;font-size:40px;font-weight:500;letter-spacing:-1.2px;line-height:1;margin-top:6px;font-variant-numeric:tabular-nums;white-space:nowrap}
@@ -325,7 +325,7 @@ html{zoom:1.02}
 #v-inflows .if-open:hover{background:#fff;color:#000;border-color:#fff;text-shadow:none}
 #v-inflows .if-empty{grid-column:1/-1;margin:0;padding:40px;text-align:center;color:#777;border:1px dashed #333;border-radius:20px;font-size:13px}
 @media(max-width:1100px){#v-inflows .if-list{grid-template-columns:1fr}}
-@media(max-width:900px){#v-inflows .if-list{padding:16px 12px 40px}#v-inflows .if-sec{padding:16px}#v-inflows .if-foot{padding:12px 16px}#v-inflows .if-net b{font-size:32px}#v-inflows .if-money{gap:16px}#v-inflows .if-card{padding:0}}
+@media(max-width:900px){#v-inflows .if-list{padding:16px 12px 40px}#v-inflows .if-sec{padding:16px}#v-inflows .if-foot{padding:12px 16px}#v-inflows .if-net b{font-size:32px}#v-inflows .if-money{gap:16px}#v-inflows .if-card{padding:0}#v-inflows .if-sh{flex-direction:column;align-items:flex-start;gap:2px}#v-inflows .if-sh .y,#v-inflows .if-sh .n{letter-spacing:0}}
 </style><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2032%2032%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20rx%3D%227%22%20fill%3D%22%23000%22/%3E%3Cg%20fill%3D%22%23fff%22%3E%3Ccircle%20cx%3D%227%22%20cy%3D%2227%22%20r%3D%221.7%22/%3E%3Ccircle%20cx%3D%227%22%20cy%3D%2223%22%20r%3D%221.7%22/%3E%3Ccircle%20cx%3D%2213%22%20cy%3D%2227%22%20r%3D%221.7%22/%3E%3Ccircle%20cx%3D%2213%22%20cy%3D%2223%22%20r%3D%221.7%22/%3E%3Ccircle%20cx%3D%2213%22%20cy%3D%2219%22%20r%3D%221.7%22/%3E%3Ccircle%20cx%3D%2219%22%20cy%3D%2227%22%20r%3D%221.7%22/%3E%3Ccircle%20cx%3D%2219%22%20cy%3D%2223%22%20r%3D%221.7%22/%3E%3Ccircle%20cx%3D%2219%22%20cy%3D%2219%22%20r%3D%221.7%22/%3E%3Ccircle%20cx%3D%2219%22%20cy%3D%2215%22%20r%3D%221.7%22/%3E%3Ccircle%20cx%3D%2225%22%20cy%3D%2227%22%20r%3D%221.7%22/%3E%3Ccircle%20cx%3D%2225%22%20cy%3D%2223%22%20r%3D%221.7%22/%3E%3Ccircle%20cx%3D%2225%22%20cy%3D%2219%22%20r%3D%221.7%22/%3E%3Ccircle%20cx%3D%2225%22%20cy%3D%2215%22%20r%3D%221.7%22/%3E%3Ccircle%20cx%3D%2225%22%20cy%3D%2211%22%20r%3D%221.7%22/%3E%3Ccircle%20cx%3D%2225%22%20cy%3D%227%22%20r%3D%221.7%22/%3E%3C/g%3E%3C/svg%3E"></head><body>
 <canvas id="orb"></canvas>
 <section id="login">
