@@ -2,48 +2,648 @@
  {
   "n": "Car",
   "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
-  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 6:00 PM ET?",
-  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-6pm-et",
+  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 8:00 PM ET?",
+  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-8pm-et",
   "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
-  "cid": "0xd256595fb7e880fb0f2a07b105911608f7357aa7de2cac70115f7960d60d8dff",
-  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-6pm-et",
+  "cid": "0xf22e089c1fc506b3cd819a3f8d5d4427b9e5c895336a01ad5271bf0c0f2ee942",
+  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-8pm-et",
   "side": "BUY",
   "out": "Yes",
-  "price": 0.01,
-  "usd": 44.44,
-  "shares": 4444.0,
-  "ts": 1794610189,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 4538.16,
+  "price": 0.33,
+  "usd": 19.8,
+  "shares": 60.0,
+  "ts": 1794610765,
+  "held": 139.99,
+  "heldUsd": 48.3,
+  "peak": 444.66,
+  "chip": "With",
+  "split": "2/4",
+  "arrow": "\u2193",
+  "fills": [
+   {
+    "ts": 1794610765,
+    "usd": 6.4,
+    "shares": 20.0,
+    "price": 0.32
+   },
+   {
+    "ts": 1794610765,
+    "usd": 6.6,
+    "shares": 20.0,
+    "price": 0.33
+   },
+   {
+    "ts": 1794610765,
+    "usd": 6.8,
+    "shares": 20.0,
+    "price": 0.34
+   }
+  ],
+  "id": 0
+ },
+ {
+  "n": "Tenebrus7",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
+  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 8:00 PM ET?",
+  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-8pm-et",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
+  "cid": "0xf22e089c1fc506b3cd819a3f8d5d4427b9e5c895336a01ad5271bf0c0f2ee942",
+  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-8pm-et",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.73,
+  "usd": 219.0,
+  "shares": 300.0,
+  "ts": 1794610765,
+  "held": 749.99,
+  "heldUsd": 491.25,
+  "peak": 1049.99,
+  "chip": "With",
+  "split": "2/4",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 1
+ },
+ {
+  "n": "classified",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-2637613-f573f7f0-53b7-4a8d-b884-fec7b37d1b7d.png",
+  "t": "Israel x Iran ceasefire continues through December 15?",
+  "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963/israel-x-iran-ceasefire-continues-through-december-15",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963-FEQHrNm5Q53X.jpg",
+  "cid": "0x3a0c86d7d9d3e4e82d533d2b1351b5d3e63577f8e1495e2804b9ae540135a556",
+  "slug": "israel-x-iran-ceasefire-continues-through-december-15",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.73,
+  "usd": 13.52,
+  "shares": 18.52,
+  "ts": 1794610735,
+  "held": 32040.35,
+  "heldUsd": 23549.66,
+  "peak": 32040.35,
+  "chip": "With",
+  "split": "3/6",
+  "arrow": "",
+  "fills": [],
+  "id": 2
+ },
+ {
+  "n": "Car",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
+  "t": "FAA outage attributed to a foreign actor?",
+  "url": "https://polymarket.com/event/faa-outage-attributed-to-a-foreign-actor",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/faa-outage-2026-11-4384cd29f1.jpg",
+  "cid": "0x222f9065c3d6c069932f4f23b2f7f3efeb078a2e475bec8bb8ff15a4d776b579",
+  "slug": "faa-outage-attributed-to-a-foreign-actor",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.06,
+  "usd": 33.78,
+  "shares": 562.93,
+  "ts": 1794610726,
+  "held": 2180.79,
+  "heldUsd": 119.94,
+  "peak": 2777.0,
   "chip": "Against",
+  "split": "1/2",
+  "arrow": "\u2191",
+  "fills": [
+   {
+    "ts": 1794610648,
+    "usd": 21.78,
+    "shares": 362.93,
+    "price": 0.06
+   },
+   {
+    "ts": 1794610726,
+    "usd": 12.0,
+    "shares": 200.0,
+    "price": 0.06
+   }
+  ],
+  "id": 3
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Jensen Huang rejoin NVIDIA by December 31, 2027?",
+  "url": "https://polymarket.com/event/jensen-huang-rejoins-nvidia-byptptpt/will-jensen-huang-rejoin-nvidia-by-december-31-2027",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
+  "cid": "0x79a7b7c58effc4f2753011fb78f44ff59d1912eddc62f4a4ad16f7adda09eb81",
+  "slug": "will-jensen-huang-rejoin-nvidia-by-december-31-2027",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.29,
+  "usd": 53.36,
+  "shares": 184.0,
+  "ts": 1794610722,
+  "held": 543.49,
+  "heldUsd": 173.92,
+  "peak": 1196.49,
+  "chip": "With",
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 0
+  "id": 4
+ },
+ {
+  "n": "Car",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
+  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 8:00 PM ET?",
+  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-8pm-et",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
+  "cid": "0xf22e089c1fc506b3cd819a3f8d5d4427b9e5c895336a01ad5271bf0c0f2ee942",
+  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-8pm-et",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.3743,
+  "usd": 47.16,
+  "shares": 126.0,
+  "ts": 1794610638,
+  "held": 139.99,
+  "heldUsd": 48.3,
+  "peak": 444.66,
+  "chip": "With",
+  "split": "2/4",
+  "arrow": "\u2193",
+  "fills": [
+   {
+    "ts": 1794610483,
+    "usd": 8.0,
+    "shares": 20.0,
+    "price": 0.4
+   },
+   {
+    "ts": 1794610512,
+    "usd": 7.6,
+    "shares": 20.0,
+    "price": 0.38
+   },
+   {
+    "ts": 1794610512,
+    "usd": 7.8,
+    "shares": 20.0,
+    "price": 0.39
+   },
+   {
+    "ts": 1794610570,
+    "usd": 2.19,
+    "shares": 6.08,
+    "price": 0.36
+   },
+   {
+    "ts": 1794610570,
+    "usd": 8.14,
+    "shares": 22.0,
+    "price": 0.37
+   },
+   {
+    "ts": 1794610633,
+    "usd": 1.75,
+    "shares": 5.0,
+    "price": 0.35
+   },
+   {
+    "ts": 1794610635,
+    "usd": 5.73,
+    "shares": 15.92,
+    "price": 0.36
+   },
+   {
+    "ts": 1794610638,
+    "usd": 5.95,
+    "shares": 17.0,
+    "price": 0.35
+   }
+  ],
+  "id": 5
+ },
+ {
+  "n": "Car",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
+  "t": "Will the FAA's nationwide ground stop be lifted by November 14, 12:00 AM ET?",
+  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-1159pm-et",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
+  "cid": "0xc34866f36dae9159b0850c92e659e6d9641a4d57fb8d3b75ac35b623b8c87e40",
+  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-1159pm-et",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.7,
+  "usd": 15.63,
+  "shares": 22.33,
+  "ts": 1794610636,
+  "held": 22.33,
+  "heldUsd": 15.74,
+  "peak": 50.0,
+  "chip": "With",
+  "split": "4/4",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 6
+ },
+ {
+  "n": "GollumGekko",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/gollum_bc5f507a-12cf-4a51-a483-ad7cd84966a5_1736427633048.JPG",
+  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 8:00 PM ET?",
+  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-8pm-et",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
+  "cid": "0xf22e089c1fc506b3cd819a3f8d5d4427b9e5c895336a01ad5271bf0c0f2ee942",
+  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-8pm-et",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.36,
+  "usd": 36.0,
+  "shares": 100.0,
+  "ts": 1794610635,
+  "held": 674.95,
+  "heldUsd": 232.86,
+  "peak": 674.95,
+  "chip": "With",
+  "split": "2/4",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 7
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the total domestic gross for \"You Can See Everything\" be between $125M and $150M by November 30?",
+  "url": "https://polymarket.com/event/you-can-see-everything-total-domestic-gross-by-november-30/will-the-total-domestic-gross-for-you-can-see-everything-be-between-125m-and-150m-by-november-30",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/you-can-see-everything-rotten-tomatoes-score-20261019-Zvs8xFnxYs6_.png",
+  "cid": "0x0a450772a93368d4797127c60e1a42924f430d4a5921e13e78c8bd7e8562f94d",
+  "slug": "will-the-total-domestic-gross-for-you-can-see-everything-be-between-125m-and-150m-by-november-30",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9952,
+  "usd": 15.8,
+  "shares": 15.88,
+  "ts": 1794610623,
+  "held": 15.88,
+  "heldUsd": 15.83,
+  "peak": 15.88,
+  "chip": "Exited",
+  "split": "",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 8
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the total domestic gross for \"You Can See Everything\" be between $75M and $100M by November 30?",
+  "url": "https://polymarket.com/event/you-can-see-everything-total-domestic-gross-by-november-30/will-the-total-domestic-gross-for-you-can-see-everything-be-between-75m-and-100m-by-november-30",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/you-can-see-everything-rotten-tomatoes-score-20261019-Zvs8xFnxYs6_.png",
+  "cid": "0xa6aaf724fd295fcf12ab91cb7fb7b86750da94d71cd3a151f35b2f561814d1d3",
+  "slug": "will-the-total-domestic-gross-for-you-can-see-everything-be-between-75m-and-100m-by-november-30",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.393,
+  "usd": 6.26,
+  "shares": 15.93,
+  "ts": 1794610623,
+  "held": 19.43,
+  "heldUsd": 6.25,
+  "peak": 19.43,
+  "chip": "First",
+  "split": "",
+  "arrow": "",
+  "fills": [],
+  "id": 9
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the total domestic gross for \"You Can See Everything\" be between $100M and $125M by November 30?",
+  "url": "https://polymarket.com/event/you-can-see-everything-total-domestic-gross-by-november-30/will-the-total-domestic-gross-for-you-can-see-everything-be-between-100m-and-125m-by-november-30",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/you-can-see-everything-rotten-tomatoes-score-20261019-Zvs8xFnxYs6_.png",
+  "cid": "0xaf19d77206495052d91f2bbd0cf91097e8b5385f3a6561af7d847dacc8d20ec8",
+  "slug": "will-the-total-domestic-gross-for-you-can-see-everything-be-between-100m-and-125m-by-november-30",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.6001,
+  "usd": 9.56,
+  "shares": 15.94,
+  "ts": 1794610623,
+  "held": 15.94,
+  "heldUsd": 10.94,
+  "peak": 15.94,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 10
+ },
+ {
+  "n": "Car",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
+  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 10:00 PM ET?",
+  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-10pm-et",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
+  "cid": "0xbb9fbe35f962cc063091c70d7b469568e76d76896aebba44077fab27f9a6c92d",
+  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-10pm-et",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.515,
+  "usd": 20.6,
+  "shares": 40.0,
+  "ts": 1794610611,
+  "held": 40.0,
+  "heldUsd": 21.6,
+  "peak": 400.0,
+  "chip": "With",
+  "split": "3/4",
+  "arrow": "\u2191",
+  "fills": [
+   {
+    "ts": 1794610611,
+    "usd": 10.2,
+    "shares": 20.0,
+    "price": 0.51
+   },
+   {
+    "ts": 1794610611,
+    "usd": 10.4,
+    "shares": 20.0,
+    "price": 0.52
+   }
+  ],
+  "id": 11
+ },
+ {
+  "n": "Car",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
+  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 8:00 PM ET?",
+  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-8pm-et",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
+  "cid": "0xf22e089c1fc506b3cd819a3f8d5d4427b9e5c895336a01ad5271bf0c0f2ee942",
+  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-8pm-et",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.3805,
+  "usd": 2.28,
+  "shares": 6.0,
+  "ts": 1794610591,
+  "held": 139.99,
+  "heldUsd": 48.3,
+  "peak": 444.66,
+  "chip": "Against",
+  "split": "2/4",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 12
+ },
+ {
+  "n": "Car",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
+  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 7:00 PM ET?",
+  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-7pm-et",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
+  "cid": "0xde3eb3be484adfb82df875862409dba98cfdbd1707d4f4d2a88c260500031677",
+  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-7pm-et",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.08,
+  "usd": 1.6,
+  "shares": 20.0,
+  "ts": 1794610590,
+  "held": 40.0,
+  "heldUsd": 4.4,
+  "peak": 40.0,
+  "chip": "With",
+  "split": "2/2",
+  "arrow": "",
+  "fills": [],
+  "id": 13
+ },
+ {
+  "n": "vinii",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3182982-b6b5b95b-0f9e-4483-ac26-fd178a3bcfdf.jpeg",
+  "t": "Will voter turnout be between 62% and 64% in the 2026 Spanish general election?",
+  "url": "https://polymarket.com/event/spain-general-election-turnout/will-voter-turnout-between-62-and-64-in-the-2026-spanish-general-election",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/spainflagcrestcentre-241f86d478.jpg",
+  "cid": "0x97418f126bb69b42b90cfe9207f9223405427896041cfb6bf54c0a074201cd7f",
+  "slug": "will-voter-turnout-between-62-and-64-in-the-2026-spanish-general-election",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.94,
+  "usd": 8.94,
+  "shares": 9.51,
+  "ts": 1794610585,
+  "held": 320.77,
+  "heldUsd": 304.41,
+  "peak": 320.77,
+  "chip": "First",
+  "split": "",
+  "arrow": "",
+  "fills": [],
+  "id": 14
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the highest temperature in Los Angeles be between 72-73\u00b0F on November 13?",
+  "url": "https://polymarket.com/event/highest-temperature-in-los-angeles-on-november-13-2026/highest-temperature-in-los-angeles-on-november-13-2026-72-73f",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/los-angeles-cdae9380c7.jpg",
+  "cid": "0x4241d2627c0dff71ff6739c060ae1c02283a1c51fa698cb6810bd1b6d4fbbd8e",
+  "slug": "highest-temperature-in-los-angeles-on-november-13-2026-72-73f",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9958,
+  "usd": 59.74,
+  "shares": 59.99,
+  "ts": 1794610540,
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 59.99,
+  "chip": "Exited",
+  "split": "",
+  "arrow": "",
+  "fills": [],
+  "id": 15
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the highest temperature in Los Angeles be between 70-71\u00b0F on November 13?",
+  "url": "https://polymarket.com/event/highest-temperature-in-los-angeles-on-november-13-2026/highest-temperature-in-los-angeles-on-november-13-2026-70-71f",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/los-angeles-cdae9380c7.jpg",
+  "cid": "0xd7ce5ae30cd8a58dc763ed40194ad55d47f068b741c1350bcb7a5b61614b7660",
+  "slug": "highest-temperature-in-los-angeles-on-november-13-2026-70-71f",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9905,
+  "usd": 59.43,
+  "shares": 60.0,
+  "ts": 1794610540,
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 60.0,
+  "chip": "Exited",
+  "split": "",
+  "arrow": "",
+  "fills": [],
+  "id": 16
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Bruno Retailleau win the second-most votes in the first round of the 2027 French presidential election?",
+  "url": "https://polymarket.com/event/french-presidential-election-first-round-2nd-place/will-bruno-retailleau-win-the-second-most-votes-in-the-first-round-of-the-2027-french-presidential-election",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/fr27-bruno-retailleau-2510fff2f8.jpg",
+  "cid": "0x2a4b04328ff8caee368f4899039bb43f154dc5212116c6e5bae3b17e20116129",
+  "slug": "will-bruno-retailleau-win-the-second-most-votes-in-the-first-round-of-the-2027-french-presidential-election",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9962,
+  "usd": 26.89,
+  "shares": 27.0,
+  "ts": 1794610528,
+  "held": 27.0,
+  "heldUsd": 26.85,
+  "peak": 27.0,
+  "chip": "Exited",
+  "split": "",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 17
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Jean-Luc M\u00e9lenchon win the second-most votes in the first round of the 2027 French presidential election?",
+  "url": "https://polymarket.com/event/french-presidential-election-first-round-2nd-place/will-jean-luc-melenchon-win-the-second-most-votes-in-the-first-round-of-the-2027-french-presidential-election",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/fr27-jean-luc-melenchon-57ef66203b.jpg",
+  "cid": "0x0bba03039d2c07d44092eb1d6ae79b795bc2243883756c1c1564fbd91c1d7471",
+  "slug": "will-jean-luc-melenchon-win-the-second-most-votes-in-the-first-round-of-the-2027-french-presidential-election",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.4499,
+  "usd": 12.15,
+  "shares": 27.0,
+  "ts": 1794610527,
+  "held": 27.0,
+  "heldUsd": 11.61,
+  "peak": 27.0,
+  "chip": "Against",
+  "split": "1/1",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 18
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Marine Le Pen win the second-most votes in the first round of the 2027 French presidential election?",
+  "url": "https://polymarket.com/event/french-presidential-election-first-round-2nd-place/will-marine-le-pen-win-the-second-most-votes-in-the-first-round-of-the-2027-french-presidential-election",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-marine-le-pen-win-the-2027-french-presidential-election-8hg67PHSk27M.jpg",
+  "cid": "0x0d5cf55fb3176bcb3717af1a69bbd700c5e0736bafdd75e1fd5340bff0546df1",
+  "slug": "will-marine-le-pen-win-the-second-most-votes-in-the-first-round-of-the-2027-french-presidential-election",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9712,
+  "usd": 26.22,
+  "shares": 27.0,
+  "ts": 1794610527,
+  "held": 27.0,
+  "heldUsd": 25.82,
+  "peak": 27.0,
+  "chip": "Exited",
+  "split": "",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 19
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Christine Lagarde win the second-most votes in the first round of the 2027 French presidential election?",
+  "url": "https://polymarket.com/event/french-presidential-election-first-round-2nd-place/will-christine-lagarde-win-the-second-most-votes-in-the-first-round-of-the-2027-french-presidential-election",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/fr27-christine-lagarde-49c7cad8fe.jpg",
+  "cid": "0x1e5fdb56a04e6602eecb4385492610100a36386df5ff85d4f236a1865043591d",
+  "slug": "will-christine-lagarde-win-the-second-most-votes-in-the-first-round-of-the-2027-french-presidential-election",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9825,
+  "usd": 26.52,
+  "shares": 26.99,
+  "ts": 1794610527,
+  "held": 26.99,
+  "heldUsd": 26.09,
+  "peak": 26.99,
+  "chip": "Exited",
+  "split": "",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 20
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Rapha\u00ebl Glucksmann win the second-most votes in the first round of the 2027 French presidential election?",
+  "url": "https://polymarket.com/event/french-presidential-election-first-round-2nd-place/will-raphael-glucksmann-win-the-second-most-votes-in-the-first-round-of-the-2027-french-presidential-election",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/fr27-raphael-glucksmann-c0032d60f6.jpg",
+  "cid": "0x339fe403400aa3714d91d431928b6efbbb4975fc5e52863c0304d88b80d5d8c8",
+  "slug": "will-raphael-glucksmann-win-the-second-most-votes-in-the-first-round-of-the-2027-french-presidential-election",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9721,
+  "usd": 26.24,
+  "shares": 26.99,
+  "ts": 1794610527,
+  "held": 27.15,
+  "heldUsd": 26.09,
+  "peak": 27.15,
+  "chip": "First",
+  "split": "",
+  "arrow": "",
+  "fills": [],
+  "id": 21
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will David Lisnard win the second-most votes in the first round of the 2027 French presidential election?",
+  "url": "https://polymarket.com/event/french-presidential-election-first-round-2nd-place/will-david-lisnard-win-the-second-most-votes-in-the-first-round-of-the-2027-french-presidential-election",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/fr27-david-lisnard-04e491dec1.jpg",
+  "cid": "0xa9870ae5ecf30346b9ffc4bdd7ca77200770cd05bf156cad0bbcf8929b28a37d",
+  "slug": "will-david-lisnard-win-the-second-most-votes-in-the-first-round-of-the-2027-french-presidential-election",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.721,
+  "usd": 19.47,
+  "shares": 27.0,
+  "ts": 1794610527,
+  "held": 27.0,
+  "heldUsd": 19.8,
+  "peak": 27.0,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 22
  },
  {
   "n": "Lolakis",
   "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
-  "t": "AI bubble burst by June 30, 2027?",
-  "url": "https://polymarket.com/event/ai-bubble-burst-by/ai-bubble-burst-by-june-30-2027",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ai-industry-downturn-by-fFNK9rGi-70Y.jpg",
-  "cid": "0x4e6916e7df7f81a6ffe55e512bc97942280f451ff133561f900f404177c52d89",
-  "slug": "ai-bubble-burst-by-june-30-2027",
+  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 10:00 PM ET?",
+  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-10pm-et",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
+  "cid": "0xbb9fbe35f962cc063091c70d7b469568e76d76896aebba44077fab27f9a6c92d",
+  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-10pm-et",
   "side": "SELL",
-  "out": "Yes",
-  "price": 0.19,
-  "usd": 24.36,
-  "shares": 128.2,
-  "ts": 1794610170,
-  "held": 2288.05,
-  "heldUsd": 423.29,
-  "peak": 2500.0,
-  "chip": "Against",
-  "split": "1/1",
-  "arrow": "",
+  "out": "No",
+  "price": 0.46,
+  "usd": 44.68,
+  "shares": 97.12,
+  "ts": 1794610519,
+  "held": 152.88,
+  "heldUsd": 70.32,
+  "peak": 250.0,
+  "chip": "With",
+  "split": "3/4",
+  "arrow": "\u2191",
   "fills": [],
-  "id": 1
+  "id": 23
  },
  {
   "n": "Lolakis",
@@ -56,17 +656,105 @@
   "side": "BUY",
   "out": "No",
   "price": 0.982,
-  "usd": 163.39,
-  "shares": 166.38,
-  "ts": 1794610164,
-  "held": 166.38,
-  "heldUsd": 164.38,
-  "peak": 166.38,
+  "usd": 120.57,
+  "shares": 122.78,
+  "ts": 1794610495,
+  "held": 289.16,
+  "heldUsd": 288.44,
+  "peak": 289.16,
   "chip": "With",
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 2
+  "id": 24
+ },
+ {
+  "n": "Car",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
+  "t": "FAA outage attributed to Iran?",
+  "url": "https://polymarket.com/event/faa-outage-attributed-to-iran",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/faa-outage-2026-11-4384cd29f1.jpg",
+  "cid": "0x9c8c0ef1a573ea1b641900c2cd9f55f084925576fde1c178410146afe348264b",
+  "slug": "faa-outage-attributed-to-iran",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.966,
+  "usd": 61.56,
+  "shares": 63.73,
+  "ts": 1794610479,
+  "held": 822.01,
+  "heldUsd": 792.01,
+  "peak": 1222.01,
+  "chip": "Against",
+  "split": "2/2",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 25
+ },
+ {
+  "n": "Car",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
+  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 6:00 PM ET?",
+  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-6pm-et",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
+  "cid": "0xd256595fb7e880fb0f2a07b105911608f7357aa7de2cac70115f7960d60d8dff",
+  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-6pm-et",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.01,
+  "usd": 44.44,
+  "shares": 4444.01,
+  "ts": 1794610476,
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 4538.16,
+  "chip": "With",
+  "split": "2/3",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 26
+ },
+ {
+  "n": "MisTKy",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5070263-f290eb6b-11db-423d-b532-cd773195842b.jpg",
+  "t": "Fourth Jensen Huang affair reported by December 31?",
+  "url": "https://polymarket.com/event/fourth-jensen-huang-affair-reported-by-december-31",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/jensen-huang-divorce-in-2026-TwqKa0CMsYm6.jpg",
+  "cid": "0x88beeb7880c93510adef910041282f91302d1d05d709c9972605aa4c06514da3",
+  "slug": "fourth-jensen-huang-affair-reported-by-december-31",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.5481,
+  "usd": 248.42,
+  "shares": 453.22,
+  "ts": 1794610444,
+  "held": 4547.59,
+  "heldUsd": 2501.18,
+  "peak": 4958.35,
+  "chip": "Against",
+  "split": "6/8",
+  "arrow": "\u2193",
+  "fills": [
+   {
+    "ts": 1794610404,
+    "usd": 22.5,
+    "shares": 42.46,
+    "price": 0.53
+   },
+   {
+    "ts": 1794610423,
+    "usd": 5.92,
+    "shares": 10.76,
+    "price": 0.55
+   },
+   {
+    "ts": 1794610444,
+    "usd": 220.0,
+    "shares": 400.0,
+    "price": 0.55
+   }
+  ],
+  "id": 27
  },
  {
   "n": "Tenebrus7",
@@ -79,11 +767,244 @@
   "side": "BUY",
   "out": "No",
   "price": 0.77,
-  "usd": 180.17,
-  "shares": 233.99,
-  "ts": 1794610159,
-  "held": 726.73,
-  "heldUsd": 563.21,
+  "usd": 3.35,
+  "shares": 4.35,
+  "ts": 1794610434,
+  "held": 855.21,
+  "heldUsd": 662.79,
+  "peak": 18270.01,
+  "chip": "With",
+  "split": "4/4",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 28
+ },
+ {
+  "n": "Tenebrus7",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
+  "t": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
+  "url": "https://polymarket.com/event/democratic-presidential-nominee-2028/will-jon-ossoff-win-the-2028-democratic-presidential-nomination-885",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Jon_Ossoff.png",
+  "cid": "0x74dba1ce1ae9dd535414e85f2d9ab5ea32c0fb1acc9b7130b67e6d91217e24e1",
+  "slug": "will-jon-ossoff-win-the-2028-democratic-presidential-nomination-885",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.739,
+  "usd": 13.28,
+  "shares": 17.97,
+  "ts": 1794610425,
+  "held": 10470.31,
+  "heldUsd": 7732.32,
+  "peak": 10875.7,
+  "chip": "With",
+  "split": "4/7",
+  "arrow": "",
+  "fills": [],
+  "id": 29
+ },
+ {
+  "n": "MisTKy",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5070263-f290eb6b-11db-423d-b532-cd773195842b.jpg",
+  "t": "Fourth Jensen Huang affair reported by December 31?",
+  "url": "https://polymarket.com/event/fourth-jensen-huang-affair-reported-by-december-31",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/jensen-huang-divorce-in-2026-TwqKa0CMsYm6.jpg",
+  "cid": "0x88beeb7880c93510adef910041282f91302d1d05d709c9972605aa4c06514da3",
+  "slug": "fourth-jensen-huang-affair-reported-by-december-31",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.5477,
+  "usd": 991.99,
+  "shares": 1811.08,
+  "ts": 1794610423,
+  "held": 4547.59,
+  "heldUsd": 2501.18,
+  "peak": 4958.35,
+  "chip": "With",
+  "split": "6/8",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 30
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Teddy Riner win the 2027 French presidential election?",
+  "url": "https://polymarket.com/event/next-french-presidential-election/will-teddy-riner-win-the-2027-french-presidential-election",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/french-pres-2027-teddy-riner-de431a7551.jpg",
+  "cid": "0x754ab4247c590606f2b2655da7f3e327ea3cf723089844687709d094a61fe920",
+  "slug": "will-teddy-riner-win-the-2027-french-presidential-election",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9784,
+  "usd": 60.66,
+  "shares": 62.0,
+  "ts": 1794610411,
+  "held": 200.0,
+  "heldUsd": 195.5,
+  "peak": 449.99,
+  "chip": "Against",
+  "split": "1/1",
+  "arrow": "\u2193",
+  "fills": [
+   {
+    "ts": 1794610323,
+    "usd": 11.76,
+    "shares": 12.0,
+    "price": 0.98
+   },
+   {
+    "ts": 1794610411,
+    "usd": 48.9,
+    "shares": 50.0,
+    "price": 0.978
+   }
+  ],
+  "id": 31
+ },
+ {
+  "n": "Lolakis",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
+  "t": "Will the FAA's nationwide ground stop be lifted by November 14, 12:00 AM ET?",
+  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-1159pm-et",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
+  "cid": "0xc34866f36dae9159b0850c92e659e6d9641a4d57fb8d3b75ac35b623b8c87e40",
+  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-1159pm-et",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.69,
+  "usd": 115.09,
+  "shares": 166.79,
+  "ts": 1794610408,
+  "held": 427.63,
+  "heldUsd": 301.48,
+  "peak": 427.63,
+  "chip": "With",
+  "split": "4/4",
+  "arrow": "\u2191",
+  "fills": [
+   {
+    "ts": 1794610372,
+    "usd": 101.29,
+    "shares": 146.79,
+    "price": 0.69
+   },
+   {
+    "ts": 1794610408,
+    "usd": 13.8,
+    "shares": 20.0,
+    "price": 0.69
+   }
+  ],
+  "id": 32
+ },
+ {
+  "n": "Lolakis",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
+  "t": "Howard Lutnick out as Secretary of Commerce by December 31?",
+  "url": "https://polymarket.com/event/howard-lutnick-out-as-secretary-of-commerce-by-december-31",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/howard-lutnick-out-as-secretary-of-commerce-by-march-31-cRpf0x7C77h-.jpg",
+  "cid": "0x7978663d03b5c053dcea87b39e06fad5bcdd036b0c7febfa4309502c02f70c2c",
+  "slug": "howard-lutnick-out-as-secretary-of-commerce-by-december-31",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.51,
+  "usd": 6.63,
+  "shares": 13.0,
+  "ts": 1794610390,
+  "held": 13.0,
+  "heldUsd": 6.76,
+  "peak": 13.0,
+  "chip": "With",
+  "split": "3/4",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 33
+ },
+ {
+  "n": "Car",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
+  "t": "FAA outage attributed to a foreign actor?",
+  "url": "https://polymarket.com/event/faa-outage-attributed-to-a-foreign-actor",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/faa-outage-2026-11-4384cd29f1.jpg",
+  "cid": "0x222f9065c3d6c069932f4f23b2f7f3efeb078a2e475bec8bb8ff15a4d776b579",
+  "slug": "faa-outage-attributed-to-a-foreign-actor",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.07,
+  "usd": 1.34,
+  "shares": 19.11,
+  "ts": 1794610281,
+  "held": 2180.79,
+  "heldUsd": 119.94,
+  "peak": 2777.0,
+  "chip": "Against",
+  "split": "1/2",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 34
+ },
+ {
+  "n": "Lolakis",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
+  "t": "Israel x Iran ceasefire continues through November 30?",
+  "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963/israel-x-iran-ceasefire-continues-through-november-30",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963-FEQHrNm5Q53X.jpg",
+  "cid": "0x2dcbc71a3f8108936e768b503d565fbda7a644b2a0bd9ed45f74982a2bb11fba",
+  "slug": "israel-x-iran-ceasefire-continues-through-november-30",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.16,
+  "usd": 193.39,
+  "shares": 1208.66,
+  "ts": 1794610276,
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 2585.54,
+  "chip": "Against",
+  "split": "3/5",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 35
+ },
+ {
+  "n": "Car",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
+  "t": "FAA outage attributed to a foreign actor?",
+  "url": "https://polymarket.com/event/faa-outage-attributed-to-a-foreign-actor",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/faa-outage-2026-11-4384cd29f1.jpg",
+  "cid": "0x222f9065c3d6c069932f4f23b2f7f3efeb078a2e475bec8bb8ff15a4d776b579",
+  "slug": "faa-outage-attributed-to-a-foreign-actor",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.95,
+  "usd": 612.21,
+  "shares": 644.43,
+  "ts": 1794610273,
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 759.98,
+  "chip": "With",
+  "split": "1/2",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 36
+ },
+ {
+  "n": "Tenebrus7",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
+  "t": "Will Ian Buck be the next CEO of NVIDIA?",
+  "url": "https://polymarket.com/event/next-ceo-of-nvidia/will-ian-buck-be-the-next-ceo-of-nvidia",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-ian-buck-be-the-next-ceo-of-nvidia-9yxgF7H011Sr.jpg",
+  "cid": "0xd940515f5526f103b1aa4d3b297792d22ee82c24953c5e2ad3ae9687403f7f00",
+  "slug": "will-ian-buck-be-the-next-ceo-of-nvidia",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.77,
+  "usd": 275.76,
+  "shares": 358.13,
+  "ts": 1794610273,
+  "held": 855.21,
+  "heldUsd": 662.79,
   "peak": 18270.01,
   "chip": "With",
   "split": "4/4",
@@ -130,9 +1051,201 @@
     "usd": 27.13,
     "shares": 35.23,
     "price": 0.77
+   },
+   {
+    "ts": 1794610263,
+    "usd": 3.35,
+    "shares": 4.35,
+    "price": 0.77
+   },
+   {
+    "ts": 1794610269,
+    "usd": 13.56,
+    "shares": 17.61,
+    "price": 0.77
+   },
+   {
+    "ts": 1794610273,
+    "usd": 78.68,
+    "shares": 102.18,
+    "price": 0.77
    }
   ],
-  "id": 3
+  "id": 37
+ },
+ {
+  "n": "GollumGekko",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/gollum_bc5f507a-12cf-4a51-a483-ad7cd84966a5_1736427633048.JPG",
+  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 8:00 PM ET?",
+  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-8pm-et",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
+  "cid": "0xf22e089c1fc506b3cd819a3f8d5d4427b9e5c895336a01ad5271bf0c0f2ee942",
+  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-8pm-et",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.3369,
+  "usd": 62.2,
+  "shares": 184.62,
+  "ts": 1794610266,
+  "held": 674.95,
+  "heldUsd": 232.86,
+  "peak": 674.95,
+  "chip": "With",
+  "split": "2/4",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 38
+ },
+ {
+  "n": "GollumGekko",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/gollum_bc5f507a-12cf-4a51-a483-ad7cd84966a5_1736427633048.JPG",
+  "t": "Will the FAA's nationwide ground stop be lifted by November 14, 12:00 AM ET?",
+  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-1159pm-et",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
+  "cid": "0xc34866f36dae9159b0850c92e659e6d9641a4d57fb8d3b75ac35b623b8c87e40",
+  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-1159pm-et",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.6986,
+  "usd": 178.68,
+  "shares": 255.78,
+  "ts": 1794610251,
+  "held": 846.27,
+  "heldUsd": 596.62,
+  "peak": 846.27,
+  "chip": "With",
+  "split": "4/4",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 39
+ },
+ {
+  "n": "StarMaster",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3048498-bfb4f55b-462d-45d7-894f-ac0c462f2d85.webp",
+  "t": "Will the FAA's nationwide ground stop be lifted by November 14, 12:00 AM ET?",
+  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-1159pm-et",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
+  "cid": "0xc34866f36dae9159b0850c92e659e6d9641a4d57fb8d3b75ac35b623b8c87e40",
+  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-1159pm-et",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.68,
+  "usd": 169.99,
+  "shares": 249.99,
+  "ts": 1794610237,
+  "held": 250.0,
+  "heldUsd": 176.25,
+  "peak": 949.99,
+  "chip": "With",
+  "split": "4/4",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 40
+ },
+ {
+  "n": "Lolakis",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
+  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 10:00 PM ET?",
+  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-10pm-et",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
+  "cid": "0xbb9fbe35f962cc063091c70d7b469568e76d76896aebba44077fab27f9a6c92d",
+  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-10pm-et",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.5314,
+  "usd": 132.84,
+  "shares": 250.0,
+  "ts": 1794610231,
+  "held": 152.88,
+  "heldUsd": 70.32,
+  "peak": 250.0,
+  "chip": "Against",
+  "split": "3/4",
+  "arrow": "\u2191",
+  "fills": [
+   {
+    "ts": 1794610222,
+    "usd": 18.42,
+    "shares": 34.12,
+    "price": 0.53
+   },
+   {
+    "ts": 1794610231,
+    "usd": 114.42,
+    "shares": 215.88,
+    "price": 0.53
+   }
+  ],
+  "id": 41
+ },
+ {
+  "n": "Car",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
+  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 6:00 PM ET?",
+  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-6pm-et",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
+  "cid": "0xd256595fb7e880fb0f2a07b105911608f7357aa7de2cac70115f7960d60d8dff",
+  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-6pm-et",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.01,
+  "usd": 44.44,
+  "shares": 4444.0,
+  "ts": 1794610189,
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 4538.16,
+  "chip": "Against",
+  "split": "2/3",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 42
+ },
+ {
+  "n": "Lolakis",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
+  "t": "AI bubble burst by June 30, 2027?",
+  "url": "https://polymarket.com/event/ai-bubble-burst-by/ai-bubble-burst-by-june-30-2027",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ai-industry-downturn-by-fFNK9rGi-70Y.jpg",
+  "cid": "0x4e6916e7df7f81a6ffe55e512bc97942280f451ff133561f900f404177c52d89",
+  "slug": "ai-bubble-burst-by-june-30-2027",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.19,
+  "usd": 24.36,
+  "shares": 128.2,
+  "ts": 1794610170,
+  "held": 2288.05,
+  "heldUsd": 423.29,
+  "peak": 2500.0,
+  "chip": "Against",
+  "split": "1/1",
+  "arrow": "",
+  "fills": [],
+  "id": 43
+ },
+ {
+  "n": "Lolakis",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
+  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 6:00 PM ET?",
+  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-6pm-et",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
+  "cid": "0xd256595fb7e880fb0f2a07b105911608f7357aa7de2cac70115f7960d60d8dff",
+  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-6pm-et",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.982,
+  "usd": 163.39,
+  "shares": 166.38,
+  "ts": 1794610164,
+  "held": 289.16,
+  "heldUsd": 288.44,
+  "peak": 289.16,
+  "chip": "With",
+  "split": "2/3",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 44
  },
  {
   "n": "MEPP",
@@ -155,7 +1268,7 @@
   "split": "4/4",
   "arrow": "",
   "fills": [],
-  "id": 4
+  "id": 45
  },
  {
   "n": "whig",
@@ -172,7 +1285,7 @@
   "shares": 1650.58,
   "ts": 1794610053,
   "held": 1650.58,
-  "heldUsd": 1466.54,
+  "heldUsd": 1464.89,
   "peak": 1650.58,
   "chip": "With",
   "split": "5/6",
@@ -191,7 +1304,7 @@
     "price": 0.882
    }
   ],
-  "id": 5
+  "id": 46
  },
  {
   "n": "balthazar",
@@ -208,7 +1321,7 @@
   "shares": 135.7,
   "ts": 1794610051,
   "held": 643.21,
-  "heldUsd": 571.49,
+  "heldUsd": 570.85,
   "peak": 1196.53,
   "chip": "Against",
   "split": "5/6",
@@ -233,7 +1346,7 @@
     "price": 0.895
    }
   ],
-  "id": 6
+  "id": 47
  },
  {
   "n": "Tenebrus7",
@@ -250,13 +1363,13 @@
   "shares": 500.0,
   "ts": 1794610038,
   "held": 749.99,
-  "heldUsd": 517.5,
-  "peak": 749.99,
+  "heldUsd": 491.25,
+  "peak": 1049.99,
   "chip": "Against",
   "split": "2/4",
-  "arrow": "\u2191",
+  "arrow": "\u2193",
   "fills": [],
-  "id": 7
+  "id": 48
  },
  {
   "n": "paddaa",
@@ -279,7 +1392,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 8
+  "id": 49
  },
  {
   "n": "GollumGekko",
@@ -295,12 +1408,12 @@
   "usd": 97.58,
   "shares": 390.33,
   "ts": 1794610020,
-  "held": 390.33,
-  "heldUsd": 122.95,
-  "peak": 390.33,
+  "held": 674.95,
+  "heldUsd": 232.86,
+  "peak": 674.95,
   "chip": "With",
   "split": "2/4",
-  "arrow": "\u2191",
+  "arrow": "\u2193",
   "fills": [
    {
     "ts": 1794610011,
@@ -321,7 +1434,7 @@
     "price": 0.25
    }
   ],
-  "id": 9
+  "id": 50
  },
  {
   "n": "Tenebrus7",
@@ -338,11 +1451,11 @@
   "shares": 250.0,
   "ts": 1794610012,
   "held": 749.99,
-  "heldUsd": 517.5,
-  "peak": 749.99,
+  "heldUsd": 491.25,
+  "peak": 1049.99,
   "chip": "With",
   "split": "2/4",
-  "arrow": "\u2191",
+  "arrow": "\u2193",
   "fills": [
    {
     "ts": 1794610005,
@@ -363,7 +1476,7 @@
     "price": 0.75
    }
   ],
-  "id": 10
+  "id": 51
  },
  {
   "n": "Trump2028",
@@ -386,7 +1499,7 @@
   "split": "5/9",
   "arrow": "",
   "fills": [],
-  "id": 11
+  "id": 52
  },
  {
   "n": "StarMaster",
@@ -403,13 +1516,13 @@
   "shares": 50.0,
   "ts": 1794609997,
   "held": 750.0,
-  "heldUsd": 517.5,
+  "heldUsd": 491.25,
   "peak": 750.0,
   "chip": "Against",
   "split": "2/4",
-  "arrow": "\u2191",
+  "arrow": "\u2193",
   "fills": [],
-  "id": 12
+  "id": 53
  },
  {
   "n": "MisTKy",
@@ -426,13 +1539,13 @@
   "shares": 6223.6,
   "ts": 1794609996,
   "held": 6223.6,
-  "heldUsd": 6148.92,
+  "heldUsd": 6208.04,
   "peak": 6223.6,
   "chip": "With",
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 13
+  "id": 54
  },
  {
   "n": "StarMaster",
@@ -448,14 +1561,14 @@
   "usd": 347.0,
   "shares": 500.0,
   "ts": 1794609967,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 700.0,
+  "held": 250.0,
+  "heldUsd": 176.25,
+  "peak": 949.99,
   "chip": "With",
-  "split": "2/2",
+  "split": "4/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 14
+  "id": 55
  },
  {
   "n": "Car",
@@ -478,7 +1591,7 @@
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 15
+  "id": 56
  },
  {
   "n": "balthazar",
@@ -495,13 +1608,13 @@
   "shares": 348.0,
   "ts": 1794609930,
   "held": 529.47,
-  "heldUsd": 2.38,
+  "heldUsd": 1.85,
   "peak": 877.47,
   "chip": "Against",
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 16
+  "id": 57
  },
  {
   "n": "Car",
@@ -518,13 +1631,13 @@
   "shares": 200.0,
   "ts": 1794609924,
   "held": 1694.22,
-  "heldUsd": 1473.97,
+  "heldUsd": 1389.26,
   "peak": 1694.22,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 17
+  "id": 58
  },
  {
   "n": "balthazar",
@@ -540,14 +1653,14 @@
   "usd": 20.0,
   "shares": 50.0,
   "ts": 1794609906,
-  "held": 727.49,
-  "heldUsd": 250.98,
+  "held": 543.49,
+  "heldUsd": 173.92,
   "peak": 1196.49,
   "chip": "With",
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 18
+  "id": 59
  },
  {
   "n": "StarMaster",
@@ -567,10 +1680,10 @@
   "heldUsd": 0.0,
   "peak": 699.99,
   "chip": "Against",
-  "split": "2/2",
+  "split": "4/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 19
+  "id": 60
  },
  {
   "n": "Car",
@@ -586,14 +1699,14 @@
   "usd": 4.67,
   "shares": 18.66,
   "ts": 1794609882,
-  "held": 19.99,
-  "heldUsd": 6.3,
-  "peak": 400.0,
+  "held": 139.99,
+  "heldUsd": 48.3,
+  "peak": 444.66,
   "chip": "With",
   "split": "2/4",
-  "arrow": "\u2191",
+  "arrow": "\u2193",
   "fills": [],
-  "id": 20
+  "id": 61
  },
  {
   "n": "balthazar",
@@ -610,13 +1723,13 @@
   "shares": 97.63,
   "ts": 1794609846,
   "held": 643.21,
-  "heldUsd": 571.49,
+  "heldUsd": 570.85,
   "peak": 1196.53,
   "chip": "Against",
   "split": "5/6",
   "arrow": "\u2191",
   "fills": [],
-  "id": 21
+  "id": 62
  },
  {
   "n": "balthazar",
@@ -633,13 +1746,13 @@
   "shares": 300.0,
   "ts": 1794609795,
   "held": 300.0,
-  "heldUsd": 292.8,
+  "heldUsd": 292.2,
   "peak": 300.0,
   "chip": "Exited",
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 22
+  "id": 63
  },
  {
   "n": "balthazar",
@@ -656,13 +1769,13 @@
   "shares": 299.91,
   "ts": 1794609793,
   "held": 299.91,
-  "heldUsd": 261.23,
+  "heldUsd": 262.12,
   "peak": 299.91,
   "chip": "Against",
   "split": "3/5",
   "arrow": "\u2193",
   "fills": [],
-  "id": 23
+  "id": 64
  },
  {
   "n": "Lolakis",
@@ -678,14 +1791,14 @@
   "usd": 67.99,
   "shares": 99.99,
   "ts": 1794609781,
-  "held": 260.84,
-  "heldUsd": 183.89,
-  "peak": 260.84,
+  "held": 427.63,
+  "heldUsd": 301.48,
+  "peak": 427.63,
   "chip": "With",
-  "split": "2/2",
+  "split": "4/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 24
+  "id": 65
  },
  {
   "n": "balthazar",
@@ -701,9 +1814,9 @@
   "usd": 86.34,
   "shares": 88.0,
   "ts": 1794609744,
-  "held": 138.0,
-  "heldUsd": 135.45,
-  "peak": 387.99,
+  "held": 200.0,
+  "heldUsd": 195.5,
+  "peak": 449.99,
   "chip": "Against",
   "split": "1/1",
   "arrow": "\u2193",
@@ -721,7 +1834,7 @@
     "price": 0.98
    }
   ],
-  "id": 25
+  "id": 66
  },
  {
   "n": "paddaa",
@@ -741,10 +1854,10 @@
   "heldUsd": 3090.86,
   "peak": 6439.29,
   "chip": "Against",
-  "split": "2/3",
+  "split": "3/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 26
+  "id": 67
  },
  {
   "n": "balthazar",
@@ -761,13 +1874,13 @@
   "shares": 18.0,
   "ts": 1794609696,
   "held": 60.0,
-  "heldUsd": 30.09,
-  "peak": 113.98,
+  "heldUsd": 30.57,
+  "peak": 93.98,
   "chip": "Against",
   "split": "2/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 27
+  "id": 68
  },
  {
   "n": "Car",
@@ -783,11 +1896,11 @@
   "usd": 116.63,
   "shares": 2777.0,
   "ts": 1794609690,
-  "held": 2777.0,
-  "heldUsd": 180.5,
+  "held": 2180.79,
+  "heldUsd": 119.94,
   "peak": 2777.0,
-  "chip": "Against",
-  "split": "1/1",
+  "chip": "With",
+  "split": "1/2",
   "arrow": "\u2191",
   "fills": [
    {
@@ -803,7 +1916,7 @@
     "price": 0.05
    }
   ],
-  "id": 28
+  "id": 69
  },
  {
   "n": "Car",
@@ -819,14 +1932,14 @@
   "usd": 108.62,
   "shares": 115.55,
   "ts": 1794609690,
-  "held": 644.43,
-  "heldUsd": 602.54,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 759.98,
-  "chip": "Against",
-  "split": "1/1",
+  "chip": "With",
+  "split": "1/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 29
+  "id": 70
  },
  {
   "n": "StarMaster",
@@ -843,13 +1956,13 @@
   "shares": 10.51,
   "ts": 1794609690,
   "held": 10.51,
-  "heldUsd": 9.82,
+  "heldUsd": 9.93,
   "peak": 10.51,
-  "chip": "First",
-  "split": "",
+  "chip": "Against",
+  "split": "1/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 30
+  "id": 71
  },
  {
   "n": "Car",
@@ -865,14 +1978,14 @@
   "usd": 50.84,
   "shares": 130.35,
   "ts": 1794609664,
-  "held": 0.0,
-  "heldUsd": 0.0,
+  "held": 40.0,
+  "heldUsd": 21.6,
   "peak": 400.0,
   "chip": "Against",
-  "split": "2/2",
+  "split": "3/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 31
+  "id": 72
  },
  {
   "n": "HolyMoses7",
@@ -908,7 +2021,7 @@
     "price": 0.73
    }
   ],
-  "id": 32
+  "id": 73
  },
  {
   "n": "Tenebrus7",
@@ -925,13 +2038,13 @@
   "shares": 427.66,
   "ts": 1794609622,
   "held": 749.99,
-  "heldUsd": 517.5,
-  "peak": 749.99,
+  "heldUsd": 491.25,
+  "peak": 1049.99,
   "chip": "Against",
   "split": "2/4",
-  "arrow": "\u2191",
+  "arrow": "\u2193",
   "fills": [],
-  "id": 33
+  "id": 74
  },
  {
   "n": "elmcap2",
@@ -954,7 +2067,7 @@
   "split": "3/3",
   "arrow": "",
   "fills": [],
-  "id": 34
+  "id": 75
  },
  {
   "n": "Tenebrus7",
@@ -970,8 +2083,8 @@
   "usd": 100.97,
   "shares": 131.13,
   "ts": 1794609595,
-  "held": 726.73,
-  "heldUsd": 563.21,
+  "held": 855.21,
+  "heldUsd": 662.79,
   "peak": 18270.01,
   "chip": "With",
   "split": "4/4",
@@ -996,7 +2109,7 @@
     "price": 0.77
    }
   ],
-  "id": 35
+  "id": 76
  },
  {
   "n": "MEPP",
@@ -1013,13 +2126,13 @@
   "shares": 5872.18,
   "ts": 1794609574,
   "held": 6499.99,
-  "heldUsd": 4257.5,
+  "heldUsd": 4420.0,
   "peak": 6499.99,
   "chip": "With",
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 36
+  "id": 77
  },
  {
   "n": "StarMaster",
@@ -1036,13 +2149,13 @@
   "shares": 25.0,
   "ts": 1794609555,
   "held": 199.67,
-  "heldUsd": 94.84,
+  "heldUsd": 107.82,
   "peak": 400.0,
   "chip": "Against",
-  "split": "2/2",
+  "split": "3/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 37
+  "id": 78
  },
  {
   "n": "GollumGekko",
@@ -1058,11 +2171,11 @@
   "usd": 392.36,
   "shares": 590.49,
   "ts": 1794609525,
-  "held": 590.49,
-  "heldUsd": 416.3,
-  "peak": 590.49,
+  "held": 846.27,
+  "heldUsd": 596.62,
+  "peak": 846.27,
   "chip": "With",
-  "split": "2/2",
+  "split": "4/4",
   "arrow": "\u2191",
   "fills": [
    {
@@ -1090,7 +2203,7 @@
     "price": 0.66
    }
   ],
-  "id": 38
+  "id": 79
  },
  {
   "n": "classified",
@@ -1126,7 +2239,7 @@
     "price": 0.11
    }
   ],
-  "id": 39
+  "id": 80
  },
  {
   "n": "Lolakis",
@@ -1142,11 +2255,11 @@
   "usd": 65.69,
   "shares": 99.53,
   "ts": 1794609493,
-  "held": 260.84,
-  "heldUsd": 183.89,
-  "peak": 260.84,
+  "held": 427.63,
+  "heldUsd": 301.48,
+  "peak": 427.63,
   "chip": "With",
-  "split": "2/2",
+  "split": "4/4",
   "arrow": "\u2191",
   "fills": [
    {
@@ -1162,7 +2275,7 @@
     "price": 0.66
    }
   ],
-  "id": 40
+  "id": 81
  },
  {
   "n": "Tenebrus7",
@@ -1179,7 +2292,7 @@
   "shares": 1328.31,
   "ts": 1794609456,
   "held": 75.33,
-  "heldUsd": 72.77,
+  "heldUsd": 72.61,
   "peak": 2461.85,
   "chip": "Against",
   "split": "9/9",
@@ -1204,7 +2317,7 @@
     "price": 0.969
    }
   ],
-  "id": 41
+  "id": 82
  },
  {
   "n": "GollumGekko",
@@ -1221,13 +2334,13 @@
   "shares": 1144.82,
   "ts": 1794609447,
   "held": 1144.82,
-  "heldUsd": 13.74,
+  "heldUsd": 2.86,
   "peak": 1144.82,
   "chip": "Against",
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 42
+  "id": 83
  },
  {
   "n": "Car",
@@ -1243,11 +2356,11 @@
   "usd": 241.08,
   "shares": 267.86,
   "ts": 1794609447,
-  "held": 644.43,
-  "heldUsd": 602.54,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 759.98,
-  "chip": "With",
-  "split": "1/1",
+  "chip": "Against",
+  "split": "1/2",
   "arrow": "\u2191",
   "fills": [
    {
@@ -1269,7 +2382,7 @@
     "price": 0.9
    }
   ],
-  "id": 43
+  "id": 84
  },
  {
   "n": "Tenebrus7",
@@ -1286,13 +2399,13 @@
   "shares": 72.33,
   "ts": 1794609441,
   "held": 749.99,
-  "heldUsd": 517.5,
-  "peak": 749.99,
+  "heldUsd": 491.25,
+  "peak": 1049.99,
   "chip": "Against",
   "split": "2/4",
-  "arrow": "\u2191",
+  "arrow": "\u2193",
   "fills": [],
-  "id": 44
+  "id": 85
  },
  {
   "n": "GollumGekko",
@@ -1309,13 +2422,13 @@
   "shares": 1999.0,
   "ts": 1794609421,
   "held": 1999.0,
-  "heldUsd": 949.52,
+  "heldUsd": 1079.46,
   "peak": 1999.0,
   "chip": "With",
-  "split": "2/2",
+  "split": "3/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 45
+  "id": 86
  },
  {
   "n": "Car",
@@ -1332,7 +2445,7 @@
   "shares": 894.23,
   "ts": 1794609421,
   "held": 1694.22,
-  "heldUsd": 1473.97,
+  "heldUsd": 1389.26,
   "peak": 1694.22,
   "chip": "First",
   "split": "",
@@ -1351,7 +2464,7 @@
     "price": 0.8781
    }
   ],
-  "id": 46
+  "id": 87
  },
  {
   "n": "PaddyAlpha",
@@ -1374,7 +2487,7 @@
   "split": "4/8",
   "arrow": "",
   "fills": [],
-  "id": 47
+  "id": 88
  },
  {
   "n": "paddaa",
@@ -1397,7 +2510,7 @@
   "split": "3/5",
   "arrow": "\u2193",
   "fills": [],
-  "id": 48
+  "id": 89
  },
  {
   "n": "Car",
@@ -1420,7 +2533,7 @@
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 49
+  "id": 90
  },
  {
   "n": "StarMaster",
@@ -1437,10 +2550,10 @@
   "shares": 175.0,
   "ts": 1794609375,
   "held": 199.67,
-  "heldUsd": 94.84,
+  "heldUsd": 107.82,
   "peak": 400.0,
   "chip": "Against",
-  "split": "2/2",
+  "split": "3/4",
   "arrow": "\u2191",
   "fills": [
    {
@@ -1456,7 +2569,7 @@
     "price": 0.4
    }
   ],
-  "id": 50
+  "id": 91
  },
  {
   "n": "StarMaster",
@@ -1473,13 +2586,13 @@
   "shares": 200.0,
   "ts": 1794609330,
   "held": 750.0,
-  "heldUsd": 517.5,
+  "heldUsd": 491.25,
   "peak": 750.0,
   "chip": "Against",
   "split": "2/4",
-  "arrow": "\u2191",
+  "arrow": "\u2193",
   "fills": [],
-  "id": 51
+  "id": 92
  },
  {
   "n": "Lolakis",
@@ -1502,7 +2615,7 @@
   "split": "1/2",
   "arrow": "",
   "fills": [],
-  "id": 52
+  "id": 93
  },
  {
   "n": "Car",
@@ -1525,7 +2638,7 @@
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 53
+  "id": 94
  },
  {
   "n": "Car",
@@ -1567,7 +2680,7 @@
     "price": 0.03
    }
   ],
-  "id": 54
+  "id": 95
  },
  {
   "n": "Car",
@@ -1583,11 +2696,11 @@
   "usd": 108.05,
   "shares": 269.65,
   "ts": 1794609261,
-  "held": 0.0,
-  "heldUsd": 0.0,
+  "held": 40.0,
+  "heldUsd": 21.6,
   "peak": 400.0,
   "chip": "Against",
-  "split": "2/2",
+  "split": "3/4",
   "arrow": "\u2191",
   "fills": [
    {
@@ -1603,7 +2716,7 @@
     "price": 0.41
    }
   ],
-  "id": 55
+  "id": 96
  },
  {
   "n": "StarMaster",
@@ -1623,10 +2736,10 @@
   "heldUsd": 0.0,
   "peak": 699.99,
   "chip": "Against",
-  "split": "2/2",
+  "split": "4/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 56
+  "id": 97
  },
  {
   "n": "Car",
@@ -1642,12 +2755,12 @@
   "usd": 41.58,
   "shares": 154.0,
   "ts": 1794609241,
-  "held": 19.99,
-  "heldUsd": 6.3,
-  "peak": 400.0,
+  "held": 139.99,
+  "heldUsd": 48.3,
+  "peak": 444.66,
   "chip": "Against",
   "split": "2/4",
-  "arrow": "\u2191",
+  "arrow": "\u2193",
   "fills": [
    {
     "ts": 1794609199,
@@ -1662,7 +2775,7 @@
     "price": 0.27
    }
   ],
-  "id": 57
+  "id": 98
  },
  {
   "n": "MisTKy",
@@ -1685,7 +2798,7 @@
   "split": "3/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 58
+  "id": 99
  },
  {
   "n": "balthazar",
@@ -1708,7 +2821,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 59
+  "id": 100
  },
  {
   "n": "elmcap2",
@@ -1731,7 +2844,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 60
+  "id": 101
  },
  {
   "n": "Tenebrus7",
@@ -1747,8 +2860,8 @@
   "usd": 37.9,
   "shares": 49.22,
   "ts": 1794609171,
-  "held": 726.73,
-  "heldUsd": 563.21,
+  "held": 855.21,
+  "heldUsd": 662.79,
   "peak": 18270.01,
   "chip": "With",
   "split": "4/4",
@@ -1767,7 +2880,7 @@
     "price": 0.77
    }
   ],
-  "id": 61
+  "id": 102
  },
  {
   "n": "Lolakis",
@@ -1784,13 +2897,13 @@
   "shares": 401.62,
   "ts": 1794609148,
   "held": 401.62,
-  "heldUsd": 397.0,
+  "heldUsd": 396.8,
   "peak": 401.62,
   "chip": "Against",
   "split": "1/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 62
+  "id": 103
  },
  {
   "n": "paddaa",
@@ -1810,10 +2923,10 @@
   "heldUsd": 3090.86,
   "peak": 6439.29,
   "chip": "Against",
-  "split": "2/3",
+  "split": "3/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 63
+  "id": 104
  },
  {
   "n": "Lolakis",
@@ -1836,7 +2949,7 @@
   "split": "1/2",
   "arrow": "",
   "fills": [],
-  "id": 64
+  "id": 105
  },
  {
   "n": "archaic",
@@ -1853,13 +2966,13 @@
   "shares": 505.05,
   "ts": 1794609132,
   "held": 4427.6,
-  "heldUsd": 3513.3,
+  "heldUsd": 3515.51,
   "peak": 4831.64,
   "chip": "With",
   "split": "7/8",
   "arrow": "",
   "fills": [],
-  "id": 65
+  "id": 106
  },
  {
   "n": "Tenebrus7",
@@ -1876,7 +2989,7 @@
   "shares": 515.48,
   "ts": 1794609132,
   "held": 2453.6,
-  "heldUsd": 1946.93,
+  "heldUsd": 1948.16,
   "peak": 2453.6,
   "chip": "With",
   "split": "7/8",
@@ -1895,7 +3008,7 @@
     "price": 0.788
    }
   ],
-  "id": 66
+  "id": 107
  },
  {
   "n": "Car",
@@ -1911,11 +3024,11 @@
   "usd": 246.91,
   "shares": 272.12,
   "ts": 1794609123,
-  "held": 644.43,
-  "heldUsd": 602.54,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 759.98,
-  "chip": "With",
-  "split": "1/1",
+  "chip": "Against",
+  "split": "1/2",
   "arrow": "\u2191",
   "fills": [
    {
@@ -1937,7 +3050,7 @@
     "price": 0.91
    }
   ],
-  "id": 67
+  "id": 108
  },
  {
   "n": "Lolakis",
@@ -1985,7 +3098,7 @@
     "price": 0.3
    }
   ],
-  "id": 68
+  "id": 109
  },
  {
   "n": "paddaa",
@@ -2008,7 +3121,7 @@
   "split": "1/2",
   "arrow": "",
   "fills": [],
-  "id": 69
+  "id": 110
  },
  {
   "n": "Car",
@@ -2024,11 +3137,11 @@
   "usd": 162.0,
   "shares": 400.0,
   "ts": 1794609094,
-  "held": 0.0,
-  "heldUsd": 0.0,
+  "held": 40.0,
+  "heldUsd": 21.6,
   "peak": 400.0,
   "chip": "With",
-  "split": "2/2",
+  "split": "3/4",
   "arrow": "\u2191",
   "fills": [
    {
@@ -2050,7 +3163,7 @@
     "price": 0.41
    }
   ],
-  "id": 70
+  "id": 111
  },
  {
   "n": "Tenebrus7",
@@ -2067,13 +3180,13 @@
   "shares": 433.53,
   "ts": 1794609043,
   "held": 75.33,
-  "heldUsd": 72.77,
+  "heldUsd": 72.61,
   "peak": 2461.85,
   "chip": "Against",
   "split": "9/9",
   "arrow": "\u2191",
   "fills": [],
-  "id": 71
+  "id": 112
  },
  {
   "n": "Car",
@@ -2090,13 +3203,13 @@
   "shares": 200.0,
   "ts": 1794609013,
   "held": 1694.22,
-  "heldUsd": 1473.97,
+  "heldUsd": 1389.26,
   "peak": 1694.22,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 72
+  "id": 113
  },
  {
   "n": "MisTKy",
@@ -2117,9 +3230,9 @@
   "peak": 989.06,
   "chip": "With",
   "split": "2/4",
-  "arrow": "\u2191",
+  "arrow": "\u2193",
   "fills": [],
-  "id": 73
+  "id": 114
  },
  {
   "n": "Car",
@@ -2135,12 +3248,12 @@
   "usd": 106.06,
   "shares": 400.0,
   "ts": 1794609009,
-  "held": 19.99,
-  "heldUsd": 6.3,
-  "peak": 400.0,
+  "held": 139.99,
+  "heldUsd": 48.3,
+  "peak": 444.66,
   "chip": "With",
   "split": "2/4",
-  "arrow": "\u2191",
+  "arrow": "\u2193",
   "fills": [
    {
     "ts": 1794608986,
@@ -2161,7 +3274,7 @@
     "price": 0.27
    }
   ],
-  "id": 74
+  "id": 115
  },
  {
   "n": "Car",
@@ -2197,7 +3310,7 @@
     "price": 0.035
    }
   ],
-  "id": 75
+  "id": 116
  },
  {
   "n": "GollumGekko",
@@ -2220,7 +3333,7 @@
   "split": "4/7",
   "arrow": "",
   "fills": [],
-  "id": 76
+  "id": 117
  },
  {
   "n": "paddaa",
@@ -2256,7 +3369,7 @@
     "price": 0.23
    }
   ],
-  "id": 77
+  "id": 118
  },
  {
   "n": "Tenebrus7",
@@ -2316,1160 +3429,6 @@
     "price": 0.35
    }
   ],
-  "id": 78
- },
- {
-  "n": "Lolakis",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
-  "t": "US x Iran Effective Ceasefire by November 30?",
-  "url": "https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108/us-x-iran-effective-ceasefire-by-november-30-20261108",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-strikes-iran-by-october-3-2sVnIHq3sjqF.jpg",
-  "cid": "0xf56a109b9e4db6e1394a1479ee6a4aca989eff2a3ca7f4125cfd84ec7b622696",
-  "slug": "us-x-iran-effective-ceasefire-by-november-30-20261108",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.36,
-  "usd": 900.0,
-  "shares": 2500.0,
-  "ts": 1794608856,
-  "held": 2500.0,
-  "heldUsd": 887.5,
-  "peak": 2658.77,
-  "chip": "With",
-  "split": "3/4",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 79
- },
- {
-  "n": "paddaa",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3154451-d1120fcc-6e76-4148-b6a3-3622eebeee2e.jpeg",
-  "t": "US x Iran Effective Ceasefire by November 30?",
-  "url": "https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108/us-x-iran-effective-ceasefire-by-november-30-20261108",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-strikes-iran-by-october-3-2sVnIHq3sjqF.jpg",
-  "cid": "0xf56a109b9e4db6e1394a1479ee6a4aca989eff2a3ca7f4125cfd84ec7b622696",
-  "slug": "us-x-iran-effective-ceasefire-by-november-30-20261108",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.3622,
-  "usd": 2564.65,
-  "shares": 7080.31,
-  "ts": 1794608856,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 7080.31,
-  "chip": "Against",
-  "split": "3/4",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 80
- },
- {
-  "n": "Car",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
-  "t": "FAA outage attributed to Iran?",
-  "url": "https://polymarket.com/event/faa-outage-attributed-to-iran",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/faa-outage-2026-11-4384cd29f1.jpg",
-  "cid": "0x9c8c0ef1a573ea1b641900c2cd9f55f084925576fde1c178410146afe348264b",
-  "slug": "faa-outage-attributed-to-iran",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.942,
-  "usd": 32.96,
-  "shares": 34.99,
-  "ts": 1794608854,
-  "held": 885.74,
-  "heldUsd": 847.21,
-  "peak": 1222.01,
-  "chip": "With",
-  "split": "2/2",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 81
- },
- {
-  "n": "Car",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
-  "t": "FAA outage attributed to a foreign actor?",
-  "url": "https://polymarket.com/event/faa-outage-attributed-to-a-foreign-actor",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/faa-outage-2026-11-4384cd29f1.jpg",
-  "cid": "0x222f9065c3d6c069932f4f23b2f7f3efeb078a2e475bec8bb8ff15a4d776b579",
-  "slug": "faa-outage-attributed-to-a-foreign-actor",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9196,
-  "usd": 96.04,
-  "shares": 104.44,
-  "ts": 1794608835,
-  "held": 644.43,
-  "heldUsd": 602.54,
-  "peak": 759.98,
-  "chip": "With",
-  "split": "1/1",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1794608776,
-    "usd": 4.04,
-    "shares": 4.44,
-    "price": 0.91
-   },
-   {
-    "ts": 1794608835,
-    "usd": 92.0,
-    "shares": 100.0,
-    "price": 0.92
-   }
-  ],
-  "id": 82
- },
- {
-  "n": "Car",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
-  "t": "FAA outage attributed to hack?",
-  "url": "https://polymarket.com/event/faa-outage-attributed-to-hack",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/faa-outage-2026-11-4384cd29f1.jpg",
-  "cid": "0x9be71d8e1d8c958e1868b6cbe0d028bc4e17e6737066b805c7dbbd8abffedff7",
-  "slug": "faa-outage-attributed-to-hack",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.855,
-  "usd": 341.99,
-  "shares": 399.99,
-  "ts": 1794608833,
-  "held": 1694.22,
-  "heldUsd": 1473.97,
-  "peak": 1694.22,
-  "chip": "First",
-  "split": "",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1794608721,
-    "usd": 6.14,
-    "shares": 7.14,
-    "price": 0.86
-   },
-   {
-    "ts": 1794608727,
-    "usd": 165.85,
-    "shares": 192.85,
-    "price": 0.86
-   },
-   {
-    "ts": 1794608833,
-    "usd": 170.0,
-    "shares": 200.0,
-    "price": 0.85
-   }
-  ],
-  "id": 83
- },
- {
-  "n": "Car",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
-  "t": "Will the FAA's nationwide ground stop be lifted by November 14, 12:00 AM ET?",
-  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-1159pm-et",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
-  "cid": "0xc34866f36dae9159b0850c92e659e6d9641a4d57fb8d3b75ac35b623b8c87e40",
-  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-1159pm-et",
-  "side": "SELL",
-  "out": "Yes",
-  "price": 0.77,
-  "usd": 38.5,
-  "shares": 50.0,
-  "ts": 1794608788,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 50.0,
-  "chip": "Against",
-  "split": "2/2",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 84
- },
- {
-  "n": "StarMaster",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3048498-bfb4f55b-462d-45d7-894f-ac0c462f2d85.webp",
-  "t": "Will the FAA's nationwide ground stop be lifted by November 14, 12:00 AM ET?",
-  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-1159pm-et",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
-  "cid": "0xc34866f36dae9159b0850c92e659e6d9641a4d57fb8d3b75ac35b623b8c87e40",
-  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-1159pm-et",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.7281,
-  "usd": 145.61,
-  "shares": 200.0,
-  "ts": 1794608788,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 700.0,
-  "chip": "With",
-  "split": "2/2",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 85
- },
- {
-  "n": "StarMaster",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3048498-bfb4f55b-462d-45d7-894f-ac0c462f2d85.webp",
-  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 10:00 PM ET?",
-  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-10pm-et",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
-  "cid": "0xbb9fbe35f962cc063091c70d7b469568e76d76896aebba44077fab27f9a6c92d",
-  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-10pm-et",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.4893,
-  "usd": 195.73,
-  "shares": 400.0,
-  "ts": 1794608787,
-  "held": 199.67,
-  "heldUsd": 94.84,
-  "peak": 400.0,
-  "chip": "With",
-  "split": "2/2",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1794608763,
-    "usd": 183.15,
-    "shares": 373.79,
-    "price": 0.48
-   },
-   {
-    "ts": 1794608787,
-    "usd": 12.58,
-    "shares": 26.21,
-    "price": 0.48
-   }
-  ],
-  "id": 86
- },
- {
-  "n": "0xe639e4",
-  "avatar": "",
-  "t": "GTA 6 launch postponed again?",
-  "url": "https://polymarket.com/event/gta-6-launch-postponed-again",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/gta-6-launch-postponed-Uhqeftr_j_N4.jpg",
-  "cid": "0x652293940a98a7ec9b1d2b23fb9e8399728d1a461dce61523fa2fcce8d844e21",
-  "slug": "gta-6-launch-postponed-again",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9784,
-  "usd": 14583.34,
-  "shares": 14905.68,
-  "ts": 1794608781,
-  "held": 85445.56,
-  "heldUsd": 83394.87,
-  "peak": 85445.56,
-  "chip": "With",
-  "split": "3/5",
-  "arrow": "",
-  "fills": [
-   {
-    "ts": 1794608781,
-    "usd": 744.73,
-    "shares": 767.76,
-    "price": 0.97
-   },
-   {
-    "ts": 1794608781,
-    "usd": 4038.61,
-    "shares": 4137.92,
-    "price": 0.976
-   },
-   {
-    "ts": 1794608781,
-    "usd": 9800.0,
-    "shares": 10000.0,
-    "price": 0.98
-   }
-  ],
-  "id": 87
- },
- {
-  "n": "MisTKy",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5070263-f290eb6b-11db-423d-b532-cd773195842b.jpg",
-  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 8:00 PM ET?",
-  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-8pm-et",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
-  "cid": "0xf22e089c1fc506b3cd819a3f8d5d4427b9e5c895336a01ad5271bf0c0f2ee942",
-  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-8pm-et",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.6947,
-  "usd": 687.08,
-  "shares": 989.06,
-  "ts": 1794608769,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 989.06,
-  "chip": "Against",
-  "split": "2/4",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 88
- },
- {
-  "n": "MisTKy",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5070263-f290eb6b-11db-423d-b532-cd773195842b.jpg",
-  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 10:00 PM ET?",
-  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-10pm-et",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
-  "cid": "0xbb9fbe35f962cc063091c70d7b469568e76d76896aebba44077fab27f9a6c92d",
-  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-10pm-et",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.54,
-  "usd": 158.53,
-  "shares": 293.57,
-  "ts": 1794608745,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 293.57,
-  "chip": "With",
-  "split": "2/2",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1794608742,
-    "usd": 88.63,
-    "shares": 164.13,
-    "price": 0.54
-   },
-   {
-    "ts": 1794608745,
-    "usd": 69.9,
-    "shares": 129.44,
-    "price": 0.54
-   }
-  ],
-  "id": 89
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the Chicago Blackhawks record 100+ points?",
-  "url": "https://polymarket.com/event/nhl-teams-100-plus-points-2026-27/will-the-chicago-blackhawks-record-100-points",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-nhl-teams-will-make-the-playoffs-R-Q5fHg9tuEL.png",
-  "cid": "0x3c67e83765f48c95037f1a45453dfbaa093962bdffd76c797b685f4bd8293397",
-  "slug": "will-the-chicago-blackhawks-record-100-points",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9638,
-  "usd": 9.83,
-  "shares": 10.2,
-  "ts": 1794608743,
-  "held": 30.2,
-  "heldUsd": 28.69,
-  "peak": 30.2,
-  "chip": "First",
-  "split": "",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 90
- },
- {
-  "n": "elmcap2",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-117964-8791146f-a44b-45e3-8e93-466d533a616f.png",
-  "t": "UFC 334: Drew Dober vs. Chris Duncan (Lightweight, Prelims)",
-  "url": "https://polymarket.com/event/ufc-dre-chr13-2026-11-14",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ufc-logo-37bbbd28e6.png",
-  "cid": "0xec3b0cae3f7ad7d384380f146f47df4b2305587329ae47b7d26c7897383a8846",
-  "slug": "ufc-dre-chr13-2026-11-14",
-  "side": "BUY",
-  "out": "Chris Duncan",
-  "price": 0.62,
-  "usd": 79.56,
-  "shares": 128.32,
-  "ts": 1794608719,
-  "held": 7499.99,
-  "heldUsd": 4612.49,
-  "peak": 7499.99,
-  "chip": "First",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 91
- },
- {
-  "n": "Car",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
-  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 6:00 PM ET?",
-  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-6pm-et",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
-  "cid": "0xd256595fb7e880fb0f2a07b105911608f7357aa7de2cac70115f7960d60d8dff",
-  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-6pm-et",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.96,
-  "usd": 38.4,
-  "shares": 40.0,
-  "ts": 1794608688,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 322.0,
-  "chip": "Against",
-  "split": "2/3",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 92
- },
- {
-  "n": "Car",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
-  "t": "FAA outage attributed to Iran?",
-  "url": "https://polymarket.com/event/faa-outage-attributed-to-iran",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/faa-outage-2026-11-4384cd29f1.jpg",
-  "cid": "0x9c8c0ef1a573ea1b641900c2cd9f55f084925576fde1c178410146afe348264b",
-  "slug": "faa-outage-attributed-to-iran",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.942,
-  "usd": 27.07,
-  "shares": 28.73,
-  "ts": 1794608668,
-  "held": 885.74,
-  "heldUsd": 847.21,
-  "peak": 1222.01,
-  "chip": "With",
-  "split": "2/2",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 93
- },
- {
-  "n": "Car",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
-  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 8:00 PM ET?",
-  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-8pm-et",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
-  "cid": "0xf22e089c1fc506b3cd819a3f8d5d4427b9e5c895336a01ad5271bf0c0f2ee942",
-  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-8pm-et",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.685,
-  "usd": 30.14,
-  "shares": 44.0,
-  "ts": 1794608650,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 246.0,
-  "chip": "Against",
-  "split": "2/4",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1794608650,
-    "usd": 14.96,
-    "shares": 22.0,
-    "price": 0.68
-   },
-   {
-    "ts": 1794608650,
-    "usd": 15.18,
-    "shares": 22.0,
-    "price": 0.69
-   }
-  ],
-  "id": 94
- },
- {
-  "n": "MisTKy",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5070263-f290eb6b-11db-423d-b532-cd773195842b.jpg",
-  "t": "Fourth Jensen Huang affair reported by December 31?",
-  "url": "https://polymarket.com/event/fourth-jensen-huang-affair-reported-by-december-31",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/jensen-huang-divorce-in-2026-TwqKa0CMsYm6.jpg",
-  "cid": "0x88beeb7880c93510adef910041282f91302d1d05d709c9972605aa4c06514da3",
-  "slug": "fourth-jensen-huang-affair-reported-by-december-31",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.52,
-  "usd": 1658.65,
-  "shares": 3189.73,
-  "ts": 1794608632,
-  "held": 3189.73,
-  "heldUsd": 1658.66,
-  "peak": 3189.73,
-  "chip": "With",
-  "split": "6/8",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 95
- },
- {
-  "n": "Car",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
-  "t": "FAA outage attributed to a foreign actor?",
-  "url": "https://polymarket.com/event/faa-outage-attributed-to-a-foreign-actor",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/faa-outage-2026-11-4384cd29f1.jpg",
-  "cid": "0x222f9065c3d6c069932f4f23b2f7f3efeb078a2e475bec8bb8ff15a4d776b579",
-  "slug": "faa-outage-attributed-to-a-foreign-actor",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.91,
-  "usd": 54.6,
-  "shares": 60.0,
-  "ts": 1794608631,
-  "held": 644.43,
-  "heldUsd": 602.54,
-  "peak": 759.98,
-  "chip": "With",
-  "split": "1/1",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1794608562,
-    "usd": 18.2,
-    "shares": 20.0,
-    "price": 0.91
-   },
-   {
-    "ts": 1794608580,
-    "usd": 18.2,
-    "shares": 20.0,
-    "price": 0.91
-   },
-   {
-    "ts": 1794608631,
-    "usd": 18.2,
-    "shares": 20.0,
-    "price": 0.91
-   }
-  ],
-  "id": 96
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Robert Pattinson announced as next James Bond?",
-  "url": "https://polymarket.com/event/next-james-bond-actor-398/robert-pattinson-announced-as-next-james-bond",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/next-james-bond-robert-pattinson-47c9739917.jpg",
-  "cid": "0xdc913f1173086416c810b9b257d9f17887b3bfb414f69921e8b1310905699fe1",
-  "slug": "robert-pattinson-announced-as-next-james-bond",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.511,
-  "usd": 10.22,
-  "shares": 20.0,
-  "ts": 1794608572,
-  "held": 60.0,
-  "heldUsd": 30.09,
-  "peak": 113.98,
-  "chip": "Against",
-  "split": "2/2",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 97
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the highest temperature in San Francisco be between 66-67\u00b0F on November 13?",
-  "url": "https://polymarket.com/event/highest-temperature-in-san-francisco-on-november-13-2026/highest-temperature-in-san-francisco-on-november-13-2026-66-67f",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/san-francisco-e705a842df.jpg",
-  "cid": "0x577df5658ca13d2ee496ca56c3e8238e74cf1c950fe917b9632c7c2bbdf58d82",
-  "slug": "highest-temperature-in-san-francisco-on-november-13-2026-66-67f",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9905,
-  "usd": 2.38,
-  "shares": 2.4,
-  "ts": 1794608571,
-  "held": 19.78,
-  "heldUsd": 19.57,
-  "peak": 19.78,
-  "chip": "First",
-  "split": "",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 98
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Teddy Riner win the 2027 French presidential election?",
-  "url": "https://polymarket.com/event/next-french-presidential-election/will-teddy-riner-win-the-2027-french-presidential-election",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/french-pres-2027-teddy-riner-de431a7551.jpg",
-  "cid": "0x754ab4247c590606f2b2655da7f3e327ea3cf723089844687709d094a61fe920",
-  "slug": "will-teddy-riner-win-the-2027-french-presidential-election",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.982,
-  "usd": 49.1,
-  "shares": 50.0,
-  "ts": 1794608526,
-  "held": 138.0,
-  "heldUsd": 135.45,
-  "peak": 387.99,
-  "chip": "Against",
-  "split": "1/1",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 99
- },
- {
-  "n": "Car",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
-  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 6:00 PM ET?",
-  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-6pm-et",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
-  "cid": "0xd256595fb7e880fb0f2a07b105911608f7357aa7de2cac70115f7960d60d8dff",
-  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-6pm-et",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.93,
-  "usd": 93.0,
-  "shares": 100.0,
-  "ts": 1794608520,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 322.0,
-  "chip": "With",
-  "split": "2/3",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1794608484,
-    "usd": 14.39,
-    "shares": 15.48,
-    "price": 0.93
-   },
-   {
-    "ts": 1794608520,
-    "usd": 78.6,
-    "shares": 84.52,
-    "price": 0.93
-   }
-  ],
-  "id": 100
- },
- {
-  "n": "Tenebrus7",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
-  "t": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
-  "url": "https://polymarket.com/event/democratic-presidential-nominee-2028/will-jon-ossoff-win-the-2028-democratic-presidential-nomination-885",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Jon_Ossoff.png",
-  "cid": "0x74dba1ce1ae9dd535414e85f2d9ab5ea32c0fb1acc9b7130b67e6d91217e24e1",
-  "slug": "will-jon-ossoff-win-the-2028-democratic-presidential-nomination-885",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.739,
-  "usd": 2.77,
-  "shares": 3.75,
-  "ts": 1794608518,
-  "held": 10488.28,
-  "heldUsd": 7745.59,
-  "peak": 10875.7,
-  "chip": "With",
-  "split": "4/7",
-  "arrow": "",
-  "fills": [],
-  "id": 101
- },
- {
-  "n": "MisTKy",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5070263-f290eb6b-11db-423d-b532-cd773195842b.jpg",
-  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 10:00 PM ET?",
-  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-10pm-et",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
-  "cid": "0xbb9fbe35f962cc063091c70d7b469568e76d76896aebba44077fab27f9a6c92d",
-  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-10pm-et",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.4699,
-  "usd": 104.5,
-  "shares": 222.38,
-  "ts": 1794608515,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 293.57,
-  "chip": "Against",
-  "split": "2/2",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 102
- },
- {
-  "n": "classified",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-2637613-f573f7f0-53b7-4a8d-b884-fec7b37d1b7d.png",
-  "t": "Will Jesus Christ return before 2027?",
-  "url": "https://polymarket.com/event/will-jesus-christ-return-before-2027",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jesus-christ-return-in-2025-qulWN7QCehv8.jpg",
-  "cid": "0x0b4cc3b739e1dfe5d73274740e7308b6fb389c5af040c3a174923d928d134bee",
-  "slug": "will-jesus-christ-return-before-2027",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.987,
-  "usd": 22768.44,
-  "shares": 23068.33,
-  "ts": 1794608509,
-  "held": 4489.55,
-  "heldUsd": 4428.94,
-  "peak": 34950.52,
-  "chip": "Against",
-  "split": "9/11",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 103
- },
- {
-  "n": "Car",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
-  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 8:00 PM ET?",
-  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-8pm-et",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
-  "cid": "0xf22e089c1fc506b3cd819a3f8d5d4427b9e5c895336a01ad5271bf0c0f2ee942",
-  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-8pm-et",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.7,
-  "usd": 15.4,
-  "shares": 22.0,
-  "ts": 1794608466,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 246.0,
-  "chip": "Against",
-  "split": "2/4",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 104
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the Chicago Blackhawks record 100+ points?",
-  "url": "https://polymarket.com/event/nhl-teams-100-plus-points-2026-27/will-the-chicago-blackhawks-record-100-points",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/which-nhl-teams-will-make-the-playoffs-R-Q5fHg9tuEL.png",
-  "cid": "0x3c67e83765f48c95037f1a45453dfbaa093962bdffd76c797b685f4bd8293397",
-  "slug": "will-the-chicago-blackhawks-record-100-points",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9638,
-  "usd": 19.28,
-  "shares": 20.0,
-  "ts": 1794608394,
-  "held": 30.2,
-  "heldUsd": 28.69,
-  "peak": 30.2,
-  "chip": "First",
-  "split": "",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 105
- },
- {
-  "n": "Tenebrus7",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
-  "t": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
-  "url": "https://polymarket.com/event/democratic-presidential-nominee-2028/will-jon-ossoff-win-the-2028-democratic-presidential-nomination-885",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Jon_Ossoff.png",
-  "cid": "0x74dba1ce1ae9dd535414e85f2d9ab5ea32c0fb1acc9b7130b67e6d91217e24e1",
-  "slug": "will-jon-ossoff-win-the-2028-democratic-presidential-nomination-885",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.739,
-  "usd": 96.07,
-  "shares": 130.0,
-  "ts": 1794608376,
-  "held": 10488.28,
-  "heldUsd": 7745.59,
-  "peak": 10875.7,
-  "chip": "With",
-  "split": "4/7",
-  "arrow": "",
-  "fills": [],
-  "id": 106
- },
- {
-  "n": "Lolakis",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
-  "t": "Israel x Iran ceasefire continues through November 30?",
-  "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963/israel-x-iran-ceasefire-continues-through-november-30",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963-FEQHrNm5Q53X.jpg",
-  "cid": "0x2dcbc71a3f8108936e768b503d565fbda7a644b2a0bd9ed45f74982a2bb11fba",
-  "slug": "israel-x-iran-ceasefire-continues-through-november-30",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.16,
-  "usd": 53.37,
-  "shares": 333.58,
-  "ts": 1794608337,
-  "held": 1208.69,
-  "heldUsd": 187.35,
-  "peak": 2585.57,
-  "chip": "Against",
-  "split": "4/6",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 107
- },
- {
-  "n": "Car",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
-  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 8:00 PM ET?",
-  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-8pm-et",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
-  "cid": "0xf22e089c1fc506b3cd819a3f8d5d4427b9e5c895336a01ad5271bf0c0f2ee942",
-  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-8pm-et",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.724,
-  "usd": 130.33,
-  "shares": 180.0,
-  "ts": 1794608332,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 246.0,
-  "chip": "Against",
-  "split": "2/4",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1794608284,
-    "usd": 101.93,
-    "shares": 140.0,
-    "price": 0.72
-   },
-   {
-    "ts": 1794608332,
-    "usd": 28.4,
-    "shares": 40.0,
-    "price": 0.71
-   }
-  ],
-  "id": 108
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the highest temperature in San Francisco be between 66-67\u00b0F on November 13?",
-  "url": "https://polymarket.com/event/highest-temperature-in-san-francisco-on-november-13-2026/highest-temperature-in-san-francisco-on-november-13-2026-66-67f",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/san-francisco-e705a842df.jpg",
-  "cid": "0x577df5658ca13d2ee496ca56c3e8238e74cf1c950fe917b9632c7c2bbdf58d82",
-  "slug": "highest-temperature-in-san-francisco-on-november-13-2026-66-67f",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9905,
-  "usd": 8.98,
-  "shares": 9.07,
-  "ts": 1794608329,
-  "held": 19.78,
-  "heldUsd": 19.57,
-  "peak": 19.78,
-  "chip": "First",
-  "split": "",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1794608277,
-    "usd": 3.99,
-    "shares": 4.03,
-    "price": 0.99
-   },
-   {
-    "ts": 1794608329,
-    "usd": 4.99,
-    "shares": 5.04,
-    "price": 0.99
-   }
-  ],
-  "id": 109
- },
- {
-  "n": "Car",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
-  "t": "FAA outage attributed to Iran?",
-  "url": "https://polymarket.com/event/faa-outage-attributed-to-iran",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/faa-outage-2026-11-4384cd29f1.jpg",
-  "cid": "0x9c8c0ef1a573ea1b641900c2cd9f55f084925576fde1c178410146afe348264b",
-  "slug": "faa-outage-attributed-to-iran",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.97,
-  "usd": 388.0,
-  "shares": 400.0,
-  "ts": 1794608325,
-  "held": 885.74,
-  "heldUsd": 847.21,
-  "peak": 1222.01,
-  "chip": "Against",
-  "split": "2/2",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1794608320,
-    "usd": 144.88,
-    "shares": 149.36,
-    "price": 0.97
-   },
-   {
-    "ts": 1794608325,
-    "usd": 243.12,
-    "shares": 250.64,
-    "price": 0.97
-   }
-  ],
-  "id": 110
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Robert Pattinson announced as next James Bond?",
-  "url": "https://polymarket.com/event/next-james-bond-actor-398/robert-pattinson-announced-as-next-james-bond",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/next-james-bond-robert-pattinson-47c9739917.jpg",
-  "cid": "0xdc913f1173086416c810b9b257d9f17887b3bfb414f69921e8b1310905699fe1",
-  "slug": "robert-pattinson-announced-as-next-james-bond",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.548,
-  "usd": 10.96,
-  "shares": 20.0,
-  "ts": 1794608316,
-  "held": 60.0,
-  "heldUsd": 30.09,
-  "peak": 113.98,
-  "chip": "Against",
-  "split": "2/2",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 111
- },
- {
-  "n": "Lolakis",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
-  "t": "Will Jensen Huang rejoin NVIDIA by November 30, 2026?",
-  "url": "https://polymarket.com/event/jensen-huang-rejoins-nvidia-byptptpt/will-jensen-huang-rejoin-nvidia-by-november-30-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0x6368d1c0daed920fb7cb4444636b605e8b02d700dfdf70bba2758a7c0c4054cb",
-  "slug": "will-jensen-huang-rejoin-nvidia-by-november-30-2026",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.9535,
-  "usd": 4591.21,
-  "shares": 4815.15,
-  "ts": 1794608254,
-  "held": 30.01,
-  "heldUsd": 28.42,
-  "peak": 8597.71,
-  "chip": "Against",
-  "split": "2/2",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1794608233,
-    "usd": 878.3,
-    "shares": 922.58,
-    "price": 0.952
-   },
-   {
-    "ts": 1794608233,
-    "usd": 878.3,
-    "shares": 922.58,
-    "price": 0.952
-   },
-   {
-    "ts": 1794608248,
-    "usd": 318.84,
-    "shares": 334.56,
-    "price": 0.953
-   },
-   {
-    "ts": 1794608254,
-    "usd": 1881.35,
-    "shares": 1970.0,
-    "price": 0.955
-   },
-   {
-    "ts": 1794608254,
-    "usd": 261.86,
-    "shares": 274.49,
-    "price": 0.954
-   },
-   {
-    "ts": 1794608254,
-    "usd": 372.57,
-    "shares": 390.94,
-    "price": 0.953
-   }
-  ],
-  "id": 112
- },
- {
-  "n": "classified",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-2637613-f573f7f0-53b7-4a8d-b884-fec7b37d1b7d.png",
-  "t": "Israel x Iran ceasefire continues through December 15?",
-  "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963/israel-x-iran-ceasefire-continues-through-december-15",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963-FEQHrNm5Q53X.jpg",
-  "cid": "0x3a0c86d7d9d3e4e82d533d2b1351b5d3e63577f8e1495e2804b9ae540135a556",
-  "slug": "israel-x-iran-ceasefire-continues-through-december-15",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.73,
-  "usd": 456.4,
-  "shares": 625.21,
-  "ts": 1794608253,
-  "held": 32021.84,
-  "heldUsd": 23536.05,
-  "peak": 32021.84,
-  "chip": "With",
-  "split": "3/6",
-  "arrow": "",
-  "fills": [
-   {
-    "ts": 1794608229,
-    "usd": 447.21,
-    "shares": 612.62,
-    "price": 0.73
-   },
-   {
-    "ts": 1794608253,
-    "usd": 9.19,
-    "shares": 12.59,
-    "price": 0.73
-   }
-  ],
-  "id": 113
- },
- {
-  "n": "classified",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-2637613-f573f7f0-53b7-4a8d-b884-fec7b37d1b7d.png",
-  "t": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
-  "url": "https://polymarket.com/event/fed-decision-in-december-20260729232808632/will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/fed-decision-in-september-762-c4RyWuxRPo1L.jpg",
-  "cid": "0x8a4196617dcb703e49d9bb36d3847bf6a75fd364dbd19f8d408ac944bf1a03d8",
-  "slug": "will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.11,
-  "usd": 1.85,
-  "shares": 16.85,
-  "ts": 1794608241,
-  "held": 6190.0,
-  "heldUsd": 711.85,
-  "peak": 23540.06,
-  "chip": "Against",
-  "split": "4/5",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 114
- },
- {
-  "n": "archaic",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/d_d_usepic_b134fd85-ac75-4474-b983-d5196b546338_1739983370667.webp",
-  "t": "Will Rapha\u00ebl Glucksmann advance to the second round of the next French presidential election?",
-  "url": "https://polymarket.com/event/next-french-presidential-election-who-will-advance-to-the-2nd-round/will-raphal-glucksmann-advance-to-the-second-round-of-the-next-french-presidential-election",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-raphal-glucksmann-win-the-2027-french-presidential-election-OAJpSeiNqI5S.jpg",
-  "cid": "0x3864d6f71c4eb72bf2510af694bfcdef8aef4ddb3001f59d2b4f1fefa0499ab8",
-  "slug": "will-raphal-glucksmann-advance-to-the-second-round-of-the-next-french-presidential-election",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.947,
-  "usd": 11.76,
-  "shares": 12.42,
-  "ts": 1794608191,
-  "held": 81.43,
-  "heldUsd": 76.79,
-  "peak": 93.85,
-  "chip": "Against",
-  "split": "1/1",
-  "arrow": "",
-  "fills": [],
-  "id": 115
- },
- {
-  "n": "StarMaster",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3048498-bfb4f55b-462d-45d7-894f-ac0c462f2d85.webp",
-  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 8:00 PM ET?",
-  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-8pm-et",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
-  "cid": "0xf22e089c1fc506b3cd819a3f8d5d4427b9e5c895336a01ad5271bf0c0f2ee942",
-  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-8pm-et",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.7084,
-  "usd": 354.2,
-  "shares": 500.0,
-  "ts": 1794608178,
-  "held": 750.0,
-  "heldUsd": 517.5,
-  "peak": 750.0,
-  "chip": "Against",
-  "split": "2/4",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 116
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the highest temperature in San Francisco be between 66-67\u00b0F on November 13?",
-  "url": "https://polymarket.com/event/highest-temperature-in-san-francisco-on-november-13-2026/highest-temperature-in-san-francisco-on-november-13-2026-66-67f",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/san-francisco-e705a842df.jpg",
-  "cid": "0x577df5658ca13d2ee496ca56c3e8238e74cf1c950fe917b9632c7c2bbdf58d82",
-  "slug": "highest-temperature-in-san-francisco-on-november-13-2026-66-67f",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9905,
-  "usd": 5.26,
-  "shares": 5.31,
-  "ts": 1794608143,
-  "held": 19.78,
-  "heldUsd": 19.57,
-  "peak": 19.78,
-  "chip": "First",
-  "split": "",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 117
- },
- {
-  "n": "Lolakis",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
-  "t": "Will Jensen Huang rejoin NVIDIA by November 30, 2026?",
-  "url": "https://polymarket.com/event/jensen-huang-rejoins-nvidia-byptptpt/will-jensen-huang-rejoin-nvidia-by-november-30-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0x6368d1c0daed920fb7cb4444636b605e8b02d700dfdf70bba2758a7c0c4054cb",
-  "slug": "will-jensen-huang-rejoin-nvidia-by-november-30-2026",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.935,
-  "usd": 678.34,
-  "shares": 725.5,
-  "ts": 1794608083,
-  "held": 30.01,
-  "heldUsd": 28.42,
-  "peak": 8597.71,
-  "chip": "With",
-  "split": "2/2",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 118
- },
- {
-  "n": "MisTKy",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5070263-f290eb6b-11db-423d-b532-cd773195842b.jpg",
-  "t": "Will the FAA's nationwide ground stop be lifted by November 13, 10:00 PM ET?",
-  "url": "https://polymarket.com/event/nationwide-ground-stop-lifted-byptptpt/faa-nationwide-ground-stop-lifted-by-november-13-10pm-et",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dc-airport-ground-stop-lifted-today-n9ync2-3SHgm.jpg",
-  "cid": "0xbb9fbe35f962cc063091c70d7b469568e76d76896aebba44077fab27f9a6c92d",
-  "slug": "faa-nationwide-ground-stop-lifted-by-november-13-10pm-et",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.4394,
-  "usd": 31.28,
-  "shares": 71.19,
-  "ts": 1794608073,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 293.57,
-  "chip": "Against",
-  "split": "2/2",
-  "arrow": "\u2191",
-  "fills": [],
   "id": 119
  }
 ]
