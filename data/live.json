@@ -1,5 +1,473 @@
 [
  {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Anthropic\u2019s market cap be $600B or greater at market close on IPO day by December 31, 2027?",
+  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-119/will-anthropics-market-cap-be-600b-or-greater-at-market-close-on-ipo-day-by-december-31-2027",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0xc9540131d858a0e218aa9ec78accf9675501a3d3009fe2d28df10bbbbb9a1179",
+  "slug": "will-anthropics-market-cap-be-600b-or-greater-at-market-close-on-ipo-day-by-december-31-2027",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.9894,
+  "usd": 29.49,
+  "shares": 29.81,
+  "ts": 1794668732,
+  "held": 3016.78,
+  "heldUsd": 2965.5,
+  "peak": 3016.78,
+  "chip": "With",
+  "split": "3/4",
+  "arrow": "",
+  "fills": [],
+  "id": 0
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will GPT Astra 6.1+ be released on November 16, 2026?",
+  "url": "https://polymarket.com/event/gpt-astra-6pt1-released-onptptpt/will-gpt-astra-6pt1-be-released-on-november-16-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/when-will-gpt-5-be-released-vIPhU76RogZc.jpg",
+  "cid": "0x2d5194315ccaeb0cd55ed14002d1118a97694ad1e85df972ee29c9b133e2b135",
+  "slug": "will-gpt-astra-6pt1-be-released-on-november-16-2026",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.879,
+  "usd": 17.58,
+  "shares": 20.0,
+  "ts": 1794668710,
+  "held": 20.0,
+  "heldUsd": 17.37,
+  "peak": 20.0,
+  "chip": "Exited",
+  "split": "",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 1
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the price of Bitcoin be above $66,000 on November 14?",
+  "url": "https://polymarket.com/event/bitcoin-above-on-november-14-2026/bitcoin-above-66k-on-november-14-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
+  "cid": "0xa8fd5db8702a9d02ace5002412fbae9511732bd7d65e5c39dce5e472d36b9e23",
+  "slug": "bitcoin-above-66k-on-november-14-2026",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.5005,
+  "usd": 100.1,
+  "shares": 200.0,
+  "ts": 1794668696,
+  "held": 806.4,
+  "heldUsd": 454.01,
+  "peak": 821.44,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [
+   {
+    "ts": 1794668600,
+    "usd": 25.02,
+    "shares": 50.0,
+    "price": 0.483
+   },
+   {
+    "ts": 1794668617,
+    "usd": 25.02,
+    "shares": 50.0,
+    "price": 0.483
+   },
+   {
+    "ts": 1794668648,
+    "usd": 25.02,
+    "shares": 50.0,
+    "price": 0.483
+   },
+   {
+    "ts": 1794668696,
+    "usd": 25.02,
+    "shares": 50.0,
+    "price": 0.483
+   }
+  ],
+  "id": 2
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the price of Bitcoin be between $66,000 and $68,000 on November 14?",
+  "url": "https://polymarket.com/event/bitcoin-price-on-november-14-2026/will-the-price-of-bitcoin-be-between-66000-68000-on-november-14-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
+  "cid": "0x2cedc7515d61d57c0c9359e22ba4a00faab7d274ecf4233d86dfb0f10493d2fe",
+  "slug": "will-the-price-of-bitcoin-be-between-66000-68000-on-november-14-2026",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.4768,
+  "usd": 95.35,
+  "shares": 200.0,
+  "ts": 1794668695,
+  "held": 542.51,
+  "heldUsd": 244.67,
+  "peak": 552.02,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [
+   {
+    "ts": 1794668600,
+    "usd": 23.8,
+    "shares": 50.0,
+    "price": 0.476
+   },
+   {
+    "ts": 1794668617,
+    "usd": 23.8,
+    "shares": 50.0,
+    "price": 0.476
+   },
+   {
+    "ts": 1794668648,
+    "usd": 23.8,
+    "shares": 50.0,
+    "price": 0.476
+   },
+   {
+    "ts": 1794668695,
+    "usd": 23.95,
+    "shares": 50.0,
+    "price": 0.479
+   }
+  ],
+  "id": 3
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the price of Bitcoin be above $68,000 on November 14?",
+  "url": "https://polymarket.com/event/bitcoin-above-on-november-14-2026/bitcoin-above-68k-on-november-14-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
+  "cid": "0xd712de4079cc0d097ce97a7feea9bc87be85c2baa55616a57f275ac5a0612827",
+  "slug": "bitcoin-above-68k-on-november-14-2026",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.9912,
+  "usd": 247.81,
+  "shares": 250.0,
+  "ts": 1794668695,
+  "held": 696.55,
+  "heldUsd": 692.72,
+  "peak": 1198.57,
+  "chip": "Against",
+  "split": "1/1",
+  "arrow": "",
+  "fills": [
+   {
+    "ts": 1794668600,
+    "usd": 49.57,
+    "shares": 50.0,
+    "price": 0.992
+   },
+   {
+    "ts": 1794668617,
+    "usd": 49.57,
+    "shares": 50.0,
+    "price": 0.992
+   },
+   {
+    "ts": 1794668617,
+    "usd": 49.52,
+    "shares": 50.0,
+    "price": 0.991
+   },
+   {
+    "ts": 1794668648,
+    "usd": 49.57,
+    "shares": 50.0,
+    "price": 0.992
+   },
+   {
+    "ts": 1794668695,
+    "usd": 49.57,
+    "shares": 50.0,
+    "price": 0.992
+   }
+  ],
+  "id": 4
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the Republican Party hold below 170 House seats after the 2026 midterm elections?",
+  "url": "https://polymarket.com/event/republican-house-seats-after-the-2026-midterm-elections-lower-brackets/will-the-republicans-hold-below-170-house-seats-after-the-2026-midterm-elections",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/republican-house-seats-after-the-2026-midterm-elections-_8A1652Vzmn2.png",
+  "cid": "0x7d638a09d9bcc45c899b6844aefa158a55aabb269a24f0c5562827488066bc1e",
+  "slug": "will-the-republicans-hold-below-170-house-seats-after-the-2026-midterm-elections",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.006,
+  "usd": 1.47,
+  "shares": 244.82,
+  "ts": 1794668641,
+  "held": 1152.52,
+  "heldUsd": 3.46,
+  "peak": 1397.34,
+  "chip": "Against",
+  "split": "1/1",
+  "arrow": "",
+  "fills": [],
+  "id": 5
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the price of Bitcoin be between $70,000 and $72,000 on November 14?",
+  "url": "https://polymarket.com/event/bitcoin-price-on-november-14-2026/will-the-price-of-bitcoin-be-between-70000-72000-on-november-14-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
+  "cid": "0x509c3e3de5b5bea850012652c13104c166c2add5e8858fff6986b7e463c88acc",
+  "slug": "will-the-price-of-bitcoin-be-between-70000-72000-on-november-14-2026",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9798,
+  "usd": 107.78,
+  "shares": 110.0,
+  "ts": 1794668621,
+  "held": 110.0,
+  "heldUsd": 109.94,
+  "peak": 110.0,
+  "chip": "Exited",
+  "split": "",
+  "arrow": "\u2193",
+  "fills": [
+   {
+    "ts": 1794668617,
+    "usd": 49.4,
+    "shares": 50.0,
+    "price": 0.988
+   },
+   {
+    "ts": 1794668617,
+    "usd": 9.88,
+    "shares": 10.0,
+    "price": 0.987
+   },
+   {
+    "ts": 1794668621,
+    "usd": 48.5,
+    "shares": 50.0,
+    "price": 0.97
+   }
+  ],
+  "id": 6
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the price of Bitcoin be between $68,000 and $70,000 on November 14?",
+  "url": "https://polymarket.com/event/bitcoin-price-on-november-14-2026/will-the-price-of-bitcoin-be-between-68000-70000-on-november-14-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
+  "cid": "0xc5b5e2759d2ff331381b413e22a2eab50471089285f44609a1a349b2e60922ef",
+  "slug": "will-the-price-of-bitcoin-be-between-68000-70000-on-november-14-2026",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.98,
+  "usd": 49.0,
+  "shares": 50.0,
+  "ts": 1794668617,
+  "held": 50.0,
+  "heldUsd": 49.45,
+  "peak": 50.0,
+  "chip": "Exited",
+  "split": "",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 7
+ },
+ {
+  "n": "GollumGekko",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/gollum_bc5f507a-12cf-4a51-a483-ad7cd84966a5_1736427633048.JPG",
+  "t": "Will the U.S. invade Iran before 2027?",
+  "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-us-invade-iran-in-2025-0Eh3J0ku_Fbj.jpg",
+  "cid": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+  "slug": "will-the-us-invade-iran-before-2027",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.08,
+  "usd": 582.66,
+  "shares": 7283.29,
+  "ts": 1794668587,
+  "held": 10614.07,
+  "heldUsd": 902.2,
+  "peak": 10614.07,
+  "chip": "Against",
+  "split": "13/16",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 8
+ },
+ {
+  "n": "archaic",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/d_d_usepic_b134fd85-ac75-4474-b983-d5196b546338_1739983370667.webp",
+  "t": "Will Fl\u00e1vio Bolsonaro return to Brazil by December 31, 2026?",
+  "url": "https://polymarket.com/event/flavio-bolsonaro-returns-to-brazil-by-20261028/will-flavio-bolsonaro-return-to-brazil-by-december-31-2026-20261028",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/flavio-bolsonaro-returns-to-brazil-by-CvidNty5HJB3.jpg",
+  "cid": "0x3e0aeb80a2d9e8da5f9d073b3f85c9401fac4a11fef1cd5f9e02f9a8ce46c38b",
+  "slug": "will-flavio-bolsonaro-return-to-brazil-by-december-31-2026-20261028",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.97,
+  "usd": 5.82,
+  "shares": 6.0,
+  "ts": 1794668573,
+  "held": 818.17,
+  "heldUsd": 785.44,
+  "peak": 843.99,
+  "chip": "With",
+  "split": "1/2",
+  "arrow": "",
+  "fills": [],
+  "id": 9
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Aleksandar Repi\u0107 win the 2026 Ljubljana mayoral election?",
+  "url": "https://polymarket.com/event/ljubljana-mayoral-election-winner-2026/will-aleksandar-repic-win-the-2026-ljubljana-mayoral-election",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/lj26-aleksandar-repic-101908b37c.jpg",
+  "cid": "0x8b077c7aeb52aa166c6ada87871ba2e488998f129612a9fb0fcc59c966d94c8b",
+  "slug": "will-aleksandar-repic-win-the-2026-ljubljana-mayoral-election",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.005,
+  "usd": 1.73,
+  "shares": 346.0,
+  "ts": 1794668533,
+  "held": 762.9,
+  "heldUsd": 3.81,
+  "peak": 1108.9,
+  "chip": "Against",
+  "split": "1/1",
+  "arrow": "",
+  "fills": [],
+  "id": 10
+ },
+ {
+  "n": "Tenebrus7",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
+  "t": "Howard Lutnick out as Secretary of Commerce by December 31?",
+  "url": "https://polymarket.com/event/howard-lutnick-out-as-secretary-of-commerce-by-december-31",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/howard-lutnick-out-as-secretary-of-commerce-by-march-31-cRpf0x7C77h-.jpg",
+  "cid": "0x7978663d03b5c053dcea87b39e06fad5bcdd036b0c7febfa4309502c02f70c2c",
+  "slug": "howard-lutnick-out-as-secretary-of-commerce-by-december-31",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.48,
+  "usd": 240.0,
+  "shares": 500.0,
+  "ts": 1794668527,
+  "held": 1000.0,
+  "heldUsd": 480.0,
+  "peak": 1000.0,
+  "chip": "With",
+  "split": "4/6",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 11
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the price of Bitcoin be above $66,000 on November 14?",
+  "url": "https://polymarket.com/event/bitcoin-above-on-november-14-2026/bitcoin-above-66k-on-november-14-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
+  "cid": "0xa8fd5db8702a9d02ace5002412fbae9511732bd7d65e5c39dce5e472d36b9e23",
+  "slug": "bitcoin-above-66k-on-november-14-2026",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.405,
+  "usd": 12.15,
+  "shares": 30.0,
+  "ts": 1794668362,
+  "held": 806.4,
+  "heldUsd": 454.01,
+  "peak": 821.44,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 12
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the price of Bitcoin be between $66,000 and $68,000 on November 14?",
+  "url": "https://polymarket.com/event/bitcoin-price-on-november-14-2026/will-the-price-of-bitcoin-be-between-66000-68000-on-november-14-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
+  "cid": "0x2cedc7515d61d57c0c9359e22ba4a00faab7d274ecf4233d86dfb0f10493d2fe",
+  "slug": "will-the-price-of-bitcoin-be-between-66000-68000-on-november-14-2026",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.5125,
+  "usd": 15.37,
+  "shares": 30.0,
+  "ts": 1794668360,
+  "held": 542.51,
+  "heldUsd": 244.67,
+  "peak": 552.02,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 13
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the price of Bitcoin be above $68,000 on November 14?",
+  "url": "https://polymarket.com/event/bitcoin-above-on-november-14-2026/bitcoin-above-68k-on-november-14-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
+  "cid": "0xd712de4079cc0d097ce97a7feea9bc87be85c2baa55616a57f275ac5a0612827",
+  "slug": "bitcoin-above-68k-on-november-14-2026",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.9936,
+  "usd": 29.81,
+  "shares": 30.0,
+  "ts": 1794668360,
+  "held": 696.55,
+  "heldUsd": 692.72,
+  "peak": 1198.57,
+  "chip": "Against",
+  "split": "1/1",
+  "arrow": "",
+  "fills": [],
+  "id": 14
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the next Google Gemini Pro model added to the Arena Leaderboard debut at a score of at least 1470?",
+  "url": "https://polymarket.com/event/next-google-gemini-pro-model-arena-debut/will-the-next-google-gemini-pro-model-added-to-the-arena-leaderboard-debut-at-a-score-of-at-least-1470",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/gemini-3pt0-released-by-Jgab86ADS9yM.png",
+  "cid": "0x89ac7aadeccbf8a14f92d06b4cfb471ce0503cab31eeb11d26d4710d9f925edd",
+  "slug": "will-the-next-google-gemini-pro-model-added-to-the-arena-leaderboard-debut-at-a-score-of-at-least-1470",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.09,
+  "usd": 1.89,
+  "shares": 21.0,
+  "ts": 1794668299,
+  "held": 44.25,
+  "heldUsd": 3.54,
+  "peak": 65.25,
+  "chip": "Against",
+  "split": "1/1",
+  "arrow": "",
+  "fills": [],
+  "id": 15
+ },
+ {
   "n": "Tenebrus7",
   "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
   "t": "Will Crude Oil reach a new all-time high by December 31?",
@@ -20,7 +488,7 @@
   "split": "2/3",
   "arrow": "",
   "fills": [],
-  "id": 0
+  "id": 16
  },
  {
   "n": "MisTKy",
@@ -37,13 +505,13 @@
   "shares": 4989.91,
   "ts": 1794668068,
   "held": 9162.4,
-  "heldUsd": 6674.81,
+  "heldUsd": 6693.13,
   "peak": 9162.4,
   "chip": "With",
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 1
+  "id": 17
  },
  {
   "n": "balthazar",
@@ -66,7 +534,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 2
+  "id": 18
  },
  {
   "n": "Tenebrus7",
@@ -83,13 +551,13 @@
   "shares": 500.0,
   "ts": 1794668066,
   "held": 2799.97,
-  "heldUsd": 2039.78,
+  "heldUsd": 2045.38,
   "peak": 3299.97,
   "chip": "Against",
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 3
+  "id": 19
  },
  {
   "n": "balthazar",
@@ -106,13 +574,13 @@
   "shares": 60.0,
   "ts": 1794667960,
   "held": 100.0,
-  "heldUsd": 4.5,
+  "heldUsd": 4.0,
   "peak": 100.0,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 4
+  "id": 20
  },
  {
   "n": "balthazar",
@@ -135,7 +603,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 5
+  "id": 21
  },
  {
   "n": "balthazar",
@@ -158,7 +626,7 @@
   "split": "3/3",
   "arrow": "",
   "fills": [],
-  "id": 6
+  "id": 22
  },
  {
   "n": "StarMaster",
@@ -175,13 +643,13 @@
   "shares": 75.09,
   "ts": 1794667900,
   "held": 694.84,
-  "heldUsd": 587.14,
+  "heldUsd": 590.61,
   "peak": 694.84,
   "chip": "With",
   "split": "3/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 7
+  "id": 23
  },
  {
   "n": "PaddyAlpha",
@@ -204,7 +672,7 @@
   "split": "4/7",
   "arrow": "\u2191",
   "fills": [],
-  "id": 8
+  "id": 24
  },
  {
   "n": "balthazar",
@@ -227,7 +695,7 @@
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 9
+  "id": 25
  },
  {
   "n": "Tenebrus7",
@@ -263,7 +731,7 @@
     "price": 0.929
    }
   ],
-  "id": 10
+  "id": 26
  },
  {
   "n": "Lolakis",
@@ -286,7 +754,7 @@
   "split": "2/3",
   "arrow": "",
   "fills": [],
-  "id": 11
+  "id": 27
  },
  {
   "n": "Tenebrus7",
@@ -309,7 +777,7 @@
   "split": "3/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 12
+  "id": 28
  },
  {
   "n": "Lolakis",
@@ -332,7 +800,7 @@
   "split": "3/4",
   "arrow": "",
   "fills": [],
-  "id": 13
+  "id": 29
  },
  {
   "n": "Lolakis",
@@ -355,7 +823,7 @@
   "split": "4/7",
   "arrow": "",
   "fills": [],
-  "id": 14
+  "id": 30
  },
  {
   "n": "balthazar",
@@ -373,12 +841,12 @@
   "ts": 1794667747,
   "held": 1087.68,
   "heldUsd": 1051.25,
-  "peak": 1108.68,
+  "peak": 1093.68,
   "chip": "With",
   "split": "1/2",
   "arrow": "",
   "fills": [],
-  "id": 15
+  "id": 31
  },
  {
   "n": "balthazar",
@@ -414,7 +882,7 @@
     "price": 0.83
    }
   ],
-  "id": 16
+  "id": 32
  },
  {
   "n": "balthazar",
@@ -437,7 +905,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 17
+  "id": 33
  },
  {
   "n": "balthazar",
@@ -460,7 +928,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 18
+  "id": 34
  },
  {
   "n": "balthazar",
@@ -478,12 +946,12 @@
   "ts": 1794667721,
   "held": 20.0,
   "heldUsd": 12.1,
-  "peak": 130.0,
+  "peak": 110.0,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 19
+  "id": 35
  },
  {
   "n": "classified",
@@ -506,7 +974,7 @@
   "split": "4/7",
   "arrow": "",
   "fills": [],
-  "id": 20
+  "id": 36
  },
  {
   "n": "StarMaster",
@@ -523,7 +991,7 @@
   "shares": 619.75,
   "ts": 1794667706,
   "held": 694.84,
-  "heldUsd": 587.14,
+  "heldUsd": 590.61,
   "peak": 694.84,
   "chip": "With",
   "split": "3/4",
@@ -542,7 +1010,7 @@
     "price": 0.84
    }
   ],
-  "id": 21
+  "id": 37
  },
  {
   "n": "PaddyAlpha",
@@ -565,7 +1033,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 22
+  "id": 38
  },
  {
   "n": "balthazar",
@@ -583,12 +1051,12 @@
   "ts": 1794667660,
   "held": 0.0,
   "heldUsd": 0.0,
-  "peak": 25.08,
+  "peak": 5.08,
   "chip": "First",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 23
+  "id": 39
  },
  {
   "n": "balthazar",
@@ -605,13 +1073,13 @@
   "shares": 7.0,
   "ts": 1794667633,
   "held": 18.0,
-  "heldUsd": 13.59,
+  "heldUsd": 12.33,
   "peak": 18.0,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 24
+  "id": 40
  },
  {
   "n": "MisTKy",
@@ -634,7 +1102,7 @@
   "split": "2/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 25
+  "id": 41
  },
  {
   "n": "vinii",
@@ -651,13 +1119,13 @@
   "shares": 337.26,
   "ts": 1794667601,
   "held": 337.26,
-  "heldUsd": 244.51,
+  "heldUsd": 246.2,
   "peak": 688.61,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 26
+  "id": 42
  },
  {
   "n": "Tenebrus7",
@@ -680,7 +1148,7 @@
   "split": "4/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 27
+  "id": 43
  },
  {
   "n": "balthazar",
@@ -716,7 +1184,7 @@
     "price": 0.858
    }
   ],
-  "id": 28
+  "id": 44
  },
  {
   "n": "balthazar",
@@ -732,14 +1200,14 @@
   "usd": 17.42,
   "shares": 31.65,
   "ts": 1794667291,
-  "held": 312.51,
-  "heldUsd": 145.47,
-  "peak": 322.02,
+  "held": 542.51,
+  "heldUsd": 244.67,
+  "peak": 552.02,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 29
+  "id": 45
  },
  {
   "n": "balthazar",
@@ -755,9 +1223,9 @@
   "usd": 85.05,
   "shares": 180.63,
   "ts": 1794667291,
-  "held": 576.4,
-  "heldUsd": 287.63,
-  "peak": 591.44,
+  "held": 806.4,
+  "heldUsd": 454.01,
+  "peak": 821.44,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
@@ -793,7 +1261,7 @@
     "price": 0.406
    }
   ],
-  "id": 30
+  "id": 46
  },
  {
   "n": "balthazar",
@@ -809,14 +1277,14 @@
   "usd": 31.76,
   "shares": 32.03,
   "ts": 1794667291,
-  "held": 976.55,
-  "heldUsd": 971.67,
+  "held": 696.55,
+  "heldUsd": 692.72,
   "peak": 1198.57,
   "chip": "Against",
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 31
+  "id": 47
  },
  {
   "n": "Car",
@@ -839,7 +1307,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 32
+  "id": 48
  },
  {
   "n": "elmcap2",
@@ -862,7 +1330,7 @@
   "split": "3/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 33
+  "id": 49
  },
  {
   "n": "balthazar",
@@ -879,7 +1347,7 @@
   "shares": 148.67,
   "ts": 1794667250,
   "held": 254.26,
-  "heldUsd": 129.42,
+  "heldUsd": 119.0,
   "peak": 298.67,
   "chip": "First",
   "split": "",
@@ -910,7 +1378,7 @@
     "price": 0.5
    }
   ],
-  "id": 34
+  "id": 50
  },
  {
   "n": "aenews2",
@@ -933,7 +1401,7 @@
   "split": "11/17",
   "arrow": "",
   "fills": [],
-  "id": 35
+  "id": 51
  },
  {
   "n": "MisTKy",
@@ -950,13 +1418,13 @@
   "shares": 3208.2,
   "ts": 1794667205,
   "held": 3208.21,
-  "heldUsd": 2149.5,
+  "heldUsd": 2165.54,
   "peak": 3208.21,
   "chip": "Against",
   "split": "3/5",
   "arrow": "",
   "fills": [],
-  "id": 36
+  "id": 52
  },
  {
   "n": "PaddyAlpha",
@@ -979,7 +1447,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 37
+  "id": 53
  },
  {
   "n": "balthazar",
@@ -1002,7 +1470,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 38
+  "id": 54
  },
  {
   "n": "Tenebrus7",
@@ -1025,7 +1493,7 @@
   "split": "10/13",
   "arrow": "\u2191",
   "fills": [],
-  "id": 39
+  "id": 55
  },
  {
   "n": "classified",
@@ -1048,7 +1516,7 @@
   "split": "4/4",
   "arrow": "",
   "fills": [],
-  "id": 40
+  "id": 56
  },
  {
   "n": "balthazar",
@@ -1064,14 +1532,14 @@
   "usd": 12.06,
   "shares": 20.37,
   "ts": 1794667111,
-  "held": 312.51,
-  "heldUsd": 145.47,
-  "peak": 322.02,
+  "held": 542.51,
+  "heldUsd": 244.67,
+  "peak": 552.02,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 41
+  "id": 57
  },
  {
   "n": "balthazar",
@@ -1107,7 +1575,7 @@
     "price": 0.265
    }
   ],
-  "id": 42
+  "id": 58
  },
  {
   "n": "balthazar",
@@ -1123,14 +1591,14 @@
   "usd": 19.81,
   "shares": 20.0,
   "ts": 1794667111,
-  "held": 976.55,
-  "heldUsd": 971.67,
+  "held": 696.55,
+  "heldUsd": 692.72,
   "peak": 1198.57,
   "chip": "Against",
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 43
+  "id": 59
  },
  {
   "n": "Car",
@@ -1153,7 +1621,7 @@
   "split": "4/5",
   "arrow": "\u2191",
   "fills": [],
-  "id": 44
+  "id": 60
  },
  {
   "n": "Car",
@@ -1170,7 +1638,7 @@
   "shares": 1043.49,
   "ts": 1794667076,
   "held": 3577.3,
-  "heldUsd": 1180.51,
+  "heldUsd": 1162.62,
   "peak": 6907.2,
   "chip": "Against",
   "split": "3/5",
@@ -1189,7 +1657,7 @@
     "price": 0.29
    }
   ],
-  "id": 45
+  "id": 61
  },
  {
   "n": "Tenebrus7",
@@ -1212,7 +1680,7 @@
   "split": "2/3",
   "arrow": "",
   "fills": [],
-  "id": 46
+  "id": 62
  },
  {
   "n": "balthazar",
@@ -1235,7 +1703,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 47
+  "id": 63
  },
  {
   "n": "balthazar",
@@ -1271,7 +1739,7 @@
     "price": 0.99
    }
   ],
-  "id": 48
+  "id": 64
  },
  {
   "n": "balthazar",
@@ -1307,7 +1775,7 @@
     "price": 0.86
    }
   ],
-  "id": 49
+  "id": 65
  },
  {
   "n": "balthazar",
@@ -1343,7 +1811,7 @@
     "price": 0.16
    }
   ],
-  "id": 50
+  "id": 66
  },
  {
   "n": "balthazar",
@@ -1379,7 +1847,7 @@
     "price": 0.997
    }
   ],
-  "id": 51
+  "id": 67
  },
  {
   "n": "balthazar",
@@ -1415,7 +1883,7 @@
     "price": 0.995
    }
   ],
-  "id": 52
+  "id": 68
  },
  {
   "n": "classified",
@@ -1475,7 +1943,7 @@
     "price": 0.905
    }
   ],
-  "id": 53
+  "id": 69
  },
  {
   "n": "MisTKy",
@@ -1511,7 +1979,7 @@
     "price": 0.904
    }
   ],
-  "id": 54
+  "id": 70
  },
  {
   "n": "balthazar",
@@ -1529,12 +1997,12 @@
   "ts": 1794666892,
   "held": 1216.94,
   "heldUsd": 164.29,
-  "peak": 1303.52,
+  "peak": 1283.52,
   "chip": "Against",
   "split": "4/7",
   "arrow": "",
   "fills": [],
-  "id": 55
+  "id": 71
  },
  {
   "n": "balthazar",
@@ -1576,7 +2044,7 @@
     "price": 0.624
    }
   ],
-  "id": 56
+  "id": 72
  },
  {
   "n": "balthazar",
@@ -1612,7 +2080,7 @@
     "price": 0.181
    }
   ],
-  "id": 57
+  "id": 73
  },
  {
   "n": "balthazar",
@@ -1629,13 +2097,13 @@
   "shares": 50.0,
   "ts": 1794666872,
   "held": 6500.38,
-  "heldUsd": 1280.57,
+  "heldUsd": 1283.82,
   "peak": 6500.38,
   "chip": "First",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 58
+  "id": 74
  },
  {
   "n": "balthazar",
@@ -1651,14 +2119,14 @@
   "usd": 28.9,
   "shares": 50.0,
   "ts": 1794666868,
-  "held": 312.51,
-  "heldUsd": 145.47,
-  "peak": 322.02,
+  "held": 542.51,
+  "heldUsd": 244.67,
+  "peak": 552.02,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 59
+  "id": 75
  },
  {
   "n": "balthazar",
@@ -1674,14 +2142,14 @@
   "usd": 18.45,
   "shares": 50.0,
   "ts": 1794666866,
-  "held": 576.4,
-  "heldUsd": 287.63,
-  "peak": 591.44,
+  "held": 806.4,
+  "heldUsd": 454.01,
+  "peak": 821.44,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 60
+  "id": 76
  },
  {
   "n": "balthazar",
@@ -1697,14 +2165,14 @@
   "usd": 49.52,
   "shares": 50.0,
   "ts": 1794666866,
-  "held": 976.55,
-  "heldUsd": 971.67,
+  "held": 696.55,
+  "heldUsd": 692.72,
   "peak": 1198.57,
   "chip": "Against",
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 61
+  "id": 77
  },
  {
   "n": "Car",
@@ -1727,7 +2195,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 62
+  "id": 78
  },
  {
   "n": "balthazar",
@@ -1743,14 +2211,14 @@
   "usd": 25.12,
   "shares": 40.0,
   "ts": 1794666722,
-  "held": 312.51,
-  "heldUsd": 145.47,
-  "peak": 322.02,
+  "held": 542.51,
+  "heldUsd": 244.67,
+  "peak": 552.02,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 63
+  "id": 79
  },
  {
   "n": "balthazar",
@@ -1766,14 +2234,14 @@
   "usd": 12.82,
   "shares": 38.13,
   "ts": 1794666722,
-  "held": 576.4,
-  "heldUsd": 287.63,
-  "peak": 591.44,
+  "held": 806.4,
+  "heldUsd": 454.01,
+  "peak": 821.44,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 64
+  "id": 80
  },
  {
   "n": "balthazar",
@@ -1789,14 +2257,14 @@
   "usd": 39.52,
   "shares": 39.99,
   "ts": 1794666722,
-  "held": 976.55,
-  "heldUsd": 971.67,
+  "held": 696.55,
+  "heldUsd": 692.72,
   "peak": 1198.57,
   "chip": "Against",
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 65
+  "id": 81
  },
  {
   "n": "Lolakis",
@@ -1819,7 +2287,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 66
+  "id": 82
  },
  {
   "n": "Car",
@@ -1836,7 +2304,7 @@
   "shares": 34.83,
   "ts": 1794666637,
   "held": 3577.3,
-  "heldUsd": 1180.51,
+  "heldUsd": 1162.62,
   "peak": 6907.2,
   "chip": "Against",
   "split": "3/5",
@@ -1903,7 +2371,7 @@
     "price": 0.29
    }
   ],
-  "id": 67
+  "id": 83
  },
  {
   "n": "classified",
@@ -1926,7 +2394,7 @@
   "split": "4/6",
   "arrow": "\u2193",
   "fills": [],
-  "id": 68
+  "id": 84
  },
  {
   "n": "Tenebrus7",
@@ -1949,7 +2417,7 @@
   "split": "4/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 69
+  "id": 85
  },
  {
   "n": "Lolakis",
@@ -1972,7 +2440,7 @@
   "split": "6/8",
   "arrow": "",
   "fills": [],
-  "id": 70
+  "id": 86
  },
  {
   "n": "balthazar",
@@ -1995,7 +2463,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 71
+  "id": 87
  },
  {
   "n": "balthazar",
@@ -2018,7 +2486,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 72
+  "id": 88
  },
  {
   "n": "Lolakis",
@@ -2041,7 +2509,7 @@
   "split": "2/3",
   "arrow": "\u2193",
   "fills": [],
-  "id": 73
+  "id": 89
  },
  {
   "n": "balthazar",
@@ -2059,12 +2527,12 @@
   "ts": 1794666452,
   "held": 0.0,
   "heldUsd": 0.0,
-  "peak": 60.0,
+  "peak": 40.0,
   "chip": "Against",
   "split": "4/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 74
+  "id": 90
  },
  {
   "n": "balthazar",
@@ -2081,13 +2549,13 @@
   "shares": 40.0,
   "ts": 1794666401,
   "held": 100.0,
-  "heldUsd": 4.5,
+  "heldUsd": 4.0,
   "peak": 100.0,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 75
+  "id": 91
  },
  {
   "n": "balthazar",
@@ -2110,7 +2578,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 76
+  "id": 92
  },
  {
   "n": "balthazar",
@@ -2126,9 +2594,9 @@
   "usd": 114.09,
   "shares": 180.0,
   "ts": 1794666391,
-  "held": 312.51,
-  "heldUsd": 145.47,
-  "peak": 322.02,
+  "held": 542.51,
+  "heldUsd": 244.67,
+  "peak": 552.02,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
@@ -2164,7 +2632,7 @@
     "price": 0.54
    }
   ],
-  "id": 77
+  "id": 93
  },
  {
   "n": "balthazar",
@@ -2181,7 +2649,7 @@
   "shares": 150.0,
   "ts": 1794666391,
   "held": 254.26,
-  "heldUsd": 129.42,
+  "heldUsd": 119.0,
   "peak": 298.67,
   "chip": "First",
   "split": "",
@@ -2212,7 +2680,7 @@
     "price": 0.542
    }
   ],
-  "id": 78
+  "id": 94
  },
  {
   "n": "balthazar",
@@ -2229,7 +2697,7 @@
   "shares": 149.4,
   "ts": 1794666391,
   "held": 59.46,
-  "heldUsd": 56.25,
+  "heldUsd": 55.47,
   "peak": 199.31,
   "chip": "First",
   "split": "",
@@ -2254,7 +2722,7 @@
     "price": 0.939
    }
   ],
-  "id": 79
+  "id": 95
  },
  {
   "n": "balthazar",
@@ -2270,9 +2738,9 @@
   "usd": 114.94,
   "shares": 322.68,
   "ts": 1794666391,
-  "held": 576.4,
-  "heldUsd": 287.63,
-  "peak": 591.44,
+  "held": 806.4,
+  "heldUsd": 454.01,
+  "peak": 821.44,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
@@ -2326,7 +2794,7 @@
     "price": 0.469
    }
   ],
-  "id": 80
+  "id": 96
  },
  {
   "n": "balthazar",
@@ -2342,14 +2810,14 @@
   "usd": 39.59,
   "shares": 40.0,
   "ts": 1794666391,
-  "held": 976.55,
-  "heldUsd": 971.67,
+  "held": 696.55,
+  "heldUsd": 692.72,
   "peak": 1198.57,
   "chip": "Against",
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 81
+  "id": 97
  },
  {
   "n": "balthazar",
@@ -2366,7 +2834,7 @@
   "shares": 150.0,
   "ts": 1794666391,
   "held": 60.0,
-  "heldUsd": 1.98,
+  "heldUsd": 2.25,
   "peak": 200.0,
   "chip": "First",
   "split": "",
@@ -2391,7 +2859,7 @@
     "price": 0.044
    }
   ],
-  "id": 82
+  "id": 98
  },
  {
   "n": "GollumGekko",
@@ -2414,7 +2882,7 @@
   "split": "3/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 83
+  "id": 99
  },
  {
   "n": "balthazar",
@@ -2430,8 +2898,8 @@
   "usd": 39.19,
   "shares": 40.0,
   "ts": 1794666266,
-  "held": 976.55,
-  "heldUsd": 971.67,
+  "held": 696.55,
+  "heldUsd": 692.72,
   "peak": 1198.57,
   "chip": "Against",
   "split": "1/1",
@@ -2450,7 +2918,7 @@
     "price": 0.981
    }
   ],
-  "id": 84
+  "id": 100
  },
  {
   "n": "StarMaster",
@@ -2473,7 +2941,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 85
+  "id": 101
  },
  {
   "n": "Lolakis",
@@ -2496,7 +2964,7 @@
   "split": "2/3",
   "arrow": "\u2193",
   "fills": [],
-  "id": 86
+  "id": 102
  },
  {
   "n": "StarMaster",
@@ -2519,7 +2987,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 87
+  "id": 103
  },
  {
   "n": "Lolakis",
@@ -2542,7 +3010,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 88
+  "id": 104
  },
  {
   "n": "StarMaster",
@@ -2559,13 +3027,13 @@
   "shares": 249.99,
   "ts": 1794666014,
   "held": 249.99,
-  "heldUsd": 152.49,
+  "heldUsd": 151.24,
   "peak": 249.99,
   "chip": "With",
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 89
+  "id": 105
  },
  {
   "n": "balthazar",
@@ -2588,7 +3056,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 90
+  "id": 106
  },
  {
   "n": "balthazar",
@@ -2624,7 +3092,7 @@
     "price": 0.831
    }
   ],
-  "id": 91
+  "id": 107
  },
  {
   "n": "Lolakis",
@@ -2660,7 +3128,7 @@
     "price": 0.15
    }
   ],
-  "id": 92
+  "id": 108
  },
  {
   "n": "balthazar",
@@ -2683,7 +3151,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 93
+  "id": 109
  },
  {
   "n": "vinii",
@@ -2706,7 +3174,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 94
+  "id": 110
  },
  {
   "n": "GollumGekko",
@@ -2723,7 +3191,7 @@
   "shares": 444.0,
   "ts": 1794665813,
   "held": 3742.46,
-  "heldUsd": 3401.89,
+  "heldUsd": 3396.28,
   "peak": 3742.46,
   "chip": "With",
   "split": "8/8",
@@ -2742,7 +3210,7 @@
     "price": 0.911
    }
   ],
-  "id": 95
+  "id": 111
  },
  {
   "n": "Lolakis",
@@ -2765,7 +3233,7 @@
   "split": "6/8",
   "arrow": "",
   "fills": [],
-  "id": 96
+  "id": 112
  },
  {
   "n": "PaddyAlpha",
@@ -2788,7 +3256,7 @@
   "split": "7/12",
   "arrow": "\u2191",
   "fills": [],
-  "id": 97
+  "id": 113
  },
  {
   "n": "StarMaster",
@@ -2811,7 +3279,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 98
+  "id": 114
  },
  {
   "n": "classified",
@@ -2834,7 +3302,7 @@
   "split": "7/12",
   "arrow": "\u2191",
   "fills": [],
-  "id": 99
+  "id": 115
  },
  {
   "n": "Car",
@@ -2857,7 +3325,7 @@
   "split": "7/12",
   "arrow": "\u2191",
   "fills": [],
-  "id": 100
+  "id": 116
  },
  {
   "n": "JJo",
@@ -2893,7 +3361,7 @@
     "price": 0.003
    }
   ],
-  "id": 101
+  "id": 117
  },
  {
   "n": "classified",
@@ -2916,7 +3384,7 @@
   "split": "4/7",
   "arrow": "",
   "fills": [],
-  "id": 102
+  "id": 118
  },
  {
   "n": "PaddyAlpha",
@@ -2938,400 +3406,6 @@
   "chip": "With",
   "split": "4/7",
   "arrow": "\u2191",
-  "fills": [],
-  "id": 103
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Philippines win the public vote for Eurovision Asia 2026?",
-  "url": "https://polymarket.com/event/eurovision-asia-2026-public-vote-winner/will-philippines-win-the-public-vote-for-eurovision-asia-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/esc-asia-flag-ph-dcafd3e3bb.jpg",
-  "cid": "0xc83aa43c56d33293a174cbfd2092db9a4a73a12762bdc8aebecbfda7710faaf4",
-  "slug": "will-philippines-win-the-public-vote-for-eurovision-asia-2026",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.32,
-  "usd": 12.8,
-  "shares": 40.0,
-  "ts": 1794665399,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 40.0,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 104
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Thailand win the public vote for Eurovision Asia 2026?",
-  "url": "https://polymarket.com/event/eurovision-asia-2026-public-vote-winner/will-thailand-win-the-public-vote-for-eurovision-asia-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/esc-asia-flag-th-ece1e51a83.jpg",
-  "cid": "0x0a01b26ff0b531d9dfe270bca853b84fd14c47a7800f05c8fce5b06514b58c9a",
-  "slug": "will-thailand-win-the-public-vote-for-eurovision-asia-2026",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9971,
-  "usd": 39.88,
-  "shares": 39.99,
-  "ts": 1794665398,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 39.99,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 105
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Malaysia win the public vote for Eurovision Asia 2026?",
-  "url": "https://polymarket.com/event/eurovision-asia-2026-public-vote-winner/will-malaysia-win-the-public-vote-for-eurovision-asia-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/esc-asia-flag-my-636bcf9f07.jpg",
-  "cid": "0x2d5fb819e28eefe4a27954b905915d93b16e2a1d2973e933484e4064ad36a03f",
-  "slug": "will-malaysia-win-the-public-vote-for-eurovision-asia-2026",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.7789,
-  "usd": 31.15,
-  "shares": 40.0,
-  "ts": 1794665398,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 40.0,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 106
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will South Korea win the public vote for Eurovision Asia 2026?",
-  "url": "https://polymarket.com/event/eurovision-asia-2026-public-vote-winner/will-south-korea-win-the-public-vote-for-eurovision-asia-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/esc-asia-flag-kr-e360b0b306.jpg",
-  "cid": "0x70d26c72b14da1772760e8f0fedbc546bbf981e816003cb3c23dfc38630c8255",
-  "slug": "will-south-korea-win-the-public-vote-for-eurovision-asia-2026",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9855,
-  "usd": 39.39,
-  "shares": 39.97,
-  "ts": 1794665398,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 39.97,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 107
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Vietnam win the public vote for Eurovision Asia 2026?",
-  "url": "https://polymarket.com/event/eurovision-asia-2026-public-vote-winner/will-vietnam-win-the-public-vote-for-eurovision-asia-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/esc-asia-flag-vn-c2d079c9b0.jpg",
-  "cid": "0x9efb88370515659108be9e9c0b407ed2663ac835a1ebda5a186f4f91b3b6922c",
-  "slug": "will-vietnam-win-the-public-vote-for-eurovision-asia-2026",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9863,
-  "usd": 39.39,
-  "shares": 39.94,
-  "ts": 1794665398,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 39.94,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 108
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the price of Ethereum be between $1,800 and $1,900 on November 14?",
-  "url": "https://polymarket.com/event/ethereum-price-on-november-14-2026/will-the-price-of-ethereum-be-between-1800-1900-on-november-14-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ETH+fullsize.jpg",
-  "cid": "0x98debcbf455b6dd80007e56424be8d809db39588a587cfe2d99a2eee95e657b3",
-  "slug": "will-the-price-of-ethereum-be-between-1800-1900-on-november-14-2026",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.12,
-  "usd": 2.4,
-  "shares": 20.0,
-  "ts": 1794665324,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 68.93,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 109
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the price of Ethereum be above $1,900 on November 14?",
-  "url": "https://polymarket.com/event/ethereum-above-on-november-14-2026/ethereum-above-1900-on-november-14-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ETH+fullsize.jpg",
-  "cid": "0xf1ac2d2a508c8da2d02659b3e9f0712621947f41916eb325c1364e8d1b5d8b12",
-  "slug": "ethereum-above-1900-on-november-14-2026",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.8665,
-  "usd": 17.33,
-  "shares": 20.0,
-  "ts": 1794665324,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 90.0,
-  "chip": "First",
-  "split": "",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 110
- },
- {
-  "n": "GollumGekko",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/gollum_bc5f507a-12cf-4a51-a483-ad7cd84966a5_1736427633048.JPG",
-  "t": "Jensen Huang admits to another affair with a woman by December 31?",
-  "url": "https://polymarket.com/event/jensen-huang-admits-to-another-affair-by-december-31",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/jensen-huang-divorce-in-2026-TwqKa0CMsYm6.jpg",
-  "cid": "0x2e511a9adb91f1e5be6ddf065ea72f6d9dac25576285f7edfdd265fa85916ab1",
-  "slug": "jensen-huang-admits-to-another-affair-by-december-31",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.81,
-  "usd": 19.44,
-  "shares": 24.0,
-  "ts": 1794665198,
-  "held": 2412.75,
-  "heldUsd": 1942.26,
-  "peak": 3710.08,
-  "chip": "Against",
-  "split": "3/4",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 111
- },
- {
-  "n": "classified",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-2637613-f573f7f0-53b7-4a8d-b884-fec7b37d1b7d.png",
-  "t": "Nothing Ever Happens: 2026",
-  "url": "https://polymarket.com/event/nothing-ever-happens-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nothing-ever-happens-july-lwg0Ik2C_PNx.png",
-  "cid": "0xa090ae1a88ca96bcae7523a65a96425ed53616709be75cb69a0df144f718931e",
-  "slug": "nothing-ever-happens-2026",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.08,
-  "usd": 133.5,
-  "shares": 1668.79,
-  "ts": 1794665165,
-  "held": 26151.99,
-  "heldUsd": 2222.92,
-  "peak": 26151.99,
-  "chip": "Against",
-  "split": "3/4",
-  "arrow": "",
-  "fills": [],
-  "id": 112
- },
- {
-  "n": "Tenebrus7",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
-  "t": "Iran full airspace closure by December 31?",
-  "url": "https://polymarket.com/event/iran-full-airspace-closure-byptptpt-20260625195253028/iran-full-airspace-closure-by-december-31-20260727170429885",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/iran-full-airspace-closure-byptptpt-20260625195253028-7rbGPCHobYvq.jpg",
-  "cid": "0x506a2f7a1aae43e74f04d412afdc5982f669c7274c26463da72c23b28b2a6004",
-  "slug": "iran-full-airspace-closure-by-december-31-20260727170429885",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.21,
-  "usd": 8.4,
-  "shares": 40.0,
-  "ts": 1794665141,
-  "held": 1930.63,
-  "heldUsd": 424.74,
-  "peak": 1930.63,
-  "chip": "With",
-  "split": "4/7",
-  "arrow": "",
-  "fills": [],
-  "id": 113
- },
- {
-  "n": "elmcap2",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-117964-8791146f-a44b-45e3-8e93-466d533a616f.png",
-  "t": "UFC 334: Jared Gordon vs. Melquizael Costa (Lightweight, Early Prelims)",
-  "url": "https://polymarket.com/event/ufc-jar1-mcosta-2026-11-14",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ufc-logo-37bbbd28e6.png",
-  "cid": "0x3e4b4646241473c5b25ec1ddf02512593021e83aa016c9bbe37dce7289d598b8",
-  "slug": "ufc-jar1-mcosta-2026-11-14",
-  "side": "BUY",
-  "out": "Melquizael Costa",
-  "price": 0.76,
-  "usd": 152.0,
-  "shares": 200.0,
-  "ts": 1794665033,
-  "held": 5385.48,
-  "heldUsd": 4119.89,
-  "peak": 5385.48,
-  "chip": "First",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 114
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the highest temperature in Warsaw be 7\u00b0C on November 14?",
-  "url": "https://polymarket.com/event/highest-temperature-in-warsaw-on-november-14-2026/highest-temperature-in-warsaw-on-november-14-2026-7c",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/warsaw-7f43eebaf6.jpg",
-  "cid": "0x7a780714aae1a5148cb2e759b09d14d2d97a7304243344ad3bb36ea0ae6d05ac",
-  "slug": "highest-temperature-in-warsaw-on-november-14-2026-7c",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9905,
-  "usd": 49.51,
-  "shares": 49.99,
-  "ts": 1794664960,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 69.99,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [
-   {
-    "ts": 1794664946,
-    "usd": 31.58,
-    "shares": 31.88,
-    "price": 0.99
-   },
-   {
-    "ts": 1794664960,
-    "usd": 17.94,
-    "shares": 18.11,
-    "price": 0.99
-   }
-  ],
-  "id": 115
- },
- {
-  "n": "JJo",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-508207-408334b1-8add-4dd3-96b4-52c69671de6c.png",
-  "t": "Will the Republican Party hold exactly 45 Senate seats after the 2026 midterm elections?",
-  "url": "https://polymarket.com/event/republican-senate-seats-after-the-midterms-low-brackets/will-the-republicans-hold-exactly-45-senate-seats-after-the-2026-midterm-elections-copy",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-republicans-lose-a-seat-in-the-us-senate-for-any-state-trump-won-in-2024-36T8qr8R2Va9.jpg",
-  "cid": "0x7ed4068d5660f7854a90c907ff1c784fea477c1da07daa518579aaec3cc2ad0d",
-  "slug": "will-the-republicans-hold-exactly-45-senate-seats-after-the-2026-midterm-elections-copy",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.993,
-  "usd": 2.89,
-  "shares": 2.91,
-  "ts": 1794664949,
-  "held": 247.66,
-  "heldUsd": 246.54,
-  "peak": 247.66,
-  "chip": "Against",
-  "split": "5/6",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 116
- },
- {
-  "n": "PaddyAlpha",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
-  "t": "US announces end of Iranian blockade by December 31, 2026?",
-  "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080/us-announces-end-of-iranian-blockade-by-december-31-2026-20260727171803489-375-949-645-919-269-157-255-857",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-announces-blockade-on-iran-byptptpt-20260622191049039-hE3ZTZ51JJy3.jpg",
-  "cid": "0x46ca741da4abd7ffa993f59ac65bfe83de43ae027accac71d263a493e44064e7",
-  "slug": "us-announces-end-of-iranian-blockade-by-december-31-2026-20260727171803489-375-949-645-919-269-157-255-857",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.781,
-  "usd": 20.12,
-  "shares": 25.76,
-  "ts": 1794664946,
-  "held": 420.5,
-  "heldUsd": 329.47,
-  "peak": 599.43,
-  "chip": "With",
-  "split": "7/12",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1794664943,
-    "usd": 6.18,
-    "shares": 7.91,
-    "price": 0.781
-   },
-   {
-    "ts": 1794664946,
-    "usd": 13.94,
-    "shares": 17.85,
-    "price": 0.781
-   }
-  ],
-  "id": 117
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the price of Ethereum be less than $1,800 on November 14?",
-  "url": "https://polymarket.com/event/ethereum-price-on-november-14-2026/will-the-price-of-ethereum-be-less-than-1800-on-november-14-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ETH+fullsize.jpg",
-  "cid": "0xbdd353522f8b76bb4a1d0be449a3cf9e3ecb82bc6d78dff1a0b6731bf1ff6235",
-  "slug": "will-the-price-of-ethereum-be-less-than-1800-on-november-14-2026",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.975,
-  "usd": 48.75,
-  "shares": 50.0,
-  "ts": 1794664925,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 50.0,
-  "chip": "First",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 118
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the price of Bitcoin be between $72,000 and $74,000 on November 15?",
-  "url": "https://polymarket.com/event/bitcoin-price-on-november-15-2026/will-the-price-of-bitcoin-be-between-72000-74000-on-november-15-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
-  "cid": "0x427065f3c73d286337d47bd90ee788f7f6085b54def5fe13b31f0066e971a24b",
-  "slug": "will-the-price-of-bitcoin-be-between-72000-74000-on-november-15-2026",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9963,
-  "usd": 7.37,
-  "shares": 7.4,
-  "ts": 1794664916,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 7.4,
-  "chip": "First",
-  "split": "",
-  "arrow": "",
   "fills": [],
   "id": 119
  }
