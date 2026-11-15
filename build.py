@@ -47,5 +47,29 @@ print([(o['t'][:40],o['cnt'],o['n'],o['cat']) for o in out])
 _live=json.load(open('data/live.json')) if os.path.exists('data/live.json') else []
 _in=json.load(open('data/inflows.json')) if os.path.exists('data/inflows.json') else {'mk':[]}
 def _js(o): return json.dumps(o,separators=(',',':')).replace('<','\\u003c')
-html=open('tpl.html').read().replace('__INFLOW__',_js(_in)).replace('__NLIVE__',str(len(_live))).replace('__LIVE__',_js(_live)).replace('__DATA__',json.dumps(out)).replace('__TRADERS__',open('traders.json').read()).replace('{{BUILT}}',__import__('datetime').datetime.now(__import__('datetime').timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')).replace('{{NTRADERS}}',str(len(json.load(open('data/wallets.json')))))
+def wallet_avatars():
+    """Name -> Polymarket profile image. Cached so the 10-minute build only fetches new wallets."""
+    import urllib.request, concurrent.futures as cf
+    path='data/avatars.json'
+    cache={}
+    if os.path.exists(path):
+        try: cache=json.load(open(path))
+        except Exception: cache={}
+    wallets=json.load(open('data/wallets.json'))
+    need=[w for w in wallets if not cache.get(w['name'])]
+    def one(w):
+        try:
+            u='https://gamma-api.polymarket.com/public-profile?address='+w['wallet']
+            d=json.load(urllib.request.urlopen(urllib.request.Request(u,headers={'User-Agent':'Mozilla/5.0'}),timeout=15))
+            return w['name'], d.get('profileImage') or ''
+        except Exception:
+            return w['name'], ''
+    if need:
+        with cf.ThreadPoolExecutor(8) as ex:
+            for name, img in ex.map(one, need):
+                if img: cache[name]=img
+        json.dump({k:v for k,v in cache.items() if v}, open(path,'w'))
+    return {k:v for k,v in cache.items() if v}
+_av=wallet_avatars()
+html=open('tpl.html').read().replace('__AV__',_js(_av)).replace('__INFLOW__',_js(_in)).replace('__NLIVE__',str(len(_live))).replace('__LIVE__',_js(_live)).replace('__DATA__',json.dumps(out)).replace('__TRADERS__',open('traders.json').read()).replace('{{BUILT}}',__import__('datetime').datetime.now(__import__('datetime').timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')).replace('{{NTRADERS}}',str(len(json.load(open('data/wallets.json')))))
 open('index.html.new','w').write(html)
