@@ -1,49 +1,1015 @@
 [
  {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the highest temperature in New York City be between 64-65\u00b0F on November 19?",
-  "url": "https://polymarket.com/event/highest-temperature-in-nyc-on-november-19-2026/highest-temperature-in-nyc-on-november-19-2026-64-65f",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/test-nyc-weather-pciture-cgUEW73XBkei.jpg",
-  "cid": "0x95b44f3a1b1b010d696ec8d3ee24b81dbcaeda64b6ce04cb2ed82c3ca20dd3cb",
-  "slug": "highest-temperature-in-nyc-on-november-19-2026-64-65f",
+  "n": "occasionalAwareness",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-66621-bb0a834b-8130-4d89-a00d-16c8453096db.png",
+  "t": "Will Anthropic's valuation hit (HIGH) $1.5T by December 31?",
+  "url": "https://polymarket.com/event/will-anthropics-valuation-hit-by-december-31/will-anthropics-valuation-hit-high-1pt5t-by-december-31-797",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0x91a003371cb96dc30511f883052d6b5957d9f099f02704f9838523a260dd1162",
+  "slug": "will-anthropics-valuation-hit-high-1pt5t-by-december-31-797",
   "side": "BUY",
-  "out": "No",
-  "price": 0.316,
-  "usd": 6.31,
-  "shares": 19.97,
-  "ts": 1795110440,
+  "out": "Yes",
+  "price": 0.9476,
+  "usd": 9128.99,
+  "shares": 9633.47,
+  "ts": 1795111009,
   "held": 0.0,
   "heldUsd": 0.0,
-  "peak": 19.97,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
+  "peak": 9633.47,
+  "chip": "With",
+  "split": "3/3",
+  "arrow": "\u2191",
+  "fills": [
+   {
+    "ts": 1795111009,
+    "usd": 4373.99,
+    "shares": 4633.47,
+    "price": 0.944
+   },
+   {
+    "ts": 1795111009,
+    "usd": 4755.0,
+    "shares": 5000.0,
+    "price": 0.951
+   }
+  ],
   "id": 0
+ },
+ {
+  "n": "classified",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-2637613-f573f7f0-53b7-4a8d-b884-fec7b37d1b7d.png",
+  "t": "US announces end of Iranian blockade by December 31, 2026?",
+  "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080/us-announces-end-of-iranian-blockade-by-december-31-2026-20260727171803489-375-949-645-919-269-157-255-857",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-announces-blockade-on-iran-byptptpt-20260622191049039-hE3ZTZ51JJy3.jpg",
+  "cid": "0x46ca741da4abd7ffa993f59ac65bfe83de43ae027accac71d263a493e44064e7",
+  "slug": "us-announces-end-of-iranian-blockade-by-december-31-2026-20260727171803489-375-949-645-919-269-157-255-857",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.1474,
+  "usd": 1621.0,
+  "shares": 11000.0,
+  "ts": 1795110991,
+  "held": 26573.41,
+  "heldUsd": 3826.57,
+  "peak": 26573.41,
+  "chip": "With",
+  "split": "6/11",
+  "arrow": "\u2191",
+  "fills": [
+   {
+    "ts": 1795110943,
+    "usd": 80.17,
+    "shares": 513.9,
+    "price": 0.156
+   },
+   {
+    "ts": 1795110947,
+    "usd": 755.0,
+    "shares": 5000.0,
+    "price": 0.151
+   },
+   {
+    "ts": 1795110947,
+    "usd": 75.83,
+    "shares": 486.1,
+    "price": 0.156
+   },
+   {
+    "ts": 1795110991,
+    "usd": 710.0,
+    "shares": 5000.0,
+    "price": 0.142
+   }
+  ],
+  "id": 1
+ },
+ {
+  "n": "PaddyAlpha",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
+  "t": "US announces end of Iranian blockade by March 31, 2027?",
+  "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080/us-announces-end-of-iranian-blockade-by-march-31-2027",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-announces-blockade-on-iran-byptptpt-20260622191049039-hE3ZTZ51JJy3.jpg",
+  "cid": "0x8db33416a2d1ebde7438c80129e898f89a5deb3852ca64b37c4bf46513204409",
+  "slug": "us-announces-end-of-iranian-blockade-by-march-31-2027",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.51,
+  "usd": 124.95,
+  "shares": 245.0,
+  "ts": 1795110991,
+  "held": 234.85,
+  "heldUsd": 118.6,
+  "peak": 479.85,
+  "chip": "With",
+  "split": "4/6",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 2
+ },
+ {
+  "n": "Tenebrus7",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
+  "t": "US announces end of Iranian blockade by March 31, 2027?",
+  "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080/us-announces-end-of-iranian-blockade-by-march-31-2027",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-announces-blockade-on-iran-byptptpt-20260622191049039-hE3ZTZ51JJy3.jpg",
+  "cid": "0x8db33416a2d1ebde7438c80129e898f89a5deb3852ca64b37c4bf46513204409",
+  "slug": "us-announces-end-of-iranian-blockade-by-march-31-2027",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.49,
+  "usd": 245.0,
+  "shares": 500.0,
+  "ts": 1795110991,
+  "held": 1194.95,
+  "heldUsd": 591.5,
+  "peak": 1194.95,
+  "chip": "With",
+  "split": "4/6",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 3
  },
  {
   "n": "balthazar",
   "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the highest temperature in New York City be between 62-63\u00b0F on November 19?",
-  "url": "https://polymarket.com/event/highest-temperature-in-nyc-on-november-19-2026/highest-temperature-in-nyc-on-november-19-2026-62-63f",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/test-nyc-weather-pciture-cgUEW73XBkei.jpg",
-  "cid": "0xd182cfb93c412a7d7e8b440cb35cea3ef4734cfbe0cd9b7793a4c02ff38c1e47",
-  "slug": "highest-temperature-in-nyc-on-november-19-2026-62-63f",
+  "t": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-higher-strikes/will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0x800376dc64e4e2376a495ed0df4a789192256c821bb4d1452acdd5931bca2fa5",
+  "slug": "will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
   "side": "BUY",
-  "out": "No",
-  "price": 0.731,
-  "usd": 14.62,
-  "shares": 20.0,
-  "ts": 1795110440,
+  "out": "Yes",
+  "price": 0.3055,
+  "usd": 611.0,
+  "shares": 1999.98,
+  "ts": 1795110977,
   "held": 0.0,
   "heldUsd": 0.0,
-  "peak": 20.0,
-  "chip": "Exited",
+  "peak": 13055.03,
+  "chip": "With",
+  "split": "6/9",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 4
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Anthropic IPO closing market cap above $1.25T?",
+  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-above/anthropic-ipo-closing-market-cap-above-1pt25t",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0xce69227aa1daffdb6a60cc3e0da9da6f7f709a31f41457504c173997626bbc25",
+  "slug": "anthropic-ipo-closing-market-cap-above-1pt25t",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.69,
+  "usd": 1380.0,
+  "shares": 2000.0,
+  "ts": 1795110977,
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 8168.48,
+  "chip": "Against",
+  "split": "2/2",
+  "arrow": "",
+  "fills": [],
+  "id": 5
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the highest temperature in Milan be 17\u00b0C or higher on November 21?",
+  "url": "https://polymarket.com/event/highest-temperature-in-milan-on-november-21-2026/highest-temperature-in-milan-on-november-21-2026-17corhigher",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/milan-dba8e5d984.jpg",
+  "cid": "0x2b25c273efc4850086d52aa26111b942387e9ae8ab463ceecb4cee66c265b5cf",
+  "slug": "highest-temperature-in-milan-on-november-21-2026-17corhigher",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.4,
+  "usd": 8.0,
+  "shares": 20.0,
+  "ts": 1795110959,
+  "held": 20.01,
+  "heldUsd": 7.9,
+  "peak": 20.01,
+  "chip": "First",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 1
+  "id": 6
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the highest temperature in Milan be 12\u00b0C on November 21?",
+  "url": "https://polymarket.com/event/highest-temperature-in-milan-on-november-21-2026/highest-temperature-in-milan-on-november-21-2026-12c",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/milan-dba8e5d984.jpg",
+  "cid": "0x6ea351f7ef53ac7907e808162f5412337bfed85001fbbcbbdddba56a8ba7bdde",
+  "slug": "highest-temperature-in-milan-on-november-21-2026-12c",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9895,
+  "usd": 16.95,
+  "shares": 17.13,
+  "ts": 1795110959,
+  "held": 17.13,
+  "heldUsd": 16.56,
+  "peak": 17.13,
+  "chip": "Exited",
+  "split": "",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 7
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the highest temperature in Milan be 16\u00b0C on November 21?",
+  "url": "https://polymarket.com/event/highest-temperature-in-milan-on-november-21-2026/highest-temperature-in-milan-on-november-21-2026-16c",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/milan-dba8e5d984.jpg",
+  "cid": "0x771fd997a8deeea246490eb2b24b3e07abfb9603bac426d1ff21e6ede9ec6c20",
+  "slug": "highest-temperature-in-milan-on-november-21-2026-16c",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.7007,
+  "usd": 14.0,
+  "shares": 19.99,
+  "ts": 1795110959,
+  "held": 19.99,
+  "heldUsd": 13.79,
+  "peak": 19.99,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 8
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the highest temperature in Milan be 13\u00b0C on November 21?",
+  "url": "https://polymarket.com/event/highest-temperature-in-milan-on-november-21-2026/highest-temperature-in-milan-on-november-21-2026-13c",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/milan-dba8e5d984.jpg",
+  "cid": "0x91b73be5234553083e2b38413eb6ada06a1c07000b76426690c86edfcdff07fd",
+  "slug": "highest-temperature-in-milan-on-november-21-2026-13c",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9943,
+  "usd": 19.89,
+  "shares": 20.0,
+  "ts": 1795110959,
+  "held": 20.0,
+  "heldUsd": 19.45,
+  "peak": 20.0,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 9
+ },
+ {
+  "n": "PaddyAlpha",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
+  "t": "Anthropic IPO closing market cap above $1.1T?",
+  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-above/anthropic-ipo-closing-market-cap-above-1pt1t",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0xb5be58643c7ca09774a795826542e0579452bc9f7a9c9a591a4cc363e326e8f3",
+  "slug": "anthropic-ipo-closing-market-cap-above-1pt1t",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.015,
+  "usd": 3.75,
+  "shares": 250.0,
+  "ts": 1795110841,
+  "held": 1980.22,
+  "heldUsd": 36.63,
+  "peak": 6834.86,
+  "chip": "With",
+  "split": "7/8",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 10
+ },
+ {
+  "n": "PaddyAlpha",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
+  "t": "Anthropic IPO closing market cap above $1.0T?",
+  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-above/anthropic-ipo-closing-market-cap-above-1pt0t",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0x4e1db199436c27bfb36233a463a9c1ae1f7a4ac1cea475546b175e5df5565b0b",
+  "slug": "anthropic-ipo-closing-market-cap-above-1pt0t",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.009,
+  "usd": 1.32,
+  "shares": 146.89,
+  "ts": 1795110823,
+  "held": 317.26,
+  "heldUsd": 2.38,
+  "peak": 370.37,
+  "chip": "With",
+  "split": "3/3",
+  "arrow": "",
+  "fills": [],
+  "id": 11
+ },
+ {
+  "n": "PaddyAlpha",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
+  "t": "Anthropic IPO closing market cap above $1.1T?",
+  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-above/anthropic-ipo-closing-market-cap-above-1pt1t",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0xb5be58643c7ca09774a795826542e0579452bc9f7a9c9a591a4cc363e326e8f3",
+  "slug": "anthropic-ipo-closing-market-cap-above-1pt1t",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.023,
+  "usd": 23.12,
+  "shares": 1005.0,
+  "ts": 1795110817,
+  "held": 1980.22,
+  "heldUsd": 36.63,
+  "peak": 6834.86,
+  "chip": "Against",
+  "split": "7/8",
+  "arrow": "\u2193",
+  "fills": [
+   {
+    "ts": 1795110817,
+    "usd": 12.72,
+    "shares": 553.0,
+    "price": 0.023
+   },
+   {
+    "ts": 1795110817,
+    "usd": 10.4,
+    "shares": 452.0,
+    "price": 0.023
+   }
+  ],
+  "id": 12
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Anthropic's IPO valuation be between $1.50T and $1.75T?",
+  "url": "https://polymarket.com/event/what-will-anthropics-ipo-valuation-be/will-anthropics-ipo-valuation-be-between-1pt50t-and-1pt75t-12",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0x366a98120ec16a252876ffd8b5d64fc170d53277bbe91daf5218e3bd69a24853",
+  "slug": "will-anthropics-ipo-valuation-be-between-1pt50t-and-1pt75t-12",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.062,
+  "usd": 1.86,
+  "shares": 30.0,
+  "ts": 1795110797,
+  "held": 274.31,
+  "heldUsd": 15.64,
+  "peak": 274.31,
+  "chip": "With",
+  "split": "2/3",
+  "arrow": "",
+  "fills": [],
+  "id": 13
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Anthropic's IPO valuation be between $1.25T and $1.50T?",
+  "url": "https://polymarket.com/event/what-will-anthropics-ipo-valuation-be/will-anthropics-ipo-valuation-be-between-1pt25t-and-1pt50t-12",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0x504a33da236817ce4ffb63421f899d1030bb843d496fee11aff31dca3fea397c",
+  "slug": "will-anthropics-ipo-valuation-be-between-1pt25t-and-1pt50t-12",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9326,
+  "usd": 27.98,
+  "shares": 30.0,
+  "ts": 1795110797,
+  "held": 30.0,
+  "heldUsd": 28.7,
+  "peak": 30.0,
+  "chip": "With",
+  "split": "2/2",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 14
+ },
+ {
+  "n": "PaddyAlpha",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
+  "t": "Will Trump speak to Ursula von der Leyen by November 30?",
+  "url": "https://polymarket.com/event/who-will-trump-speak-to-by-november-30-2026/will-trump-speak-to-ursula-von-der-leyen-by-november-30-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-trump-talk-to-ursula-von-der-leyen-in-february-5e38CuphRam-.jpg",
+  "cid": "0xacf5e7b7d1541bf7d741b6e68e75c316a959b823b4f544476523a00ad095380f",
+  "slug": "will-trump-speak-to-ursula-von-der-leyen-by-november-30-2026",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.31,
+  "usd": 16.74,
+  "shares": 54.01,
+  "ts": 1795110767,
+  "held": 88.25,
+  "heldUsd": 36.18,
+  "peak": 88.25,
+  "chip": "First",
+  "split": "",
+  "arrow": "",
+  "fills": [],
+  "id": 15
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Anthropic IPO closing market cap above $1.0T?",
+  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-above/anthropic-ipo-closing-market-cap-above-1pt0t",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0x4e1db199436c27bfb36233a463a9c1ae1f7a4ac1cea475546b175e5df5565b0b",
+  "slug": "anthropic-ipo-closing-market-cap-above-1pt0t",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.011,
+  "usd": 10.39,
+  "shares": 941.95,
+  "ts": 1795110712,
+  "held": 2427.74,
+  "heldUsd": 18.21,
+  "peak": 2427.74,
+  "chip": "With",
+  "split": "3/3",
+  "arrow": "",
+  "fills": [
+   {
+    "ts": 1795110710,
+    "usd": 1.56,
+    "shares": 150.0,
+    "price": 0.01
+   },
+   {
+    "ts": 1795110712,
+    "usd": 8.83,
+    "shares": 791.95,
+    "price": 0.0107
+   }
+  ],
+  "id": 16
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Anthropic\u2019s market cap be between $400B and $600B at market close on IPO day by December 31, 2027?",
+  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-119/will-anthropics-market-cap-be-between-400b-and-600b-at-market-close-on-ipo-day-by-december-31-2027",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0x96a641513a2517d8a43b2db928789d72b5d3dedbc0f34b6cba782af44cee9d70",
+  "slug": "will-anthropics-market-cap-be-between-400b-and-600b-at-market-close-on-ipo-day-by-december-31-2027",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.999,
+  "usd": 155.85,
+  "shares": 156.0,
+  "ts": 1795110712,
+  "held": 136.0,
+  "heldUsd": 135.86,
+  "peak": 156.0,
+  "chip": "Against",
+  "split": "1/2",
+  "arrow": "\u2193",
+  "fills": [
+   {
+    "ts": 1795110637,
+    "usd": 19.98,
+    "shares": 20.0,
+    "price": 0.999
+   },
+   {
+    "ts": 1795110712,
+    "usd": 135.86,
+    "shares": 136.0,
+    "price": 0.999
+   }
+  ],
+  "id": 17
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Anthropic\u2019s market cap be between 0.6T and 0.9T at market close on IPO day by December 31 2027?",
+  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-979/will-anthropics-market-cap-be-between-0pt6t-and-0pt9t-at-market-close-on-ipo-day-by-december-31-2027",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0xdebea2ab47315c433eaaa36d005e1063a59dc9119ceacfe1c1545407732e25bf",
+  "slug": "will-anthropics-market-cap-be-between-0pt6t-and-0pt9t-at-market-close-on-ipo-day-by-december-31-2027",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9746,
+  "usd": 937.61,
+  "shares": 962.07,
+  "ts": 1795110712,
+  "held": 942.07,
+  "heldUsd": 931.23,
+  "peak": 982.07,
+  "chip": "Against",
+  "split": "1/1",
+  "arrow": "",
+  "fills": [
+   {
+    "ts": 1795110637,
+    "usd": 19.92,
+    "shares": 20.0,
+    "price": 0.996
+   },
+   {
+    "ts": 1795110712,
+    "usd": 770.68,
+    "shares": 792.07,
+    "price": 0.973
+   },
+   {
+    "ts": 1795110712,
+    "usd": 147.0,
+    "shares": 150.0,
+    "price": 0.98
+   }
+  ],
+  "id": 18
+ },
+ {
+  "n": "PaddyAlpha",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
+  "t": "Will any Uranium Enrichment % Cap (1+ Year) be in a US-Iran deal in 2026?",
+  "url": "https://polymarket.com/event/what-will-be-in-a-us-iran-deal-in-2026-20260624150226501/will-any-uranium-enrichment-cap-1-year-be-in-a-us-iran-deal-in-2026-20260623023201636",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/uranus-c30fa5a37d.jpg",
+  "cid": "0x83f33a20c2c305163e90657b8e37ce126b13d27f76a0e3b45fa2fbbd834dc0f7",
+  "slug": "will-any-uranium-enrichment-cap-1-year-be-in-a-us-iran-deal-in-2026-20260623023201636",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.09,
+  "usd": 9.49,
+  "shares": 105.44,
+  "ts": 1795110707,
+  "held": 910.16,
+  "heldUsd": 77.36,
+  "peak": 1015.61,
+  "chip": "Against",
+  "split": "2/2",
+  "arrow": "",
+  "fills": [],
+  "id": 19
+ },
+ {
+  "n": "PaddyAlpha",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
+  "t": "Will Dilution of Iranian Uranium be in a US-Iran deal in 2026?",
+  "url": "https://polymarket.com/event/what-will-be-in-a-us-iran-deal-in-2026-20260624150226501/will-dilution-of-iranian-uranium-be-in-a-us-iran-deal-in-2026-20260623023201639",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/yullakakes-1761457725.jpg",
+  "cid": "0x59807c6726f0d7111f1879a255d11bf772fec5d58bd79562f76637c21a3bb6d9",
+  "slug": "will-dilution-of-iranian-uranium-be-in-a-us-iran-deal-in-2026-20260623023201639",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.1,
+  "usd": 28.99,
+  "shares": 289.93,
+  "ts": 1795110701,
+  "held": 94.99,
+  "heldUsd": 8.55,
+  "peak": 994.99,
+  "chip": "Against",
+  "split": "1/2",
+  "arrow": "",
+  "fills": [],
+  "id": 20
+ },
+ {
+  "n": "melonmanm",
+  "avatar": "",
+  "t": "Anthropic IPO closing market cap above $1.35T?",
+  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-above/anthropic-ipo-closing-market-cap-above-1pt35t",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0x125c9dc80eb962ae72c7047b5d80fb4c09632b4ac9f8093488cf184f9666da85",
+  "slug": "anthropic-ipo-closing-market-cap-above-1pt35t",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.28,
+  "usd": 70.0,
+  "shares": 250.0,
+  "ts": 1795110646,
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 1116.11,
+  "chip": "Against",
+  "split": "2/2",
+  "arrow": "",
+  "fills": [],
+  "id": 21
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Anthropic\u2019s market cap be between 0.9T and 1.2T at market close on IPO day by December 31 2027?",
+  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-979/will-anthropics-market-cap-be-between-0pt9t-and-1pt2t-at-market-close-on-ipo-day-by-december-31-2027",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0x17459272717ce2de6d4d6aaff53b307381f03c07d44b56e839d38ac2f8b69b3c",
+  "slug": "will-anthropics-market-cap-be-between-0pt9t-and-1pt2t-at-market-close-on-ipo-day-by-december-31-2027",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.844,
+  "usd": 16.88,
+  "shares": 20.0,
+  "ts": 1795110637,
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 285.12,
+  "chip": "Against",
+  "split": "4/4",
+  "arrow": "",
+  "fills": [],
+  "id": 22
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Anthropic IPO closing market cap above $1.2T?",
+  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-above/anthropic-ipo-closing-market-cap-above-1pt2t",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0xa9d01d0cce578bcea32389d05e258d7643fe501b776f04b382663107a98a1963",
+  "slug": "anthropic-ipo-closing-market-cap-above-1pt2t",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.1345,
+  "usd": 2.69,
+  "shares": 20.0,
+  "ts": 1795110637,
+  "held": 20281.06,
+  "heldUsd": 2737.94,
+  "peak": 20281.06,
+  "chip": "Against",
+  "split": "2/4",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 23
+ },
+ {
+  "n": "Parz1vaI",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-655189-18afdd1d-26b5-439b-aba1-4123bb3739e6.jpeg",
+  "t": "Will Kai Cenat finish his GTA VI marathon by November 26?",
+  "url": "https://polymarket.com/event/kai-cenat-finishes-gta-vi-marathon-by/will-kai-cenat-finish-his-gta-vi-marathon-by-november-26",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-kai-cenat-hit-1-million-twitch-subscribers-by-september-15th-UXPuOA5d-0WR.jpg",
+  "cid": "0x8e7e49661ebef9f3a90bea663f621bde13b6d71d547035444351205bc8c13a5b",
+  "slug": "will-kai-cenat-finish-his-gta-vi-marathon-by-november-26",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.6355,
+  "usd": 944.57,
+  "shares": 1486.39,
+  "ts": 1795110637,
+  "held": 2604.84,
+  "heldUsd": 1901.53,
+  "peak": 2604.84,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 24
+ },
+ {
+  "n": "Parz1vaI",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-655189-18afdd1d-26b5-439b-aba1-4123bb3739e6.jpeg",
+  "t": "Will Kai Cenat finish his GTA VI marathon by November 22?",
+  "url": "https://polymarket.com/event/kai-cenat-finishes-gta-vi-marathon-by/will-kai-cenat-finish-his-gta-vi-marathon-by-november-22",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-kai-cenat-hit-1-million-twitch-subscribers-by-september-15th-UXPuOA5d-0WR.jpg",
+  "cid": "0x7c5b4ba0bbdaac06e5fbbe38f6aa582ef0278e162ac91e175d475ab887346c8a",
+  "slug": "will-kai-cenat-finish-his-gta-vi-marathon-by-november-22",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.0955,
+  "usd": 7.42,
+  "shares": 77.69,
+  "ts": 1795110628,
+  "held": 77.69,
+  "heldUsd": 12.62,
+  "peak": 77.69,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 25
+ },
+ {
+  "n": "Parz1vaI",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-655189-18afdd1d-26b5-439b-aba1-4123bb3739e6.jpeg",
+  "t": "Will IShowSpeed finish GTA VI by November 22?",
+  "url": "https://polymarket.com/event/ishowspeed-finishes-gta-vi-by/will-ishowspeed-finish-gta-vi-by-november-22",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/gta6-ishowspeed-bc3bb4073e.jpg",
+  "cid": "0x5d938478bfbfee0a36a717f4e2c7746229470a13db577440eb4694d5754e4d73",
+  "slug": "will-ishowspeed-finish-gta-vi-by-november-22",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.1006,
+  "usd": 66.58,
+  "shares": 661.83,
+  "ts": 1795110616,
+  "held": 1415.84,
+  "heldUsd": 152.2,
+  "peak": 2077.67,
+  "chip": "Against",
+  "split": "1/1",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 26
+ },
+ {
+  "n": "PaddyAlpha",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
+  "t": "Will Trump speak to Andy Burnham by November 30?",
+  "url": "https://polymarket.com/event/who-will-trump-speak-to-by-november-30-2026/will-trump-speak-to-andy-burnham-by-november-30-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-trump-speak-to-andy-burnham-in-august-20260731154203534-YUuZmXceSQq2.jpg",
+  "cid": "0x74dc43c1e50ce9686cdf31f15056222181f3ec9a79da63bd56514b8e573c6e78",
+  "slug": "will-trump-speak-to-andy-burnham-by-november-30-2026",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.7035,
+  "usd": 178.58,
+  "shares": 253.85,
+  "ts": 1795110610,
+  "held": 464.23,
+  "heldUsd": 322.64,
+  "peak": 748.07,
+  "chip": "Against",
+  "split": "1/1",
+  "arrow": "",
+  "fills": [
+   {
+    "ts": 1795110610,
+    "usd": 43.08,
+    "shares": 53.85,
+    "price": 0.8
+   },
+   {
+    "ts": 1795110610,
+    "usd": 36.5,
+    "shares": 50.0,
+    "price": 0.73
+   },
+   {
+    "ts": 1795110610,
+    "usd": 34.0,
+    "shares": 50.0,
+    "price": 0.68
+   },
+   {
+    "ts": 1795110610,
+    "usd": 65.0,
+    "shares": 100.0,
+    "price": 0.65
+   }
+  ],
+  "id": 27
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-higher-strikes/will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0x800376dc64e4e2376a495ed0df4a789192256c821bb4d1452acdd5931bca2fa5",
+  "slug": "will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.2146,
+  "usd": 230.28,
+  "shares": 1072.88,
+  "ts": 1795110551,
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 13055.03,
+  "chip": "With",
+  "split": "6/9",
+  "arrow": "\u2193",
+  "fills": [
+   {
+    "ts": 1795110518,
+    "usd": 24.4,
+    "shares": 100.0,
+    "price": 0.244
+   },
+   {
+    "ts": 1795110551,
+    "usd": 196.84,
+    "shares": 932.88,
+    "price": 0.211
+   },
+   {
+    "ts": 1795110551,
+    "usd": 9.04,
+    "shares": 40.0,
+    "price": 0.226
+   }
+  ],
+  "id": 28
+ },
+ {
+  "n": "Tenebrus7",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
+  "t": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
+  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-higher-strikes/will-anthropics-market-cap-be-between-1pt25t-and-1pt5t-at-market-close-on-ipo-day",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0x67644dafb1cb9f5dda7cc1b5666e93c1ca539da38cafb17b4ebca6493a04e25b",
+  "slug": "will-anthropics-market-cap-be-between-1pt25t-and-1pt5t-at-market-close-on-ipo-day",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.6945,
+  "usd": 416.7,
+  "shares": 600.0,
+  "ts": 1795110551,
+  "held": 200.0,
+  "heldUsd": 132.7,
+  "peak": 3400.74,
+  "chip": "Against",
+  "split": "8/8",
+  "arrow": "\u2191",
+  "fills": [
+   {
+    "ts": 1795110469,
+    "usd": 10.05,
+    "shares": 15.0,
+    "price": 0.67
+   },
+   {
+    "ts": 1795110475,
+    "usd": 100.5,
+    "shares": 150.0,
+    "price": 0.67
+   },
+   {
+    "ts": 1795110475,
+    "usd": 33.5,
+    "shares": 50.0,
+    "price": 0.67
+   },
+   {
+    "ts": 1795110475,
+    "usd": 56.95,
+    "shares": 85.0,
+    "price": 0.67
+   },
+   {
+    "ts": 1795110551,
+    "usd": 215.7,
+    "shares": 300.0,
+    "price": 0.719
+   }
+  ],
+  "id": 29
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Anthropic IPO closing market cap above $1.75T?",
+  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-above/anthropic-ipo-closing-market-cap-above-1pt75t",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0x4d4d01e331575263173bbf3ef1409435bf5cbe1ca550447691fc606a508f3db1",
+  "slug": "anthropic-ipo-closing-market-cap-above-1pt75t",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.0094,
+  "usd": 2.34,
+  "shares": 250.0,
+  "ts": 1795110550,
+  "held": 6181.15,
+  "heldUsd": 40.18,
+  "peak": 6181.15,
+  "chip": "Against",
+  "split": "2/3",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 30
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Anthropic IPO closing market cap above $1.25T?",
+  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-above/anthropic-ipo-closing-market-cap-above-1pt25t",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0xce69227aa1daffdb6a60cc3e0da9da6f7f709a31f41457504c173997626bbc25",
+  "slug": "anthropic-ipo-closing-market-cap-above-1pt25t",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.757,
+  "usd": 219.51,
+  "shares": 289.95,
+  "ts": 1795110550,
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 8168.48,
+  "chip": "Against",
+  "split": "2/2",
+  "arrow": "",
+  "fills": [
+   {
+    "ts": 1795110550,
+    "usd": 189.63,
+    "shares": 249.99,
+    "price": 0.7511
+   },
+   {
+    "ts": 1795110550,
+    "usd": 29.88,
+    "shares": 39.96,
+    "price": 0.74
+   }
+  ],
+  "id": 31
+ },
+ {
+  "n": "Parz1vaI",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-655189-18afdd1d-26b5-439b-aba1-4123bb3739e6.jpeg",
+  "t": "Next White House Press Secretary announced by December 31, 2026?",
+  "url": "https://polymarket.com/event/next-press-secretary-announced-byptptpt/next-white-house-press-secretary-announced-by-december-31-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/yet-again-the-next-press-secretary-in-2026-IMyD8yPohcuU.jpg",
+  "cid": "0x86646cf754b06b8c287924eebd0af205e928c68c0d0fe1b86182a5636a88e988",
+  "slug": "next-white-house-press-secretary-announced-by-december-31-2026",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.38,
+  "usd": 560.7,
+  "shares": 1475.53,
+  "ts": 1795110545,
+  "held": 4238.67,
+  "heldUsd": 1547.11,
+  "peak": 6545.65,
+  "chip": "Against",
+  "split": "3/4",
+  "arrow": "",
+  "fills": [],
+  "id": 32
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
+  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-higher-strikes/will-anthropics-market-cap-be-between-1pt25t-and-1pt5t-at-market-close-on-ipo-day",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0x67644dafb1cb9f5dda7cc1b5666e93c1ca539da38cafb17b4ebca6493a04e25b",
+  "slug": "will-anthropics-market-cap-be-between-1pt25t-and-1pt5t-at-market-close-on-ipo-day",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.7045,
+  "usd": 70.45,
+  "shares": 100.0,
+  "ts": 1795110518,
+  "held": 7481.58,
+  "heldUsd": 4964.03,
+  "peak": 7481.58,
+  "chip": "With",
+  "split": "8/8",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 33
+ },
+ {
+  "n": "Tenebrus7",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
+  "t": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-higher-strikes/will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0x800376dc64e4e2376a495ed0df4a789192256c821bb4d1452acdd5931bca2fa5",
+  "slug": "will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.747,
+  "usd": 372.7,
+  "shares": 498.93,
+  "ts": 1795110469,
+  "held": 3799.98,
+  "heldUsd": 2618.19,
+  "peak": 4299.98,
+  "chip": "With",
+  "split": "6/9",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 34
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will Anthropic\u2019s market cap be between 1.5T and 1.8T at market close on IPO day by December 31 2027?",
+  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-979/will-anthropics-market-cap-be-between-1pt5t-and-1pt8t-at-market-close-on-ipo-day-by-december-31-2027",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0x96020960debc2b7b4dc46511bb1f8e63495aa7ecd4a2685e8f8d246adc6ad45b",
+  "slug": "will-anthropics-market-cap-be-between-1pt5t-and-1pt8t-at-market-close-on-ipo-day-by-december-31-2027",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9664,
+  "usd": 19.14,
+  "shares": 19.8,
+  "ts": 1795110466,
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 156.42,
+  "chip": "Against",
+  "split": "1/2",
+  "arrow": "",
+  "fills": [],
+  "id": 35
  },
  {
   "n": "Tenebrus7",
@@ -56,12 +1022,12 @@
   "side": "SELL",
   "out": "Yes",
   "price": 0.84,
-  "usd": 92.09,
-  "shares": 109.63,
-  "ts": 1795110440,
-  "held": 720.78,
-  "heldUsd": 601.85,
-  "peak": 1197.15,
+  "usd": 93.59,
+  "shares": 111.42,
+  "ts": 1795110457,
+  "held": 609.36,
+  "heldUsd": 508.82,
+  "peak": 1087.52,
   "chip": "Against",
   "split": "3/6",
   "arrow": "",
@@ -77,9 +1043,61 @@
     "usd": 91.0,
     "shares": 108.33,
     "price": 0.84
+   },
+   {
+    "ts": 1795110457,
+    "usd": 1.5,
+    "shares": 1.79,
+    "price": 0.84
    }
   ],
-  "id": 2
+  "id": 36
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the highest temperature in New York City be between 64-65\u00b0F on November 19?",
+  "url": "https://polymarket.com/event/highest-temperature-in-nyc-on-november-19-2026/highest-temperature-in-nyc-on-november-19-2026-64-65f",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/test-nyc-weather-pciture-cgUEW73XBkei.jpg",
+  "cid": "0x95b44f3a1b1b010d696ec8d3ee24b81dbcaeda64b6ce04cb2ed82c3ca20dd3cb",
+  "slug": "highest-temperature-in-nyc-on-november-19-2026-64-65f",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.316,
+  "usd": 6.31,
+  "shares": 19.97,
+  "ts": 1795110440,
+  "held": 19.98,
+  "heldUsd": 8.69,
+  "peak": 19.98,
+  "chip": "First",
+  "split": "",
+  "arrow": "",
+  "fills": [],
+  "id": 37
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the highest temperature in New York City be between 62-63\u00b0F on November 19?",
+  "url": "https://polymarket.com/event/highest-temperature-in-nyc-on-november-19-2026/highest-temperature-in-nyc-on-november-19-2026-62-63f",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/test-nyc-weather-pciture-cgUEW73XBkei.jpg",
+  "cid": "0xd182cfb93c412a7d7e8b440cb35cea3ef4734cfbe0cd9b7793a4c02ff38c1e47",
+  "slug": "highest-temperature-in-nyc-on-november-19-2026-62-63f",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.731,
+  "usd": 14.62,
+  "shares": 20.0,
+  "ts": 1795110440,
+  "held": 20.01,
+  "heldUsd": 14.21,
+  "peak": 20.01,
+  "chip": "First",
+  "split": "",
+  "arrow": "",
+  "fills": [],
+  "id": 38
  },
  {
   "n": "archaic",
@@ -102,7 +1120,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 3
+  "id": 39
  },
  {
   "n": "balthazar",
@@ -118,9 +1136,9 @@
   "usd": 87.21,
   "shares": 129.64,
   "ts": 1795110340,
-  "held": 11484.34,
-  "heldUsd": 7872.52,
-  "peak": 11484.34,
+  "held": 8411.48,
+  "heldUsd": 5795.51,
+  "peak": 8411.48,
   "chip": "Against",
   "split": "6/9",
   "arrow": "\u2193",
@@ -144,7 +1162,7 @@
     "price": 0.655
    }
   ],
-  "id": 4
+  "id": 40
  },
  {
   "n": "balthazar",
@@ -160,9 +1178,9 @@
   "usd": 39.77,
   "shares": 129.94,
   "ts": 1795110338,
-  "held": 22566.78,
-  "heldUsd": 7334.2,
-  "peak": 22566.78,
+  "held": 20276.83,
+  "heldUsd": 6488.58,
+  "peak": 20276.83,
   "chip": "With",
   "split": "2/2",
   "arrow": "",
@@ -186,7 +1204,7 @@
     "price": 0.32
    }
   ],
-  "id": 5
+  "id": 41
  },
  {
   "n": "balthazar",
@@ -202,12 +1220,12 @@
   "usd": 192.44,
   "shares": 199.33,
   "ts": 1795110311,
-  "held": 273.55,
-  "heldUsd": 265.34,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 590.94,
   "chip": "Against",
-  "split": "3/5",
-  "arrow": "",
+  "split": "4/6",
+  "arrow": "\u2191",
   "fills": [
    {
     "ts": 1795110239,
@@ -228,7 +1246,7 @@
     "price": 0.9715
    }
   ],
-  "id": 6
+  "id": 42
  },
  {
   "n": "PaddyAlpha",
@@ -244,9 +1262,9 @@
   "usd": 4.65,
   "shares": 244.99,
   "ts": 1795110301,
-  "held": 2708.53,
-  "heldUsd": 51.46,
-  "peak": 6808.17,
+  "held": 1980.22,
+  "heldUsd": 36.63,
+  "peak": 6834.86,
   "chip": "Against",
   "split": "7/8",
   "arrow": "\u2193",
@@ -264,7 +1282,7 @@
     "price": 0.019
    }
   ],
-  "id": 7
+  "id": 43
  },
  {
   "n": "melonmanm",
@@ -280,14 +1298,14 @@
   "usd": 65.0,
   "shares": 250.0,
   "ts": 1795110274,
-  "held": 250.0,
-  "heldUsd": 77.5,
-  "peak": 866.11,
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 1116.11,
   "chip": "Against",
-  "split": "1/1",
-  "arrow": "\u2193",
+  "split": "2/2",
+  "arrow": "",
   "fills": [],
-  "id": 8
+  "id": 44
  },
  {
   "n": "Tenebrus7",
@@ -303,8 +1321,8 @@
   "usd": 198.6,
   "shares": 300.0,
   "ts": 1795110269,
-  "held": 800.0,
-  "heldUsd": 510.0,
+  "held": 200.0,
+  "heldUsd": 132.7,
   "peak": 3400.74,
   "chip": "With",
   "split": "8/8",
@@ -329,7 +1347,7 @@
     "price": 0.662
    }
   ],
-  "id": 9
+  "id": 45
  },
  {
   "n": "Tenebrus7",
@@ -346,11 +1364,11 @@
   "shares": 1000.0,
   "ts": 1795110245,
   "held": 6103.88,
-  "heldUsd": 5920.77,
+  "heldUsd": 5975.7,
   "peak": 7603.88,
   "chip": "With",
-  "split": "3/5",
-  "arrow": "",
+  "split": "4/6",
+  "arrow": "\u2191",
   "fills": [
    {
     "ts": 1795110236,
@@ -365,7 +1383,7 @@
     "price": 0.969
    }
   ],
-  "id": 10
+  "id": 46
  },
  {
   "n": "balthazar",
@@ -381,14 +1399,14 @@
   "usd": 2.19,
   "shares": 49.8,
   "ts": 1795110239,
-  "held": 25147.71,
-  "heldUsd": 892.74,
-  "peak": 25147.71,
-  "chip": "Against",
-  "split": "1/1",
+  "held": 24987.76,
+  "heldUsd": 724.64,
+  "peak": 24987.76,
+  "chip": "With",
+  "split": "1/2",
   "arrow": "",
   "fills": [],
-  "id": 11
+  "id": 47
  },
  {
   "n": "Tenebrus7",
@@ -405,13 +1423,13 @@
   "shares": 500.0,
   "ts": 1795110239,
   "held": 6103.88,
-  "heldUsd": 5920.77,
+  "heldUsd": 5975.7,
   "peak": 7603.88,
   "chip": "Against",
-  "split": "3/5",
-  "arrow": "",
+  "split": "4/6",
+  "arrow": "\u2191",
   "fills": [],
-  "id": 12
+  "id": 48
  },
  {
   "n": "M888",
@@ -434,7 +1452,7 @@
   "split": "2/3",
   "arrow": "",
   "fills": [],
-  "id": 13
+  "id": 49
  },
  {
   "n": "classified",
@@ -451,13 +1469,13 @@
   "shares": 499.99,
   "ts": 1795110214,
   "held": 5240.53,
-  "heldUsd": 1441.15,
+  "heldUsd": 1414.94,
   "peak": 7606.73,
   "chip": "With",
   "split": "3/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 14
+  "id": 50
  },
  {
   "n": "mr.ozi",
@@ -499,7 +1517,7 @@
     "price": 0.92
    }
   ],
-  "id": 15
+  "id": 51
  },
  {
   "n": "Tenebrus7",
@@ -515,14 +1533,14 @@
   "usd": 47.0,
   "shares": 55.95,
   "ts": 1795110176,
-  "held": 720.78,
-  "heldUsd": 601.85,
-  "peak": 1197.15,
+  "held": 609.36,
+  "heldUsd": 508.82,
+  "peak": 1087.52,
   "chip": "Against",
   "split": "3/6",
   "arrow": "",
   "fills": [],
-  "id": 16
+  "id": 52
  },
  {
   "n": "archaic",
@@ -545,7 +1563,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 17
+  "id": 53
  },
  {
   "n": "GollumGekko",
@@ -562,13 +1580,13 @@
   "shares": 5050.64,
   "ts": 1795110143,
   "held": 36142.71,
-  "heldUsd": 11366.88,
+  "heldUsd": 11240.38,
   "peak": 60194.41,
   "chip": "Against",
   "split": "6/9",
   "arrow": "\u2193",
   "fills": [],
-  "id": 18
+  "id": 54
  },
  {
   "n": "balthazar",
@@ -585,13 +1603,13 @@
   "shares": 20.0,
   "ts": 1795110094,
   "held": 30192.17,
-  "heldUsd": 24561.33,
+  "heldUsd": 25059.5,
   "peak": 30192.17,
   "chip": "With",
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 19
+  "id": 55
  },
  {
   "n": "balthazar",
@@ -607,14 +1625,14 @@
   "usd": 2.48,
   "shares": 20.0,
   "ts": 1795110094,
-  "held": 20261.06,
-  "heldUsd": 2633.94,
-  "peak": 20261.06,
+  "held": 20281.06,
+  "heldUsd": 2737.94,
+  "peak": 20281.06,
   "chip": "Against",
   "split": "2/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 20
+  "id": 56
  },
  {
   "n": "balthazar",
@@ -630,14 +1648,14 @@
   "usd": 19.11,
   "shares": 20.0,
   "ts": 1795110094,
-  "held": 29715.2,
-  "heldUsd": 28794.03,
-  "peak": 29735.2,
+  "held": 29545.33,
+  "heldUsd": 28452.15,
+  "peak": 29565.33,
   "chip": "Against",
   "split": "1/1",
   "arrow": "\u2191",
   "fills": [],
-  "id": 21
+  "id": 57
  },
  {
   "n": "balthazar",
@@ -653,11 +1671,11 @@
   "usd": 101.25,
   "shares": 106.62,
   "ts": 1795110089,
-  "held": 140.15,
-  "heldUsd": 135.17,
-  "peak": 140.15,
-  "chip": "With",
-  "split": "1/1",
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 156.42,
+  "chip": "Against",
+  "split": "1/2",
   "arrow": "",
   "fills": [
    {
@@ -673,7 +1691,7 @@
     "price": 0.9479
    }
   ],
-  "id": 22
+  "id": 58
  },
  {
   "n": "balthazar",
@@ -689,14 +1707,14 @@
   "usd": 3.79,
   "shares": 90.22,
   "ts": 1795110089,
-  "held": 149.87,
-  "heldUsd": 4.72,
+  "held": 100.0,
+  "heldUsd": 3.7,
   "peak": 481.74,
   "chip": "Against",
   "split": "1/1",
   "arrow": "\u2191",
   "fills": [],
-  "id": 23
+  "id": 59
  },
  {
   "n": "Tenebrus7",
@@ -712,8 +1730,8 @@
   "usd": 367.0,
   "shares": 500.0,
   "ts": 1795110052,
-  "held": 4299.98,
-  "heldUsd": 2947.64,
+  "held": 3799.98,
+  "heldUsd": 2618.19,
   "peak": 4299.98,
   "chip": "Against",
   "split": "6/9",
@@ -732,7 +1750,7 @@
     "price": 0.734
    }
   ],
-  "id": 24
+  "id": 60
  },
  {
   "n": "vinii",
@@ -751,9 +1769,9 @@
   "held": 2171.4,
   "heldUsd": 1476.55,
   "peak": 2171.4,
-  "chip": "Against",
-  "split": "2/3",
-  "arrow": "\u2193",
+  "chip": "With",
+  "split": "1/2",
+  "arrow": "\u2191",
   "fills": [
    {
     "ts": 1795110037,
@@ -768,7 +1786,7 @@
     "price": 0.69
    }
   ],
-  "id": 25
+  "id": 61
  },
  {
   "n": "balthazar",
@@ -784,14 +1802,14 @@
   "usd": 35.91,
   "shares": 39.99,
   "ts": 1795110037,
-  "held": 40.0,
-  "heldUsd": 38.54,
-  "peak": 40.0,
-  "chip": "First",
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 39.99,
+  "chip": "Exited",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 26
+  "id": 62
  },
  {
   "n": "balthazar",
@@ -807,12 +1825,12 @@
   "usd": 14.2,
   "shares": 40.0,
   "ts": 1795110037,
-  "held": 40.01,
-  "heldUsd": 12.8,
-  "peak": 40.01,
-  "chip": "With",
-  "split": "2/3",
-  "arrow": "\u2193",
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 40.0,
+  "chip": "Against",
+  "split": "1/2",
+  "arrow": "\u2191",
   "fills": [
    {
     "ts": 1795110037,
@@ -827,7 +1845,7 @@
     "price": 0.36
    }
   ],
-  "id": 27
+  "id": 63
  },
  {
   "n": "Trump2028",
@@ -844,13 +1862,13 @@
   "shares": 8071.17,
   "ts": 1795110011,
   "held": 8418.95,
-  "heldUsd": 8229.53,
+  "heldUsd": 8237.95,
   "peak": 8418.95,
   "chip": "With",
   "split": "3/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 28
+  "id": 64
  },
  {
   "n": "GollumGekko",
@@ -867,7 +1885,7 @@
   "shares": 2222.0,
   "ts": 1795110007,
   "held": 36142.71,
-  "heldUsd": 11366.88,
+  "heldUsd": 11240.38,
   "peak": 60194.41,
   "chip": "Against",
   "split": "6/9",
@@ -892,7 +1910,7 @@
     "price": 0.25
    }
   ],
-  "id": 29
+  "id": 65
  },
  {
   "n": "balthazar",
@@ -908,14 +1926,14 @@
   "usd": 3.63,
   "shares": 18.37,
   "ts": 1795109998,
-  "held": 68.34,
-  "heldUsd": 10.59,
+  "held": 39.15,
+  "heldUsd": 6.07,
   "peak": 68.34,
-  "chip": "Exited",
+  "chip": "First",
   "split": "",
-  "arrow": "\u2193",
+  "arrow": "\u2191",
   "fills": [],
-  "id": 30
+  "id": 66
  },
  {
   "n": "balthazar",
@@ -931,14 +1949,14 @@
   "usd": 13.67,
   "shares": 18.37,
   "ts": 1795109998,
-  "held": 88.37,
-  "heldUsd": 74.85,
+  "held": 0.81,
+  "heldUsd": 0.68,
   "peak": 88.37,
-  "chip": "Exited",
+  "chip": "First",
   "split": "",
-  "arrow": "\u2193",
+  "arrow": "\u2191",
   "fills": [],
-  "id": 31
+  "id": 67
  },
  {
   "n": "PaddyAlpha",
@@ -961,7 +1979,7 @@
   "split": "8/10",
   "arrow": "",
   "fills": [],
-  "id": 32
+  "id": 68
  },
  {
   "n": "Tenebrus7",
@@ -1009,7 +2027,7 @@
     "price": 0.87
    }
   ],
-  "id": 33
+  "id": 69
  },
  {
   "n": "Tenebrus7",
@@ -1025,14 +2043,14 @@
   "usd": 350.5,
   "shares": 500.0,
   "ts": 1795109918,
-  "held": 800.0,
-  "heldUsd": 510.0,
+  "held": 200.0,
+  "heldUsd": 132.7,
   "peak": 3400.74,
   "chip": "With",
   "split": "8/8",
   "arrow": "\u2191",
   "fills": [],
-  "id": 34
+  "id": 70
  },
  {
   "n": "PMTraderAdam",
@@ -1052,10 +2070,10 @@
   "heldUsd": 0.0,
   "peak": 299.98,
   "chip": "Against",
-  "split": "1/1",
-  "arrow": "\u2193",
+  "split": "2/2",
+  "arrow": "",
   "fills": [],
-  "id": 35
+  "id": 71
  },
  {
   "n": "melonmanm",
@@ -1078,7 +2096,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 36
+  "id": 72
  },
  {
   "n": "Tenebrus7",
@@ -1094,8 +2112,8 @@
   "usd": 235.2,
   "shares": 300.0,
   "ts": 1795109896,
-  "held": 4299.98,
-  "heldUsd": 2947.64,
+  "held": 3799.98,
+  "heldUsd": 2618.19,
   "peak": 4299.98,
   "chip": "Against",
   "split": "6/9",
@@ -1114,7 +2132,7 @@
     "price": 0.784
    }
   ],
-  "id": 37
+  "id": 73
  },
  {
   "n": "PaddyAlpha",
@@ -1130,14 +2148,14 @@
   "usd": 7.61,
   "shares": 13.12,
   "ts": 1795109890,
-  "held": 718.08,
-  "heldUsd": 391.35,
+  "held": 464.23,
+  "heldUsd": 322.64,
   "peak": 748.07,
   "chip": "Against",
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 38
+  "id": 74
  },
  {
   "n": "balthazar",
@@ -1153,14 +2171,14 @@
   "usd": 8.85,
   "shares": 49.98,
   "ts": 1795109872,
-  "held": 68.34,
-  "heldUsd": 10.59,
+  "held": 39.15,
+  "heldUsd": 6.07,
   "peak": 68.34,
-  "chip": "Exited",
+  "chip": "First",
   "split": "",
-  "arrow": "\u2193",
+  "arrow": "\u2191",
   "fills": [],
-  "id": 39
+  "id": 75
  },
  {
   "n": "balthazar",
@@ -1176,12 +2194,12 @@
   "usd": 56.96,
   "shares": 70.0,
   "ts": 1795109872,
-  "held": 88.37,
-  "heldUsd": 74.85,
+  "held": 0.81,
+  "heldUsd": 0.68,
   "peak": 88.37,
-  "chip": "Exited",
+  "chip": "First",
   "split": "",
-  "arrow": "\u2193",
+  "arrow": "\u2191",
   "fills": [
    {
     "ts": 1795109872,
@@ -1196,7 +2214,7 @@
     "price": 0.863
    }
   ],
-  "id": 40
+  "id": 76
  },
  {
   "n": "Tenebrus7",
@@ -1213,11 +2231,11 @@
   "shares": 1000.0,
   "ts": 1795109864,
   "held": 6103.88,
-  "heldUsd": 5920.77,
+  "heldUsd": 5975.7,
   "peak": 7603.88,
   "chip": "With",
-  "split": "3/5",
-  "arrow": "",
+  "split": "4/6",
+  "arrow": "\u2191",
   "fills": [
    {
     "ts": 1795109785,
@@ -1238,7 +2256,7 @@
     "price": 0.948
    }
   ],
-  "id": 41
+  "id": 77
  },
  {
   "n": "balthazar",
@@ -1261,7 +2279,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 42
+  "id": 78
  },
  {
   "n": "occasionalAwareness",
@@ -1282,9 +2300,9 @@
   "peak": 89325.88,
   "chip": "With",
   "split": "4/6",
-  "arrow": "",
+  "arrow": "\u2191",
   "fills": [],
-  "id": 43
+  "id": 79
  },
  {
   "n": "PaddyAlpha",
@@ -1300,14 +2318,14 @@
   "usd": 9.79,
   "shares": 16.87,
   "ts": 1795109726,
-  "held": 718.08,
-  "heldUsd": 391.35,
+  "held": 464.23,
+  "heldUsd": 322.64,
   "peak": 748.07,
   "chip": "Against",
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 44
+  "id": 80
  },
  {
   "n": "Tenebrus7",
@@ -1343,7 +2361,7 @@
     "price": 0.95
    }
   ],
-  "id": 45
+  "id": 81
  },
  {
   "n": "melonmanm",
@@ -1366,7 +2384,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 46
+  "id": 82
  },
  {
   "n": "balthazar",
@@ -1382,14 +2400,14 @@
   "usd": 2.93,
   "shares": 50.0,
   "ts": 1795109698,
-  "held": 50.0,
-  "heldUsd": 1.52,
+  "held": 10.0,
+  "heldUsd": 0.3,
   "peak": 50.0,
-  "chip": "Exited",
+  "chip": "First",
   "split": "",
-  "arrow": "",
+  "arrow": "\u2191",
   "fills": [],
-  "id": 47
+  "id": 83
  },
  {
   "n": "balthazar",
@@ -1405,14 +2423,14 @@
   "usd": 46.05,
   "shares": 50.0,
   "ts": 1795109698,
-  "held": 50.0,
-  "heldUsd": 48.38,
+  "held": 10.0,
+  "heldUsd": 9.7,
   "peak": 50.0,
-  "chip": "Exited",
+  "chip": "First",
   "split": "",
-  "arrow": "\u2193",
+  "arrow": "\u2191",
   "fills": [],
-  "id": 48
+  "id": 84
  },
  {
   "n": "Parz1vaI",
@@ -1435,7 +2453,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 49
+  "id": 85
  },
  {
   "n": "Parz1vaI",
@@ -1452,13 +2470,13 @@
   "shares": 897.05,
   "ts": 1795109684,
   "held": 1289.36,
-  "heldUsd": 1057.28,
+  "heldUsd": 1070.17,
   "peak": 1289.36,
   "chip": "With",
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 50
+  "id": 86
  },
  {
   "n": "Parz1vaI",
@@ -1475,13 +2493,13 @@
   "shares": 619.33,
   "ts": 1795109675,
   "held": 1039.33,
-  "heldUsd": 342.98,
+  "heldUsd": 379.36,
   "peak": 1039.33,
   "chip": "With",
   "split": "1/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 51
+  "id": 87
  },
  {
   "n": "balthazar",
@@ -1498,13 +2516,13 @@
   "shares": 200.0,
   "ts": 1795109654,
   "held": 5824.16,
-  "heldUsd": 5789.21,
+  "heldUsd": 5792.12,
   "peak": 5824.16,
   "chip": "With",
   "split": "4/5",
   "arrow": "\u2191",
   "fills": [],
-  "id": 52
+  "id": 88
  },
  {
   "n": "archaic",
@@ -1521,13 +2539,13 @@
   "shares": 297.66,
   "ts": 1795109653,
   "held": 22726.92,
-  "heldUsd": 22079.2,
+  "heldUsd": 22101.93,
   "peak": 22726.92,
   "chip": "With",
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 53
+  "id": 89
  },
  {
   "n": "balthazar",
@@ -1543,14 +2561,14 @@
   "usd": 146.7,
   "shares": 200.0,
   "ts": 1795109579,
-  "held": 6698.7,
-  "heldUsd": 4270.42,
-  "peak": 6698.7,
+  "held": 7481.58,
+  "heldUsd": 4964.03,
+  "peak": 7481.58,
   "chip": "With",
   "split": "8/8",
   "arrow": "\u2191",
   "fills": [],
-  "id": 54
+  "id": 90
  },
  {
   "n": "balthazar",
@@ -1568,7 +2586,7 @@
   "ts": 1795109579,
   "held": 0.0,
   "heldUsd": 0.0,
-  "peak": 9982.16,
+  "peak": 13055.03,
   "chip": "With",
   "split": "6/9",
   "arrow": "\u2193",
@@ -1586,7 +2604,7 @@
     "price": 0.181
    }
   ],
-  "id": 55
+  "id": 91
  },
  {
   "n": "balthazar",
@@ -1602,14 +2620,14 @@
   "usd": 1.37,
   "shares": 1320.0,
   "ts": 1795109579,
-  "held": 22552.79,
-  "heldUsd": 11.28,
-  "peak": 22552.79,
+  "held": 23585.67,
+  "heldUsd": 11.79,
+  "peak": 23585.67,
   "chip": "With",
   "split": "2/3",
   "arrow": "",
   "fills": [],
-  "id": 56
+  "id": 92
  },
  {
   "n": "balthazar",
@@ -1625,12 +2643,12 @@
   "usd": 127.63,
   "shares": 1809.09,
   "ts": 1795109576,
-  "held": 1858.97,
-  "heldUsd": 248.17,
-  "peak": 1858.97,
+  "held": 1674.63,
+  "heldUsd": 218.54,
+  "peak": 1809.09,
   "chip": "With",
-  "split": "3/3",
-  "arrow": "\u2193",
+  "split": "4/4",
+  "arrow": "",
   "fills": [
    {
     "ts": 1795109576,
@@ -1645,7 +2663,7 @@
     "price": 0.083
    }
   ],
-  "id": 57
+  "id": 93
  },
  {
   "n": "balthazar",
@@ -1668,7 +2686,7 @@
   "split": "2/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 58
+  "id": 94
  },
  {
   "n": "balthazar",
@@ -1685,13 +2703,13 @@
   "shares": 59.0,
   "ts": 1795109576,
   "held": 59.0,
-  "heldUsd": 1.12,
+  "heldUsd": 1.09,
   "peak": 59.0,
   "chip": "With",
   "split": "7/8",
   "arrow": "\u2193",
   "fills": [],
-  "id": 59
+  "id": 95
  },
  {
   "n": "balthazar",
@@ -1707,9 +2725,9 @@
   "usd": 399.17,
   "shares": 400.0,
   "ts": 1795109576,
-  "held": 8495.65,
-  "heldUsd": 8482.9,
-  "peak": 8945.65,
+  "held": 8515.65,
+  "heldUsd": 8502.87,
+  "peak": 8965.65,
   "chip": "Against",
   "split": "3/4",
   "arrow": "",
@@ -1727,7 +2745,7 @@
     "price": 0.998
    }
   ],
-  "id": 60
+  "id": 96
  },
  {
   "n": "balthazar",
@@ -1743,14 +2761,14 @@
   "usd": 1.87,
   "shares": 124.42,
   "ts": 1795109576,
-  "held": 199.42,
-  "heldUsd": 2.39,
-  "peak": 199.42,
+  "held": 179.42,
+  "heldUsd": 2.06,
+  "peak": 179.42,
   "chip": "With",
-  "split": "2/2",
+  "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 61
+  "id": 97
  },
  {
   "n": "balthazar",
@@ -1768,12 +2786,12 @@
   "ts": 1795109575,
   "held": 0.0,
   "heldUsd": 0.0,
-  "peak": 5878.53,
+  "peak": 8168.48,
   "chip": "Against",
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 62
+  "id": 98
  },
  {
   "n": "balthazar",
@@ -1789,14 +2807,14 @@
   "usd": 5.99,
   "shares": 74.2,
   "ts": 1795109569,
-  "held": 149.87,
-  "heldUsd": 4.72,
+  "held": 100.0,
+  "heldUsd": 3.7,
   "peak": 481.74,
   "chip": "Against",
   "split": "1/1",
   "arrow": "\u2191",
   "fills": [],
-  "id": 63
+  "id": 99
  },
  {
   "n": "balthazar",
@@ -1812,14 +2830,14 @@
   "usd": 68.5,
   "shares": 74.22,
   "ts": 1795109569,
-  "held": 273.55,
-  "heldUsd": 265.34,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 590.94,
   "chip": "Against",
-  "split": "3/5",
-  "arrow": "",
+  "split": "4/6",
+  "arrow": "\u2191",
   "fills": [],
-  "id": 64
+  "id": 100
  },
  {
   "n": "balthazar",
@@ -1835,14 +2853,14 @@
   "usd": 28.85,
   "shares": 29.99,
   "ts": 1795109561,
-  "held": 29.99,
-  "heldUsd": 29.09,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 29.99,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 65
+  "id": 101
  },
  {
   "n": "balthazar",
@@ -1858,14 +2876,14 @@
   "usd": 1.5,
   "shares": 30.0,
   "ts": 1795109561,
-  "held": 30.01,
-  "heldUsd": 1.65,
-  "peak": 30.01,
-  "chip": "First",
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 30.0,
+  "chip": "Exited",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 66
+  "id": 102
  },
  {
   "n": "balthazar",
@@ -1881,14 +2899,14 @@
   "usd": 29.71,
   "shares": 30.0,
   "ts": 1795109561,
-  "held": 30.01,
-  "heldUsd": 29.65,
-  "peak": 30.01,
-  "chip": "First",
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 30.0,
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 67
+  "id": 103
  },
  {
   "n": "PMTraderAdam",
@@ -1908,10 +2926,10 @@
   "heldUsd": 0.0,
   "peak": 299.98,
   "chip": "Against",
-  "split": "1/1",
-  "arrow": "\u2193",
+  "split": "2/2",
+  "arrow": "",
   "fills": [],
-  "id": 68
+  "id": 104
  },
  {
   "n": "PaddyAlpha",
@@ -1927,9 +2945,9 @@
   "usd": 14.55,
   "shares": 802.62,
   "ts": 1795109537,
-  "held": 2708.53,
-  "heldUsd": 51.46,
-  "peak": 6808.17,
+  "held": 1980.22,
+  "heldUsd": 36.63,
+  "peak": 6834.86,
   "chip": "With",
   "split": "7/8",
   "arrow": "\u2193",
@@ -1947,7 +2965,7 @@
     "price": 0.014
    }
   ],
-  "id": 69
+  "id": 105
  },
  {
   "n": "PaddyAlpha",
@@ -1964,13 +2982,13 @@
   "shares": 50.0,
   "ts": 1795109518,
   "held": 126.06,
-  "heldUsd": 27.67,
+  "heldUsd": 13.17,
   "peak": 176.06,
   "chip": "Against",
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 70
+  "id": 106
  },
  {
   "n": "melonmanm",
@@ -1987,7 +3005,7 @@
   "shares": 400.0,
   "ts": 1795109497,
   "held": 19.3,
-  "heldUsd": 15.83,
+  "heldUsd": 16.6,
   "peak": 1332.92,
   "chip": "First",
   "split": "",
@@ -2024,7 +3042,7 @@
     "price": 0.71
    }
   ],
-  "id": 71
+  "id": 107
  },
  {
   "n": "PMTraderAdam",
@@ -2047,7 +3065,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 72
+  "id": 108
  },
  {
   "n": "melonmanm",
@@ -2063,12 +3081,12 @@
   "usd": 216.76,
   "shares": 355.34,
   "ts": 1795109471,
-  "held": 710.68,
-  "heldUsd": 490.37,
+  "held": 210.68,
+  "heldUsd": 164.33,
   "peak": 1328.36,
   "chip": "With",
-  "split": "1/1",
-  "arrow": "\u2193",
+  "split": "2/2",
+  "arrow": "",
   "fills": [
    {
     "ts": 1795109468,
@@ -2083,7 +3101,7 @@
     "price": 0.61
    }
   ],
-  "id": 73
+  "id": 109
  },
  {
   "n": "PMTraderAdam",
@@ -2106,7 +3124,7 @@
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 74
+  "id": 110
  },
  {
   "n": "GollumGekko",
@@ -2123,13 +3141,13 @@
   "shares": 1111.0,
   "ts": 1795109429,
   "held": 36142.71,
-  "heldUsd": 11366.88,
+  "heldUsd": 11240.38,
   "peak": 60194.41,
   "chip": "Against",
   "split": "6/9",
   "arrow": "\u2193",
   "fills": [],
-  "id": 75
+  "id": 111
  },
  {
   "n": "ImJustKen",
@@ -2165,7 +3183,7 @@
     "price": 0.154
    }
   ],
-  "id": 76
+  "id": 112
  },
  {
   "n": "Lolakis",
@@ -2188,7 +3206,7 @@
   "split": "3/3",
   "arrow": "",
   "fills": [],
-  "id": 77
+  "id": 113
  },
  {
   "n": "melonmanm",
@@ -2205,13 +3223,13 @@
   "shares": 50.0,
   "ts": 1795109345,
   "held": 19.3,
-  "heldUsd": 15.83,
+  "heldUsd": 16.6,
   "peak": 1332.92,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 78
+  "id": 114
  },
  {
   "n": "melonmanm",
@@ -2228,13 +3246,13 @@
   "shares": 75.45,
   "ts": 1795109329,
   "held": 75.45,
-  "heldUsd": 65.64,
+  "heldUsd": 65.26,
   "peak": 3991.85,
   "chip": "With",
   "split": "2/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 79
+  "id": 115
  },
  {
   "n": "PaddyAlpha",
@@ -2250,14 +3268,14 @@
   "usd": 9.05,
   "shares": 452.38,
   "ts": 1795109317,
-  "held": 2708.53,
-  "heldUsd": 51.46,
-  "peak": 6808.17,
+  "held": 1980.22,
+  "heldUsd": 36.63,
+  "peak": 6834.86,
   "chip": "With",
   "split": "7/8",
   "arrow": "\u2193",
   "fills": [],
-  "id": 80
+  "id": 116
  },
  {
   "n": "Tenebrus7",
@@ -2274,11 +3292,11 @@
   "shares": 489.16,
   "ts": 1795109305,
   "held": 6103.88,
-  "heldUsd": 5920.77,
+  "heldUsd": 5975.7,
   "peak": 7603.88,
   "chip": "Against",
-  "split": "3/5",
-  "arrow": "",
+  "split": "4/6",
+  "arrow": "\u2191",
   "fills": [
    {
     "ts": 1795109287,
@@ -2293,7 +3311,7 @@
     "price": 0.915
    }
   ],
-  "id": 81
+  "id": 117
  },
  {
   "n": "archaic",
@@ -2316,7 +3334,7 @@
   "split": "8/8",
   "arrow": "\u2193",
   "fills": [],
-  "id": 82
+  "id": 118
  },
  {
   "n": "balthazar",
@@ -2332,1138 +3350,13 @@
   "usd": 29.63,
   "shares": 30.0,
   "ts": 1795109254,
-  "held": 36.16,
-  "heldUsd": 35.73,
-  "peak": 36.16,
+  "held": 6.16,
+  "heldUsd": 6.09,
+  "peak": 30.0,
   "chip": "With",
   "split": "4/6",
-  "arrow": "",
-  "fills": [],
-  "id": 83
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-higher-strikes/will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0x800376dc64e4e2376a495ed0df4a789192256c821bb4d1452acdd5931bca2fa5",
-  "slug": "will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.222,
-  "usd": 2.39,
-  "shares": 10.75,
-  "ts": 1795109230,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 9982.16,
-  "chip": "With",
-  "split": "6/9",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 84
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Anthropic IPO closing market cap above $1.25T?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-above/anthropic-ipo-closing-market-cap-above-1pt25t",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0xce69227aa1daffdb6a60cc3e0da9da6f7f709a31f41457504c173997626bbc25",
-  "slug": "anthropic-ipo-closing-market-cap-above-1pt25t",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.7771,
-  "usd": 8.35,
-  "shares": 10.74,
-  "ts": 1795109230,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 5878.53,
-  "chip": "Against",
-  "split": "2/2",
-  "arrow": "",
-  "fills": [],
-  "id": 85
- },
- {
-  "n": "Lolakis",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
-  "t": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-higher-strikes/will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0x800376dc64e4e2376a495ed0df4a789192256c821bb4d1452acdd5931bca2fa5",
-  "slug": "will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.774,
-  "usd": 193.5,
-  "shares": 250.0,
-  "ts": 1795109213,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 499.99,
-  "chip": "With",
-  "split": "6/9",
-  "arrow": "\u2193",
-  "fills": [
-   {
-    "ts": 1795109206,
-    "usd": 2.31,
-    "shares": 2.98,
-    "price": 0.774
-   },
-   {
-    "ts": 1795109213,
-    "usd": 191.19,
-    "shares": 247.02,
-    "price": 0.774
-   }
-  ],
-  "id": 86
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Anthropic IPO closing market cap above $1.5T?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-above/anthropic-ipo-closing-market-cap-above-1pt5t",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0xde3642bec9ef6641e637e59825f01b54fa6d287afacef85909ffd62927013958",
-  "slug": "anthropic-ipo-closing-market-cap-above-1pt5t",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.0807,
-  "usd": 25.61,
-  "shares": 317.32,
-  "ts": 1795109212,
-  "held": 149.87,
-  "heldUsd": 4.72,
-  "peak": 481.74,
-  "chip": "Against",
-  "split": "1/1",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1795109188,
-    "usd": 22.68,
-    "shares": 281.77,
-    "price": 0.0776
-   },
-   {
-    "ts": 1795109212,
-    "usd": 2.93,
-    "shares": 35.55,
-    "price": 0.0796
-   }
-  ],
-  "id": 87
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Anthropic's market cap be between $1.5T and $1.75T at market close on IPO day?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-higher-strikes/will-anthropics-market-cap-be-between-1pt5t-and-1pt75t-at-market-close-on-ipo-day",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0xe02dadd92c84112fce087b6f260d62c8df1648e071acaef35b0851c8dde64163",
-  "slug": "will-anthropics-market-cap-be-between-1pt5t-and-1pt75t-at-market-close-on-ipo-day",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9138,
-  "usd": 290.03,
-  "shares": 317.39,
-  "ts": 1795109212,
-  "held": 273.55,
-  "heldUsd": 265.34,
-  "peak": 590.94,
-  "chip": "Against",
-  "split": "3/5",
-  "arrow": "",
-  "fills": [
-   {
-    "ts": 1795109186,
-    "usd": 257.59,
-    "shares": 281.83,
-    "price": 0.914
-   },
-   {
-    "ts": 1795109212,
-    "usd": 32.44,
-    "shares": 35.57,
-    "price": 0.912
-   }
-  ],
-  "id": 88
- },
- {
-  "n": "elmcap2",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-117964-8791146f-a44b-45e3-8e93-466d533a616f.png",
-  "t": "Will Jesus Christ return before 2027?",
-  "url": "https://polymarket.com/event/will-jesus-christ-return-before-2027",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jesus-christ-return-in-2025-qulWN7QCehv8.jpg",
-  "cid": "0x0b4cc3b739e1dfe5d73274740e7308b6fb389c5af040c3a174923d928d134bee",
-  "slug": "will-jesus-christ-return-before-2027",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.992,
-  "usd": 2.0,
-  "shares": 2.02,
-  "ts": 1795109191,
-  "held": 9354.49,
-  "heldUsd": 9274.97,
-  "peak": 12500.0,
-  "chip": "Against",
-  "split": "6/7",
-  "arrow": "",
-  "fills": [],
-  "id": 89
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Anthropic\u2019s market cap be 1.8T or greater at market close on IPO day by December 31 2027?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-979/will-anthropics-market-cap-be-1pt8t-or-greater-at-market-close-on-ipo-day-by-december-31-2027",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0x2709a9392fcfe2348ad935b3158d5e4184ef484cf233d536ecdaa3148bda4aad",
-  "slug": "will-anthropics-market-cap-be-1pt8t-or-greater-at-market-close-on-ipo-day-by-december-31-2027",
-  "side": "SELL",
-  "out": "Yes",
-  "price": 0.0086,
-  "usd": 2.43,
-  "shares": 281.51,
-  "ts": 1795109186,
-  "held": 33192.2,
-  "heldUsd": 199.15,
-  "peak": 33473.71,
-  "chip": "With",
-  "split": "2/3",
-  "arrow": "",
-  "fills": [],
-  "id": 90
- },
- {
-  "n": "Tenebrus7",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
-  "t": "Anthropic IPO closing market cap above $1.75T?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-above/anthropic-ipo-closing-market-cap-above-1pt75t",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0x4d4d01e331575263173bbf3ef1409435bf5cbe1ca550447691fc606a508f3db1",
-  "slug": "anthropic-ipo-closing-market-cap-above-1pt75t",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.989,
-  "usd": 989.0,
-  "shares": 1000.0,
-  "ts": 1795109171,
-  "held": 2500.19,
-  "heldUsd": 2481.44,
-  "peak": 2500.19,
-  "chip": "With",
-  "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 91
- },
- {
-  "n": "melonmanm",
-  "avatar": "",
-  "t": "Anthropic IPO closing market cap above $1.2T?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-above/anthropic-ipo-closing-market-cap-above-1pt2t",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0xa9d01d0cce578bcea32389d05e258d7643fe501b776f04b382663107a98a1963",
-  "slug": "anthropic-ipo-closing-market-cap-above-1pt2t",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.8898,
-  "usd": 3060.98,
-  "shares": 3440.01,
-  "ts": 1795109170,
-  "held": 75.45,
-  "heldUsd": 65.64,
-  "peak": 3991.85,
-  "chip": "With",
-  "split": "2/4",
-  "arrow": "\u2193",
-  "fills": [
-   {
-    "ts": 1795109087,
-    "usd": 196.13,
-    "shares": 227.32,
-    "price": 0.8579
-   },
-   {
-    "ts": 1795109095,
-    "usd": 134.62,
-    "shares": 153.94,
-    "price": 0.87
-   },
-   {
-    "ts": 1795109108,
-    "usd": 26.4,
-    "shares": 30.0,
-    "price": 0.88
-   },
-   {
-    "ts": 1795109108,
-    "usd": 132.0,
-    "shares": 150.0,
-    "price": 0.88
-   },
-   {
-    "ts": 1795109108,
-    "usd": 139.61,
-    "shares": 157.89,
-    "price": 0.88
-   },
-   {
-    "ts": 1795109128,
-    "usd": 446.96,
-    "shares": 500.0,
-    "price": 0.89
-   },
-   {
-    "ts": 1795109131,
-    "usd": 446.96,
-    "shares": 500.0,
-    "price": 0.89
-   },
-   {
-    "ts": 1795109170,
-    "usd": 1538.3,
-    "shares": 1720.86,
-    "price": 0.89
-   }
-  ],
-  "id": 92
- },
- {
-  "n": "PaddyAlpha",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
-  "t": "Tyler Robinson convicted of homicide?",
-  "url": "https://polymarket.com/event/tyler-robinson-convicted-of-homicide",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/tyler-robinson-convicted-of-murder-evfk-3UpjzFq.jpg",
-  "cid": "0xdfea8851512360fb70c4b4ed29ed369b6dbcdfc58b2493b66cba65faab622129",
-  "slug": "tyler-robinson-convicted-of-homicide",
-  "side": "SELL",
-  "out": "Yes",
-  "price": 0.07,
-  "usd": 1.86,
-  "shares": 26.57,
-  "ts": 1795109167,
-  "held": 2973.52,
-  "heldUsd": 193.28,
-  "peak": 3021.37,
-  "chip": "With",
-  "split": "1/1",
-  "arrow": "",
-  "fills": [],
-  "id": 93
- },
- {
-  "n": "MEPP",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-956250-b9c8ba35-0191-43d8-a2a7-97ca0e697166.png",
-  "t": "Will Anthropic have the best AI model at the end of December 2026?",
-  "url": "https://polymarket.com/event/which-company-has-best-ai-model-end-of-2026/will-anthropic-have-the-best-ai-model-at-the-end-of-december-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-anthropic-have-the-top-ai-model-on-february-28-2aPXb3voV_7Y.png",
-  "cid": "0xe944062b6d02b59c5f6c39cd4d35538918053c0c7e5f8d7fa0ab1d4edb9baa46",
-  "slug": "will-anthropic-have-the-best-ai-model-at-the-end-of-december-2026",
-  "side": "SELL",
-  "out": "Yes",
-  "price": 0.14,
-  "usd": 8.4,
-  "shares": 60.0,
-  "ts": 1795109164,
-  "held": 3556.41,
-  "heldUsd": 426.77,
-  "peak": 3616.41,
-  "chip": "Against",
-  "split": "3/3",
-  "arrow": "",
-  "fills": [],
-  "id": 94
- },
- {
-  "n": "melonmanm",
-  "avatar": "",
-  "t": "Anthropic IPO closing market cap above $1.35T?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-above/anthropic-ipo-closing-market-cap-above-1pt35t",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0x125c9dc80eb962ae72c7047b5d80fb4c09632b4ac9f8093488cf184f9666da85",
-  "slug": "anthropic-ipo-closing-market-cap-above-1pt35t",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.3398,
-  "usd": 67.23,
-  "shares": 197.86,
-  "ts": 1795109140,
-  "held": 250.0,
-  "heldUsd": 77.5,
-  "peak": 866.11,
-  "chip": "Against",
-  "split": "1/1",
-  "arrow": "\u2193",
-  "fills": [
-   {
-    "ts": 1795109020,
-    "usd": 32.0,
-    "shares": 99.99,
-    "price": 0.32
-   },
-   {
-    "ts": 1795109071,
-    "usd": 10.8,
-    "shares": 30.0,
-    "price": 0.36
-   },
-   {
-    "ts": 1795109090,
-    "usd": 13.63,
-    "shares": 37.87,
-    "price": 0.36
-   },
-   {
-    "ts": 1795109140,
-    "usd": 10.8,
-    "shares": 30.0,
-    "price": 0.36
-   }
-  ],
-  "id": 95
- },
- {
-  "n": "Trump2028",
-  "avatar": "",
-  "t": "Will Bitcoin reach $95,000 in November?",
-  "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-november-2026/will-bitcoin-reach-95k-in-november-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
-  "cid": "0xbdb1ee6229876248ad8a80249b4a18c7d16c555f97af1667ee0c2fb827bd18af",
-  "slug": "will-bitcoin-reach-95k-in-november-2026",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.996,
-  "usd": 249.0,
-  "shares": 250.0,
-  "ts": 1795109131,
-  "held": 293.67,
-  "heldUsd": 292.64,
-  "peak": 293.67,
-  "chip": "First",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 96
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Anthropic\u2019s market cap be between 0.9T and 1.2T at market close on IPO day by December 31 2027?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-979/will-anthropics-market-cap-be-between-0pt9t-and-1pt2t-at-market-close-on-ipo-day-by-december-31-2027",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0x17459272717ce2de6d4d6aaff53b307381f03c07d44b56e839d38ac2f8b69b3c",
-  "slug": "will-anthropics-market-cap-be-between-0pt9t-and-1pt2t-at-market-close-on-ipo-day-by-december-31-2027",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.8541,
-  "usd": 209.37,
-  "shares": 245.12,
-  "ts": 1795109131,
-  "held": 164.34,
-  "heldUsd": 142.4,
-  "peak": 479.49,
-  "chip": "Against",
-  "split": "3/3",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 97
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Anthropic IPO closing market cap above $1.2T?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-above/anthropic-ipo-closing-market-cap-above-1pt2t",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0xa9d01d0cce578bcea32389d05e258d7643fe501b776f04b382663107a98a1963",
-  "slug": "anthropic-ipo-closing-market-cap-above-1pt2t",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.1244,
-  "usd": 55.37,
-  "shares": 445.22,
-  "ts": 1795109131,
-  "held": 20261.06,
-  "heldUsd": 2633.94,
-  "peak": 20261.06,
-  "chip": "Against",
-  "split": "2/4",
-  "arrow": "\u2193",
-  "fills": [
-   {
-    "ts": 1795108991,
-    "usd": 3.2,
-    "shares": 20.0,
-    "price": 0.16
-   },
-   {
-    "ts": 1795109087,
-    "usd": 25.2,
-    "shares": 180.0,
-    "price": 0.14
-   },
-   {
-    "ts": 1795109131,
-    "usd": 26.97,
-    "shares": 245.22,
-    "price": 0.11
-   }
-  ],
-  "id": 98
- },
- {
-  "n": "Tenebrus7",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
-  "t": "Will Anthropic's market cap be between $1.5T and $1.75T at market close on IPO day?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-higher-strikes/will-anthropics-market-cap-be-between-1pt5t-and-1pt75t-at-market-close-on-ipo-day",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0xe02dadd92c84112fce087b6f260d62c8df1648e071acaef35b0851c8dde64163",
-  "slug": "will-anthropics-market-cap-be-between-1pt5t-and-1pt75t-at-market-close-on-ipo-day",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9415,
-  "usd": 1883.0,
-  "shares": 2000.0,
-  "ts": 1795109131,
-  "held": 6103.88,
-  "heldUsd": 5920.77,
-  "peak": 7603.88,
-  "chip": "Against",
-  "split": "3/5",
-  "arrow": "",
-  "fills": [
-   {
-    "ts": 1795109020,
-    "usd": 27.34,
-    "shares": 28.72,
-    "price": 0.952
-   },
-   {
-    "ts": 1795109023,
-    "usd": 76.61,
-    "shares": 80.47,
-    "price": 0.952
-   },
-   {
-    "ts": 1795109033,
-    "usd": 95.2,
-    "shares": 100.0,
-    "price": 0.952
-   },
-   {
-    "ts": 1795109038,
-    "usd": 276.85,
-    "shares": 290.81,
-    "price": 0.952
-   },
-   {
-    "ts": 1795109045,
-    "usd": 475.5,
-    "shares": 500.0,
-    "price": 0.951
-   },
-   {
-    "ts": 1795109131,
-    "usd": 465.5,
-    "shares": 500.0,
-    "price": 0.931
-   },
-   {
-    "ts": 1795109131,
-    "usd": 466.0,
-    "shares": 500.0,
-    "price": 0.932
-   }
-  ],
-  "id": 99
- },
- {
-  "n": "melonmanm",
-  "avatar": "",
-  "t": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-higher-strikes/will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0x800376dc64e4e2376a495ed0df4a789192256c821bb4d1452acdd5931bca2fa5",
-  "slug": "will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.7397,
-  "usd": 126.6,
-  "shares": 171.14,
-  "ts": 1795109120,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 1157.34,
-  "chip": "Against",
-  "split": "6/9",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 100
- },
- {
-  "n": "occasionalAwareness",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-66621-bb0a834b-8130-4d89-a00d-16c8453096db.png",
-  "t": "Anthropic IPO closing market cap above $1.1T?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-above/anthropic-ipo-closing-market-cap-above-1pt1t",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0xb5be58643c7ca09774a795826542e0579452bc9f7a9c9a591a4cc363e326e8f3",
-  "slug": "anthropic-ipo-closing-market-cap-above-1pt1t",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.021,
-  "usd": 98.47,
-  "shares": 4689.08,
-  "ts": 1795109111,
-  "held": 383267.65,
-  "heldUsd": 7282.09,
-  "peak": 392782.52,
-  "chip": "With",
-  "split": "7/8",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 101
- },
- {
-  "n": "PaddyAlpha",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
-  "t": "Anthropic IPO closing market cap above $1.1T?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-above/anthropic-ipo-closing-market-cap-above-1pt1t",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0xb5be58643c7ca09774a795826542e0579452bc9f7a9c9a591a4cc363e326e8f3",
-  "slug": "anthropic-ipo-closing-market-cap-above-1pt1t",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.0248,
-  "usd": 31.58,
-  "shares": 1271.67,
-  "ts": 1795109111,
-  "held": 2708.53,
-  "heldUsd": 51.46,
-  "peak": 6808.17,
-  "chip": "With",
-  "split": "7/8",
-  "arrow": "\u2193",
-  "fills": [
-   {
-    "ts": 1795109111,
-    "usd": 8.43,
-    "shares": 366.67,
-    "price": 0.023
-   },
-   {
-    "ts": 1795109111,
-    "usd": 20.0,
-    "shares": 800.0,
-    "price": 0.025
-   },
-   {
-    "ts": 1795109111,
-    "usd": 3.15,
-    "shares": 105.0,
-    "price": 0.03
-   }
-  ],
-  "id": 102
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Anthropic\u2019s market cap be between 1.2T and 1.5T at market close on IPO day by December 31 2027?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-979/will-anthropics-market-cap-be-between-1pt2t-and-1pt5t-at-market-close-on-ipo-day-by-december-31-2027",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0x510736e7804a288592abab4105eca3399cbd562cd49a6d4e0289362490cc4825",
-  "slug": "will-anthropics-market-cap-be-between-1pt2t-and-1pt5t-at-market-close-on-ipo-day-by-december-31-2027",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.7738,
-  "usd": 154.76,
-  "shares": 199.99,
-  "ts": 1795109087,
-  "held": 30192.17,
-  "heldUsd": 24561.33,
-  "peak": 30192.17,
-  "chip": "With",
-  "split": "2/2",
-  "arrow": "",
-  "fills": [
-   {
-    "ts": 1795108991,
-    "usd": 14.99,
-    "shares": 20.0,
-    "price": 0.742
-   },
-   {
-    "ts": 1795109087,
-    "usd": 139.77,
-    "shares": 179.99,
-    "price": 0.7694
-   }
-  ],
-  "id": 103
- },
- {
-  "n": "GollumGekko",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/gollum_bc5f507a-12cf-4a51-a483-ad7cd84966a5_1736427633048.JPG",
-  "t": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-higher-strikes/will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0x800376dc64e4e2376a495ed0df4a789192256c821bb4d1452acdd5931bca2fa5",
-  "slug": "will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
-  "side": "SELL",
-  "out": "Yes",
-  "price": 0.2503,
-  "usd": 138.92,
-  "shares": 555.0,
-  "ts": 1795109077,
-  "held": 36142.71,
-  "heldUsd": 11366.88,
-  "peak": 60194.41,
-  "chip": "Against",
-  "split": "6/9",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 104
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-higher-strikes/will-anthropics-market-cap-be-between-1pt25t-and-1pt5t-at-market-close-on-ipo-day",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0x67644dafb1cb9f5dda7cc1b5666e93c1ca539da38cafb17b4ebca6493a04e25b",
-  "slug": "will-anthropics-market-cap-be-between-1pt25t-and-1pt5t-at-market-close-on-ipo-day",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.669,
-  "usd": 334.49,
-  "shares": 500.0,
-  "ts": 1795109077,
-  "held": 6698.7,
-  "heldUsd": 4270.42,
-  "peak": 6698.7,
-  "chip": "With",
-  "split": "8/8",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 105
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-higher-strikes/will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0x800376dc64e4e2376a495ed0df4a789192256c821bb4d1452acdd5931bca2fa5",
-  "slug": "will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.258,
-  "usd": 129.0,
-  "shares": 500.0,
-  "ts": 1795109077,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 9982.16,
-  "chip": "With",
-  "split": "6/9",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 106
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-higher-strikes/will-anthropics-market-cap-be-between-1pt75t-and-2pt0t-at-market-close-on-ipo-day",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0xdded1086ea6aca11f88b997328ff3b0f5bb9374e5ecb450422c862f67c9f3cbe",
-  "slug": "will-anthropics-market-cap-be-between-1pt75t-and-2pt0t-at-market-close-on-ipo-day",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.0031,
-  "usd": 1.56,
-  "shares": 500.0,
-  "ts": 1795109077,
-  "held": 45872.52,
-  "heldUsd": 68.81,
-  "peak": 45872.52,
-  "chip": "With",
-  "split": "3/6",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 107
- },
- {
-  "n": "melonmanm",
-  "avatar": "",
-  "t": "Anthropic IPO closing market cap above $1.3T?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-above/anthropic-ipo-closing-market-cap-above-1pt3t",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0x785d7d26b268b8dd8a0f7a0df1f4d7c5ebcca7a7b4151eb1bd7ae73be3b24805",
-  "slug": "anthropic-ipo-closing-market-cap-above-1pt3t",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.47,
-  "usd": 17.36,
-  "shares": 36.93,
-  "ts": 1795109051,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 36.93,
-  "chip": "With",
-  "split": "2/2",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 108
- },
- {
-  "n": "PaddyAlpha",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
-  "t": "Anthropic IPO closing market cap above $1.1T?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-above/anthropic-ipo-closing-market-cap-above-1pt1t",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0xb5be58643c7ca09774a795826542e0579452bc9f7a9c9a591a4cc363e326e8f3",
-  "slug": "anthropic-ipo-closing-market-cap-above-1pt1t",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.045,
-  "usd": 2.83,
-  "shares": 62.89,
-  "ts": 1795108999,
-  "held": 2708.53,
-  "heldUsd": 51.46,
-  "peak": 6808.17,
-  "chip": "Against",
-  "split": "7/8",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 109
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Anthropic\u2019s market cap be between 1.5T and 1.8T at market close on IPO day by December 31 2027?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-979/will-anthropics-market-cap-be-between-1pt5t-and-1pt8t-at-market-close-on-ipo-day-by-december-31-2027",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0x96020960debc2b7b4dc46511bb1f8e63495aa7ecd4a2685e8f8d246adc6ad45b",
-  "slug": "will-anthropics-market-cap-be-between-1pt5t-and-1pt8t-at-market-close-on-ipo-day-by-december-31-2027",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.935,
-  "usd": 28.05,
-  "shares": 30.0,
-  "ts": 1795108978,
-  "held": 140.15,
-  "heldUsd": 135.17,
-  "peak": 140.15,
-  "chip": "With",
-  "split": "1/1",
-  "arrow": "",
-  "fills": [
-   {
-    "ts": 1795108975,
-    "usd": 18.7,
-    "shares": 20.0,
-    "price": 0.935
-   },
-   {
-    "ts": 1795108978,
-    "usd": 9.35,
-    "shares": 10.0,
-    "price": 0.935
-   }
-  ],
-  "id": 110
- },
- {
-  "n": "melonmanm",
-  "avatar": "",
-  "t": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-higher-strikes/will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0x800376dc64e4e2376a495ed0df4a789192256c821bb4d1452acdd5931bca2fa5",
-  "slug": "will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.6978,
-  "usd": 307.04,
-  "shares": 439.99,
-  "ts": 1795108973,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 1157.34,
-  "chip": "Against",
-  "split": "6/9",
-  "arrow": "\u2193",
-  "fills": [
-   {
-    "ts": 1795108942,
-    "usd": 81.36,
-    "shares": 117.06,
-    "price": 0.695
-   },
-   {
-    "ts": 1795108942,
-    "usd": 50.69,
-    "shares": 72.93,
-    "price": 0.695
-   },
-   {
-    "ts": 1795108973,
-    "usd": 175.0,
-    "shares": 250.0,
-    "price": 0.7
-   }
-  ],
-  "id": 111
- },
- {
-  "n": "melonmanm",
-  "avatar": "",
-  "t": "Anthropic IPO closing market cap above $1.4T?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-above/anthropic-ipo-closing-market-cap-above-1pt4t",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0xd258212c0696448cefbe9af895716aa16d1bdab0d6c866eb792732809f504931",
-  "slug": "anthropic-ipo-closing-market-cap-above-1pt4t",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.1859,
-  "usd": 24.3,
-  "shares": 130.71,
-  "ts": 1795108969,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 1313.62,
-  "chip": "First",
-  "split": "",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 112
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-higher-strikes/will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0x800376dc64e4e2376a495ed0df4a789192256c821bb4d1452acdd5931bca2fa5",
-  "slug": "will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.2534,
-  "usd": 586.73,
-  "shares": 2315.15,
-  "ts": 1795108945,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 9982.16,
-  "chip": "With",
-  "split": "6/9",
-  "arrow": "\u2193",
-  "fills": [
-   {
-    "ts": 1795108936,
-    "usd": 11.64,
-    "shares": 40.0,
-    "price": 0.291
-   },
-   {
-    "ts": 1795108942,
-    "usd": 81.84,
-    "shares": 310.0,
-    "price": 0.264
-   },
-   {
-    "ts": 1795108945,
-    "usd": 493.25,
-    "shares": 1965.15,
-    "price": 0.251
-   }
-  ],
-  "id": 113
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Anthropic IPO closing market cap above $1.25T?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-above/anthropic-ipo-closing-market-cap-above-1pt25t",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0xce69227aa1daffdb6a60cc3e0da9da6f7f709a31f41457504c173997626bbc25",
-  "slug": "anthropic-ipo-closing-market-cap-above-1pt25t",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.7064,
-  "usd": 1607.08,
-  "shares": 2275.02,
-  "ts": 1795108945,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 5878.53,
-  "chip": "Against",
-  "split": "2/2",
-  "arrow": "",
-  "fills": [
-   {
-    "ts": 1795108942,
-    "usd": 216.46,
-    "shares": 309.87,
-    "price": 0.69
-   },
-   {
-    "ts": 1795108945,
-    "usd": 1390.62,
-    "shares": 1965.15,
-    "price": 0.6992
-   }
-  ],
-  "id": 114
- },
- {
-  "n": "Lolakis",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
-  "t": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-higher-strikes/will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0x800376dc64e4e2376a495ed0df4a789192256c821bb4d1452acdd5931bca2fa5",
-  "slug": "will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.71,
-  "usd": 177.49,
-  "shares": 249.99,
-  "ts": 1795108936,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 499.99,
-  "chip": "With",
-  "split": "6/9",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 115
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-higher-strikes/will-anthropics-market-cap-be-between-1pt25t-and-1pt5t-at-market-close-on-ipo-day",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0x67644dafb1cb9f5dda7cc1b5666e93c1ca539da38cafb17b4ebca6493a04e25b",
-  "slug": "will-anthropics-market-cap-be-between-1pt25t-and-1pt5t-at-market-close-on-ipo-day",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.6291,
-  "usd": 31.45,
-  "shares": 49.99,
-  "ts": 1795108936,
-  "held": 6698.7,
-  "heldUsd": 4270.42,
-  "peak": 6698.7,
-  "chip": "With",
-  "split": "8/8",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 116
- },
- {
-  "n": "PaddyAlpha",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
-  "t": "Anthropic IPO closing market cap above $1.1T?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-above/anthropic-ipo-closing-market-cap-above-1pt1t",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0xb5be58643c7ca09774a795826542e0579452bc9f7a9c9a591a4cc363e326e8f3",
-  "slug": "anthropic-ipo-closing-market-cap-above-1pt1t",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.043,
-  "usd": 4.51,
-  "shares": 105.0,
-  "ts": 1795108931,
-  "held": 2708.53,
-  "heldUsd": 51.46,
-  "peak": 6808.17,
-  "chip": "With",
-  "split": "7/8",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 117
- },
- {
-  "n": "Tenebrus7",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
-  "t": "Will Anthropic's market cap be between $1.25T and $1.5T at market close on IPO day?",
-  "url": "https://polymarket.com/event/anthropic-ipo-closing-market-cap-higher-strikes/will-anthropics-market-cap-be-between-1pt25t-and-1pt5t-at-market-close-on-ipo-day",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0x67644dafb1cb9f5dda7cc1b5666e93c1ca539da38cafb17b4ebca6493a04e25b",
-  "slug": "will-anthropics-market-cap-be-between-1pt25t-and-1pt5t-at-market-close-on-ipo-day",
-  "side": "SELL",
-  "out": "Yes",
-  "price": 0.592,
-  "usd": 733.14,
-  "shares": 1238.42,
-  "ts": 1795108921,
-  "held": 800.0,
-  "heldUsd": 510.0,
-  "peak": 3400.74,
-  "chip": "Against",
-  "split": "8/8",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1795108921,
-    "usd": 369.05,
-    "shares": 619.21,
-    "price": 0.596
-   },
-   {
-    "ts": 1795108921,
-    "usd": 364.1,
-    "shares": 619.21,
-    "price": 0.588
-   }
-  ],
-  "id": 118
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Anthropic sell between 4% and 5% of its shares in its IPO?",
-  "url": "https://polymarket.com/event/what-percent-of-anthropic-will-be-sold-in-its-ipo/will-anthropic-sell-between-4pct-and-5pct-of-its-shares-in-its-ipo",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "cid": "0xd9d84336275ddc75bf3f3d31d4df0de4cdbb54de85b15f8957aa924b7ea4243c",
-  "slug": "will-anthropic-sell-between-4pct-and-5pct-of-its-shares-in-its-ipo",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9894,
-  "usd": 72.75,
-  "shares": 73.52,
-  "ts": 1795108918,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 73.52,
-  "chip": "Against",
-  "split": "1/2",
-  "arrow": "",
-  "fills": [
-   {
-    "ts": 1795108918,
-    "usd": 23.15,
-    "shares": 23.52,
-    "price": 0.984
-   },
-   {
-    "ts": 1795108918,
-    "usd": 49.6,
-    "shares": 50.0,
-    "price": 0.992
-   }
-  ],
   "id": 119
  }
 ]
