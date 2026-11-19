@@ -90,10 +90,22 @@ class TrackedWalletsTest(unittest.TestCase):
     def test_distinct_count_before_and_after(self):
         added = set(REQUESTED) - set(ALREADY_TRACKED)
         self.assertEqual(len(added), 3)
-        # Two more profiles added 2026-11-10: Tenebrus7 and balthazar.
-        self.assertEqual(len(self.entries), BEFORE_DISTINCT + len(added) + 2)
-        self.assertEqual(len(self.by_addr), BEFORE_DISTINCT + len(added) + 2)
-        self.assertEqual(len(self.by_addr), 41)
+        # Tenebrus7 and balthazar (2026-11-10), then Parz1vaI and betwick.
+        self.assertEqual(len(self.entries), BEFORE_DISTINCT + len(added) + 4)
+        self.assertEqual(len(self.by_addr), BEFORE_DISTINCT + len(added) + 4)
+        self.assertEqual(len(self.by_addr), 43)
+
+    def test_parz1vai_and_betwick_added_without_duplicating_existing(self):
+        added = {
+            "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461": "Parz1vaI",
+            "0xc851cd9bee7d262afd78674f861f9f576a12cd2a": "betwick",
+        }
+        for addr, name in added.items():
+            self.assertEqual(self.by_addr[addr]["name"], name)
+            self.assertEqual(self.by_addr[addr]["wallet"], addr)
+            self.assertEqual(sum(1 for e in self.entries if e["name"] == name), 1)
+        for name in ("GollumGekko", "paddaa"):
+            self.assertEqual(sum(1 for e in self.entries if e["name"] == name), 1)
 
     def test_nov10_profiles_present_once(self):
         added = {
