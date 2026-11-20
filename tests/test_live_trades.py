@@ -90,6 +90,58 @@ class LiveTradesTest(unittest.TestCase):
         self.assertEqual(one["tr"][0]["avg"], round(5332 / 12400, 4))
         self.assertEqual(one["ysh"], 12400)
 
+    def test_weekly_keeps_new_open_holders_and_ranks_them(self):
+        now = 1_800_000_000
+        cid = "0x" + "ab" * 32
+        other = "0x" + "cd" * 32
+        old = "0x" + "ef" * 32
+        def pos(addr_name, market, side, size, fe, val=1000, avg=0.4, **kw):
+            return {"conditionId": market, "title": kw.get("t", "Will it happen?"), "slug": "will-it", "eventSlug": "ev",
+                "icon": "i.png", "outcome": side, "size": size, "avgPrice": avg, "currentValue": val,
+                "redeemable": kw.get("redeemable", False), "fe": fe}
+        week = now - 2 * 86400
+        raw = {
+            "0x" + "1" * 40: [pos("a", cid, "Yes", 100, week, val=4000, t="Joined")],
+            "0x" + "2" * 40: [pos("b", cid, "Yes", 50, week - 86400, val=2000, t="Joined")],
+            "0x" + "3" * 40: [pos("c", cid, "No", 80, now - 6 * 86400, val=1500, t="Joined")],
+            "0x" + "4" * 40: [pos("d", cid, "No", 10, now - 8 * 86400, val=9000, t="Joined")],
+            "0x" + "5" * 40: [pos("e", cid, "Yes", 0, week, val=0, t="Joined")],
+            "0x" + "6" * 40: [pos("f", cid, "Yes", 40, week, val=500, redeemable=True, t="Joined")],
+            "0x" + "7" * 40: [pos("g", other, "Yes", 10, week, val=100, t="Two")],
+            "0x" + "8" * 40: [pos("h", other, "No", 10, week, val=100, t="Two")],
+            "0x" + "9" * 40: [pos("i", old, "Yes", 10, now - 30 * 86400, val=5000, t="Old")],
+            "0x" + "a" * 40: [pos("j", old, "Yes", 10, now - 20 * 86400, val=5000, t="Old")],
+            "0x" + "b" * 40: [pos("k", old, "No", 10, now - 12 * 86400, val=5000, t="Old")],
+        }
+        names = {a: n for a, n in zip(raw, ["Ada", "Bea", "Cy", "Dee", "Eve", "Fay", "Gus", "Hal", "Ivy", "Joe", "Kay"])}
+        # Ada is also on the other side of Joined, still one unique trader.
+        raw["0x" + "1" * 40].append(pos("a", cid, "No", 5, week, val=200, avg=0.2, t="Joined"))
+        rows = lt.aggregate_weekly(raw, names, now)
+        self.assertEqual([r["t"] for r in rows], ["Joined"])
+        joined = rows[0]
+        self.assertEqual({t["n"] for t in joined["tr"]}, {"Ada", "Bea", "Cy"})
+        ada_yes = next(t for t in joined["tr"] if t["n"] == "Ada" and t["side"] == "Yes")
+        self.assertEqual(ada_yes["sh"], 100)
+        self.assertEqual(ada_yes["fe"], week)
+        self.assertTrue(joined["url"].startswith("https://polymarket.com/event/"))
+        priced = lt.apply_weekly_prices(rows, {cid.upper(): 0.42}, {old})
+        self.assertEqual(priced[0]["ask"], 0.42)
+        self.assertEqual(lt.apply_weekly_prices(rows, {}, {cid}), [])
+        # A later entry in milliseconds still counts, and a higher-value tie breaks the rank.
+        rich = "0x" + "11" * 32
+        plain = "0x" + "22" * 32
+        tie = {
+            "0x" + "c" * 40: [pos("a", rich, "Yes", 1, now - 1000, val=9000, t="Rich")],
+            "0x" + "d" * 40: [pos("b", rich, "Yes", 1, (now - 1000) * 1000, val=100, t="Rich")],
+            "0x" + "e" * 40: [pos("c", rich, "No", 1, now - 2000, val=100, t="Rich")],
+            "0x" + "f" * 40: [pos("d", plain, "Yes", 1, now - 1000, val=10, t="Plain")],
+            "0x" + "0" * 40: [pos("e", plain, "Yes", 1, now - 1000, val=10, t="Plain")],
+            "0x" + "7" * 40: [pos("f", plain, "No", 1, now - 1000, val=10, t="Plain")],
+        }
+        tie_names = {a: n for a, n in zip(tie, ["A", "B", "C", "D", "E", "F"])}
+        ranked = lt.aggregate_weekly(tie, tie_names, now)
+        self.assertEqual([r["t"] for r in ranked], ["Rich", "Plain"])
+
     def test_outflows_skip_95c_sells_and_redemptions(self):
         cid = "0x" + "cd" * 32
         ada, bea = "0x" + "aa" * 20, "0x" + "bb" * 20
@@ -197,7 +249,16 @@ class LiveTradesTest(unittest.TestCase):
         self.assertIn(">Money Flow</a>", html)
         self.assertIn('id="v-inflows"', html)
         self.assertIn('id="iflist"', html)
-        self.assertNotIn("function ifMode", html)
+        self.assertIn("function ifMode", html)
+        self.assertIn("function wkRender", html)
+        self.assertIn(">24H · Money<", html)
+        self.assertIn(">7D · Traders<", html)
+        self.assertIn("MOST JOINED", html)
+        self.assertIn("New traders · 7d", html)
+        self.assertIn("3+ NEW TRADERS · LAST 7 DAYS", html)
+        self.assertIn("Markets the most smart traders entered this week", html)
+        self.assertIn("class=\"ago\"", html)
+        self.assertIn("FLOW.wk", html)
         self.assertNotIn(">Outflows<", html)
         self.assertNotIn("BIGGEST EXIT", html)
         self.assertNotIn("Total out · 24h", html)

@@ -355,6 +355,8 @@ def publish(wallets, raw_by_addr, path=None, now=None):
 INFLOW_HOURS = 24
 INFLOW_PAGES = 20
 MIN_INFLOW = 2000.0
+WEEK_SECONDS = 7 * 24 * 3600
+MIN_WEEK_TRADERS = 3
 
 def activity_since(addr, hours, pages, now=None):
     """TRADE rows newer than `hours`, paging until the window is covered. v2 only."""
@@ -652,6 +654,113 @@ def inflow_trades(addr, name, rows):
             "img": F(x, "icon", "image") or "", "ts": norm_ts(x)})
     return out
 
+def _entry_ts(p):
+    """Unix seconds of the position's first trade. The positions payload carries first_entry_at."""
+    t = F(p, "fe", "first_entry_at", "firstEntryAt")
+    if t is None:
+        return 0
+    try:
+        t = float(t)
+    except (TypeError, ValueError):
+        return 0
+    if t > 1e11:
+        t /= 1000.0
+    return int(t)
+
+def _amount(v):
+    try:
+        return float(v)
+    except (TypeError, ValueError):
+        return None
+
+def aggregate_weekly(raw_by_addr, names=None, now=None):
+    """Open holdings whose first entry in that outcome is inside the last 7 days.
+
+    Markets with fewer than 3 distinct new traders are left out. Rank is that
+    count, then total current value. Redeemed positions are skipped.
+    """
+    now = time.time() if now is None else now
+    names = {str(k).lower(): v for k, v in (names or {}).items()}
+    cutoff = now - WEEK_SECONDS
+    mk = {}
+    for addr, rows in (raw_by_addr or {}).items():
+        addr = str(addr or "").lower()
+        name = names.get(addr) or (addr[:6] or "?")
+        for p in rows or []:
+            if F(p, "redeemable") in (True, "True", "true", 1):
+                continue
+            sh = _amount(F(p, "size", "current_size"))
+            if sh is None or sh <= 0:
+                continue
+            fe = _entry_ts(p)
+            if fe <= 0 or fe < cutoff or fe > now + 120:
+                continue
+            cid = F(p, "conditionId", "condition_id")
+            if not cid:
+                continue
+            side = str(F(p, "outcome") or "").strip().lower()
+            if side == "yes":
+                side = "Yes"
+            elif side == "no":
+                side = "No"
+            else:
+                continue
+            avg = _amount(F(p, "avgPrice", "avg_price"))
+            val = _amount(F(p, "currentValue", "current_value"))
+            if val is None:
+                px = _amount(F(p, "curPrice", "current_price")) or 0.0
+                val = sh * px
+            m = mk.setdefault(str(cid), {"cid": str(cid), "t": "", "slug": "", "ev": "", "img": "", "tr": {}})
+            title = F(p, "title")
+            if title:
+                m["t"] = title
+            m["slug"] = F(p, "slug") or m["slug"]
+            m["ev"] = F(p, "eventSlug", "event_slug") or m["ev"]
+            m["img"] = F(p, "icon", "image") or m["img"]
+            key = (name, side)
+            cur = m["tr"].get(key)
+            if cur is None:
+                m["tr"][key] = {"n": name, "side": side, "sh": sh, "val": val, "fe": fe, "cost": None if avg is None else sh * avg}
+            else:
+                cur["sh"] += sh
+                cur["val"] += val
+                cur["fe"] = min(cur["fe"], fe)
+                if avg is not None:
+                    cur["cost"] = (cur["cost"] or 0.0) + sh * avg
+    out = []
+    for m in mk.values():
+        if not m["t"]:
+            continue
+        tr = []
+        for row in m["tr"].values():
+            item = {"n": row["n"], "side": row["side"], "sh": round(row["sh"], 2), "val": round(row["val"], 2), "fe": int(row["fe"])}
+            if row["sh"] > 0 and row["cost"] is not None:
+                item["avg"] = round(row["cost"] / row["sh"], 4)
+            tr.append(item)
+        if len({t["n"] for t in tr}) < MIN_WEEK_TRADERS:
+            continue
+        tr.sort(key=lambda z: -z["val"])
+        out.append({"cid": m["cid"], "t": m["t"], "url": market_url(m["slug"], m["ev"]), "slug": m["slug"], "img": m["img"], "ask": None,
+            "tr": tr, "_n": len({t["n"] for t in tr}), "_val": sum(t["val"] for t in tr)})
+    out.sort(key=lambda z: (-z["_n"], -z["_val"]))
+    for m in out:
+        m.pop("_n", None)
+        m.pop("_val", None)
+    return out
+
+def apply_weekly_prices(rows, prices, closed):
+    """Drop resolved markets and attach the current YES price as ask."""
+    px = {str(k).lower(): v for k, v in (prices or {}).items()}
+    done = {str(c).lower() for c in (closed or set())}
+    kept = []
+    for m in rows or []:
+        if str(m.get("cid") or "").lower() in done:
+            continue
+        item = dict(m)
+        item["ask"] = px.get(str(m.get("cid") or "").lower())
+        kept.append(item)
+    return kept
+
 def publish_inflows(wallets, raw_by_addr=None, path=None, now=None):
     names, addrs = {}, []
     seen = set()
@@ -664,6 +773,8 @@ def publish_inflows(wallets, raw_by_addr=None, path=None, now=None):
         seen.add(a)
         addrs.append(a)
     print(f"top inflows: {len(addrs)} wallets, last {INFLOW_HOURS:g}h")
+    now_ts = int(now if now is not None else time.time())
+    weekly = aggregate_weekly(raw_by_addr, names, now_ts)
     t0 = time.time()
     with cf.ThreadPoolExecutor(8) as ex:
         fetched = list(ex.map(lambda a: activity_since(a, INFLOW_HOURS, INFLOW_PAGES, now=now), addrs))
@@ -674,24 +785,41 @@ def publish_inflows(wallets, raw_by_addr=None, path=None, now=None):
     print(f"  24h trades: {len(raw)} in {time.time() - t0:.0f}s")
     path = path or os.path.join(HERE, "inflows.json")
     if not ok and not raw:
-        print("top inflows: fetch failed, keeping previous data/inflows.json")
+        wk_px, wk_closed = yes_prices([m["cid"] for m in weekly])
+        prev = {}
+        if os.path.exists(path):
+            try:
+                prev = json.load(open(path, encoding="utf-8"))
+            except Exception:
+                prev = {}
+        if not isinstance(prev, dict):
+            prev = {}
+        prev.setdefault("mk", [])
+        prev.setdefault("built", now_ts)
+        prev["wk"] = {"built": now_ts, "mk": apply_weekly_prices(weekly, wk_px, wk_closed)}
+        tmp = path + ".tmp"
+        with open(tmp, "w", encoding="utf-8") as f:
+            json.dump(prev, f)
+        os.replace(tmp, path)
+        print(f"top inflows: 24h fetch failed, kept previous book, 7d traders {len(prev['wk']['mk'])}")
         return 0
     held = shares_held(raw_by_addr)
     markets = aggregate_inflows(raw)
     outs = aggregate_outflows(raw, held)
-    px, closed = yes_prices([m["cid"] for m in markets + outs])
+    px, closed = yes_prices([m["cid"] for m in markets + outs + weekly])
     open_cids = open_conditions(raw_by_addr)
     markets = [m for m in markets if keep_flow_market(m, closed, open_cids)]
     outs = [m for m in outs if keep_flow_market(m, closed, open_cids)]
     for m in markets + outs:
         if m["cid"] in px:
             m["px"] = px[m["cid"]]
-    payload = {"built": int(now if now is not None else time.time()), "mk": markets, "out": outs}
+    weekly_book = apply_weekly_prices(weekly, px, closed)
+    payload = {"built": now_ts, "mk": markets, "out": outs, "wk": {"built": now_ts, "mk": weekly_book}}
     tmp = path + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
         json.dump(payload, f)
     os.replace(tmp, path)
-    print(f"top inflows: {len(markets)} in, {len(outs)} out, >= ${MIN_INFLOW:.0f} -> {path}")
+    print(f"top inflows: {len(markets)} in, {len(outs)} out, {len(weekly_book)} 7d markets, >= ${MIN_INFLOW:.0f} -> {path}")
     if markets:
         top = markets[0]
         net = max(top["yes"], 0) + max(top["no"], 0)
