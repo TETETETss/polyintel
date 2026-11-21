@@ -1,5 +1,181 @@
 [
  {
+  "n": "Tenebrus7",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
+  "t": "AI bubble burst in 2026?",
+  "url": "https://polymarket.com/event/ai-bubble-burst-by/ai-industry-downturn-by-december-31-2026-857",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ai-industry-downturn-by-fFNK9rGi-70Y.jpg",
+  "cid": "0x857398c4502bc725fef7efb3cd503a30d3e18e486ab8173fdf505a76cf83b168",
+  "slug": "ai-industry-downturn-by-december-31-2026-857",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.389,
+  "usd": 167.76,
+  "shares": 431.25,
+  "ts": 1795243775,
+  "held": 1540.44,
+  "heldUsd": 626.19,
+  "peak": 2300.0,
+  "chip": "Against",
+  "split": "3/4",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 0
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the price of Ethereum be between $1,500 and $1,600 on November 21?",
+  "url": "https://polymarket.com/event/ethereum-price-on-november-21-2026/will-the-price-of-ethereum-be-between-1500-1600-on-november-21-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ETH+fullsize.jpg",
+  "cid": "0x31932da406a6e37f895353e44801633d47967440b7a1bf2434f841a29abc548e",
+  "slug": "will-the-price-of-ethereum-be-between-1500-1600-on-november-21-2026",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.7483,
+  "usd": 97.26,
+  "shares": 129.99,
+  "ts": 1795243699,
+  "held": 129.99,
+  "heldUsd": 97.49,
+  "peak": 129.99,
+  "chip": "Exited",
+  "split": "",
+  "arrow": "\u2193",
+  "fills": [
+   {
+    "ts": 1795243631,
+    "usd": 65.25,
+    "shares": 89.99,
+    "price": 0.7231
+   },
+   {
+    "ts": 1795243699,
+    "usd": 32.01,
+    "shares": 40.0,
+    "price": 0.7988
+   }
+  ],
+  "id": 1
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the price of Ethereum be above $1,600 on November 21?",
+  "url": "https://polymarket.com/event/ethereum-above-on-november-21-2026/ethereum-above-1600-on-november-21-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ETH+fullsize.jpg",
+  "cid": "0x5224a630aa42330d78661b9acf97ee7dfc9d6de8eb6803cd2869bed44c282164",
+  "slug": "ethereum-above-1600-on-november-21-2026",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.2513,
+  "usd": 40.2,
+  "shares": 160.0,
+  "ts": 1795243699,
+  "held": 245.73,
+  "heldUsd": 55.78,
+  "peak": 245.73,
+  "chip": "First",
+  "split": "",
+  "arrow": "",
+  "fills": [
+   {
+    "ts": 1795243570,
+    "usd": 9.93,
+    "shares": 30.0,
+    "price": 0.331
+   },
+   {
+    "ts": 1795243631,
+    "usd": 10.08,
+    "shares": 40.0,
+    "price": 0.252
+   },
+   {
+    "ts": 1795243631,
+    "usd": 13.55,
+    "shares": 50.0,
+    "price": 0.271
+   },
+   {
+    "ts": 1795243699,
+    "usd": 6.64,
+    "shares": 40.0,
+    "price": 0.166
+   }
+  ],
+  "id": 2
+ },
+ {
+  "n": "Car",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
+  "t": "Will Bitcoin dip to $40,000 by December 31, 2026?",
+  "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-before-2027/will-bitcoin-dip-to-40000-by-december-31-2026-593-522-842-874-931-776-991-167-531-959",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
+  "cid": "0x1e5564c1a2a6839cc2780a889437c63786a2c2ec5e95569b710ee659a3e8baa2",
+  "slug": "will-bitcoin-dip-to-40000-by-december-31-2026-593-522-842-874-931-776-991-167-531-959",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.141,
+  "usd": 1410.0,
+  "shares": 10000.0,
+  "ts": 1795243673,
+  "held": 10000.0,
+  "heldUsd": 1500.0,
+  "peak": 10000.0,
+  "chip": "With",
+  "split": "1/2",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 3
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the price of Ethereum be between $1,600 and $1,700 on November 21?",
+  "url": "https://polymarket.com/event/ethereum-price-on-november-21-2026/will-the-price-of-ethereum-be-between-1600-1700-on-november-21-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ETH+fullsize.jpg",
+  "cid": "0x75c6925213f0e70d78594f56870106cd64c1fed5ab7a1d8cb3112b41d0936c34",
+  "slug": "will-the-price-of-ethereum-be-between-1600-1700-on-november-21-2026",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.5776,
+  "usd": 16.07,
+  "shares": 27.82,
+  "ts": 1795243570,
+  "held": 305.25,
+  "heldUsd": 181.62,
+  "peak": 305.25,
+  "chip": "First",
+  "split": "",
+  "arrow": "",
+  "fills": [],
+  "id": 4
+ },
+ {
+  "n": "Car",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-501613-aa434e55-7732-41b1-9650-83a9d1d716ef.png",
+  "t": "Will Bitcoin dip to $40,000 by December 31, 2026?",
+  "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-before-2027/will-bitcoin-dip-to-40000-by-december-31-2026-593-522-842-874-931-776-991-167-531-959",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
+  "cid": "0x1e5564c1a2a6839cc2780a889437c63786a2c2ec5e95569b710ee659a3e8baa2",
+  "slug": "will-bitcoin-dip-to-40000-by-december-31-2026-593-522-842-874-931-776-991-167-531-959",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.1609,
+  "usd": 57.72,
+  "shares": 358.74,
+  "ts": 1795243327,
+  "held": 10000.0,
+  "heldUsd": 1500.0,
+  "peak": 10000.0,
+  "chip": "Against",
+  "split": "1/2",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 5
+ },
+ {
   "n": "PaddyAlpha",
   "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
   "t": "Will China invade Taiwan by end of 2026?",
@@ -20,7 +196,7 @@
   "split": "4/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 0
+  "id": 6
  },
  {
   "n": "balthazar",
@@ -36,14 +212,14 @@
   "usd": 19.92,
   "shares": 20.0,
   "ts": 1795242887,
-  "held": 20.0,
-  "heldUsd": 19.85,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 20.0,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 1
+  "id": 7
  },
  {
   "n": "balthazar",
@@ -59,14 +235,14 @@
   "usd": 19.8,
   "shares": 20.0,
   "ts": 1795242886,
-  "held": 20.0,
-  "heldUsd": 18.8,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 20.0,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 2
+  "id": 8
  },
  {
   "n": "balthazar",
@@ -82,14 +258,14 @@
   "usd": 13.05,
   "shares": 20.0,
   "ts": 1795242886,
-  "held": 20.0,
-  "heldUsd": 12.0,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 20.0,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 3
+  "id": 9
  },
  {
   "n": "balthazar",
@@ -105,14 +281,14 @@
   "usd": 8.0,
   "shares": 20.0,
   "ts": 1795242886,
-  "held": 20.0,
-  "heldUsd": 10.3,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 20.0,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 4
+  "id": 10
  },
  {
   "n": "Car",
@@ -135,7 +311,7 @@
   "split": "2/3",
   "arrow": "\u2193",
   "fills": [],
-  "id": 5
+  "id": 11
  },
  {
   "n": "PaddyAlpha",
@@ -158,7 +334,7 @@
   "split": "2/3",
   "arrow": "",
   "fills": [],
-  "id": 6
+  "id": 12
  },
  {
   "n": "balthazar",
@@ -181,7 +357,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 7
+  "id": 13
  },
  {
   "n": "bernardbulletin",
@@ -198,13 +374,13 @@
   "shares": 886.0,
   "ts": 1795242605,
   "held": 886.0,
-  "heldUsd": 474.01,
+  "heldUsd": 469.58,
   "peak": 886.0,
   "chip": "Against",
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 8
+  "id": 14
  },
  {
   "n": "StarMaster",
@@ -221,13 +397,13 @@
   "shares": 122.73,
   "ts": 1795242541,
   "held": 250.02,
-  "heldUsd": 60.0,
+  "heldUsd": 55.0,
   "peak": 496.2,
   "chip": "Against",
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 9
+  "id": 15
  },
  {
   "n": "bernardbulletin",
@@ -250,7 +426,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 10
+  "id": 16
  },
  {
   "n": "Car",
@@ -273,7 +449,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 11
+  "id": 17
  },
  {
   "n": "Trump2028",
@@ -315,7 +491,7 @@
     "price": 0.896
    }
   ],
-  "id": 12
+  "id": 18
  },
  {
   "n": "PaddyAlpha",
@@ -338,7 +514,7 @@
   "split": "8/10",
   "arrow": "",
   "fills": [],
-  "id": 13
+  "id": 19
  },
  {
   "n": "Car",
@@ -361,7 +537,7 @@
   "split": "2/3",
   "arrow": "\u2193",
   "fills": [],
-  "id": 14
+  "id": 20
  },
  {
   "n": "PaddyAlpha",
@@ -384,7 +560,7 @@
   "split": "8/10",
   "arrow": "",
   "fills": [],
-  "id": 15
+  "id": 21
  },
  {
   "n": "0xe639e4",
@@ -407,7 +583,7 @@
   "split": "15/18",
   "arrow": "",
   "fills": [],
-  "id": 16
+  "id": 22
  },
  {
   "n": "Car",
@@ -467,7 +643,7 @@
     "price": 0.85
    }
   ],
-  "id": 17
+  "id": 23
  },
  {
   "n": "0xe639e4",
@@ -490,7 +666,7 @@
   "split": "15/18",
   "arrow": "",
   "fills": [],
-  "id": 18
+  "id": 24
  },
  {
   "n": "Trump2028",
@@ -513,7 +689,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 19
+  "id": 25
  },
  {
   "n": "Car",
@@ -585,7 +761,7 @@
     "price": 0.6034
    }
   ],
-  "id": 20
+  "id": 26
  },
  {
   "n": "balthazar",
@@ -601,14 +777,14 @@
   "usd": 32.82,
   "shares": 40.99,
   "ts": 1795241777,
-  "held": 85.73,
-  "heldUsd": 41.53,
-  "peak": 85.73,
+  "held": 245.73,
+  "heldUsd": 55.78,
+  "peak": 245.73,
   "chip": "First",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 21
+  "id": 27
  },
  {
   "n": "balthazar",
@@ -624,14 +800,14 @@
   "usd": 1.65,
   "shares": 40.75,
   "ts": 1795241777,
-  "held": 274.89,
-  "heldUsd": 10.31,
-  "peak": 274.89,
+  "held": 304.89,
+  "heldUsd": 54.27,
+  "peak": 304.89,
   "chip": "First",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 22
+  "id": 28
  },
  {
   "n": "balthazar",
@@ -647,14 +823,14 @@
   "usd": 6.15,
   "shares": 41.0,
   "ts": 1795241777,
-  "held": 277.43,
-  "heldUsd": 126.23,
-  "peak": 277.43,
+  "held": 305.25,
+  "heldUsd": 181.62,
+  "peak": 305.25,
   "chip": "First",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 23
+  "id": 29
  },
  {
   "n": "balthazar",
@@ -671,13 +847,13 @@
   "shares": 30.0,
   "ts": 1795241776,
   "held": 117.16,
-  "heldUsd": 109.31,
+  "heldUsd": 113.12,
   "peak": 117.16,
   "chip": "First",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 24
+  "id": 30
  },
  {
   "n": "balthazar",
@@ -693,14 +869,14 @@
   "usd": 5.24,
   "shares": 29.89,
   "ts": 1795241776,
-  "held": 306.4,
-  "heldUsd": 16.55,
-  "peak": 306.4,
-  "chip": "First",
+  "held": 266.4,
+  "heldUsd": 9.32,
+  "peak": 266.4,
+  "chip": "Exited",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 25
+  "id": 31
  },
  {
   "n": "StarMaster",
@@ -723,7 +899,7 @@
   "split": "3/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 26
+  "id": 32
  },
  {
   "n": "balthazar",
@@ -740,7 +916,7 @@
   "shares": 145.26,
   "ts": 1795241617,
   "held": 15.73,
-  "heldUsd": 10.07,
+  "heldUsd": 11.17,
   "peak": 165.26,
   "chip": "Exited",
   "split": "",
@@ -765,7 +941,7 @@
     "price": 0.6731
    }
   ],
-  "id": 27
+  "id": 33
  },
  {
   "n": "balthazar",
@@ -782,7 +958,7 @@
   "shares": 145.27,
   "ts": 1795241617,
   "held": 15.97,
-  "heldUsd": 6.39,
+  "heldUsd": 4.95,
   "peak": 165.27,
   "chip": "First",
   "split": "",
@@ -807,7 +983,7 @@
     "price": 0.34
    }
   ],
-  "id": 28
+  "id": 34
  },
  {
   "n": "balthazar",
@@ -824,13 +1000,13 @@
   "shares": 40.0,
   "ts": 1795241603,
   "held": 40.0,
-  "heldUsd": 31.68,
+  "heldUsd": 24.96,
   "peak": 40.0,
   "chip": "Exited",
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 29
+  "id": 35
  },
  {
   "n": "balthazar",
@@ -853,7 +1029,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 30
+  "id": 36
  },
  {
   "n": "balthazar",
@@ -870,13 +1046,13 @@
   "shares": 60.0,
   "ts": 1795241594,
   "held": 60.06,
-  "heldUsd": 0.63,
+  "heldUsd": 0.45,
   "peak": 60.06,
   "chip": "First",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 31
+  "id": 37
  },
  {
   "n": "balthazar",
@@ -893,13 +1069,13 @@
   "shares": 59.83,
   "ts": 1795241593,
   "held": 60.07,
-  "heldUsd": 59.68,
+  "heldUsd": 59.62,
   "peak": 60.07,
   "chip": "First",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 32
+  "id": 38
  },
  {
   "n": "JJo",
@@ -922,7 +1098,7 @@
   "split": "6/10",
   "arrow": "",
   "fills": [],
-  "id": 33
+  "id": 39
  },
  {
   "n": "balthazar",
@@ -939,13 +1115,13 @@
   "shares": 20.0,
   "ts": 1795241473,
   "held": 71.56,
-  "heldUsd": 63.36,
+  "heldUsd": 63.44,
   "peak": 71.56,
   "chip": "Exited",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 34
+  "id": 40
  },
  {
   "n": "Car",
@@ -1047,7 +1223,7 @@
     "price": 0.4
    }
   ],
-  "id": 35
+  "id": 41
  },
  {
   "n": "balthazar",
@@ -1083,7 +1259,7 @@
     "price": 0.97
    }
   ],
-  "id": 36
+  "id": 42
  },
  {
   "n": "paddaa",
@@ -1106,7 +1282,7 @@
   "split": "1/2",
   "arrow": "",
   "fills": [],
-  "id": 37
+  "id": 43
  },
  {
   "n": "Tenebrus7",
@@ -1129,7 +1305,7 @@
   "split": "15/18",
   "arrow": "",
   "fills": [],
-  "id": 38
+  "id": 44
  },
  {
   "n": "SnowLover7",
@@ -1152,7 +1328,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 39
+  "id": 45
  },
  {
   "n": "Car",
@@ -1194,7 +1370,7 @@
     "price": 0.41
    }
   ],
-  "id": 40
+  "id": 46
  },
  {
   "n": "Trump2028",
@@ -1217,7 +1393,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 41
+  "id": 47
  },
  {
   "n": "balthazar",
@@ -1234,13 +1410,13 @@
   "shares": 154.29,
   "ts": 1795240811,
   "held": 154.29,
-  "heldUsd": 46.36,
-  "peak": 494.49,
+  "heldUsd": 23.45,
+  "peak": 154.29,
   "chip": "Exited",
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 42
+  "id": 48
  },
  {
   "n": "balthazar",
@@ -1257,13 +1433,13 @@
   "shares": 154.48,
   "ts": 1795240811,
   "held": 274.48,
-  "heldUsd": 122.69,
+  "heldUsd": 103.75,
   "peak": 274.48,
   "chip": "Exited",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 43
+  "id": 49
  },
  {
   "n": "balthazar",
@@ -1286,7 +1462,7 @@
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 44
+  "id": 50
  },
  {
   "n": "Trump2028",
@@ -1309,7 +1485,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 45
+  "id": 51
  },
  {
   "n": "MEPP",
@@ -1345,7 +1521,7 @@
     "price": 0.81
    }
   ],
-  "id": 46
+  "id": 52
  },
  {
   "n": "balthazar",
@@ -1368,7 +1544,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 47
+  "id": 53
  },
  {
   "n": "balthazar",
@@ -1391,7 +1567,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 48
+  "id": 54
  },
  {
   "n": "Lolakis",
@@ -1414,7 +1590,7 @@
   "split": "3/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 49
+  "id": 55
  },
  {
   "n": "balthazar",
@@ -1431,13 +1607,13 @@
   "shares": 30.0,
   "ts": 1795240397,
   "held": 335.4,
-  "heldUsd": 215.5,
+  "heldUsd": 257.25,
   "peak": 335.4,
   "chip": "Exited",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 50
+  "id": 56
  },
  {
   "n": "balthazar",
@@ -1454,13 +1630,13 @@
   "shares": 30.0,
   "ts": 1795240397,
   "held": 697.28,
-  "heldUsd": 237.07,
+  "heldUsd": 154.1,
   "peak": 697.28,
   "chip": "First",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 51
+  "id": 57
  },
  {
   "n": "0xe639e4",
@@ -1483,7 +1659,7 @@
   "split": "15/18",
   "arrow": "",
   "fills": [],
-  "id": 52
+  "id": 58
  },
  {
   "n": "Tenebrus7",
@@ -1506,7 +1682,7 @@
   "split": "15/18",
   "arrow": "",
   "fills": [],
-  "id": 53
+  "id": 59
  },
  {
   "n": "PaddyAlpha",
@@ -1529,7 +1705,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 54
+  "id": 60
  },
  {
   "n": "balthazar",
@@ -1552,7 +1728,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 55
+  "id": 61
  },
  {
   "n": "balthazar",
@@ -1569,13 +1745,13 @@
   "shares": 60.0,
   "ts": 1795239914,
   "held": 60.0,
-  "heldUsd": 57.21,
+  "heldUsd": 57.0,
   "peak": 60.0,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 56
+  "id": 62
  },
  {
   "n": "PaddyAlpha",
@@ -1598,7 +1774,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 57
+  "id": 63
  },
  {
   "n": "Tenebrus7",
@@ -1621,7 +1797,7 @@
   "split": "15/18",
   "arrow": "",
   "fills": [],
-  "id": 58
+  "id": 64
  },
  {
   "n": "Car",
@@ -1669,7 +1845,7 @@
     "price": 0.07
    }
   ],
-  "id": 59
+  "id": 65
  },
  {
   "n": "balthazar",
@@ -1692,7 +1868,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 60
+  "id": 66
  },
  {
   "n": "balthazar",
@@ -1709,13 +1885,13 @@
   "shares": 19.98,
   "ts": 1795239650,
   "held": 0.97,
-  "heldUsd": 0.93,
+  "heldUsd": 0.89,
   "peak": 25.98,
   "chip": "Exited",
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 61
+  "id": 67
  },
  {
   "n": "balthazar",
@@ -1738,7 +1914,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 62
+  "id": 68
  },
  {
   "n": "balthazar",
@@ -1755,13 +1931,13 @@
   "shares": 20.0,
   "ts": 1795239650,
   "held": 0.99,
-  "heldUsd": 0.6,
+  "heldUsd": 0.59,
   "peak": 26.0,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 63
+  "id": 69
  },
  {
   "n": "Car",
@@ -1784,7 +1960,7 @@
   "split": "2/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 64
+  "id": 70
  },
  {
   "n": "balthazar",
@@ -1801,7 +1977,7 @@
   "shares": 2049.94,
   "ts": 1795239577,
   "held": 126.37,
-  "heldUsd": 125.8,
+  "heldUsd": 125.67,
   "peak": 2049.94,
   "chip": "Exited",
   "split": "",
@@ -1832,7 +2008,7 @@
     "price": 0.995
    }
   ],
-  "id": 65
+  "id": 71
  },
  {
   "n": "balthazar",
@@ -1855,7 +2031,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 66
+  "id": 72
  },
  {
   "n": "balthazar",
@@ -1903,7 +2079,7 @@
     "price": 0.998
    }
   ],
-  "id": 67
+  "id": 73
  },
  {
   "n": "balthazar",
@@ -1951,7 +2127,7 @@
     "price": 0.998
    }
   ],
-  "id": 68
+  "id": 74
  },
  {
   "n": "balthazar",
@@ -1999,7 +2175,7 @@
     "price": 0.997
    }
   ],
-  "id": 69
+  "id": 75
  },
  {
   "n": "balthazar",
@@ -2047,7 +2223,7 @@
     "price": 0.996
    }
   ],
-  "id": 70
+  "id": 76
  },
  {
   "n": "balthazar",
@@ -2095,7 +2271,7 @@
     "price": 0.998
    }
   ],
-  "id": 71
+  "id": 77
  },
  {
   "n": "balthazar",
@@ -2143,7 +2319,7 @@
     "price": 0.998
    }
   ],
-  "id": 72
+  "id": 78
  },
  {
   "n": "balthazar",
@@ -2191,7 +2367,7 @@
     "price": 0.99
    }
   ],
-  "id": 73
+  "id": 79
  },
  {
   "n": "balthazar",
@@ -2239,7 +2415,7 @@
     "price": 0.973
    }
   ],
-  "id": 74
+  "id": 80
  },
  {
   "n": "balthazar",
@@ -2287,7 +2463,7 @@
     "price": 0.994
    }
   ],
-  "id": 75
+  "id": 81
  },
  {
   "n": "balthazar",
@@ -2335,7 +2511,7 @@
     "price": 0.85
    }
   ],
-  "id": 76
+  "id": 82
  },
  {
   "n": "balthazar",
@@ -2383,7 +2559,7 @@
     "price": 0.82
    }
   ],
-  "id": 77
+  "id": 83
  },
  {
   "n": "balthazar",
@@ -2431,7 +2607,7 @@
     "price": 0.979
    }
   ],
-  "id": 78
+  "id": 84
  },
  {
   "n": "balthazar",
@@ -2448,7 +2624,7 @@
   "shares": 2041.21,
   "ts": 1795239575,
   "held": 22.27,
-  "heldUsd": 22.03,
+  "heldUsd": 22.0,
   "peak": 2041.21,
   "chip": "Exited",
   "split": "",
@@ -2479,7 +2655,7 @@
     "price": 0.993
    }
   ],
-  "id": 79
+  "id": 85
  },
  {
   "n": "balthazar",
@@ -2527,7 +2703,7 @@
     "price": 0.985
    }
   ],
-  "id": 80
+  "id": 86
  },
  {
   "n": "balthazar",
@@ -2575,7 +2751,7 @@
     "price": 0.94
    }
   ],
-  "id": 81
+  "id": 87
  },
  {
   "n": "balthazar",
@@ -2623,7 +2799,7 @@
     "price": 0.989
    }
   ],
-  "id": 82
+  "id": 88
  },
  {
   "n": "balthazar",
@@ -2671,7 +2847,7 @@
     "price": 0.989
    }
   ],
-  "id": 83
+  "id": 89
  },
  {
   "n": "balthazar",
@@ -2719,7 +2895,7 @@
     "price": 0.995
    }
   ],
-  "id": 84
+  "id": 90
  },
  {
   "n": "balthazar",
@@ -2767,7 +2943,7 @@
     "price": 0.95
    }
   ],
-  "id": 85
+  "id": 91
  },
  {
   "n": "balthazar",
@@ -2803,7 +2979,7 @@
     "price": 0.998
    }
   ],
-  "id": 86
+  "id": 92
  },
  {
   "n": "balthazar",
@@ -2839,7 +3015,7 @@
     "price": 0.999
    }
   ],
-  "id": 87
+  "id": 93
  },
  {
   "n": "balthazar",
@@ -2856,7 +3032,7 @@
   "shares": 48.27,
   "ts": 1795239542,
   "held": 2.73,
-  "heldUsd": 2.3,
+  "heldUsd": 2.29,
   "peak": 48.27,
   "chip": "First",
   "split": "",
@@ -2881,7 +3057,7 @@
     "price": 0.905
    }
   ],
-  "id": 88
+  "id": 94
  },
  {
   "n": "balthazar",
@@ -2917,7 +3093,7 @@
     "price": 0.9963
    }
   ],
-  "id": 89
+  "id": 95
  },
  {
   "n": "balthazar",
@@ -2934,13 +3110,13 @@
   "shares": 29.93,
   "ts": 1795239541,
   "held": 5.96,
-  "heldUsd": 5.1,
+  "heldUsd": 5.11,
   "peak": 29.93,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 90
+  "id": 96
  },
  {
   "n": "balthazar",
@@ -2963,7 +3139,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 91
+  "id": 97
  },
  {
   "n": "balthazar",
@@ -2986,7 +3162,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 92
+  "id": 98
  },
  {
   "n": "balthazar",
@@ -3009,7 +3185,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 93
+  "id": 99
  },
  {
   "n": "balthazar",
@@ -3045,7 +3221,7 @@
     "price": 0.997
    }
   ],
-  "id": 94
+  "id": 100
  },
  {
   "n": "balthazar",
@@ -3081,7 +3257,7 @@
     "price": 0.996
    }
   ],
-  "id": 95
+  "id": 101
  },
  {
   "n": "balthazar",
@@ -3098,7 +3274,7 @@
   "shares": 51.56,
   "ts": 1795239541,
   "held": 5.99,
-  "heldUsd": 5.71,
+  "heldUsd": 5.74,
   "peak": 51.56,
   "chip": "First",
   "split": "",
@@ -3117,7 +3293,7 @@
     "price": 0.99
    }
   ],
-  "id": 96
+  "id": 102
  },
  {
   "n": "balthazar",
@@ -3153,7 +3329,7 @@
     "price": 0.997
    }
   ],
-  "id": 97
+  "id": 103
  },
  {
   "n": "Lolakis",
@@ -3176,7 +3352,7 @@
   "split": "3/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 98
+  "id": 104
  },
  {
   "n": "MEPP",
@@ -3218,7 +3394,7 @@
     "price": 0.47
    }
   ],
-  "id": 99
+  "id": 105
  },
  {
   "n": "balthazar",
@@ -3235,13 +3411,13 @@
   "shares": 20.0,
   "ts": 1795239295,
   "held": 60.0,
-  "heldUsd": 26.52,
+  "heldUsd": 29.7,
   "peak": 60.0,
   "chip": "Exited",
   "split": "",
-  "arrow": "\u2193",
+  "arrow": "",
   "fills": [],
-  "id": 100
+  "id": 106
  },
  {
   "n": "MEPP",
@@ -3264,7 +3440,7 @@
   "split": "4/7",
   "arrow": "",
   "fills": [],
-  "id": 101
+  "id": 107
  },
  {
   "n": "balthazar",
@@ -3287,7 +3463,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 102
+  "id": 108
  },
  {
   "n": "balthazar",
@@ -3310,7 +3486,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 103
+  "id": 109
  },
  {
   "n": "balthazar",
@@ -3333,7 +3509,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 104
+  "id": 110
  },
  {
   "n": "balthazar",
@@ -3350,13 +3526,13 @@
   "shares": 20.0,
   "ts": 1795239164,
   "held": 15.97,
-  "heldUsd": 6.39,
+  "heldUsd": 4.95,
   "peak": 165.27,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 105
+  "id": 111
  },
  {
   "n": "balthazar",
@@ -3373,13 +3549,13 @@
   "shares": 20.0,
   "ts": 1795239163,
   "held": 15.73,
-  "heldUsd": 10.07,
+  "heldUsd": 11.17,
   "peak": 165.26,
   "chip": "Exited",
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 106
+  "id": 112
  },
  {
   "n": "balthazar",
@@ -3396,7 +3572,7 @@
   "shares": 123.0,
   "ts": 1795239098,
   "held": 335.4,
-  "heldUsd": 215.5,
+  "heldUsd": 257.25,
   "peak": 335.4,
   "chip": "Exited",
   "split": "",
@@ -3439,7 +3615,7 @@
     "price": 0.504
    }
   ],
-  "id": 107
+  "id": 113
  },
  {
   "n": "balthazar",
@@ -3456,7 +3632,7 @@
   "shares": 122.92,
   "ts": 1795239098,
   "held": 697.28,
-  "heldUsd": 237.07,
+  "heldUsd": 154.1,
   "peak": 697.28,
   "chip": "First",
   "split": "",
@@ -3499,7 +3675,7 @@
     "price": 0.4781
    }
   ],
-  "id": 108
+  "id": 114
  },
  {
   "n": "MEPP",
@@ -3522,7 +3698,7 @@
   "split": "4/7",
   "arrow": "",
   "fills": [],
-  "id": 109
+  "id": 115
  },
  {
   "n": "Lolakis",
@@ -3558,7 +3734,7 @@
     "price": 0.974
    }
   ],
-  "id": 110
+  "id": 116
  },
  {
   "n": "balthazar",
@@ -3575,13 +3751,13 @@
   "shares": 4.97,
   "ts": 1795238830,
   "held": 335.4,
-  "heldUsd": 215.5,
+  "heldUsd": 257.25,
   "peak": 335.4,
   "chip": "Exited",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 111
+  "id": 117
  },
  {
   "n": "balthazar",
@@ -3598,13 +3774,13 @@
   "shares": 4.99,
   "ts": 1795238830,
   "held": 697.28,
-  "heldUsd": 237.07,
+  "heldUsd": 154.1,
   "peak": 697.28,
   "chip": "First",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 112
+  "id": 118
  },
  {
   "n": "balthazar",
@@ -3646,176 +3822,6 @@
     "price": 0.99
    }
   ],
-  "id": 113
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the highest temperature in Taipei be 21\u00b0C on November 21?",
-  "url": "https://polymarket.com/event/highest-temperature-in-taipei-on-november-21-2026/highest-temperature-in-taipei-on-november-21-2026-21c",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/taipei-06ae1cc294.jpg",
-  "cid": "0x2ee1d8828da46cc7c14b3e32a37d37c95667d2e300849b2202a32099582ea8e6",
-  "slug": "highest-temperature-in-taipei-on-november-21-2026-21c",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.1362,
-  "usd": 7.46,
-  "shares": 54.76,
-  "ts": 1795238806,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 54.76,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [
-   {
-    "ts": 1795238806,
-    "usd": 3.56,
-    "shares": 22.24,
-    "price": 0.16
-   },
-   {
-    "ts": 1795238806,
-    "usd": 3.9,
-    "shares": 32.52,
-    "price": 0.12
-   }
-  ],
-  "id": 114
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the highest temperature in Taipei be 22\u00b0C on November 21?",
-  "url": "https://polymarket.com/event/highest-temperature-in-taipei-on-november-21-2026/highest-temperature-in-taipei-on-november-21-2026-22c",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/taipei-06ae1cc294.jpg",
-  "cid": "0x4451b78b5b5ea2c7d401c6b13aeeff3bf4ac22344ac52fbf8ebcdc4953891d60",
-  "slug": "highest-temperature-in-taipei-on-november-21-2026-22c",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.876,
-  "usd": 54.52,
-  "shares": 62.24,
-  "ts": 1795238806,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 62.24,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [
-   {
-    "ts": 1795238806,
-    "usd": 29.04,
-    "shares": 32.68,
-    "price": 0.8877
-   },
-   {
-    "ts": 1795238806,
-    "usd": 6.51,
-    "shares": 7.47,
-    "price": 0.87
-   },
-   {
-    "ts": 1795238806,
-    "usd": 18.97,
-    "shares": 22.09,
-    "price": 0.8575
-   }
-  ],
-  "id": 115
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Elon Musk post 340-359 tweets from November 17 to November 24, 2026?",
-  "url": "https://polymarket.com/event/elon-musk-of-tweets-november-17-november-24-2026/elon-musk-of-tweets-november-17-november-24-2026-340-359",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/elon-musk-of-tweets-nov-22-29-apMPG21-pzx_.jpg",
-  "cid": "0x04ebcb10d44f40c8839400b168d112a5a0182876a2584f38a8f9f8cea8ccd578",
-  "slug": "elon-musk-of-tweets-november-17-november-24-2026-340-359",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9604,
-  "usd": 8.24,
-  "shares": 8.58,
-  "ts": 1795238758,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 28.58,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 116
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Elon Musk post 280-299 tweets from November 17 to November 24, 2026?",
-  "url": "https://polymarket.com/event/elon-musk-of-tweets-november-17-november-24-2026/elon-musk-of-tweets-november-17-november-24-2026-280-299",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/elon-musk-of-tweets-nov-22-29-apMPG21-pzx_.jpg",
-  "cid": "0x27b2fb3efef69e57b6a8be34582bdef2ad60f65d8ddf46572c7c73a11e131454",
-  "slug": "elon-musk-of-tweets-november-17-november-24-2026-280-299",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.8314,
-  "usd": 7.13,
-  "shares": 8.58,
-  "ts": 1795238758,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 28.57,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 117
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Elon Musk post 320-339 tweets from November 17 to November 24, 2026?",
-  "url": "https://polymarket.com/event/elon-musk-of-tweets-november-17-november-24-2026/elon-musk-of-tweets-november-17-november-24-2026-320-339",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/elon-musk-of-tweets-nov-22-29-apMPG21-pzx_.jpg",
-  "cid": "0x29e8b108aa5b026019b27d18b8e43e245b100f0bb785e68530612507c4a3e159",
-  "slug": "elon-musk-of-tweets-november-17-november-24-2026-320-339",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9406,
-  "usd": 8.07,
-  "shares": 8.59,
-  "ts": 1795238758,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 28.57,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 118
- },
- {
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Elon Musk post 300-319 tweets from November 17 to November 24, 2026?",
-  "url": "https://polymarket.com/event/elon-musk-of-tweets-november-17-november-24-2026/elon-musk-of-tweets-november-17-november-24-2026-300-319",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/elon-musk-of-tweets-nov-22-29-apMPG21-pzx_.jpg",
-  "cid": "0x34ffacc81c13daf62862e32b10d0a2fbb2d1ba4ae86ab7d428df8e889756c98e",
-  "slug": "elon-musk-of-tweets-november-17-november-24-2026-300-319",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9108,
-  "usd": 7.82,
-  "shares": 8.58,
-  "ts": 1795238758,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 8.58,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
   "id": 119
  }
 ]
