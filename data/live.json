@@ -1,5 +1,77 @@
 [
  {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will CMI declare the Navier-Stokes problem solved by December 31, 2027?",
+  "url": "https://polymarket.com/event/will-cmi-declare-the-navier-stokes-problem-solved-by/will-cmi-declare-the-navier-stokes-problem-solved-by-december-31-2027",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-a-millennium-prize-problem-be-solved-before-the-end-of-2025-o952nXYzhLWZ.jpg",
+  "cid": "0x85062d958a050cb8cf7faacdd3a79d1e1ee3cd247abe43e69f8f897c6627cad2",
+  "slug": "will-cmi-declare-the-navier-stokes-problem-solved-by-december-31-2027",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.8,
+  "usd": 28.12,
+  "shares": 35.15,
+  "ts": 1795256302,
+  "held": 44.12,
+  "heldUsd": 36.84,
+  "peak": 44.12,
+  "chip": "First",
+  "split": "",
+  "arrow": "",
+  "fills": [
+   {
+    "ts": 1795256264,
+    "usd": 15.88,
+    "shares": 19.85,
+    "price": 0.8
+   },
+   {
+    "ts": 1795256302,
+    "usd": 12.24,
+    "shares": 15.3,
+    "price": 0.8
+   }
+  ],
+  "id": 0
+ },
+ {
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will CMI declare the Navier-Stokes problem solved by December 31, 2028?",
+  "url": "https://polymarket.com/event/will-cmi-declare-the-navier-stokes-problem-solved-by/will-cmi-declare-the-navier-stokes-problem-solved-by-december-31-2028",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-a-millennium-prize-problem-be-solved-before-the-end-of-2025-o952nXYzhLWZ.jpg",
+  "cid": "0x89c7667d94f4f77d1086f15d1b2bc421f3fac5e960e38db3e53ba45cc2008700",
+  "slug": "will-cmi-declare-the-navier-stokes-problem-solved-by-december-31-2028",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.1915,
+  "usd": 6.72,
+  "shares": 35.11,
+  "ts": 1795256302,
+  "held": 44.08,
+  "heldUsd": 7.71,
+  "peak": 44.08,
+  "chip": "First",
+  "split": "",
+  "arrow": "",
+  "fills": [
+   {
+    "ts": 1795256264,
+    "usd": 3.8,
+    "shares": 19.84,
+    "price": 0.19
+   },
+   {
+    "ts": 1795256302,
+    "usd": 2.92,
+    "shares": 15.26,
+    "price": 0.19
+   }
+  ],
+  "id": 1
+ },
+ {
   "n": "Tenebrus7",
   "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
   "t": "Will PSOE win the most seats in the 2026 Spanish general election?",
@@ -45,7 +117,7 @@
     "price": 0.75
    }
   ],
-  "id": 0
+  "id": 2
  },
  {
   "n": "whig",
@@ -68,7 +140,7 @@
   "split": "3/5",
   "arrow": "\u2193",
   "fills": [],
-  "id": 1
+  "id": 3
  },
  {
   "n": "Tenebrus7",
@@ -91,7 +163,7 @@
   "split": "5/8",
   "arrow": "\u2191",
   "fills": [],
-  "id": 2
+  "id": 4
  },
  {
   "n": "balthazar",
@@ -107,14 +179,14 @@
   "usd": 19.7,
   "shares": 20.02,
   "ts": 1795255897,
-  "held": 20.02,
-  "heldUsd": 19.58,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 20.02,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 3
+  "id": 5
  },
  {
   "n": "balthazar",
@@ -130,14 +202,14 @@
   "usd": 19.68,
   "shares": 19.99,
   "ts": 1795255897,
-  "held": 19.99,
-  "heldUsd": 19.54,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 19.99,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 4
+  "id": 6
  },
  {
   "n": "balthazar",
@@ -153,14 +225,14 @@
   "usd": 12.8,
   "shares": 20.0,
   "ts": 1795255897,
-  "held": 21.23,
-  "heldUsd": 13.16,
-  "peak": 21.23,
+  "held": 1.24,
+  "heldUsd": 0.79,
+  "peak": 20.0,
   "chip": "First",
   "split": "",
-  "arrow": "",
+  "arrow": "\u2191",
   "fills": [],
-  "id": 5
+  "id": 7
  },
  {
   "n": "balthazar",
@@ -176,14 +248,14 @@
   "usd": 19.86,
   "shares": 19.99,
   "ts": 1795255897,
-  "held": 19.99,
-  "heldUsd": 19.85,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 19.99,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 6
+  "id": 8
  },
  {
   "n": "balthazar",
@@ -199,14 +271,14 @@
   "usd": 12.53,
   "shares": 19.99,
   "ts": 1795255897,
-  "held": 19.99,
-  "heldUsd": 13.09,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 19.99,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 7
+  "id": 9
  },
  {
   "n": "balthazar",
@@ -222,14 +294,14 @@
   "usd": 19.94,
   "shares": 20.0,
   "ts": 1795255897,
-  "held": 20.0,
-  "heldUsd": 19.89,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 20.0,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 8
+  "id": 10
  },
  {
   "n": "balthazar",
@@ -245,14 +317,14 @@
   "usd": 8.8,
   "shares": 20.0,
   "ts": 1795255877,
-  "held": 20.03,
-  "heldUsd": 8.21,
-  "peak": 20.03,
-  "chip": "First",
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 20.0,
+  "chip": "Exited",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 9
+  "id": 11
  },
  {
   "n": "balthazar",
@@ -268,14 +340,14 @@
   "usd": 19.92,
   "shares": 19.98,
   "ts": 1795255876,
-  "held": 19.98,
-  "heldUsd": 19.87,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 19.98,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 10
+  "id": 12
  },
  {
   "n": "balthazar",
@@ -291,14 +363,14 @@
   "usd": 12.25,
   "shares": 20.0,
   "ts": 1795255876,
-  "held": 20.05,
-  "heldUsd": 13.33,
-  "peak": 20.05,
-  "chip": "First",
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 20.0,
+  "chip": "Exited",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 11
+  "id": 13
  },
  {
   "n": "balthazar",
@@ -321,7 +393,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 12
+  "id": 14
  },
  {
   "n": "Tenebrus7",
@@ -357,7 +429,7 @@
     "price": 0.86
    }
   ],
-  "id": 13
+  "id": 15
  },
  {
   "n": "GollumGekko",
@@ -374,13 +446,13 @@
   "shares": 7.37,
   "ts": 1795255732,
   "held": 409.57,
-  "heldUsd": 98.3,
+  "heldUsd": 116.73,
   "peak": 409.57,
   "chip": "First",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 14
+  "id": 16
  },
  {
   "n": "Tenebrus7",
@@ -397,13 +469,13 @@
   "shares": 30.24,
   "ts": 1795255709,
   "held": 230.25,
-  "heldUsd": 222.31,
+  "heldUsd": 222.54,
   "peak": 230.25,
   "chip": "With",
   "split": "8/10",
   "arrow": "\u2193",
   "fills": [],
-  "id": 15
+  "id": 17
  },
  {
   "n": "PaddyAlpha",
@@ -420,13 +492,13 @@
   "shares": 30.0,
   "ts": 1795255672,
   "held": 1049.44,
-  "heldUsd": 99.7,
+  "heldUsd": 104.94,
   "peak": 1079.44,
   "chip": "Against",
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 16
+  "id": 18
  },
  {
   "n": "PaddyAlpha",
@@ -449,7 +521,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 17
+  "id": 19
  },
  {
   "n": "melonmanm",
@@ -472,7 +544,7 @@
   "split": "3/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 18
+  "id": 20
  },
  {
   "n": "Tenebrus7",
@@ -495,7 +567,7 @@
   "split": "8/13",
   "arrow": "",
   "fills": [],
-  "id": 19
+  "id": 21
  },
  {
   "n": "whig",
@@ -518,7 +590,7 @@
   "split": "4/7",
   "arrow": "",
   "fills": [],
-  "id": 20
+  "id": 22
  },
  {
   "n": "balthazar",
@@ -535,13 +607,13 @@
   "shares": 69.99,
   "ts": 1795255385,
   "held": 3.04,
-  "heldUsd": 2.4,
+  "heldUsd": 2.41,
   "peak": 69.99,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 21
+  "id": 23
  },
  {
   "n": "balthazar",
@@ -564,7 +636,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 22
+  "id": 24
  },
  {
   "n": "balthazar",
@@ -587,7 +659,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 23
+  "id": 25
  },
  {
   "n": "balthazar",
@@ -604,13 +676,13 @@
   "shares": 70.0,
   "ts": 1795255385,
   "held": 3.16,
-  "heldUsd": 1.55,
+  "heldUsd": 1.53,
   "peak": 70.0,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 24
+  "id": 26
  },
  {
   "n": "Parz1vaI",
@@ -652,7 +724,7 @@
     "price": 0.89
    }
   ],
-  "id": 25
+  "id": 27
  },
  {
   "n": "vinii",
@@ -688,7 +760,7 @@
     "price": 0.64
    }
   ],
-  "id": 26
+  "id": 28
  },
  {
   "n": "Tenebrus7",
@@ -705,13 +777,13 @@
   "shares": 323.43,
   "ts": 1795255237,
   "held": 1217.01,
-  "heldUsd": 402.22,
+  "heldUsd": 340.15,
   "peak": 2300.0,
   "chip": "Against",
   "split": "3/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 27
+  "id": 29
  },
  {
   "n": "balthazar",
@@ -728,13 +800,13 @@
   "shares": 50.0,
   "ts": 1795255207,
   "held": 1.17,
-  "heldUsd": 0.43,
+  "heldUsd": 0.42,
   "peak": 170.0,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 28
+  "id": 30
  },
  {
   "n": "balthazar",
@@ -751,13 +823,13 @@
   "shares": 49.99,
   "ts": 1795255207,
   "held": 49.99,
-  "heldUsd": 49.34,
+  "heldUsd": 49.32,
   "peak": 79.96,
   "chip": "Exited",
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 29
+  "id": 31
  },
  {
   "n": "balthazar",
@@ -780,7 +852,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 30
+  "id": 32
  },
  {
   "n": "balthazar",
@@ -803,7 +875,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 31
+  "id": 33
  },
  {
   "n": "balthazar",
@@ -826,7 +898,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 32
+  "id": 34
  },
  {
   "n": "balthazar",
@@ -849,7 +921,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 33
+  "id": 35
  },
  {
   "n": "balthazar",
@@ -865,14 +937,14 @@
   "usd": 9.22,
   "shares": 19.21,
   "ts": 1795255204,
-  "held": 19.35,
-  "heldUsd": 9.19,
-  "peak": 19.35,
+  "held": 0.15,
+  "heldUsd": 0.07,
+  "peak": 19.21,
   "chip": "First",
   "split": "",
-  "arrow": "",
+  "arrow": "\u2191",
   "fills": [],
-  "id": 34
+  "id": 36
  },
  {
   "n": "balthazar",
@@ -888,14 +960,14 @@
   "usd": 11.33,
   "shares": 19.2,
   "ts": 1795255202,
-  "held": 19.35,
-  "heldUsd": 11.9,
-  "peak": 19.35,
+  "held": 0.14,
+  "heldUsd": 0.09,
+  "peak": 19.2,
   "chip": "First",
   "split": "",
-  "arrow": "",
+  "arrow": "\u2191",
   "fills": [],
-  "id": 35
+  "id": 37
  },
  {
   "n": "balthazar",
@@ -912,13 +984,13 @@
   "shares": 50.0,
   "ts": 1795255109,
   "held": 50.0,
-  "heldUsd": 49.3,
+  "heldUsd": 49.25,
   "peak": 50.0,
   "chip": "With",
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 36
+  "id": 38
  },
  {
   "n": "Parz1vaI",
@@ -941,7 +1013,7 @@
   "split": "3/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 37
+  "id": 39
  },
  {
   "n": "balthazar",
@@ -958,13 +1030,13 @@
   "shares": 20.0,
   "ts": 1795254842,
   "held": 39.99,
-  "heldUsd": 21.0,
+  "heldUsd": 21.4,
   "peak": 39.99,
   "chip": "Against",
   "split": "1/1",
   "arrow": "\u2193",
   "fills": [],
-  "id": 38
+  "id": 40
  },
  {
   "n": "M888",
@@ -987,7 +1059,7 @@
   "split": "3/5",
   "arrow": "",
   "fills": [],
-  "id": 39
+  "id": 41
  },
  {
   "n": "balthazar",
@@ -1004,13 +1076,13 @@
   "shares": 50.0,
   "ts": 1795254461,
   "held": 8.77,
-  "heldUsd": 5.33,
+  "heldUsd": 5.35,
   "peak": 58.77,
   "chip": "Against",
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 40
+  "id": 42
  },
  {
   "n": "Tenebrus7",
@@ -1033,7 +1105,7 @@
   "split": "5/6",
   "arrow": "",
   "fills": [],
-  "id": 41
+  "id": 43
  },
  {
   "n": "Tenebrus7",
@@ -1056,7 +1128,7 @@
   "split": "15/18",
   "arrow": "",
   "fills": [],
-  "id": 42
+  "id": 44
  },
  {
   "n": "melonmanm",
@@ -1079,7 +1151,7 @@
   "split": "3/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 43
+  "id": 45
  },
  {
   "n": "balthazar",
@@ -1096,13 +1168,13 @@
   "shares": 20.29,
   "ts": 1795254119,
   "held": 20.29,
-  "heldUsd": 1.11,
+  "heldUsd": 1.51,
   "peak": 20.29,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 44
+  "id": 46
  },
  {
   "n": "balthazar",
@@ -1119,13 +1191,13 @@
   "shares": 20.29,
   "ts": 1795254119,
   "held": 20.29,
-  "heldUsd": 18.99,
+  "heldUsd": 18.92,
   "peak": 20.29,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 45
+  "id": 47
  },
  {
   "n": "balthazar",
@@ -1148,7 +1220,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 46
+  "id": 48
  },
  {
   "n": "PaddyAlpha",
@@ -1171,7 +1243,7 @@
   "split": "4/6",
   "arrow": "",
   "fills": [],
-  "id": 47
+  "id": 49
  },
  {
   "n": "Tenebrus7",
@@ -1194,7 +1266,7 @@
   "split": "4/6",
   "arrow": "",
   "fills": [],
-  "id": 48
+  "id": 50
  },
  {
   "n": "PaddyAlpha",
@@ -1217,7 +1289,7 @@
   "split": "3/3",
   "arrow": "",
   "fills": [],
-  "id": 49
+  "id": 51
  },
  {
   "n": "wokerjoesleeper",
@@ -1240,7 +1312,7 @@
   "split": "3/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 50
+  "id": 52
  },
  {
   "n": "balthazar",
@@ -1263,7 +1335,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 51
+  "id": 53
  },
  {
   "n": "balthazar",
@@ -1286,7 +1358,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 52
+  "id": 54
  },
  {
   "n": "balthazar",
@@ -1309,7 +1381,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 53
+  "id": 55
  },
  {
   "n": "balthazar",
@@ -1332,7 +1404,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 54
+  "id": 56
  },
  {
   "n": "balthazar",
@@ -1349,13 +1421,13 @@
   "shares": 10.42,
   "ts": 1795253896,
   "held": 10.42,
-  "heldUsd": 0.38,
+  "heldUsd": 0.4,
   "peak": 10.42,
   "chip": "Exited",
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 55
+  "id": 57
  },
  {
   "n": "archaic",
@@ -1378,7 +1450,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 56
+  "id": 58
  },
  {
   "n": "PaddyAlpha",
@@ -1401,7 +1473,7 @@
   "split": "3/3",
   "arrow": "",
   "fills": [],
-  "id": 57
+  "id": 59
  },
  {
   "n": "PaddyAlpha",
@@ -1424,7 +1496,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 58
+  "id": 60
  },
  {
   "n": "whig",
@@ -1447,7 +1519,7 @@
   "split": "4/7",
   "arrow": "",
   "fills": [],
-  "id": 59
+  "id": 61
  },
  {
   "n": "bernardbulletin",
@@ -1470,7 +1542,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 60
+  "id": 62
  },
  {
   "n": "bernardbulletin",
@@ -1493,7 +1565,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 61
+  "id": 63
  },
  {
   "n": "balthazar",
@@ -1510,13 +1582,13 @@
   "shares": 20.0,
   "ts": 1795253513,
   "held": 20.0,
-  "heldUsd": 11.8,
+  "heldUsd": 13.3,
   "peak": 20.0,
   "chip": "Exited",
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 62
+  "id": 64
  },
  {
   "n": "balthazar",
@@ -1533,13 +1605,13 @@
   "shares": 20.0,
   "ts": 1795253513,
   "held": 20.0,
-  "heldUsd": 9.4,
+  "heldUsd": 7.9,
   "peak": 20.0,
   "chip": "Exited",
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 63
+  "id": 65
  },
  {
   "n": "bernardbulletin",
@@ -1562,7 +1634,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 64
+  "id": 66
  },
  {
   "n": "bernardbulletin",
@@ -1585,7 +1657,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 65
+  "id": 67
  },
  {
   "n": "bernardbulletin",
@@ -1608,7 +1680,7 @@
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 66
+  "id": 68
  },
  {
   "n": "bernardbulletin",
@@ -1631,7 +1703,7 @@
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 67
+  "id": 69
  },
  {
   "n": "bernardbulletin",
@@ -1654,7 +1726,7 @@
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 68
+  "id": 70
  },
  {
   "n": "bernardbulletin",
@@ -1677,7 +1749,7 @@
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 69
+  "id": 71
  },
  {
   "n": "bernardbulletin",
@@ -1694,13 +1766,13 @@
   "shares": 224.96,
   "ts": 1795253446,
   "held": 224.96,
-  "heldUsd": 219.11,
+  "heldUsd": 219.79,
   "peak": 224.96,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 70
+  "id": 72
  },
  {
   "n": "bernardbulletin",
@@ -1717,13 +1789,13 @@
   "shares": 1108.21,
   "ts": 1795253440,
   "held": 1108.21,
-  "heldUsd": 1085.49,
+  "heldUsd": 1081.06,
   "peak": 1108.21,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 71
+  "id": 73
  },
  {
   "n": "Trump2028",
@@ -1746,7 +1818,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 72
+  "id": 74
  },
  {
   "n": "bernardbulletin",
@@ -1769,7 +1841,7 @@
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 73
+  "id": 75
  },
  {
   "n": "bernardbulletin",
@@ -1792,7 +1864,7 @@
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 74
+  "id": 76
  },
  {
   "n": "bernardbulletin",
@@ -1809,13 +1881,13 @@
   "shares": 20.0,
   "ts": 1795253377,
   "held": 20.0,
-  "heldUsd": 19.41,
+  "heldUsd": 19.49,
   "peak": 20.0,
   "chip": "With",
   "split": "3/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 75
+  "id": 77
  },
  {
   "n": "bernardbulletin",
@@ -1838,7 +1910,7 @@
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 76
+  "id": 78
  },
  {
   "n": "bernardbulletin",
@@ -1861,7 +1933,7 @@
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 77
+  "id": 79
  },
  {
   "n": "bernardbulletin",
@@ -1884,7 +1956,7 @@
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 78
+  "id": 80
  },
  {
   "n": "whig",
@@ -1907,7 +1979,7 @@
   "split": "4/7",
   "arrow": "",
   "fills": [],
-  "id": 79
+  "id": 81
  },
  {
   "n": "bernardbulletin",
@@ -1930,7 +2002,7 @@
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 80
+  "id": 82
  },
  {
   "n": "bernardbulletin",
@@ -1947,13 +2019,13 @@
   "shares": 38.62,
   "ts": 1795253195,
   "held": 38.62,
-  "heldUsd": 37.83,
+  "heldUsd": 38.1,
   "peak": 38.62,
   "chip": "With",
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 81
+  "id": 83
  },
  {
   "n": "bernardbulletin",
@@ -1970,13 +2042,13 @@
   "shares": 53.1,
   "ts": 1795253183,
   "held": 53.1,
-  "heldUsd": 51.69,
+  "heldUsd": 51.93,
   "peak": 53.1,
   "chip": "With",
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 82
+  "id": 84
  },
  {
   "n": "bernardbulletin",
@@ -1999,7 +2071,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 83
+  "id": 85
  },
  {
   "n": "bernardbulletin",
@@ -2016,13 +2088,13 @@
   "shares": 91.96,
   "ts": 1795253134,
   "held": 91.96,
-  "heldUsd": 91.55,
+  "heldUsd": 91.87,
   "peak": 91.96,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 84
+  "id": 86
  },
  {
   "n": "bernardbulletin",
@@ -2045,7 +2117,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 85
+  "id": 87
  },
  {
   "n": "bernardbulletin",
@@ -2068,7 +2140,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 86
+  "id": 88
  },
  {
   "n": "bernardbulletin",
@@ -2091,7 +2163,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 87
+  "id": 89
  },
  {
   "n": "balthazar",
@@ -2114,7 +2186,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 88
+  "id": 90
  },
  {
   "n": "balthazar",
@@ -2137,7 +2209,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 89
+  "id": 91
  },
  {
   "n": "balthazar",
@@ -2160,7 +2232,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 90
+  "id": 92
  },
  {
   "n": "balthazar",
@@ -2183,7 +2255,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 91
+  "id": 93
  },
  {
   "n": "balthazar",
@@ -2200,7 +2272,7 @@
   "shares": 21.74,
   "ts": 1795253015,
   "held": 1.75,
-  "heldUsd": 1.36,
+  "heldUsd": 1.37,
   "peak": 21.74,
   "chip": "First",
   "split": "",
@@ -2219,7 +2291,7 @@
     "price": 0.78
    }
   ],
-  "id": 92
+  "id": 94
  },
  {
   "n": "balthazar",
@@ -2242,7 +2314,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 93
+  "id": 95
  },
  {
   "n": "balthazar",
@@ -2265,7 +2337,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 94
+  "id": 96
  },
  {
   "n": "bernardbulletin",
@@ -2288,7 +2360,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 95
+  "id": 97
  },
  {
   "n": "bernardbulletin",
@@ -2305,13 +2377,13 @@
   "shares": 22.6,
   "ts": 1795252972,
   "held": 22.6,
-  "heldUsd": 22.46,
+  "heldUsd": 22.49,
   "peak": 22.6,
   "chip": "Against",
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 96
+  "id": 98
  },
  {
   "n": "bernardbulletin",
@@ -2334,7 +2406,7 @@
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 97
+  "id": 99
  },
  {
   "n": "archaic",
@@ -2357,7 +2429,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 98
+  "id": 100
  },
  {
   "n": "PaddyAlpha",
@@ -2380,7 +2452,7 @@
   "split": "4/6",
   "arrow": "",
   "fills": [],
-  "id": 99
+  "id": 101
  },
  {
   "n": "classified",
@@ -2403,7 +2475,7 @@
   "split": "5/8",
   "arrow": "\u2191",
   "fills": [],
-  "id": 100
+  "id": 102
  },
  {
   "n": "bernardbulletin",
@@ -2426,7 +2498,7 @@
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 101
+  "id": 103
  },
  {
   "n": "bernardbulletin",
@@ -2449,7 +2521,7 @@
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 102
+  "id": 104
  },
  {
   "n": "bernardbulletin",
@@ -2472,7 +2544,7 @@
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 103
+  "id": 105
  },
  {
   "n": "bernardbulletin",
@@ -2495,7 +2567,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 104
+  "id": 106
  },
  {
   "n": "Tenebrus7",
@@ -2518,7 +2590,7 @@
   "split": "3/5",
   "arrow": "\u2193",
   "fills": [],
-  "id": 105
+  "id": 107
  },
  {
   "n": "bernardbulletin",
@@ -2535,13 +2607,13 @@
   "shares": 202.03,
   "ts": 1795252915,
   "held": 202.03,
-  "heldUsd": 120.31,
+  "heldUsd": 123.14,
   "peak": 202.03,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 106
+  "id": 108
  },
  {
   "n": "bernardbulletin",
@@ -2564,7 +2636,7 @@
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 107
+  "id": 109
  },
  {
   "n": "bernardbulletin",
@@ -2587,7 +2659,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 108
+  "id": 110
  },
  {
   "n": "bernardbulletin",
@@ -2610,7 +2682,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 109
+  "id": 111
  },
  {
   "n": "bernardbulletin",
@@ -2627,13 +2699,13 @@
   "shares": 607.0,
   "ts": 1795252813,
   "held": 607.0,
-  "heldUsd": 592.43,
+  "heldUsd": 596.98,
   "peak": 607.0,
   "chip": "Against",
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 110
+  "id": 112
  },
  {
   "n": "bernardbulletin",
@@ -2656,7 +2728,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 111
+  "id": 113
  },
  {
   "n": "PaddyAlpha",
@@ -2679,7 +2751,7 @@
   "split": "3/4",
   "arrow": "",
   "fills": [],
-  "id": 112
+  "id": 114
  },
  {
   "n": "bernardbulletin",
@@ -2702,7 +2774,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 113
+  "id": 115
  },
  {
   "n": "bernardbulletin",
@@ -2725,7 +2797,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 114
+  "id": 116
  },
  {
   "n": "bernardbulletin",
@@ -2748,7 +2820,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 115
+  "id": 117
  },
  {
   "n": "bernardbulletin",
@@ -2771,7 +2843,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 116
+  "id": 118
  },
  {
   "n": "bernardbulletin",
@@ -2790,52 +2862,6 @@
   "held": 601.48,
   "heldUsd": 598.17,
   "peak": 601.48,
-  "chip": "First",
-  "split": "",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 117
- },
- {
-  "n": "bernardbulletin",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-765853-745c728b-99ca-4c24-8b78-3fc38c3477b7.png",
-  "t": "Will the Democratic Party candidate win the 2026 MI-12 House election by 65% or more?",
-  "url": "https://polymarket.com/event/mi-12-house-margin-of-victory-2026/will-the-democratic-party-candidate-win-the-2026-mi-12-house-election-by-65-or-more",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-democratic-party-win-the-popular-vote-in-the-2026-us-house-of-representatives-midterm-elections-by-16-or-more-CzzNoWN2xPFo.png",
-  "cid": "0x9b44466f417e1749516928bc11c92950c171fa7dd88161a93035fb1f06bf51c4",
-  "slug": "will-the-democratic-party-candidate-win-the-2026-mi-12-house-election-by-65-or-more",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.999,
-  "usd": 48.95,
-  "shares": 49.0,
-  "ts": 1795252720,
-  "held": 49.0,
-  "heldUsd": 48.98,
-  "peak": 49.0,
-  "chip": "First",
-  "split": "",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 118
- },
- {
-  "n": "bernardbulletin",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-765853-745c728b-99ca-4c24-8b78-3fc38c3477b7.png",
-  "t": "Will the Democratic Party candidate win the 2026 MI-12 House election by 60%-65%?",
-  "url": "https://polymarket.com/event/mi-12-house-margin-of-victory-2026/will-the-democratic-party-candidate-win-the-2026-mi-12-house-election-by-60-65",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-democratic-party-win-the-popular-vote-in-the-2026-us-house-of-representatives-midterm-elections-by-16-or-more-CzzNoWN2xPFo.png",
-  "cid": "0x5df54e0fce84a02f902196c99fe25c914de7f74d90309578f9b305a040f55563",
-  "slug": "will-the-democratic-party-candidate-win-the-2026-mi-12-house-election-by-60-65",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.998,
-  "usd": 185.04,
-  "shares": 185.41,
-  "ts": 1795252717,
-  "held": 185.41,
-  "heldUsd": 94.0,
-  "peak": 185.41,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
