@@ -1,5 +1,53 @@
 [
  {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the 7-day average ship traffic through the Strait of Hormuz be 7+ on December 31?",
+  "url": "https://polymarket.com/event/7-day-average-ship-traffic-through-the-strait-of-hormuz-on-december-31/will-the-7-day-average-ship-traffic-through-the-strait-of-hormuz-be-7-on-december-31",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Hormuz-4470cfb114.jpg",
+  "cid": "0x3ba71a2ca3808ffc8ccadb9a683d9d9af1c1027e0cc95b259d18540654281788",
+  "slug": "will-the-7-day-average-ship-traffic-through-the-strait-of-hormuz-be-7-on-december-31",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.87,
+  "usd": 17.4,
+  "shares": 20.0,
+  "ts": 1795391074,
+  "held": 21.18,
+  "heldUsd": 18.42,
+  "peak": 61.18,
+  "chip": "Against",
+  "split": "1/1",
+  "arrow": "",
+  "fills": [],
+  "id": 0
+ },
+ {
+  "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
+  "n": "Tenebrus7",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
+  "t": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+  "url": "https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election/will-gadi-eizenkot-be-the-next-prime-minister-of-israel",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/israel-gadi-eizenkot-ccb92a000c.jpg",
+  "cid": "0xdbe93b5a701f36076a560fa4b9ba59e365a6e8e2ea6a83764640010657277ca4",
+  "slug": "will-gadi-eizenkot-be-the-next-prime-minister-of-israel",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.415,
+  "usd": 8.3,
+  "shares": 20.0,
+  "ts": 1795390898,
+  "held": 220.0,
+  "heldUsd": 91.08,
+  "peak": 2000.0,
+  "chip": "Against",
+  "split": "5/8",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 1
+ },
+ {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
   "n": "Tenebrus7",
   "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
@@ -11,17 +59,102 @@
   "side": "BUY",
   "out": "No",
   "price": 0.31,
-  "usd": 101.87,
-  "shares": 328.61,
-  "ts": 1795390628,
-  "held": 9884.45,
-  "heldUsd": 3113.6,
-  "peak": 11755.84,
+  "usd": 464.32,
+  "shares": 1497.81,
+  "ts": 1795390726,
+  "held": 11384.43,
+  "heldUsd": 3358.41,
+  "peak": 12086.62,
   "chip": "Against",
   "split": "7/12",
   "arrow": "\u2193",
+  "fills": [
+   {
+    "ts": 1795390628,
+    "usd": 101.87,
+    "shares": 328.61,
+    "price": 0.31
+   },
+   {
+    "ts": 1795390634,
+    "usd": 2.86,
+    "shares": 9.22,
+    "price": 0.31
+   },
+   {
+    "ts": 1795390673,
+    "usd": 4.33,
+    "shares": 13.97,
+    "price": 0.31
+   },
+   {
+    "ts": 1795390673,
+    "usd": 310.0,
+    "shares": 1000.0,
+    "price": 0.31
+   },
+   {
+    "ts": 1795390676,
+    "usd": 30.13,
+    "shares": 97.18,
+    "price": 0.31
+   },
+   {
+    "ts": 1795390726,
+    "usd": 15.14,
+    "shares": 48.83,
+    "price": 0.31
+   }
+  ],
+  "id": 2
+ },
+ {
+  "a": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
+  "n": "PaddyAlpha",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
+  "t": "Israeli airspace closed by November 30, 2026?",
+  "url": "https://polymarket.com/event/israeli-airspace-closed-by/israeli-airspace-closed-by-november-30-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/israel-closes-its-airspace-by-F65UW1ZQCDQ_.jpg",
+  "cid": "0xa1ed5e3ec8604bac737a1ea5a4c82ef672d685462fd9cb56343c357223ccd0fb",
+  "slug": "israeli-airspace-closed-by-november-30-2026",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.074,
+  "usd": 15.17,
+  "shares": 205.0,
+  "ts": 1795390657,
+  "held": 430.0,
+  "heldUsd": 31.17,
+  "peak": 430.0,
+  "chip": "With",
+  "split": "2/2",
+  "arrow": "",
   "fills": [],
-  "id": 0
+  "id": 3
+ },
+ {
+  "a": "0x6d9fc316c3b8377060a44b852ba664adbfd59790",
+  "n": "MEPP",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-956250-b9c8ba35-0191-43d8-a2a7-97ca0e697166.png",
+  "t": "Israel x Iran ceasefire continues through December 31?",
+  "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963/israel-x-iran-ceasefire-continues-through-december-31-415",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963-FEQHrNm5Q53X.jpg",
+  "cid": "0x1c4c6a698f0591ddf0c96e1beb56f8c75112ef849331bf3b0388f14830a7421d",
+  "slug": "israel-x-iran-ceasefire-continues-through-december-31-415",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.68,
+  "usd": 568.88,
+  "shares": 836.59,
+  "ts": 1795390628,
+  "held": 23024.09,
+  "heldUsd": 16231.99,
+  "peak": 23024.09,
+  "chip": "With",
+  "split": "7/12",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 4
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -38,8 +171,8 @@
   "usd": 211.28,
   "shares": 510.0,
   "ts": 1795390517,
-  "held": 240.0,
-  "heldUsd": 99.36,
+  "held": 220.0,
+  "heldUsd": 91.08,
   "peak": 2000.0,
   "chip": "Against",
   "split": "5/8",
@@ -82,7 +215,7 @@
     "price": 0.414
    }
   ],
-  "id": 1
+  "id": 5
  },
  {
   "a": "0x1f0a343513aa6060488fabe96960e6d1e177f7aa",
@@ -100,13 +233,13 @@
   "shares": 50.0,
   "ts": 1795390493,
   "held": 5850.11,
-  "heldUsd": 4083.37,
+  "heldUsd": 4086.3,
   "peak": 5900.11,
   "chip": "Against",
   "split": "9/10",
   "arrow": "\u2191",
   "fills": [],
-  "id": 2
+  "id": 6
  },
  {
   "a": "0x1ee9a5fc09665909c0cce297c581703bfbb9197f",
@@ -130,7 +263,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 3
+  "id": 7
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -167,7 +300,7 @@
     "price": 0.48
    }
   ],
-  "id": 4
+  "id": 8
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -191,7 +324,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 5
+  "id": 9
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -215,7 +348,7 @@
   "split": "2/3",
   "arrow": "\u2193",
   "fills": [],
-  "id": 6
+  "id": 10
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -239,7 +372,7 @@
   "split": "2/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 7
+  "id": 11
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -263,7 +396,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 8
+  "id": 12
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -287,7 +420,7 @@
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 9
+  "id": 13
  },
  {
   "a": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
@@ -305,13 +438,13 @@
   "shares": 4406.63,
   "ts": 1795390013,
   "held": 23676.38,
-  "heldUsd": 20006.54,
+  "heldUsd": 20124.92,
   "peak": 39128.06,
   "chip": "With",
   "split": "4/6",
   "arrow": "",
   "fills": [],
-  "id": 10
+  "id": 14
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -329,7 +462,7 @@
   "shares": 75.0,
   "ts": 1795389796,
   "held": 37.36,
-  "heldUsd": 11.62,
+  "heldUsd": 11.56,
   "peak": 112.36,
   "chip": "Against",
   "split": "1/1",
@@ -348,7 +481,7 @@
     "price": 0.386
    }
   ],
-  "id": 11
+  "id": 15
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -366,13 +499,13 @@
   "shares": 20.0,
   "ts": 1795389781,
   "held": 119.76,
-  "heldUsd": 44.97,
+  "heldUsd": 44.61,
   "peak": 119.76,
   "chip": "First",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 12
+  "id": 16
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -390,13 +523,13 @@
   "shares": 20.0,
   "ts": 1795389781,
   "held": 102.79,
-  "heldUsd": 49.85,
+  "heldUsd": 50.88,
   "peak": 102.79,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 13
+  "id": 17
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -420,7 +553,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 14
+  "id": 18
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -444,7 +577,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 15
+  "id": 19
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -468,7 +601,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 16
+  "id": 20
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -492,7 +625,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 17
+  "id": 21
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -535,7 +668,7 @@
     "price": 0.58
    }
   ],
-  "id": 18
+  "id": 22
  },
  {
   "a": "0x6d9fc316c3b8377060a44b852ba664adbfd59790",
@@ -552,14 +685,14 @@
   "usd": 336.54,
   "shares": 494.91,
   "ts": 1795389305,
-  "held": 22187.5,
-  "heldUsd": 15198.44,
-  "peak": 22187.5,
+  "held": 23024.09,
+  "heldUsd": 16231.99,
+  "peak": 23024.09,
   "chip": "With",
   "split": "7/12",
   "arrow": "\u2193",
   "fills": [],
-  "id": 19
+  "id": 23
  },
  {
   "a": "0xc4086b708cd3a50880b7069add1a1a80000f4675",
@@ -583,7 +716,7 @@
   "split": "6/9",
   "arrow": "\u2191",
   "fills": [],
-  "id": 20
+  "id": 24
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -601,13 +734,13 @@
   "shares": 726.69,
   "ts": 1795389271,
   "held": 91465.26,
-  "heldUsd": 78614.39,
+  "heldUsd": 78660.12,
   "peak": 91465.26,
   "chip": "With",
   "split": "12/13",
   "arrow": "",
   "fills": [],
-  "id": 21
+  "id": 25
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -631,7 +764,7 @@
   "split": "1/1",
   "arrow": "\u2193",
   "fills": [],
-  "id": 22
+  "id": 26
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -655,7 +788,7 @@
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 23
+  "id": 27
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -679,7 +812,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 24
+  "id": 28
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -703,7 +836,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 25
+  "id": 29
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -721,13 +854,13 @@
   "shares": 27.07,
   "ts": 1795388882,
   "held": 91465.26,
-  "heldUsd": 78614.39,
+  "heldUsd": 78660.12,
   "peak": 91465.26,
   "chip": "With",
   "split": "12/13",
   "arrow": "",
   "fills": [],
-  "id": 26
+  "id": 30
  },
  {
   "a": "0x6d9fc316c3b8377060a44b852ba664adbfd59790",
@@ -751,7 +884,7 @@
   "split": "4/6",
   "arrow": "",
   "fills": [],
-  "id": 27
+  "id": 31
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -775,7 +908,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 28
+  "id": 32
  },
  {
   "a": "0x154794795d978c5890b3f69264311f0bd966d066",
@@ -799,7 +932,7 @@
   "split": "4/4",
   "arrow": "",
   "fills": [],
-  "id": 29
+  "id": 33
  },
  {
   "a": "0x1ee9a5fc09665909c0cce297c581703bfbb9197f",
@@ -817,13 +950,13 @@
   "shares": 4229.25,
   "ts": 1795388456,
   "held": 4970.65,
-  "heldUsd": 4463.64,
+  "heldUsd": 4508.38,
   "peak": 4970.65,
   "chip": "First",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 30
+  "id": 34
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -847,7 +980,7 @@
   "split": "2/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 31
+  "id": 35
  },
  {
   "a": "0x6d9fc316c3b8377060a44b852ba664adbfd59790",
@@ -871,7 +1004,7 @@
   "split": "4/6",
   "arrow": "",
   "fills": [],
-  "id": 32
+  "id": 36
  },
  {
   "a": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
@@ -895,7 +1028,7 @@
   "split": "4/6",
   "arrow": "",
   "fills": [],
-  "id": 33
+  "id": 37
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -919,7 +1052,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 34
+  "id": 38
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -943,7 +1076,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 35
+  "id": 39
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -967,7 +1100,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 36
+  "id": 40
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -991,7 +1124,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 37
+  "id": 41
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1015,7 +1148,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 38
+  "id": 42
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1039,7 +1172,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 39
+  "id": 43
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1063,7 +1196,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 40
+  "id": 44
  },
  {
   "a": "0xc4086b708cd3a50880b7069add1a1a80000f4675",
@@ -1087,7 +1220,7 @@
   "split": "6/9",
   "arrow": "\u2191",
   "fills": [],
-  "id": 41
+  "id": 45
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -1105,13 +1238,13 @@
   "shares": 1071.43,
   "ts": 1795388210,
   "held": 91465.26,
-  "heldUsd": 78614.39,
+  "heldUsd": 78660.12,
   "peak": 91465.26,
   "chip": "With",
   "split": "12/13",
   "arrow": "",
   "fills": [],
-  "id": 42
+  "id": 46
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1135,7 +1268,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 43
+  "id": 47
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1159,7 +1292,7 @@
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 44
+  "id": 48
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1177,13 +1310,13 @@
   "shares": 10.0,
   "ts": 1795388149,
   "held": 10.0,
-  "heldUsd": 4.46,
+  "heldUsd": 4.72,
   "peak": 60.0,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 45
+  "id": 49
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1200,12 +1333,12 @@
   "usd": 3.2,
   "shares": 40.0,
   "ts": 1795388122,
-  "held": 40.0,
-  "heldUsd": 0.1,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 40.0,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [
    {
     "ts": 1795388122,
@@ -1220,7 +1353,7 @@
     "price": 0.09
    }
   ],
-  "id": 46
+  "id": 50
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -1244,7 +1377,7 @@
   "split": "5/8",
   "arrow": "\u2191",
   "fills": [],
-  "id": 47
+  "id": 51
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -1262,13 +1395,13 @@
   "shares": 30.75,
   "ts": 1795387267,
   "held": 91465.26,
-  "heldUsd": 78614.39,
+  "heldUsd": 78660.12,
   "peak": 91465.26,
   "chip": "With",
   "split": "12/13",
   "arrow": "",
   "fills": [],
-  "id": 48
+  "id": 52
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1286,7 +1419,7 @@
   "shares": 75.0,
   "ts": 1795387198,
   "held": 46.3,
-  "heldUsd": 36.16,
+  "heldUsd": 36.28,
   "peak": 121.3,
   "chip": "Against",
   "split": "1/1",
@@ -1305,7 +1438,7 @@
     "price": 0.845
    }
   ],
-  "id": 49
+  "id": 53
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1329,7 +1462,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 50
+  "id": 54
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1353,7 +1486,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 51
+  "id": 55
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1377,7 +1510,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 52
+  "id": 56
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1401,7 +1534,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 53
+  "id": 57
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1425,7 +1558,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 54
+  "id": 58
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1449,7 +1582,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 55
+  "id": 59
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1473,7 +1606,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 56
+  "id": 60
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1497,7 +1630,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 57
+  "id": 61
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1521,7 +1654,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 58
+  "id": 62
  },
  {
   "a": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
@@ -1545,7 +1678,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 59
+  "id": 63
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1569,7 +1702,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 60
+  "id": 64
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1593,7 +1726,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 61
+  "id": 65
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1617,7 +1750,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 62
+  "id": 66
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1641,7 +1774,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 63
+  "id": 67
  },
  {
   "a": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
@@ -1678,7 +1811,7 @@
     "price": 0.264
    }
   ],
-  "id": 64
+  "id": 68
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -1702,7 +1835,7 @@
   "split": "7/8",
   "arrow": "",
   "fills": [],
-  "id": 65
+  "id": 69
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1726,7 +1859,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 66
+  "id": 70
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1750,7 +1883,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 67
+  "id": 71
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1774,7 +1907,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 68
+  "id": 72
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1798,7 +1931,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 69
+  "id": 73
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1822,7 +1955,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 70
+  "id": 74
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1846,7 +1979,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 71
+  "id": 75
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1870,7 +2003,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 72
+  "id": 76
  },
  {
   "a": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
@@ -1894,7 +2027,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 73
+  "id": 77
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -1912,13 +2045,13 @@
   "shares": 144.05,
   "ts": 1795386415,
   "held": 91465.26,
-  "heldUsd": 78614.39,
+  "heldUsd": 78660.12,
   "peak": 91465.26,
   "chip": "With",
   "split": "12/13",
   "arrow": "",
   "fills": [],
-  "id": 74
+  "id": 78
  },
  {
   "a": "0xc4086b708cd3a50880b7069add1a1a80000f4675",
@@ -1942,7 +2075,7 @@
   "split": "6/9",
   "arrow": "\u2191",
   "fills": [],
-  "id": 75
+  "id": 79
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1966,7 +2099,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 76
+  "id": 80
  },
  {
   "a": "0xed107a85a4585a381e48c7f7ca4144909e7dd2e5",
@@ -1990,7 +2123,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 77
+  "id": 81
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2014,7 +2147,7 @@
   "split": "2/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 78
+  "id": 82
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2038,7 +2171,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 79
+  "id": 83
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2062,7 +2195,7 @@
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 80
+  "id": 84
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2086,7 +2219,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 81
+  "id": 85
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2110,7 +2243,7 @@
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 82
+  "id": 86
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2127,14 +2260,14 @@
   "usd": 17.8,
   "shares": 20.0,
   "ts": 1795385618,
-  "held": 41.18,
-  "heldUsd": 35.82,
+  "held": 21.18,
+  "heldUsd": 18.42,
   "peak": 61.18,
   "chip": "Against",
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 83
+  "id": 87
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -2158,7 +2291,7 @@
   "split": "5/8",
   "arrow": "\u2191",
   "fills": [],
-  "id": 84
+  "id": 88
  },
  {
   "a": "0xeca0c0888e34df59589c67fbe53dc7f298b5e8f8",
@@ -2182,7 +2315,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 85
+  "id": 89
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -2199,14 +2332,14 @@
   "usd": 294.07,
   "shares": 720.77,
   "ts": 1795385261,
-  "held": 240.0,
-  "heldUsd": 99.36,
+  "held": 220.0,
+  "heldUsd": 91.08,
   "peak": 2000.0,
   "chip": "Against",
   "split": "5/8",
   "arrow": "\u2191",
   "fills": [],
-  "id": 86
+  "id": 90
  },
  {
   "a": "0xa4b366ad22fc0d06f1e934ff468e8922431a87b8",
@@ -2230,7 +2363,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 87
+  "id": 91
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2248,13 +2381,13 @@
   "shares": 19.44,
   "ts": 1795385035,
   "held": 19.82,
-  "heldUsd": 11.66,
+  "heldUsd": 11.41,
   "peak": 19.82,
   "chip": "First",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 88
+  "id": 92
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2272,13 +2405,13 @@
   "shares": 20.0,
   "ts": 1795385035,
   "held": 17.78,
-  "heldUsd": 1.16,
+  "heldUsd": 1.51,
   "peak": 20.0,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 89
+  "id": 93
  },
  {
   "a": "0xa4b366ad22fc0d06f1e934ff468e8922431a87b8",
@@ -2296,13 +2429,13 @@
   "shares": 20.0,
   "ts": 1795385006,
   "held": 20.0,
-  "heldUsd": 17.95,
+  "heldUsd": 18.04,
   "peak": 20.0,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 90
+  "id": 94
  },
  {
   "a": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
@@ -2326,7 +2459,7 @@
   "split": "4/8",
   "arrow": "",
   "fills": [],
-  "id": 91
+  "id": 95
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -2350,7 +2483,7 @@
   "split": "4/5",
   "arrow": "",
   "fills": [],
-  "id": 92
+  "id": 96
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2374,7 +2507,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 93
+  "id": 97
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2398,7 +2531,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 94
+  "id": 98
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2422,7 +2555,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 95
+  "id": 99
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2446,7 +2579,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 96
+  "id": 100
  },
  {
   "a": "0xa4b366ad22fc0d06f1e934ff468e8922431a87b8",
@@ -2470,7 +2603,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 97
+  "id": 101
  },
  {
   "a": "0xa4b366ad22fc0d06f1e934ff468e8922431a87b8",
@@ -2494,7 +2627,7 @@
   "split": "4/6",
   "arrow": "\u2191",
   "fills": [],
-  "id": 98
+  "id": 102
  },
  {
   "a": "0x1c144e30f405a25f991cbd8baa15d40599090869",
@@ -2518,7 +2651,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 99
+  "id": 103
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2542,7 +2675,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 100
+  "id": 104
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2566,7 +2699,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 101
+  "id": 105
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2590,7 +2723,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 102
+  "id": 106
  },
  {
   "a": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
@@ -2614,7 +2747,7 @@
   "split": "4/6",
   "arrow": "",
   "fills": [],
-  "id": 103
+  "id": 107
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -2631,8 +2764,8 @@
   "usd": 215.43,
   "shares": 529.23,
   "ts": 1795384648,
-  "held": 240.0,
-  "heldUsd": 99.36,
+  "held": 220.0,
+  "heldUsd": 91.08,
   "peak": 2000.0,
   "chip": "Against",
   "split": "5/8",
@@ -2687,7 +2820,7 @@
     "price": 0.408
    }
   ],
-  "id": 104
+  "id": 108
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -2711,7 +2844,7 @@
   "split": "7/8",
   "arrow": "",
   "fills": [],
-  "id": 105
+  "id": 109
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2735,7 +2868,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 106
+  "id": 110
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -2753,13 +2886,13 @@
   "shares": 1499.99,
   "ts": 1795384438,
   "held": 7799.98,
-  "heldUsd": 5444.39,
+  "heldUsd": 5448.29,
   "peak": 7799.98,
   "chip": "With",
   "split": "9/10",
   "arrow": "\u2191",
   "fills": [],
-  "id": 107
+  "id": 111
  },
  {
   "a": "0x1f0a343513aa6060488fabe96960e6d1e177f7aa",
@@ -2777,13 +2910,13 @@
   "shares": 200.0,
   "ts": 1795384436,
   "held": 5850.11,
-  "heldUsd": 4083.37,
+  "heldUsd": 4086.3,
   "peak": 5900.11,
   "chip": "With",
   "split": "9/10",
   "arrow": "\u2191",
   "fills": [],
-  "id": 108
+  "id": 112
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -2807,7 +2940,7 @@
   "split": "2/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 109
+  "id": 113
  },
  {
   "a": "0xc4086b708cd3a50880b7069add1a1a80000f4675",
@@ -2844,7 +2977,7 @@
     "price": 0.94
    }
   ],
-  "id": 110
+  "id": 114
  },
  {
   "a": "0x6d9fc316c3b8377060a44b852ba664adbfd59790",
@@ -2868,7 +3001,7 @@
   "split": "6/9",
   "arrow": "\u2191",
   "fills": [],
-  "id": 111
+  "id": 115
  },
  {
   "a": "0x43440ab002eaac9fede6f9d21bea96d84228f90d",
@@ -2892,7 +3025,7 @@
   "split": "3/5",
   "arrow": "",
   "fills": [],
-  "id": 112
+  "id": 116
  },
  {
   "a": "0xed107a85a4585a381e48c7f7ca4144909e7dd2e5",
@@ -2916,7 +3049,7 @@
   "split": "3/5",
   "arrow": "",
   "fills": [],
-  "id": 113
+  "id": 117
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2934,7 +3067,7 @@
   "shares": 120.0,
   "ts": 1795384213,
   "held": 46.3,
-  "heldUsd": 36.16,
+  "heldUsd": 36.28,
   "peak": 121.3,
   "chip": "First",
   "split": "",
@@ -2959,7 +3092,7 @@
     "price": 0.742
    }
   ],
-  "id": 114
+  "id": 118
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2977,134 +3110,12 @@
   "shares": 119.93,
   "ts": 1795384213,
   "held": 82.27,
-  "heldUsd": 24.11,
+  "heldUsd": 23.49,
   "peak": 119.93,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 115
- },
- {
-  "a": "0x1ee9a5fc09665909c0cce297c581703bfbb9197f",
-  "n": "vinii",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3182982-b6b5b95b-0f9e-4483-ac26-fd178a3bcfdf.jpeg",
-  "t": "Friedrich Merz out as Chancellor of Germany before December 31, 2027?",
-  "url": "https://polymarket.com/event/friedrich-merz-out-as-chancellor-of-germany-before-2027/friedrich-merz-out-as-chancellor-of-germany-before-december-31-2027",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/friedrich-merz-out-as-chancellor-of-germany-in-2025-uyYzbnJj0tjS.jpg",
-  "cid": "0x86e8c236e5c863140dfaf4c9b9e682fca3d6e627624df603b377d5ad9c57b991",
-  "slug": "friedrich-merz-out-as-chancellor-of-germany-before-december-31-2027",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.64,
-  "usd": 6.4,
-  "shares": 10.0,
-  "ts": 1795384181,
-  "held": 1072.77,
-  "heldUsd": 675.85,
-  "peak": 1082.77,
-  "chip": "Against",
-  "split": "2/2",
-  "arrow": "",
-  "fills": [],
-  "id": 116
- },
- {
-  "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
-  "n": "Tenebrus7",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
-  "t": "Will Jensen Huang rejoin NVIDIA by December 31, 2027?",
-  "url": "https://polymarket.com/event/jensen-huang-rejoins-nvidia-byptptpt/will-jensen-huang-rejoin-nvidia-by-december-31-2027",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0x79a7b7c58effc4f2753011fb78f44ff59d1912eddc62f4a4ad16f7adda09eb81",
-  "slug": "will-jensen-huang-rejoin-nvidia-by-december-31-2027",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.66,
-  "usd": 52.43,
-  "shares": 79.44,
-  "ts": 1795384061,
-  "held": 9447.0,
-  "heldUsd": 6282.26,
-  "peak": 9653.71,
-  "chip": "With",
-  "split": "6/7",
-  "arrow": "",
-  "fills": [],
-  "id": 117
- },
- {
-  "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
-  "n": "Tenebrus7",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
-  "t": "Israel x Iran ceasefire continues through November 30?",
-  "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963/israel-x-iran-ceasefire-continues-through-november-30",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963-FEQHrNm5Q53X.jpg",
-  "cid": "0x2dcbc71a3f8108936e768b503d565fbda7a644b2a0bd9ed45f74982a2bb11fba",
-  "slug": "israel-x-iran-ceasefire-continues-through-november-30",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.89,
-  "usd": 523.7,
-  "shares": 588.43,
-  "ts": 1795384000,
-  "held": 2000.0,
-  "heldUsd": 1810.0,
-  "peak": 2000.0,
-  "chip": "With",
-  "split": "5/8",
-  "arrow": "",
-  "fills": [
-   {
-    "ts": 1795384000,
-    "usd": 445.0,
-    "shares": 500.0,
-    "price": 0.89
-   },
-   {
-    "ts": 1795384000,
-    "usd": 78.7,
-    "shares": 88.43,
-    "price": 0.89
-   }
-  ],
-  "id": 118
- },
- {
-  "a": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
-  "n": "PaddyAlpha",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
-  "t": "Will Nicol\u00e1s Maduro be the #1 searched person on Google in the US this year?",
-  "url": "https://polymarket.com/event/1-searched-person-on-google-in-the-us-2026-20260730192940/will-nicolas-maduro-be-the-1-searched-person-on-google-in-the-us-this-year-20260730192940423",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-nicolas-maduro-be-the-1-searched-person-on-google-this-year-202607172144262-K-_LdrmcxGKk.jpg",
-  "cid": "0x205bc75ca035634d71abd9231aa393926b2361f04f1a78c7480e0096ee1c920a",
-  "slug": "will-nicolas-maduro-be-the-1-searched-person-on-google-in-the-us-this-year-20260730192940423",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.895,
-  "usd": 110.66,
-  "shares": 123.64,
-  "ts": 1795383803,
-  "held": 255.44,
-  "heldUsd": 240.5,
-  "peak": 385.44,
-  "chip": "Against",
-  "split": "2/2",
-  "arrow": "",
-  "fills": [
-   {
-    "ts": 1795383802,
-    "usd": 66.23,
-    "shares": 74.0,
-    "price": 0.895
-   },
-   {
-    "ts": 1795383803,
-    "usd": 44.43,
-    "shares": 49.64,
-    "price": 0.895
-   }
-  ],
   "id": 119
  }
 ]
