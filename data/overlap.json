@@ -1368,15 +1368,15 @@
   ],
   "endDate": "2027-01-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/china-invades-taiwan-in-2025-CCSd9dX2mrea.jpg",
-  "total": 131890.7897,
+  "total": 131850.81,
   "holders": [
    {
     "trader": "classified",
     "outcome": "No",
-    "size": 53608.344,
+    "size": 53567.7761,
     "avgPrice": 0.9644,
     "curPrice": 0.9855,
-    "currentValue": 52831.023,
+    "currentValue": 52791.0433,
     "asset": "90772332434487149264114862115632028379978765245278600275169585501290867536237",
     "fe": 1795167380
    },
@@ -1423,15 +1423,15 @@
   ],
   "endDate": "2026-12-09",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/fed-decision-in-september-762-c4RyWuxRPo1L.jpg",
-  "total": 117694.41530000001,
+  "total": 117633.2118,
   "holders": [
    {
     "trader": "Trump2028",
     "outcome": "No",
     "size": 9999.98,
     "avgPrice": 0.967,
-    "curPrice": 0.9615,
-    "currentValue": 9614.9807,
+    "curPrice": 0.961,
+    "currentValue": 9609.9807,
     "asset": "8077351031134730167836761678618167504307708651130165095377248922919635337796",
     "fe": 1794498288
    },
@@ -1440,8 +1440,8 @@
     "outcome": "No",
     "size": 102907.1346,
     "avgPrice": 0.97,
-    "curPrice": 0.9615,
-    "currentValue": 98945.2099,
+    "curPrice": 0.961,
+    "currentValue": 98893.7564,
     "asset": "8077351031134730167836761678618167504307708651130165095377248922919635337796",
     "fe": 1795128307
    },
@@ -1450,13 +1450,13 @@
     "outcome": "No",
     "size": 9499.9737,
     "avgPrice": 0.9459,
-    "curPrice": 0.9615,
-    "currentValue": 9134.2247,
+    "curPrice": 0.961,
+    "currentValue": 9129.4747,
     "asset": "8077351031134730167836761678618167504307708651130165095377248922919635337796",
     "fe": 1785845370
    }
   ],
-  "bid": 0.037,
+  "bid": 0.038,
   "ask": 0.04
  },
  {
@@ -1562,6 +1562,108 @@
   "ask": 0.94
  },
  {
+  "conditionId": "0x67f3f8d0a0ecdfc008c99650284a4674388a8c3029b0eb7ca0abd65dde8d996f",
+  "title": "Will Nicol\u00e1s Maduro be the leader of Venezuela end of 2026?",
+  "slug": "will-nicols-maduro-be-the-leader-of-venezuela-end-of-2026",
+  "eventSlug": "venezuela-leader-end-of-2026",
+  "tags": [
+   "Trump-Machado",
+   "Rewards 20, 4.5, 50",
+   "Venezuela",
+   "Trump",
+   "Politics",
+   "Geopolitics",
+   "maduro"
+  ],
+  "endDate": "2027-01-01",
+  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/venezuela-leader-end-of-2026-lOfqbUxiKAsg.png",
+  "total": 100245.4689,
+  "holders": [
+   {
+    "trader": "paddaa",
+    "outcome": "No",
+    "size": 18750.0074,
+    "avgPrice": 0.091,
+    "curPrice": 0.107,
+    "currentValue": 2006.2507,
+    "asset": "21527446005162722668702146847806837944786417986794925592709069062391666573103",
+    "fe": 1776300152
+   },
+   {
+    "trader": "Car",
+    "outcome": "Yes",
+    "size": 7598.0,
+    "avgPrice": 0.7989,
+    "curPrice": 0.893,
+    "currentValue": 6785.014,
+    "asset": "37090128566507509913630589460372620352013766554886380785463533062224343545231",
+    "fe": 1768957838
+   },
+   {
+    "trader": "denizz",
+    "outcome": "Yes",
+    "size": 33594.5682,
+    "avgPrice": 0.512,
+    "curPrice": 0.893,
+    "currentValue": 29999.9494,
+    "asset": "37090128566507509913630589460372620352013766554886380785463533062224343545231",
+    "fe": 1776301932
+   },
+   {
+    "trader": "ImJustKen",
+    "outcome": "Yes",
+    "size": 32425.5666,
+    "avgPrice": 0.0518,
+    "curPrice": 0.893,
+    "currentValue": 28956.031,
+    "asset": "37090128566507509913630589460372620352013766554886380785463533062224343545231",
+    "fe": 1767563177
+   },
+   {
+    "trader": "MEPP",
+    "outcome": "Yes",
+    "size": 7030.8751,
+    "avgPrice": 0.638,
+    "curPrice": 0.893,
+    "currentValue": 6278.5715,
+    "asset": "37090128566507509913630589460372620352013766554886380785463533062224343545231",
+    "fe": 1784416884
+   },
+   {
+    "trader": "elmcap2",
+    "outcome": "Yes",
+    "size": 7499.9918,
+    "avgPrice": 0.9321,
+    "curPrice": 0.893,
+    "currentValue": 6697.4927,
+    "asset": "37090128566507509913630589460372620352013766554886380785463533062224343545231",
+    "fe": 1794182751
+   },
+   {
+    "trader": "Trump2028",
+    "outcome": "Yes",
+    "size": 19861.3773,
+    "avgPrice": 0.9079,
+    "curPrice": 0.893,
+    "currentValue": 17736.2099,
+    "asset": "37090128566507509913630589460372620352013766554886380785463533062224343545231",
+    "fe": 1794511003
+   },
+   {
+    "trader": "Tenebrus7",
+    "outcome": "Yes",
+    "size": 1999.9436,
+    "avgPrice": 0.9165,
+    "curPrice": 0.893,
+    "currentValue": 1785.9497,
+    "asset": "37090128566507509913630589460372620352013766554886380785463533062224343545231",
+    "fe": 1778659165
+   }
+  ],
+  "bid": 0.886,
+  "ask": 0.899
+ },
+ {
   "conditionId": "0x7586a96520578acaaaa4ea84a2582f197f84255da1f3392a7aa300386c187b37",
   "title": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
   "slug": "will-benjamin-netanyahu-be-the-next-prime-minister-of-israel",
@@ -1581,15 +1683,15 @@
   ],
   "endDate": "2026-10-28",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/israel-benjamin-netanyahu-9221e795d7.jpg",
-  "total": 99994.9393,
+  "total": 100188.22839999999,
   "holders": [
    {
     "trader": "Dropper",
     "outcome": "No",
     "size": 69298.6661,
     "avgPrice": 0.6745,
-    "curPrice": 0.776,
-    "currentValue": 53775.7648,
+    "curPrice": 0.7775,
+    "currentValue": 53879.7128,
     "asset": "54533569528927082430133047556849600511985191158927477533124630301934489498530",
     "fe": 1789769089
    },
@@ -1598,8 +1700,8 @@
     "outcome": "No",
     "size": 25700.2858,
     "avgPrice": 0.7582,
-    "curPrice": 0.776,
-    "currentValue": 19943.4217,
+    "curPrice": 0.7775,
+    "currentValue": 19981.9722,
     "asset": "54533569528927082430133047556849600511985191158927477533124630301934489498530",
     "fe": 1789715898
    },
@@ -1608,8 +1710,8 @@
     "outcome": "No",
     "size": 8544.6233,
     "avgPrice": 0.7545,
-    "curPrice": 0.776,
-    "currentValue": 6630.6277,
+    "curPrice": 0.7775,
+    "currentValue": 6643.4446,
     "asset": "54533569528927082430133047556849600511985191158927477533124630301934489498530",
     "fe": 1789494906
    },
@@ -1618,8 +1720,8 @@
     "outcome": "No",
     "size": 9659.8152,
     "avgPrice": 0.7,
-    "curPrice": 0.776,
-    "currentValue": 7496.0166,
+    "curPrice": 0.7775,
+    "currentValue": 7510.5063,
     "asset": "54533569528927082430133047556849600511985191158927477533124630301934489498530",
     "fe": 1788638307
    },
@@ -1628,8 +1730,8 @@
     "outcome": "No",
     "size": 5506.0963,
     "avgPrice": 0.7717,
-    "curPrice": 0.776,
-    "currentValue": 4272.7307,
+    "curPrice": 0.7775,
+    "currentValue": 4280.9898,
     "asset": "54533569528927082430133047556849600511985191158927477533124630301934489498530",
     "fe": 1792441449
    },
@@ -1638,8 +1740,8 @@
     "outcome": "No",
     "size": 4349.9727,
     "avgPrice": 0.7452,
-    "curPrice": 0.776,
-    "currentValue": 3375.5788,
+    "curPrice": 0.7775,
+    "currentValue": 3382.1037,
     "asset": "54533569528927082430133047556849600511985191158927477533124630301934489498530",
     "fe": 1790090554
    },
@@ -1648,116 +1750,14 @@
     "outcome": "No",
     "size": 5799.9987,
     "avgPrice": 0.7442,
-    "curPrice": 0.776,
-    "currentValue": 4500.799,
+    "curPrice": 0.7775,
+    "currentValue": 4509.499,
     "asset": "54533569528927082430133047556849600511985191158927477533124630301934489498530",
     "fe": 1779575479
    }
   ],
   "bid": 0.222,
-  "ask": 0.226
- },
- {
-  "conditionId": "0x67f3f8d0a0ecdfc008c99650284a4674388a8c3029b0eb7ca0abd65dde8d996f",
-  "title": "Will Nicol\u00e1s Maduro be the leader of Venezuela end of 2026?",
-  "slug": "will-nicols-maduro-be-the-leader-of-venezuela-end-of-2026",
-  "eventSlug": "venezuela-leader-end-of-2026",
-  "tags": [
-   "Trump-Machado",
-   "Rewards 20, 4.5, 50",
-   "Venezuela",
-   "Trump",
-   "Politics",
-   "Geopolitics",
-   "maduro"
-  ],
-  "endDate": "2027-01-01",
-  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/venezuela-leader-end-of-2026-lOfqbUxiKAsg.png",
-  "total": 99743.53729999998,
-  "holders": [
-   {
-    "trader": "paddaa",
-    "outcome": "No",
-    "size": 18750.0074,
-    "avgPrice": 0.091,
-    "curPrice": 0.1125,
-    "currentValue": 2109.3758,
-    "asset": "21527446005162722668702146847806837944786417986794925592709069062391666573103",
-    "fe": 1776300152
-   },
-   {
-    "trader": "Car",
-    "outcome": "Yes",
-    "size": 7598.0,
-    "avgPrice": 0.7989,
-    "curPrice": 0.8875,
-    "currentValue": 6743.225,
-    "asset": "37090128566507509913630589460372620352013766554886380785463533062224343545231",
-    "fe": 1768957838
-   },
-   {
-    "trader": "denizz",
-    "outcome": "Yes",
-    "size": 33594.5682,
-    "avgPrice": 0.512,
-    "curPrice": 0.8875,
-    "currentValue": 29815.1793,
-    "asset": "37090128566507509913630589460372620352013766554886380785463533062224343545231",
-    "fe": 1776301932
-   },
-   {
-    "trader": "ImJustKen",
-    "outcome": "Yes",
-    "size": 32425.5666,
-    "avgPrice": 0.0518,
-    "curPrice": 0.8875,
-    "currentValue": 28777.6904,
-    "asset": "37090128566507509913630589460372620352013766554886380785463533062224343545231",
-    "fe": 1767563177
-   },
-   {
-    "trader": "MEPP",
-    "outcome": "Yes",
-    "size": 7030.8751,
-    "avgPrice": 0.638,
-    "curPrice": 0.8875,
-    "currentValue": 6239.9017,
-    "asset": "37090128566507509913630589460372620352013766554886380785463533062224343545231",
-    "fe": 1784416884
-   },
-   {
-    "trader": "elmcap2",
-    "outcome": "Yes",
-    "size": 7499.9918,
-    "avgPrice": 0.9321,
-    "curPrice": 0.8875,
-    "currentValue": 6656.2428,
-    "asset": "37090128566507509913630589460372620352013766554886380785463533062224343545231",
-    "fe": 1794182751
-   },
-   {
-    "trader": "Trump2028",
-    "outcome": "Yes",
-    "size": 19861.3773,
-    "avgPrice": 0.9079,
-    "curPrice": 0.8875,
-    "currentValue": 17626.9723,
-    "asset": "37090128566507509913630589460372620352013766554886380785463533062224343545231",
-    "fe": 1794511003
-   },
-   {
-    "trader": "Tenebrus7",
-    "outcome": "Yes",
-    "size": 1999.9436,
-    "avgPrice": 0.9165,
-    "curPrice": 0.8875,
-    "currentValue": 1774.95,
-    "asset": "37090128566507509913630589460372620352013766554886380785463533062224343545231",
-    "fe": 1778659165
-   }
-  ],
-  "bid": 0.878,
-  "ask": 0.897
+  "ask": 0.223
  },
  {
   "conditionId": "0x8bdeac60c92d3bc494792fd334ca181b0cf70355f23dca4098d558280b554c81",
@@ -1890,15 +1890,15 @@
   ],
   "endDate": "2027-01-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/jensen-huang-divorce-in-2026-TwqKa0CMsYm6.jpg",
-  "total": 68652.9309,
+  "total": 68725.541,
   "holders": [
    {
     "trader": "aenews2",
     "outcome": "Yes",
     "size": 69761.3733,
     "avgPrice": 0.3349,
-    "curPrice": 0.9455,
-    "currentValue": 65959.3785,
+    "curPrice": 0.9465,
+    "currentValue": 66029.1398,
     "asset": "14405166753011166443914724479935498188450929253703432170115263570311755667096",
     "fe": 1794560535
    },
@@ -1907,8 +1907,8 @@
     "outcome": "Yes",
     "size": 2062.5135,
     "avgPrice": 0.3981,
-    "curPrice": 0.9455,
-    "currentValue": 1950.1065,
+    "curPrice": 0.9465,
+    "currentValue": 1952.169,
     "asset": "14405166753011166443914724479935498188450929253703432170115263570311755667096",
     "fe": 1794536773
    },
@@ -1917,14 +1917,14 @@
     "outcome": "Yes",
     "size": 786.2992,
     "avgPrice": 0.3933,
-    "curPrice": 0.9455,
-    "currentValue": 743.4459,
+    "curPrice": 0.9465,
+    "currentValue": 744.2322,
     "asset": "14405166753011166443914724479935498188450929253703432170115263570311755667096",
     "fe": 1794970724
    }
   ],
-  "bid": 0.937,
-  "ask": 0.954
+  "bid": 0.938,
+  "ask": 0.956
  },
  {
   "conditionId": "0x99dcf0abf02cdbd62e6a17a95c68f7864be5f5779d25d44cf7ea134f5d7979a9",
@@ -2537,15 +2537,15 @@
   ],
   "endDate": "2027-01-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/kharg-island-no-longer-under-iranian-control-by-march-31-j0_GAJMNgJ_G.jpg",
-  "total": 43916.6517,
+  "total": 43871.3535,
   "holders": [
    {
     "trader": "classified",
     "outcome": "No",
     "size": 972.52,
     "avgPrice": 0.952,
-    "curPrice": 0.9695,
-    "currentValue": 942.8581,
+    "curPrice": 0.9685,
+    "currentValue": 941.8856,
     "asset": "84162249682804643677144956827999494501534393383918743969607995520583607994795",
     "fe": 1795219258
    },
@@ -2554,8 +2554,8 @@
     "outcome": "No",
     "size": 43625.7284,
     "avgPrice": 0.9596,
-    "curPrice": 0.9695,
-    "currentValue": 42295.1436,
+    "curPrice": 0.9685,
+    "currentValue": 42251.5179,
     "asset": "84162249682804643677144956827999494501534393383918743969607995520583607994795",
     "fe": 1793828800
    },
@@ -2564,14 +2564,14 @@
     "outcome": "No",
     "size": 700.0,
     "avgPrice": 0.91,
-    "curPrice": 0.9695,
-    "currentValue": 678.65,
+    "curPrice": 0.9685,
+    "currentValue": 677.95,
     "asset": "84162249682804643677144956827999494501534393383918743969607995520583607994795",
     "fe": 1788121701
    }
   ],
-  "bid": 0.03,
-  "ask": 0.031
+  "bid": 0.031,
+  "ask": 0.032
  },
  {
   "conditionId": "0xa94d6d38aadfed1c9705800330db2cf11deea1b7086ab1aad647abcc6337651f",
@@ -3875,15 +3875,15 @@
   ],
   "endDate": "2026-11-29",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/tw2026-puma-shen-taipei-8886434f0d.jpg",
-  "total": 24653.8765,
+  "total": 24597.3741,
   "holders": [
    {
     "trader": "Car",
     "outcome": "No",
     "size": 1799.9919,
     "avgPrice": 0.6419,
-    "curPrice": 0.6545,
-    "currentValue": 1178.0947,
+    "curPrice": 0.653,
+    "currentValue": 1175.3947,
     "asset": "72820619922053432516748905329266890906103969024802768151634670763988243600546",
     "fe": 1792969533
    },
@@ -3892,8 +3892,8 @@
     "outcome": "No",
     "size": 15193.1283,
     "avgPrice": 0.6176,
-    "curPrice": 0.6545,
-    "currentValue": 9943.9025,
+    "curPrice": 0.653,
+    "currentValue": 9921.1128,
     "asset": "72820619922053432516748905329266890906103969024802768151634670763988243600546",
     "fe": 1794893210
    },
@@ -3902,8 +3902,8 @@
     "outcome": "No",
     "size": 4999.9859,
     "avgPrice": 0.653,
-    "curPrice": 0.6545,
-    "currentValue": 3272.4908,
+    "curPrice": 0.653,
+    "currentValue": 3264.9908,
     "asset": "72820619922053432516748905329266890906103969024802768151634670763988243600546",
     "fe": 1793640940
    },
@@ -3912,8 +3912,8 @@
     "outcome": "No",
     "size": 12675.1543,
     "avgPrice": 0.6242,
-    "curPrice": 0.6545,
-    "currentValue": 8295.8885,
+    "curPrice": 0.653,
+    "currentValue": 8276.8758,
     "asset": "72820619922053432516748905329266890906103969024802768151634670763988243600546",
     "fe": 1791734389
    },
@@ -3922,14 +3922,14 @@
     "outcome": "No",
     "size": 3000.0,
     "avgPrice": 0.655,
-    "curPrice": 0.6545,
-    "currentValue": 1963.5,
+    "curPrice": 0.653,
+    "currentValue": 1959.0,
     "asset": "72820619922053432516748905329266890906103969024802768151634670763988243600546",
     "fe": 1794255801
    }
   ],
-  "bid": 0.342,
-  "ask": 0.348
+  "bid": 0.345,
+  "ask": 0.349
  },
  {
   "conditionId": "0xd8a5843555ba95455a28d895660c07c59b615184bf4ae64893992f3504797d29",
@@ -4294,15 +4294,15 @@
   ],
   "endDate": "2026-12-31",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/time-2024-person-of-the-year-opFCUnLfR7Sv.png",
-  "total": 21562.849000000002,
+  "total": 21566.634700000002,
   "holders": [
    {
     "trader": "paddaa",
     "outcome": "No",
-    "size": 19030.6966,
+    "size": 19035.4586,
     "avgPrice": 0.8026,
     "curPrice": 0.795,
-    "currentValue": 15129.4038,
+    "currentValue": 15133.1895,
     "asset": "114169068717289116554861249264824916099637224786297311464587351996474994462411",
     "fe": 1794426312
    },
@@ -4404,15 +4404,15 @@
   ],
   "endDate": "2027-01-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-apple-be-the-largest-company-in-the-world-by-market-cap-on-december-31-pbFWqs73s_IJ.png",
-  "total": 21105.3129,
+  "total": 21092.876099999998,
   "holders": [
    {
     "trader": "occasionalAwareness",
     "outcome": "Yes",
     "size": 23728.8444,
     "avgPrice": 0.2994,
-    "curPrice": 0.8485,
-    "currentValue": 20133.9245,
+    "curPrice": 0.848,
+    "currentValue": 20122.0601,
     "asset": "9875273331604434310973374077817381730908757452538191940842519381772366848",
     "fe": 1777790116
    },
@@ -4421,14 +4421,14 @@
     "outcome": "Yes",
     "size": 1144.8302,
     "avgPrice": 0.4992,
-    "curPrice": 0.8485,
-    "currentValue": 971.3884,
+    "curPrice": 0.848,
+    "currentValue": 970.816,
     "asset": "9875273331604434310973374077817381730908757452538191940842519381772366848",
     "fe": 1792733619
    }
   ],
-  "bid": 0.851,
-  "ask": 0.854
+  "bid": 0.846,
+  "ask": 0.85
  },
  {
   "conditionId": "0xa55aba6f5c78f51112da71f57888efba75e85840a9afafe42ab9f3dedf8fc338",
@@ -4533,7 +4533,7 @@
     "fe": 1788540643
    }
   ],
-  "bid": 0.036,
+  "bid": 0.037,
   "ask": 0.039
  },
  {
@@ -4618,15 +4618,15 @@
   ],
   "endDate": "2027-07-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/se-pm-26-magdalena-andersson-se-pm-e78fde4ca5.jpg",
-  "total": 19242.0977,
+  "total": 19576.845100000002,
   "holders": [
    {
     "trader": "paddaa",
     "outcome": "Yes",
     "size": 17716.6054,
     "avgPrice": 0.7459,
-    "curPrice": 0.26,
-    "currentValue": 4606.3174,
+    "curPrice": 0.265,
+    "currentValue": 4694.9004,
     "asset": "6761884778816083542753350539779617201084594664234729655783875952381923983097",
     "fe": 1794769019
    },
@@ -4635,8 +4635,8 @@
     "outcome": "Yes",
     "size": 25003.2607,
     "avgPrice": 0.7639,
-    "curPrice": 0.26,
-    "currentValue": 6500.8477,
+    "curPrice": 0.265,
+    "currentValue": 6625.8641,
     "asset": "6761884778816083542753350539779617201084594664234729655783875952381923983097",
     "fe": 1785771642
    },
@@ -4645,8 +4645,8 @@
     "outcome": "Yes",
     "size": 3199.9628,
     "avgPrice": 0.5999,
-    "curPrice": 0.26,
-    "currentValue": 831.9903,
+    "curPrice": 0.265,
+    "currentValue": 847.9901,
     "asset": "6761884778816083542753350539779617201084594664234729655783875952381923983097",
     "fe": 1768947522
    },
@@ -4655,8 +4655,8 @@
     "outcome": "Yes",
     "size": 12221.0,
     "avgPrice": 0.8817,
-    "curPrice": 0.26,
-    "currentValue": 3177.46,
+    "curPrice": 0.265,
+    "currentValue": 3238.565,
     "asset": "6761884778816083542753350539779617201084594664234729655783875952381923983097",
     "fe": 1789824467
    },
@@ -4665,8 +4665,8 @@
     "outcome": "No",
     "size": 1835.24,
     "avgPrice": 0.3594,
-    "curPrice": 0.74,
-    "currentValue": 1358.0776,
+    "curPrice": 0.735,
+    "currentValue": 1348.9014,
     "asset": "49952287244614575734723913757649087902024339238007187585607375183859292977482",
     "fe": 1790602685
    },
@@ -4675,13 +4675,13 @@
     "outcome": "Yes",
     "size": 10643.8645,
     "avgPrice": 0.7164,
-    "curPrice": 0.26,
-    "currentValue": 2767.4047,
+    "curPrice": 0.265,
+    "currentValue": 2820.6241,
     "asset": "6761884778816083542753350539779617201084594664234729655783875952381923983097",
     "fe": 1788832801
    }
   ],
-  "bid": 0.26,
+  "bid": 0.25,
   "ask": 0.27
  },
  {
@@ -5075,7 +5075,7 @@
     "fe": 1793199226
    }
   ],
-  "bid": 0.027,
+  "bid": 0.028,
   "ask": 0.032
  },
  {
@@ -5222,15 +5222,15 @@
   ],
   "endDate": "2027-07-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/se-pm-26-ulf-kristersson-se-pm-d76004c4fe.jpg",
-  "total": 15017.133000000002,
+  "total": 15039.386,
   "holders": [
    {
     "trader": "vinii",
     "outcome": "Yes",
     "size": 5414.0892,
     "avgPrice": 0.0577,
-    "curPrice": 0.7115,
-    "currentValue": 3852.1244,
+    "curPrice": 0.7135,
+    "currentValue": 3862.9526,
     "asset": "19884202204363090591845974364927513432419394537229594683046302661092511466716",
     "fe": 1778446034
    },
@@ -5239,8 +5239,8 @@
     "outcome": "Yes",
     "size": 2070.9398,
     "avgPrice": 0.1965,
-    "curPrice": 0.7115,
-    "currentValue": 1473.4736,
+    "curPrice": 0.7135,
+    "currentValue": 1477.6155,
     "asset": "19884202204363090591845974364927513432419394537229594683046302661092511466716",
     "fe": 1789334685
    },
@@ -5249,8 +5249,8 @@
     "outcome": "Yes",
     "size": 12552.854,
     "avgPrice": 0.3499,
-    "curPrice": 0.7115,
-    "currentValue": 8931.3556,
+    "curPrice": 0.7125,
+    "currentValue": 8943.9084,
     "asset": "19884202204363090591845974364927513432419394537229594683046302661092511466716",
     "fe": 1794257466
    },
@@ -5259,13 +5259,13 @@
     "outcome": "No",
     "size": 2634.9373,
     "avgPrice": 0.6811,
-    "curPrice": 0.2885,
-    "currentValue": 760.1794,
+    "curPrice": 0.2865,
+    "currentValue": 754.9095,
     "asset": "35202785175624473743133325350336939697145393245733500300951742752216521350176",
     "fe": 1789133011
    }
   ],
-  "bid": 0.703,
+  "bid": 0.706,
   "ask": 0.719
  },
  {
@@ -5594,15 +5594,15 @@
   ],
   "endDate": "2027-01-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ai-industry-downturn-by-fFNK9rGi-70Y.jpg",
-  "total": 13359.0129,
+  "total": 13374.5648,
   "holders": [
    {
     "trader": "Tenebrus7",
     "outcome": "No",
     "size": 912.7552,
     "avgPrice": 0.9169,
-    "curPrice": 0.859,
-    "currentValue": 784.0567,
+    "curPrice": 0.86,
+    "currentValue": 784.9695,
     "asset": "17769188746995805889009627485623784462879024540194570282917960402976991944943",
     "fe": 1794065730
    },
@@ -5611,14 +5611,14 @@
     "outcome": "No",
     "size": 14639.0643,
     "avgPrice": 0.6947,
-    "curPrice": 0.859,
-    "currentValue": 12574.9562,
+    "curPrice": 0.86,
+    "currentValue": 12589.5953,
     "asset": "17769188746995805889009627485623784462879024540194570282917960402976991944943",
     "fe": 1793913274
    }
   ],
-  "bid": 0.136,
-  "ask": 0.146
+  "bid": 0.137,
+  "ask": 0.143
  },
  {
   "conditionId": "0x1e5564c1a2a6839cc2780a889437c63786a2c2ec5e95569b710ee659a3e8baa2",
@@ -5635,15 +5635,15 @@
   ],
   "endDate": "2027-01-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
-  "total": 13321.7968,
+  "total": 13323.9171,
   "holders": [
    {
     "trader": "Car",
     "outcome": "Yes",
     "size": 20759.41,
     "avgPrice": 0.1154,
-    "curPrice": 0.0995,
-    "currentValue": 2065.5612,
+    "curPrice": 0.099,
+    "currentValue": 2055.1815,
     "asset": "4255890554350661695724949176183233033027635903850796430457642328613772591960",
     "fe": 1795233424
    },
@@ -5652,14 +5652,14 @@
     "outcome": "No",
     "size": 12499.9841,
     "avgPrice": 0.9472,
-    "curPrice": 0.9005,
-    "currentValue": 11256.2356,
+    "curPrice": 0.9015,
+    "currentValue": 11268.7356,
     "asset": "69924622127743346860742491804606293768199148137604178160078893238641086573607",
     "fe": 1785422909
    }
   ],
-  "bid": 0.099,
-  "ask": 0.1
+  "bid": 0.098,
+  "ask": 0.101
  },
  {
   "conditionId": "0x4567b275e6b667a6217f5cb4f06a797d3a1eaf1d0281fb5bc8c75e2046ae7e57",
@@ -6137,7 +6137,7 @@
    }
   ],
   "bid": 0.007,
-  "ask": 0.022
+  "ask": 0.021
  },
  {
   "conditionId": "0x162e356bfab7ad18fe4e3029d5811d9a95fce95d93858b42924a3b9ffbcf1a93",
@@ -6236,15 +6236,15 @@
   ],
   "endDate": "2027-01-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-trump-and-putin-not-meet-U2O-hM3UHAWC.jpg",
-  "total": 11293.866600000001,
+  "total": 11293.0521,
   "holders": [
    {
     "trader": "KrackenSruster",
     "outcome": "Yes",
     "size": 9954.7832,
     "avgPrice": 0.8566,
-    "curPrice": 0.936,
-    "currentValue": 9317.6771,
+    "curPrice": 0.9365,
+    "currentValue": 9322.6545,
     "asset": "79785869153488116125585882351533672227064414203253987761686968264163478391224",
     "fe": 1777400084
    },
@@ -6253,8 +6253,8 @@
     "outcome": "No",
     "size": 12818.716,
     "avgPrice": 0.1718,
-    "curPrice": 0.064,
-    "currentValue": 820.3978,
+    "curPrice": 0.0635,
+    "currentValue": 813.9884,
     "asset": "836695866229571122409227239868799635243790444165979077524740830128743370486",
     "fe": 1769805586
    },
@@ -6263,13 +6263,13 @@
     "outcome": "Yes",
     "size": 1234.8202,
     "avgPrice": 0.9391,
-    "curPrice": 0.936,
-    "currentValue": 1155.7917,
+    "curPrice": 0.9365,
+    "currentValue": 1156.4092,
     "asset": "79785869153488116125585882351533672227064414203253987761686968264163478391224",
     "fe": 1779296543
    }
   ],
-  "bid": 0.933,
+  "bid": 0.934,
   "ask": 0.939
  },
  {
@@ -6538,8 +6538,8 @@
     "fe": 1795459637
    }
   ],
-  "bid": 0.751,
-  "ask": 0.769
+  "bid": 0.752,
+  "ask": 0.767
  },
  {
   "conditionId": "0x794fbb668b14dacd636ff47a39e2294148420577e38278e11adf14655ad6cfe0",
@@ -7326,15 +7326,15 @@
   ],
   "endDate": "2027-01-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ai-wins-math-olympiad-in-2025-4DTQg_awNAxY.jpg",
-  "total": 8185.5701,
+  "total": 8209.1355,
   "holders": [
    {
     "trader": "paddaa",
     "outcome": "Yes",
     "size": 2400.0,
     "avgPrice": 0.71,
-    "curPrice": 0.685,
-    "currentValue": 1644.0,
+    "curPrice": 0.675,
+    "currentValue": 1620.0,
     "asset": "20749841130196303837148426451451645883604233475151483773090206836677732642979",
     "fe": 1795465208
    },
@@ -7343,8 +7343,8 @@
     "outcome": "No",
     "size": 7999.8,
     "avgPrice": 0.299,
-    "curPrice": 0.315,
-    "currentValue": 2519.937,
+    "curPrice": 0.325,
+    "currentValue": 2599.935,
     "asset": "46880936063726672657797078201333909385441060945385583745907220413527023447350",
     "fe": 1795384855
    },
@@ -7353,8 +7353,8 @@
     "outcome": "Yes",
     "size": 5043.26,
     "avgPrice": 0.6953,
-    "curPrice": 0.685,
-    "currentValue": 3454.6331,
+    "curPrice": 0.675,
+    "currentValue": 3404.2005,
     "asset": "20749841130196303837148426451451645883604233475151483773090206836677732642979",
     "fe": 1795465030
    },
@@ -7363,14 +7363,14 @@
     "outcome": "No",
     "size": 1800.0,
     "avgPrice": 0.2885,
-    "curPrice": 0.315,
-    "currentValue": 567.0,
+    "curPrice": 0.325,
+    "currentValue": 585.0,
     "asset": "46880936063726672657797078201333909385441060945385583745907220413527023447350",
     "fe": 1795190926
    }
   ],
-  "bid": 0.68,
-  "ask": 0.69
+  "bid": 0.67,
+  "ask": 0.68
  },
  {
   "conditionId": "0xdbe93b5a701f36076a560fa4b9ba59e365a6e8e2ea6a83764640010657277ca4",
@@ -7415,8 +7415,8 @@
     "fe": 1783072213
    }
   ],
-  "bid": 0.627,
-  "ask": 0.631
+  "bid": 0.626,
+  "ask": 0.632
  },
  {
   "conditionId": "0xa05d8a684b40450d2b8a8fdf07df0b50089de97f675bb4489ffa81b00abb60c4",
@@ -7431,15 +7431,15 @@
   ],
   "endDate": "2027-02-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/highest-grossing-movie-in-2025-23YRHKqq6Ete.jpg",
-  "total": 8084.0524,
+  "total": 8074.0308,
   "holders": [
    {
     "trader": "ImJustKen",
     "outcome": "No",
     "size": 6370.3523,
     "avgPrice": 0.4627,
-    "curPrice": 0.145,
-    "currentValue": 923.701,
+    "curPrice": 0.15,
+    "currentValue": 955.5528,
     "asset": "39922726686074943992323043337069384440100330182435313658155726755185947061273",
     "fe": 1786164211
    },
@@ -7448,14 +7448,56 @@
     "outcome": "Yes",
     "size": 8374.68,
     "avgPrice": 0.5141,
-    "curPrice": 0.855,
-    "currentValue": 7160.3514,
+    "curPrice": 0.85,
+    "currentValue": 7118.478,
     "asset": "48473883682600707005098412865804303754496452983474980263602779701747181706691",
     "fe": 1791700403
    }
   ],
-  "bid": 0.83,
+  "bid": 0.82,
   "ask": 0.88
+ },
+ {
+  "conditionId": "0xa7ba4563954892f7bdfd3cca6338d99bb4094ced275b459f121d2b40c046f585",
+  "title": "US x Iran Effective Ceasefire by December 31?",
+  "slug": "us-x-iran-effective-ceasefire-by-december-31-20261108",
+  "eventSlug": "us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108",
+  "tags": [
+   "Iran",
+   "Politics",
+   "ceasefire",
+   "Peace Deal",
+   "Geopolitics",
+   "U.S. x Iran",
+   "Iran Ceasefire"
+  ],
+  "endDate": "2026-12-31",
+  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-strikes-iran-by-october-3-2sVnIHq3sjqF.jpg",
+  "total": 7905.8112,
+  "holders": [
+   {
+    "trader": "cashy",
+    "outcome": "No",
+    "size": 7166.6902,
+    "avgPrice": 0.2118,
+    "curPrice": 0.21,
+    "currentValue": 1505.0049,
+    "asset": "97544291047499305738780271996235356650826345502504793599135836265513317588351",
+    "fe": 1794165489
+   },
+   {
+    "trader": "betwick",
+    "outcome": "No",
+    "size": 30480.03,
+    "avgPrice": 0.2053,
+    "curPrice": 0.21,
+    "currentValue": 6400.8063,
+    "asset": "97544291047499305738780271996235356650826345502504793599135836265513317588351",
+    "fe": 1794758950
+   }
+  ],
+  "bid": 0.78,
+  "ask": 0.8
  },
  {
   "conditionId": "0x909659c9436228e2be56d5582ba6188166f2f8bf3c596335512c8f2e380d01ec",
@@ -7605,48 +7647,6 @@
   "ask": 0.11
  },
  {
-  "conditionId": "0xa7ba4563954892f7bdfd3cca6338d99bb4094ced275b459f121d2b40c046f585",
-  "title": "US x Iran Effective Ceasefire by December 31?",
-  "slug": "us-x-iran-effective-ceasefire-by-december-31-20261108",
-  "eventSlug": "us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108",
-  "tags": [
-   "Iran",
-   "Politics",
-   "ceasefire",
-   "Peace Deal",
-   "Geopolitics",
-   "U.S. x Iran",
-   "Iran Ceasefire"
-  ],
-  "endDate": "2026-12-31",
-  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-strikes-iran-by-october-3-2sVnIHq3sjqF.jpg",
-  "total": 7717.5775,
-  "holders": [
-   {
-    "trader": "cashy",
-    "outcome": "No",
-    "size": 7166.6902,
-    "avgPrice": 0.2118,
-    "curPrice": 0.205,
-    "currentValue": 1469.1714,
-    "asset": "97544291047499305738780271996235356650826345502504793599135836265513317588351",
-    "fe": 1794165489
-   },
-   {
-    "trader": "betwick",
-    "outcome": "No",
-    "size": 30480.03,
-    "avgPrice": 0.2053,
-    "curPrice": 0.205,
-    "currentValue": 6248.4061,
-    "asset": "97544291047499305738780271996235356650826345502504793599135836265513317588351",
-    "fe": 1794758950
-   }
-  ],
-  "bid": 0.78,
-  "ask": 0.8
- },
- {
   "conditionId": "0xf56a109b9e4db6e1394a1479ee6a4aca989eff2a3ca7f4125cfd84ec7b622696",
   "title": "US x Iran Effective Ceasefire by November 30?",
   "slug": "us-x-iran-effective-ceasefire-by-november-30-20261108",
@@ -7702,15 +7702,15 @@
   ],
   "endDate": "2026-11-30",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/spainflagcrestcentre-241f86d478.jpg",
-  "total": 7562.6353,
+  "total": 7491.2896,
   "holders": [
    {
     "trader": "paddaa",
     "outcome": "Yes",
     "size": 5249.1166,
     "avgPrice": 0.4878,
-    "curPrice": 0.53,
-    "currentValue": 2782.0318,
+    "curPrice": 0.525,
+    "currentValue": 2755.7862,
     "asset": "72626252652970276431398542249958832131546202822429482749046128292368716539782",
     "fe": 1795302325
    },
@@ -7719,8 +7719,8 @@
     "outcome": "Yes",
     "size": 1353.91,
     "avgPrice": 0.3576,
-    "curPrice": 0.53,
-    "currentValue": 717.5723,
+    "curPrice": 0.525,
+    "currentValue": 710.8027,
     "asset": "72626252652970276431398542249958832131546202822429482749046128292368716539782",
     "fe": 1794598105
    },
@@ -7729,13 +7729,13 @@
     "outcome": "Yes",
     "size": 7666.0967,
     "avgPrice": 0.4212,
-    "curPrice": 0.53,
-    "currentValue": 4063.0312,
+    "curPrice": 0.525,
+    "currentValue": 4024.7007,
     "asset": "72626252652970276431398542249958832131546202822429482749046128292368716539782",
     "fe": 1794647704
    }
   ],
-  "bid": 0.52,
+  "bid": 0.51,
   "ask": 0.54
  },
  {
@@ -7807,7 +7807,7 @@
    }
   ],
   "bid": 0.004,
-  "ask": 0.006
+  "ask": 0.007
  },
  {
   "conditionId": "0x39658915259f0bc087259442be52075b2be527a84da918968a44d6ace4d8c5c6",
@@ -9215,15 +9215,15 @@
   ],
   "endDate": "2026-12-09",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/arch-fed-decisions-in-2025-Vowt-IlTgfPc.jpg",
-  "total": 4711.6812,
+  "total": 4706.7732,
   "holders": [
    {
     "trader": "HolyMoses7",
     "outcome": "Yes",
     "size": 3169.9918,
     "avgPrice": 0.3264,
-    "curPrice": 0.96,
-    "currentValue": 3043.1921,
+    "curPrice": 0.959,
+    "currentValue": 3040.0221,
     "asset": "44519917187614201324840344754587313130089468376066341616659963109992104660897",
     "fe": 1789589764
    },
@@ -9232,8 +9232,8 @@
     "outcome": "Yes",
     "size": 1738.0095,
     "avgPrice": 0.8218,
-    "curPrice": 0.96,
-    "currentValue": 1668.4891,
+    "curPrice": 0.959,
+    "currentValue": 1666.7511,
     "asset": "44519917187614201324840344754587313130089468376066341616659963109992104660897",
     "fe": 1788525577
    }
@@ -9319,15 +9319,15 @@
   ],
   "endDate": "2027-01-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-gavin-newsom-announce-presidential-run-by-2pO1J7ud3cLi.jpg",
-  "total": 4633.283600000001,
+  "total": 4630.8399,
   "holders": [
    {
     "trader": "StarMaster",
     "outcome": "No",
     "size": 2500.0,
     "avgPrice": 0.9153,
-    "curPrice": 0.948,
-    "currentValue": 2370.0,
+    "curPrice": 0.9475,
+    "currentValue": 2368.75,
     "asset": "45200102949427176349999568908324938980741775964477026787123052544602998293488",
     "fe": 1794695729
    },
@@ -9336,14 +9336,14 @@
     "outcome": "No",
     "size": 2387.43,
     "avgPrice": 0.9309,
-    "curPrice": 0.948,
-    "currentValue": 2263.2836,
+    "curPrice": 0.9475,
+    "currentValue": 2262.0899,
     "asset": "45200102949427176349999568908324938980741775964477026787123052544602998293488",
     "fe": 1794546970
    }
   ],
   "bid": 0.044,
-  "ask": 0.06
+  "ask": 0.061
  },
  {
   "conditionId": "0x20ef99fa46f434d2622e1b31a11d090867922f9618e22a79cee444d77b7d3207",
@@ -9811,15 +9811,15 @@
   ],
   "endDate": "2026-12-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "total": 3753.1747,
+  "total": 3751.25,
   "holders": [
    {
     "trader": "vinii",
     "outcome": "Yes",
     "size": 3099.41,
     "avgPrice": 0.865,
-    "curPrice": 0.975,
-    "currentValue": 3021.9247,
+    "curPrice": 0.9745,
+    "currentValue": 3020.375,
     "asset": "77079194989070646086445510835704417401257985983540746723324643711917675891692",
     "fe": 1793702038
    },
@@ -9828,8 +9828,8 @@
     "outcome": "Yes",
     "size": 750.0,
     "avgPrice": 0.7948,
-    "curPrice": 0.975,
-    "currentValue": 731.25,
+    "curPrice": 0.9745,
+    "currentValue": 730.875,
     "asset": "77079194989070646086445510835704417401257985983540746723324643711917675891692",
     "fe": 1793825151
    }
@@ -10287,6 +10287,44 @@
   "ask": 0.08
  },
  {
+  "conditionId": "0x0e3b3438739eaff64765b994d58dcc84b2953a80ba2eb9454bd2ef64ebd63b0d",
+  "title": "Pete Hegseth impeached by March 31, 2027?",
+  "slug": "pete-hegseth-impeached-by-march-31-2027",
+  "eventSlug": "pete-hegseth-impeached-by-june-30",
+  "tags": [
+   "Politics",
+   "Post Election",
+   "Cabinet Shakeup"
+  ],
+  "endDate": "2027-04-01",
+  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/pete-hegseth-impeached-by-june-30-dhxZQrHUmJ9x.jpg",
+  "total": 3047.8544,
+  "holders": [
+   {
+    "trader": "paddaa",
+    "outcome": "No",
+    "size": 2100.0362,
+    "avgPrice": 0.353,
+    "curPrice": 0.585,
+    "currentValue": 1228.5212,
+    "asset": "64233713587680026328672281080053835981405697527068978631939919782847373076353",
+    "fe": 1794356619
+   },
+   {
+    "trader": "ImJustKen",
+    "outcome": "No",
+    "size": 3109.9714,
+    "avgPrice": 0.51,
+    "curPrice": 0.585,
+    "currentValue": 1819.3332,
+    "asset": "64233713587680026328672281080053835981405697527068978631939919782847373076353",
+    "fe": 1793766672
+   }
+  ],
+  "bid": 0.41,
+  "ask": 0.43
+ },
+ {
   "conditionId": "0xbef3c5d2db53c02b66ad25c4b460746c502af74ad9105858a1e107da545cc828",
   "title": "Will Anthropic's valuation hit (LOW) $700B by December 31?",
   "slug": "will-anthropics-valuation-hit-low-700b-by-december-31-928",
@@ -10305,15 +10343,15 @@
   ],
   "endDate": "2027-01-05",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
-  "total": 3011.4120000000003,
+  "total": 3009.4923000000003,
   "holders": [
    {
     "trader": "occasionalAwareness",
     "outcome": "Yes",
     "size": 6344.02,
     "avgPrice": 0.0324,
-    "curPrice": 0.132,
-    "currentValue": 837.4106,
+    "curPrice": 0.1315,
+    "currentValue": 834.2386,
     "asset": "97738717438480930419663478370852452955608475826099787595546342588612580783218",
     "fe": 1794313710
    },
@@ -10322,14 +10360,14 @@
     "outcome": "No",
     "size": 2504.61,
     "avgPrice": 0.9299,
-    "curPrice": 0.868,
-    "currentValue": 2174.0014,
+    "curPrice": 0.8685,
+    "currentValue": 2175.2537,
     "asset": "63147215585501530331021739705233927155250472939331497924381105865173830385625",
     "fe": 1783444288
    }
   ],
   "bid": 0.118,
-  "ask": 0.146
+  "ask": 0.145
  },
  {
   "conditionId": "0x408d41fccaa94a40b0dfb3b786e379a138c9d87657953f64ef76827df599918d",
@@ -10382,44 +10420,6 @@
   ],
   "bid": 0.974,
   "ask": 1
- },
- {
-  "conditionId": "0x0e3b3438739eaff64765b994d58dcc84b2953a80ba2eb9454bd2ef64ebd63b0d",
-  "title": "Pete Hegseth impeached by March 31, 2027?",
-  "slug": "pete-hegseth-impeached-by-march-31-2027",
-  "eventSlug": "pete-hegseth-impeached-by-june-30",
-  "tags": [
-   "Politics",
-   "Post Election",
-   "Cabinet Shakeup"
-  ],
-  "endDate": "2027-04-01",
-  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/pete-hegseth-impeached-by-june-30-dhxZQrHUmJ9x.jpg",
-  "total": 2995.7543,
-  "holders": [
-   {
-    "trader": "paddaa",
-    "outcome": "No",
-    "size": 2100.0362,
-    "avgPrice": 0.353,
-    "curPrice": 0.575,
-    "currentValue": 1207.5208,
-    "asset": "64233713587680026328672281080053835981405697527068978631939919782847373076353",
-    "fe": 1794356619
-   },
-   {
-    "trader": "ImJustKen",
-    "outcome": "No",
-    "size": 3109.9714,
-    "avgPrice": 0.51,
-    "curPrice": 0.575,
-    "currentValue": 1788.2335,
-    "asset": "64233713587680026328672281080053835981405697527068978631939919782847373076353",
-    "fe": 1793766672
-   }
-  ],
-  "bid": 0.41,
-  "ask": 0.44
  },
  {
   "conditionId": "0x8b2d3edd0500a52b39676e1d59a0da5ac145f4e03e97b0d0412da13ca0e70c2a",
@@ -10518,15 +10518,15 @@
   ],
   "endDate": "2027-01-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/uk-election-called-by-YBeFE9xxrUNy.jpg",
-  "total": 2917.0995,
+  "total": 2918.6364000000003,
   "holders": [
    {
     "trader": "M888",
     "outcome": "No",
     "size": 549.494,
     "avgPrice": 0.819,
-    "curPrice": 0.949,
-    "currentValue": 521.4698,
+    "curPrice": 0.9495,
+    "currentValue": 521.7445,
     "asset": "37064221817179838225957455025143891294172126736355626367799841115771049178138",
     "fe": 1793193235
    },
@@ -10535,14 +10535,14 @@
     "outcome": "No",
     "size": 2524.3728,
     "avgPrice": 0.8772,
-    "curPrice": 0.949,
-    "currentValue": 2395.6297,
+    "curPrice": 0.9495,
+    "currentValue": 2396.8919,
     "asset": "37064221817179838225957455025143891294172126736355626367799841115771049178138",
     "fe": 1780389639
    }
   ],
   "bid": 0.018,
-  "ask": 0.085
+  "ask": 0.083
  },
  {
   "conditionId": "0xf6e7c89ec4b5d3c887ed9b70dfbcac9392e287367783ce475d32e8c16ed9f61c",
@@ -10862,15 +10862,15 @@
   ],
   "endDate": "2027-01-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/miguel-daz-canel-out-as-leader-of-iran-by-june-30-96SHtIpplmhV.jpg",
-  "total": 2676.9753,
+  "total": 2678.4169,
   "holders": [
    {
     "trader": "GollumGekko",
     "outcome": "No",
     "size": 1173.8327,
     "avgPrice": 0.8435,
-    "curPrice": 0.9285,
-    "currentValue": 1089.9037,
+    "curPrice": 0.929,
+    "currentValue": 1090.4906,
     "asset": "72095897215599895681149701722606364539867186803340437295210002622844727571825",
     "fe": 1773088819
    },
@@ -10879,14 +10879,59 @@
     "outcome": "No",
     "size": 1709.2855,
     "avgPrice": 0.8344,
-    "curPrice": 0.9285,
-    "currentValue": 1587.0716,
+    "curPrice": 0.929,
+    "currentValue": 1587.9263,
     "asset": "72095897215599895681149701722606364539867186803340437295210002622844727571825",
     "fe": 1775163503
    }
   ],
   "bid": 0.07,
-  "ask": 0.073
+  "ask": 0.072
+ },
+ {
+  "conditionId": "0x3ae127fe5aea62414a5902c438ac63207d561fcb42c8a61ccef1a25f17e0570c",
+  "title": "Will OpenAI's valuation hit (LOW) $800B by December 31?",
+  "slug": "will-openais-valuation-hit-low-800b-by-december-31-852-948",
+  "eventSlug": "will-openais-valuation-hit-by-december-31",
+  "tags": [
+   "Finance",
+   "Privates",
+   "llm",
+   "Big Tech",
+   "AI",
+   "chatgpt",
+   "sam altman",
+   "OpenAI",
+   "OpenAI IPO",
+   "Recurring"
+  ],
+  "endDate": "2027-01-05",
+  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-openai-release-a-new-frontier-model-by-december-13-sPNirq9Ogx-3.png",
+  "total": 2657.0305,
+  "holders": [
+   {
+    "trader": "occasionalAwareness",
+    "outcome": "Yes",
+    "size": 15399.8038,
+    "avgPrice": 0.4599,
+    "curPrice": 0.115,
+    "currentValue": 1770.9774,
+    "asset": "37596839281719792669799804477610562843424311247685576684184676734866498563682",
+    "fe": 1779209605
+   },
+   {
+    "trader": "PMTraderAdam",
+    "outcome": "No",
+    "size": 1001.19,
+    "avgPrice": 0.7511,
+    "curPrice": 0.885,
+    "currentValue": 886.0531,
+    "asset": "97943199347246490249805131146249124748787468593141043444321172089886788428993",
+    "fe": 1787922564
+   }
+  ],
+  "bid": 0.1,
+  "ask": 0.13
  },
  {
   "conditionId": "0x133b51a6851a2ee619e841693c0f75f3c3fdc8d75d69eadd3f0c0fe9105c50ee",
@@ -10903,15 +10948,15 @@
   ],
   "endDate": "2026-11-29",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/pf26r-ko-chih-en-q865-979e97ff81.jpg",
-  "total": 2628.1686,
+  "total": 2629.8194,
   "holders": [
    {
     "trader": "paddaa",
     "outcome": "No",
     "size": 2399.985,
     "avgPrice": 0.8059,
-    "curPrice": 0.796,
-    "currentValue": 1910.3881,
+    "curPrice": 0.7965,
+    "currentValue": 1911.588,
     "asset": "94422445256490059265876012729481264611163777957006206067524871150224305462710",
     "fe": 1795329559
    },
@@ -10920,14 +10965,14 @@
     "outcome": "No",
     "size": 901.7343,
     "avgPrice": 0.7947,
-    "curPrice": 0.796,
-    "currentValue": 717.7805,
+    "curPrice": 0.7965,
+    "currentValue": 718.2314,
     "asset": "94422445256490059265876012729481264611163777957006206067524871150224305462710",
     "fe": 1795415228
    }
   ],
   "bid": 0.195,
-  "ask": 0.214
+  "ask": 0.212
  },
  {
   "conditionId": "0x6bd56627aa21311850825edb27e53434a0e17a4f782be0086bc07f71eee00d0d",
@@ -10970,51 +11015,6 @@
   ],
   "bid": 0.012,
   "ask": 0.013
- },
- {
-  "conditionId": "0x3ae127fe5aea62414a5902c438ac63207d561fcb42c8a61ccef1a25f17e0570c",
-  "title": "Will OpenAI's valuation hit (LOW) $800B by December 31?",
-  "slug": "will-openais-valuation-hit-low-800b-by-december-31-852-948",
-  "eventSlug": "will-openais-valuation-hit-by-december-31",
-  "tags": [
-   "Finance",
-   "Privates",
-   "llm",
-   "Big Tech",
-   "AI",
-   "chatgpt",
-   "sam altman",
-   "OpenAI",
-   "OpenAI IPO",
-   "Recurring"
-  ],
-  "endDate": "2027-01-05",
-  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-openai-release-a-new-frontier-model-by-december-13-sPNirq9Ogx-3.png",
-  "total": 2585.0375,
-  "holders": [
-   {
-    "trader": "occasionalAwareness",
-    "outcome": "Yes",
-    "size": 15399.8038,
-    "avgPrice": 0.4599,
-    "curPrice": 0.11,
-    "currentValue": 1693.9784,
-    "asset": "37596839281719792669799804477610562843424311247685576684184676734866498563682",
-    "fe": 1779209605
-   },
-   {
-    "trader": "PMTraderAdam",
-    "outcome": "No",
-    "size": 1001.19,
-    "avgPrice": 0.7511,
-    "curPrice": 0.89,
-    "currentValue": 891.0591,
-    "asset": "97943199347246490249805131146249124748787468593141043444321172089886788428993",
-    "fe": 1787922564
-   }
-  ],
-  "bid": 0.09,
-  "ask": 0.13
  },
  {
   "conditionId": "0x4437c8690e2edae1ab7acb0dcb40e536109ae6366e630d97f0bd764c9545ae57",
@@ -11115,15 +11115,15 @@
   ],
   "endDate": "2027-01-01",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-anyone-be-charged-over-epstein-disclosures-5teyGJq9yRmw.jpg",
-  "total": 2431.2537,
+  "total": 2433.7744000000002,
   "holders": [
    {
     "trader": "Car",
     "outcome": "No",
     "size": 1000.0,
     "avgPrice": 0.9,
-    "curPrice": 0.9645,
-    "currentValue": 964.5,
+    "curPrice": 0.9655,
+    "currentValue": 965.5,
     "asset": "16348483977511303883982248731369904623029757846353678607728242143168595819323",
     "fe": 1789065145
    },
@@ -11132,14 +11132,14 @@
     "outcome": "No",
     "size": 1520.74,
     "avgPrice": 0.621,
-    "curPrice": 0.9645,
-    "currentValue": 1466.7537,
+    "curPrice": 0.9655,
+    "currentValue": 1468.2744,
     "asset": "16348483977511303883982248731369904623029757846353678607728242143168595819323",
     "fe": 1770794567
    }
   ],
   "bid": 0.024,
-  "ask": 0.028
+  "ask": 0.045
  },
  {
   "conditionId": "0x9c8c0ef1a573ea1b641900c2cd9f55f084925576fde1c178410146afe348264b",
@@ -11594,15 +11594,15 @@
   ],
   "endDate": "2026-09-14",
   "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/sweden-regional-3-sara-nylund-855fc65f9c.jpg",
-  "total": 1600.2136,
+  "total": 1598.8562,
   "holders": [
    {
     "trader": "SnowLover7",
     "outcome": "No",
     "size": 1491.6292,
     "avgPrice": 0.3528,
-    "curPrice": 0.44,
-    "currentValue": 656.3168,
+    "curPrice": 0.447,
+    "currentValue": 666.7582,
     "asset": "82413294593080152839141623985187307993817488209558095906358200794918501200993",
     "fe": 1789019731
    },
@@ -11611,8 +11611,8 @@
     "outcome": "Yes",
     "size": 1685.53,
     "avgPrice": 0.7849,
-    "curPrice": 0.56,
-    "currentValue": 943.8968,
+    "curPrice": 0.553,
+    "currentValue": 932.098,
     "asset": "89917353225541124459184069746684238990913347201674307317518613799730175230489",
     "fe": 1793984446
    }
@@ -11949,50 +11949,8 @@
     "fe": 1788553374
    }
   ],
-  "bid": 0.74,
+  "bid": 0.73,
   "ask": 0.82
- },
- {
-  "conditionId": "0x5000db8fa7252c00b65280a0c601d494e6765a464ca0842bc256d57e7e128245",
-  "title": "Will Mikaela Waltersson be the next Regional Board Chair of Region Halland?",
-  "slug": "will-mikaela-waltersson-be-the-next-regional-board-chair-of-region-halland-1786127813332",
-  "eventSlug": "next-regional-board-chair-of-halland-20260810082025176",
-  "tags": [
-   "Sweden",
-   "Politics",
-   "Elections",
-   "Global Elections",
-   "International Election Props",
-   "Sweden Regional Elections",
-   "Sweden Elections"
-  ],
-  "endDate": "2026-09-14",
-  "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/sweden-regional-2-mikaela-waltersson-c8d395c4b6.jpg",
-  "total": 1074.2212,
-  "holders": [
-   {
-    "trader": "paddaa",
-    "outcome": "Yes",
-    "size": 624.0989,
-    "avgPrice": 0.5716,
-    "curPrice": 0.8295,
-    "currentValue": 517.69,
-    "asset": "89978116674613774026158652509003927432922802335027059564691128940422459889155",
-    "fe": 1788469939
-   },
-   {
-    "trader": "balthazar",
-    "outcome": "Yes",
-    "size": 670.1158,
-    "avgPrice": 0.0312,
-    "curPrice": 0.8305,
-    "currentValue": 556.5312,
-    "asset": "89978116674613774026158652509003927432922802335027059564691128940422459889155",
-    "fe": 1788356578
-   }
-  ],
-  "bid": 0.619,
-  "ask": 0.989
  },
  {
   "conditionId": "0x87335e877a46e289636d66bda62f4e950dd2e3b63ade63ed8481b34c06349b1a",
