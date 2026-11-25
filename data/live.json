@@ -11,17 +11,451 @@
   "side": "BUY",
   "out": "No",
   "price": 0.953,
+  "usd": 24.03,
+  "shares": 25.21,
+  "ts": 1795607734,
+  "held": 356713.33,
+  "heldUsd": 340839.59,
+  "peak": 356713.33,
+  "chip": "Against",
+  "split": "4/7",
+  "arrow": "",
+  "fills": [
+   {
+    "ts": 1795607734,
+    "usd": 4.76,
+    "shares": 5.0,
+    "price": 0.953
+   },
+   {
+    "ts": 1795607734,
+    "usd": 19.26,
+    "shares": 20.21,
+    "price": 0.953
+   }
+  ],
+  "id": 0
+ },
+ {
+  "a": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
+  "n": "Parz1vaI",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-655189-18afdd1d-26b5-439b-aba1-4123bb3739e6.jpeg",
+  "t": "Israel x Iran ceasefire continues through December 31?",
+  "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963/israel-x-iran-ceasefire-continues-through-december-31-415",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963-FEQHrNm5Q53X.jpg",
+  "cid": "0x1c4c6a698f0591ddf0c96e1beb56f8c75112ef849331bf3b0388f14830a7421d",
+  "slug": "israel-x-iran-ceasefire-continues-through-december-31-415",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.73,
+  "usd": 50.0,
+  "shares": 68.49,
+  "ts": 1795607722,
+  "held": 12321.7,
+  "heldUsd": 8933.23,
+  "peak": 16404.57,
+  "chip": "Against",
+  "split": "8/13",
+  "arrow": "",
+  "fills": [],
+  "id": 1
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will OpenAI's valuation hit (HIGH) $1.5T by December 31?",
+  "url": "https://polymarket.com/event/will-openais-valuation-hit-by-december-31/will-openais-valuation-hit-high-1pt5t-by-december-31-574-287",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-openai-release-a-new-frontier-model-by-december-13-sPNirq9Ogx-3.png",
+  "cid": "0xc71dbe9724f537b220b58e35a0a023ca9f6883117b3723eecf6384c5b2c51d45",
+  "slug": "will-openais-valuation-hit-high-1pt5t-by-december-31-574-287",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.96,
+  "usd": 18.53,
+  "shares": 19.3,
+  "ts": 1795607624,
+  "held": 123.57,
+  "heldUsd": 118.01,
+  "peak": 192.88,
+  "chip": "Against",
+  "split": "2/3",
+  "arrow": "",
+  "fills": [],
+  "id": 2
+ },
+ {
+  "a": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
+  "n": "PaddyAlpha",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
+  "t": "Will Afghanistan be last in the World Happiness Report 2027?",
+  "url": "https://polymarket.com/event/world-happiness-report-2027-last-country/will-afghanistan-be-last-in-the-world-happiness-report-2027",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/whr-2027-afghanistan-flag-2021-2d9a04fb2b.jpg",
+  "cid": "0x72fa7e8fbd88dfc1ee191e1f559e2505e38bdf8f22a139e115959523207e7f3c",
+  "slug": "will-afghanistan-be-last-in-the-world-happiness-report-2027",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.75,
+  "usd": 22.5,
+  "shares": 30.0,
+  "ts": 1795607528,
+  "held": 318.94,
+  "heldUsd": 232.83,
+  "peak": 340.37,
+  "chip": "Against",
+  "split": "1/1",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 3
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Variational FDV above $100M one day after launch?",
+  "url": "https://polymarket.com/event/variational-fdv-above-one-day-after-launch/variational-fdv-above-100m-one-day-after-launch-519",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-variational-launch-a-token-in-2025-ee_1Zk-I3wRG.jpg",
+  "cid": "0xcb0435359047119a7c21536b540a98362a079cabb684746939faf9df9ab4774f",
+  "slug": "variational-fdv-above-100m-one-day-after-launch-519",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.985,
+  "usd": 7.88,
+  "shares": 8.0,
+  "ts": 1795607522,
+  "held": 2094.54,
+  "heldUsd": 2062.08,
+  "peak": 2102.54,
+  "chip": "Against",
+  "split": "1/2",
+  "arrow": "",
+  "fills": [],
+  "id": 4
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the lowest temperature in Hong Kong be 16\u00b0C on November 25?",
+  "url": "https://polymarket.com/event/lowest-temperature-in-hong-kong-on-november-25-2026/lowest-temperature-in-hong-kong-on-november-25-2026-16c",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/hongkong-ae9cc75f37.jpg",
+  "cid": "0x130e32c2904b63a5a80498461630cbec1337c20f99f6a42aa8cd453c4c5f03fb",
+  "slug": "lowest-temperature-in-hong-kong-on-november-25-2026-16c",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9703,
+  "usd": 38.81,
+  "shares": 40.0,
+  "ts": 1795607495,
+  "held": 0.31,
+  "heldUsd": 0.3,
+  "peak": 40.0,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 5
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the lowest temperature in London be 1\u00b0C on November 27?",
+  "url": "https://polymarket.com/event/lowest-temperature-in-london-on-november-27-2026/lowest-temperature-in-london-on-november-27-2026-1c",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/highest-temperature-in-london-on-jan-22-eouu0bkjph8i.jpg",
+  "cid": "0x134c649708bd55687f658d80a6ee0837c7a8992cf1a870bb4bf3f3e3d77ddd19",
+  "slug": "lowest-temperature-in-london-on-november-27-2026-1c",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.5325,
+  "usd": 8.52,
+  "shares": 16.0,
+  "ts": 1795607413,
+  "held": 16.0,
+  "heldUsd": 8.24,
+  "peak": 16.0,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 6
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the lowest temperature in London be 2\u00b0C on November 27?",
+  "url": "https://polymarket.com/event/lowest-temperature-in-london-on-november-27-2026/lowest-temperature-in-london-on-november-27-2026-2c",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/highest-temperature-in-london-on-jan-22-eouu0bkjph8i.jpg",
+  "cid": "0x6e6140ee7b8be0b61ab4f17608d63615a742860f53a7600409078c3c62558cf9",
+  "slug": "lowest-temperature-in-london-on-november-27-2026-2c",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.63,
+  "usd": 12.6,
+  "shares": 20.0,
+  "ts": 1795607413,
+  "held": 20.0,
+  "heldUsd": 13.1,
+  "peak": 20.0,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [
+   {
+    "ts": 1795607413,
+    "usd": 10.08,
+    "shares": 16.0,
+    "price": 0.63
+   },
+   {
+    "ts": 1795607413,
+    "usd": 2.52,
+    "shares": 4.0,
+    "price": 0.63
+   }
+  ],
+  "id": 7
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the lowest temperature in London be 5\u00b0C on November 27?",
+  "url": "https://polymarket.com/event/lowest-temperature-in-london-on-november-27-2026/lowest-temperature-in-london-on-november-27-2026-5c",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/highest-temperature-in-london-on-jan-22-eouu0bkjph8i.jpg",
+  "cid": "0x760e53a048c457021069d7e7d80289d8d87caaed4746152452d3840fc840c11e",
+  "slug": "lowest-temperature-in-london-on-november-27-2026-5c",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.997,
+  "usd": 15.95,
+  "shares": 16.0,
+  "ts": 1795607413,
+  "held": 16.0,
+  "heldUsd": 15.87,
+  "peak": 16.0,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 8
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the lowest temperature in London be -1\u00b0C on November 27?",
+  "url": "https://polymarket.com/event/lowest-temperature-in-london-on-november-27-2026/lowest-temperature-in-london-on-november-27-2026-neg-1c",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/highest-temperature-in-london-on-jan-22-eouu0bkjph8i.jpg",
+  "cid": "0xe2f1df2be4ef5c7a9e3115c255e2e730bc582f8efebeb95ad0712041cdafd4d3",
+  "slug": "lowest-temperature-in-london-on-november-27-2026-neg-1c",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.997,
+  "usd": 15.95,
+  "shares": 16.0,
+  "ts": 1795607413,
+  "held": 16.0,
+  "heldUsd": 13.69,
+  "peak": 16.0,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 9
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the next governing coalition of Sweden include S + MP + C?",
+  "url": "https://polymarket.com/event/which-coalition-will-form-the-next-swedish-government/will-the-next-governing-coalition-of-sweden-include-s-mp-c",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/seschool-sweden-flag-4f2ad098a8.jpg",
+  "cid": "0xc9e7579eeb821dcf1fdceaee45aecd4ab99a103420e5c357f8808ab7c1a4d4f2",
+  "slug": "will-the-next-governing-coalition-of-sweden-include-s-mp-c",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.655,
+  "usd": 13.1,
+  "shares": 20.0,
+  "ts": 1795607383,
+  "held": 20.0,
+  "heldUsd": 14.13,
+  "peak": 20.0,
+  "chip": "Against",
+  "split": "1/2",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 10
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the next governing coalition of Sweden include S + MP?",
+  "url": "https://polymarket.com/event/which-coalition-will-form-the-next-swedish-government/will-the-next-governing-coalition-of-sweden-include-s-mp",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/seschool-sweden-flag-4f2ad098a8.jpg",
+  "cid": "0x16a377c81225f0cb79c90f322239079a06e079221c7e296a713bb6bb1c7f5420",
+  "slug": "will-the-next-governing-coalition-of-sweden-include-s-mp",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9911,
+  "usd": 19.82,
+  "shares": 20.0,
+  "ts": 1795607381,
+  "held": 17.28,
+  "heldUsd": 16.6,
+  "peak": 20.0,
+  "chip": "Against",
+  "split": "1/2",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 11
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the next governing coalition of Sweden include S + MP + V?",
+  "url": "https://polymarket.com/event/which-coalition-will-form-the-next-swedish-government/will-the-next-governing-coalition-of-sweden-include-s-mp-v",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/seschool-sweden-flag-4f2ad098a8.jpg",
+  "cid": "0x17a27708fd8c09ac0c7fa2293ee2eabb27bf205700bf2d6c80e0ac0854a79fa3",
+  "slug": "will-the-next-governing-coalition-of-sweden-include-s-mp-v",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9871,
+  "usd": 19.7,
+  "shares": 19.96,
+  "ts": 1795607381,
+  "held": 19.96,
+  "heldUsd": 19.34,
+  "peak": 19.96,
+  "chip": "Exited",
+  "split": "",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 12
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the next governing coalition of Sweden include M + KD + SD?",
+  "url": "https://polymarket.com/event/which-coalition-will-form-the-next-swedish-government/will-the-next-governing-coalition-of-sweden-include-m-kd-sd",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/seschool-sweden-flag-4f2ad098a8.jpg",
+  "cid": "0x5711e01639c9854d79cf0710ff501fef89c118f8be4cb68c7718b0d8840cbb9d",
+  "slug": "will-the-next-governing-coalition-of-sweden-include-m-kd-sd",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9871,
+  "usd": 19.6,
+  "shares": 19.86,
+  "ts": 1795607381,
+  "held": 19.86,
+  "heldUsd": 19.55,
+  "peak": 19.86,
+  "chip": "Exited",
+  "split": "",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 13
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the next governing coalition of Sweden include M + KD + L + C?",
+  "url": "https://polymarket.com/event/which-coalition-will-form-the-next-swedish-government/will-the-next-governing-coalition-of-sweden-include-m-kd-l-c",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/seschool-sweden-flag-4f2ad098a8.jpg",
+  "cid": "0xc68ccd3b9c93d90dac002cdbbbd61f4b02e788069549c18687f92d49f58617e5",
+  "slug": "will-the-next-governing-coalition-of-sweden-include-m-kd-l-c",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.4783,
+  "usd": 8.85,
+  "shares": 18.49,
+  "ts": 1795607381,
+  "held": 18.49,
+  "heldUsd": 9.75,
+  "peak": 18.49,
+  "chip": "Exited",
+  "split": "",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 14
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the next governing coalition of Sweden include S?",
+  "url": "https://polymarket.com/event/which-coalition-will-form-the-next-swedish-government/will-the-next-governing-coalition-of-sweden-include-s",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/seschool-sweden-flag-4f2ad098a8.jpg",
+  "cid": "0xda852d8ab533fde74587ed87b9b84be5f36104b33d7d33fc6c301eea0dc296a0",
+  "slug": "will-the-next-governing-coalition-of-sweden-include-s",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9865,
+  "usd": 19.62,
+  "shares": 19.89,
+  "ts": 1795607381,
+  "held": 4.75,
+  "heldUsd": 4.67,
+  "peak": 19.89,
+  "chip": "Against",
+  "split": "1/2",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 15
+ },
+ {
+  "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
+  "n": "Tenebrus7",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
+  "t": "Will Lindsay Clancy be the #1 searched person on Google this year?",
+  "url": "https://polymarket.com/event/1-searched-person-on-google-this-year-20260717214320563/will-lindsay-clancy-be-the-1-searched-person-on-google-this-year-20260717214426299",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/clancy-d5993e7cf0.jpg",
+  "cid": "0x4350034be066b7f44fcec5f1c89fdcc0f9e0a0f34add9f563715ae1515d75b03",
+  "slug": "will-lindsay-clancy-be-the-1-searched-person-on-google-this-year-20260717214426299",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.64,
+  "usd": 10.43,
+  "shares": 16.3,
+  "ts": 1795607354,
+  "held": 983.76,
+  "heldUsd": 624.69,
+  "peak": 1000.06,
+  "chip": "Against",
+  "split": "2/3",
+  "arrow": "",
+  "fills": [],
+  "id": 16
+ },
+ {
+  "a": "0xe639e41094bbeae18f3e6d1790c17299183f082a",
+  "n": "0xe639e4",
+  "avatar": "",
+  "t": "Will there be no change in Fed interest rates after the December 2026 meeting?",
+  "url": "https://polymarket.com/event/fed-decision-in-december-20260729232808632/will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/fed-decision-in-september-762-c4RyWuxRPo1L.jpg",
+  "cid": "0x723822eb2b143cee54c0bd7c1efba322b21f0051984c266df8879c394f1011c0",
+  "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.953,
   "usd": 1760.66,
   "shares": 1847.49,
   "ts": 1795607245,
-  "held": 354840.63,
-  "heldUsd": 339227.64,
-  "peak": 354840.63,
+  "held": 356713.33,
+  "heldUsd": 340839.59,
+  "peak": 356713.33,
   "chip": "Against",
   "split": "4/7",
   "arrow": "",
   "fills": [],
-  "id": 0
+  "id": 17
  },
  {
   "a": "0x1c144e30f405a25f991cbd8baa15d40599090869",
@@ -45,7 +479,7 @@
   "split": "5/6",
   "arrow": "",
   "fills": [],
-  "id": 1
+  "id": 18
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -69,7 +503,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 2
+  "id": 19
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -93,7 +527,7 @@
   "split": "2/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 3
+  "id": 20
  },
  {
   "a": "0xc851cd9bee7d262afd78674f861f9f576a12cd2a",
@@ -117,7 +551,7 @@
   "split": "1/2",
   "arrow": "",
   "fills": [],
-  "id": 4
+  "id": 21
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -135,13 +569,13 @@
   "shares": 20.0,
   "ts": 1795607108,
   "held": 307.92,
-  "heldUsd": 75.44,
+  "heldUsd": 83.14,
   "peak": 307.92,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 5
+  "id": 22
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -165,7 +599,7 @@
   "split": "3/3",
   "arrow": "\u2193",
   "fills": [],
-  "id": 6
+  "id": 23
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -183,13 +617,13 @@
   "shares": 20.0,
   "ts": 1795606931,
   "held": 28.28,
-  "heldUsd": 2.77,
+  "heldUsd": 2.67,
   "peak": 28.28,
   "chip": "Against",
   "split": "3/4",
   "arrow": "",
   "fills": [],
-  "id": 7
+  "id": 24
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -207,13 +641,13 @@
   "shares": 19.99,
   "ts": 1795606931,
   "held": 19.99,
-  "heldUsd": 18.24,
+  "heldUsd": 18.23,
   "peak": 19.99,
   "chip": "With",
   "split": "3/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 8
+  "id": 25
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -237,7 +671,7 @@
   "split": "2/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 9
+  "id": 26
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -254,14 +688,14 @@
   "usd": 47.51,
   "shares": 50.01,
   "ts": 1795606927,
-  "held": 142.87,
-  "heldUsd": 136.44,
+  "held": 123.57,
+  "heldUsd": 118.01,
   "peak": 192.88,
   "chip": "Against",
   "split": "2/3",
   "arrow": "",
   "fills": [],
-  "id": 10
+  "id": 27
  },
  {
   "a": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
@@ -298,7 +732,7 @@
     "price": 0.33
    }
   ],
-  "id": 11
+  "id": 28
  },
  {
   "a": "0xe639e41094bbeae18f3e6d1790c17299183f082a",
@@ -315,14 +749,14 @@
   "usd": 171.54,
   "shares": 180.0,
   "ts": 1795606792,
-  "held": 354840.63,
-  "heldUsd": 339227.64,
-  "peak": 354840.63,
+  "held": 356713.33,
+  "heldUsd": 340839.59,
+  "peak": 356713.33,
   "chip": "Against",
   "split": "4/7",
   "arrow": "",
   "fills": [],
-  "id": 12
+  "id": 29
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -339,14 +773,14 @@
   "usd": 120.0,
   "shares": 1000.0,
   "ts": 1795606736,
-  "held": 1000.0,
-  "heldUsd": 125.0,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 1000.0,
   "chip": "Against",
-  "split": "4/6",
-  "arrow": "\u2193",
+  "split": "4/5",
+  "arrow": "\u2191",
   "fills": [],
-  "id": 13
+  "id": 30
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -363,14 +797,14 @@
   "usd": 871.13,
   "shares": 1000.0,
   "ts": 1795606735,
-  "held": 1003.66,
-  "heldUsd": 871.68,
-  "peak": 1003.66,
+  "held": 3.66,
+  "heldUsd": 3.19,
+  "peak": 1000.0,
   "chip": "With",
   "split": "3/5",
-  "arrow": "",
+  "arrow": "\u2191",
   "fills": [],
-  "id": 14
+  "id": 31
  },
  {
   "a": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
@@ -407,7 +841,7 @@
     "price": 0.997
    }
   ],
-  "id": 15
+  "id": 32
  },
  {
   "a": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
@@ -431,7 +865,7 @@
   "split": "4/7",
   "arrow": "\u2193",
   "fills": [],
-  "id": 16
+  "id": 33
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -455,7 +889,7 @@
   "split": "5/5",
   "arrow": "",
   "fills": [],
-  "id": 17
+  "id": 34
  },
  {
   "a": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
@@ -472,14 +906,14 @@
   "usd": 13.0,
   "shares": 18.57,
   "ts": 1795606463,
-  "held": 288.94,
-  "heldUsd": 218.15,
+  "held": 318.94,
+  "heldUsd": 232.83,
   "peak": 340.37,
   "chip": "Against",
   "split": "1/1",
   "arrow": "\u2191",
   "fills": [],
-  "id": 18
+  "id": 35
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -497,13 +931,13 @@
   "shares": 287.92,
   "ts": 1795606462,
   "held": 307.92,
-  "heldUsd": 75.44,
+  "heldUsd": 83.14,
   "peak": 307.92,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 19
+  "id": 36
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -540,7 +974,7 @@
     "price": 0.799
    }
   ],
-  "id": 20
+  "id": 37
  },
  {
   "a": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
@@ -577,7 +1011,7 @@
     "price": 0.755
    }
   ],
-  "id": 21
+  "id": 38
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -594,12 +1028,12 @@
   "usd": 19.85,
   "shares": 19.96,
   "ts": 1795606435,
-  "held": 19.96,
-  "heldUsd": 19.87,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 19.96,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [
    {
     "ts": 1795606433,
@@ -620,7 +1054,7 @@
     "price": 0.996
    }
   ],
-  "id": 22
+  "id": 39
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -637,8 +1071,8 @@
   "usd": 19.93,
   "shares": 19.99,
   "ts": 1795606435,
-  "held": 19.99,
-  "heldUsd": 19.84,
+  "held": 0.11,
+  "heldUsd": 0.11,
   "peak": 19.99,
   "chip": "First",
   "split": "",
@@ -663,7 +1097,7 @@
     "price": 0.997
    }
   ],
-  "id": 23
+  "id": 40
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -680,8 +1114,8 @@
   "usd": 19.93,
   "shares": 20.0,
   "ts": 1795606435,
-  "held": 20.0,
-  "heldUsd": 19.82,
+  "held": 0.13,
+  "heldUsd": 0.12,
   "peak": 20.0,
   "chip": "First",
   "split": "",
@@ -706,7 +1140,7 @@
     "price": 0.996
    }
   ],
-  "id": 24
+  "id": 41
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -723,8 +1157,8 @@
   "usd": 19.87,
   "shares": 19.99,
   "ts": 1795606435,
-  "held": 19.99,
-  "heldUsd": 19.77,
+  "held": 0.11,
+  "heldUsd": 0.11,
   "peak": 19.99,
   "chip": "First",
   "split": "",
@@ -749,7 +1183,7 @@
     "price": 0.994
    }
   ],
-  "id": 25
+  "id": 42
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -766,12 +1200,12 @@
   "usd": 18.21,
   "shares": 19.87,
   "ts": 1795606433,
-  "held": 19.87,
-  "heldUsd": 17.89,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 19.87,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [
    {
     "ts": 1795606433,
@@ -792,7 +1226,7 @@
     "price": 0.91
    }
   ],
-  "id": 26
+  "id": 43
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -809,8 +1243,8 @@
   "usd": 13.6,
   "shares": 20.0,
   "ts": 1795606433,
-  "held": 20.0,
-  "heldUsd": 13.6,
+  "held": 0.12,
+  "heldUsd": 0.08,
   "peak": 20.0,
   "chip": "First",
   "split": "",
@@ -835,7 +1269,7 @@
     "price": 0.68
    }
   ],
-  "id": 27
+  "id": 44
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -852,14 +1286,14 @@
   "usd": 19.9,
   "shares": 20.0,
   "ts": 1795606423,
-  "held": 20.0,
-  "heldUsd": 19.87,
+  "held": 3.57,
+  "heldUsd": 3.54,
   "peak": 20.0,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 28
+  "id": 45
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -883,7 +1317,7 @@
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 29
+  "id": 46
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -900,14 +1334,14 @@
   "usd": 7.97,
   "shares": 19.98,
   "ts": 1795606423,
-  "held": 17.58,
-  "heldUsd": 6.99,
+  "held": 1.15,
+  "heldUsd": 0.46,
   "peak": 19.98,
   "chip": "Against",
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 30
+  "id": 47
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -931,7 +1365,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 31
+  "id": 48
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -955,7 +1389,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 32
+  "id": 49
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -972,14 +1406,14 @@
   "usd": 14.04,
   "shares": 20.0,
   "ts": 1795606423,
-  "held": 17.16,
-  "heldUsd": 11.25,
+  "held": 0.73,
+  "heldUsd": 0.47,
   "peak": 20.0,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 33
+  "id": 50
  },
  {
   "a": "0x1c144e30f405a25f991cbd8baa15d40599090869",
@@ -997,13 +1431,13 @@
   "shares": 50.0,
   "ts": 1795606370,
   "held": 50.0,
-  "heldUsd": 47.83,
+  "heldUsd": 48.8,
   "peak": 50.0,
   "chip": "With",
   "split": "3/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 34
+  "id": 51
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1027,7 +1461,7 @@
   "split": "2/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 35
+  "id": 52
  },
  {
   "a": "0xe639e41094bbeae18f3e6d1790c17299183f082a",
@@ -1044,14 +1478,14 @@
   "usd": 139.45,
   "shares": 146.33,
   "ts": 1795606336,
-  "held": 354840.63,
-  "heldUsd": 339227.64,
-  "peak": 354840.63,
+  "held": 356713.33,
+  "heldUsd": 340839.59,
+  "peak": 356713.33,
   "chip": "Against",
   "split": "4/7",
   "arrow": "",
   "fills": [],
-  "id": 36
+  "id": 53
  },
  {
   "a": "0xc4086b708cd3a50880b7069add1a1a80000f4675",
@@ -1075,7 +1509,7 @@
   "split": "6/9",
   "arrow": "",
   "fills": [],
-  "id": 37
+  "id": 54
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1099,7 +1533,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 38
+  "id": 55
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1123,7 +1557,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 39
+  "id": 56
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1147,7 +1581,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 40
+  "id": 57
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1171,7 +1605,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 41
+  "id": 58
  },
  {
   "a": "0x1c144e30f405a25f991cbd8baa15d40599090869",
@@ -1195,7 +1629,7 @@
   "split": "5/6",
   "arrow": "",
   "fills": [],
-  "id": 42
+  "id": 59
  },
  {
   "a": "0xc4086b708cd3a50880b7069add1a1a80000f4675",
@@ -1219,7 +1653,7 @@
   "split": "6/9",
   "arrow": "",
   "fills": [],
-  "id": 43
+  "id": 60
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1243,7 +1677,7 @@
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 44
+  "id": 61
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1267,7 +1701,7 @@
   "split": "3/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 45
+  "id": 62
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1291,7 +1725,7 @@
   "split": "2/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 46
+  "id": 63
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1315,7 +1749,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 47
+  "id": 64
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1339,7 +1773,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 48
+  "id": 65
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1363,7 +1797,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 49
+  "id": 66
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1380,14 +1814,14 @@
   "usd": 29.91,
   "shares": 30.0,
   "ts": 1795605814,
-  "held": 30.0,
-  "heldUsd": 29.88,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 30.0,
-  "chip": "Exited",
+  "chip": "First",
   "split": "",
-  "arrow": "\u2193",
+  "arrow": "",
   "fills": [],
-  "id": 50
+  "id": 67
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1411,7 +1845,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 51
+  "id": 68
  },
  {
   "a": "0x1f0a343513aa6060488fabe96960e6d1e177f7aa",
@@ -1429,13 +1863,13 @@
   "shares": 333.03,
   "ts": 1795605725,
   "held": 5173.07,
-  "heldUsd": 4115.17,
+  "heldUsd": 4141.04,
   "peak": 5506.1,
   "chip": "Against",
   "split": "9/10",
   "arrow": "\u2193",
   "fills": [],
-  "id": 52
+  "id": 69
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -1472,7 +1906,7 @@
     "price": 0.823
    }
   ],
-  "id": 53
+  "id": 70
  },
  {
   "a": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
@@ -1496,7 +1930,7 @@
   "split": "7/9",
   "arrow": "",
   "fills": [],
-  "id": 54
+  "id": 71
  },
  {
   "a": "0x1f0a343513aa6060488fabe96960e6d1e177f7aa",
@@ -1520,7 +1954,7 @@
   "split": "5/5",
   "arrow": "",
   "fills": [],
-  "id": 55
+  "id": 72
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -1544,7 +1978,7 @@
   "split": "5/5",
   "arrow": "",
   "fills": [],
-  "id": 56
+  "id": 73
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1568,7 +2002,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 57
+  "id": 74
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1586,13 +2020,13 @@
   "shares": 20.0,
   "ts": 1795605415,
   "held": 2.16,
-  "heldUsd": 1.62,
+  "heldUsd": 1.61,
   "peak": 20.0,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 58
+  "id": 75
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1610,13 +2044,13 @@
   "shares": 20.0,
   "ts": 1795605415,
   "held": 1.76,
-  "heldUsd": 1.25,
+  "heldUsd": 1.34,
   "peak": 20.0,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 59
+  "id": 76
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1640,7 +2074,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 60
+  "id": 77
  },
  {
   "a": "0xe639e41094bbeae18f3e6d1790c17299183f082a",
@@ -1657,14 +2091,14 @@
   "usd": 50.79,
   "shares": 53.3,
   "ts": 1795605377,
-  "held": 354840.63,
-  "heldUsd": 339227.64,
-  "peak": 354840.63,
+  "held": 356713.33,
+  "heldUsd": 340839.59,
+  "peak": 356713.33,
   "chip": "Against",
   "split": "4/7",
   "arrow": "",
   "fills": [],
-  "id": 61
+  "id": 78
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1688,7 +2122,7 @@
   "split": "2/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 62
+  "id": 79
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1712,7 +2146,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 63
+  "id": 80
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1729,14 +2163,14 @@
   "usd": 546.19,
   "shares": 550.0,
   "ts": 1795605364,
-  "held": 23.93,
-  "heldUsd": 23.75,
+  "held": 16.93,
+  "heldUsd": 16.81,
   "peak": 1619.52,
   "chip": "Against",
   "split": "2/3",
   "arrow": "\u2193",
   "fills": [],
-  "id": 64
+  "id": 81
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1753,14 +2187,14 @@
   "usd": 291.5,
   "shares": 550.0,
   "ts": 1795605364,
-  "held": 7.0,
-  "heldUsd": 3.78,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 1619.52,
   "chip": "Against",
-  "split": "3/4",
-  "arrow": "\u2193",
+  "split": "3/3",
+  "arrow": "",
   "fills": [],
-  "id": 65
+  "id": 82
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1784,7 +2218,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 66
+  "id": 83
  },
  {
   "a": "0x1c144e30f405a25f991cbd8baa15d40599090869",
@@ -1808,7 +2242,7 @@
   "split": "5/6",
   "arrow": "",
   "fills": [],
-  "id": 67
+  "id": 84
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -1832,7 +2266,7 @@
   "split": "9/10",
   "arrow": "\u2193",
   "fills": [],
-  "id": 68
+  "id": 85
  },
  {
   "a": "0x1f0a343513aa6060488fabe96960e6d1e177f7aa",
@@ -1856,7 +2290,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 69
+  "id": 86
  },
  {
   "a": "0xe639e41094bbeae18f3e6d1790c17299183f082a",
@@ -1873,9 +2307,9 @@
   "usd": 296.52,
   "shares": 311.14,
   "ts": 1795605167,
-  "held": 354840.63,
-  "heldUsd": 339227.64,
-  "peak": 354840.63,
+  "held": 356713.33,
+  "heldUsd": 340839.59,
+  "peak": 356713.33,
   "chip": "Against",
   "split": "4/7",
   "arrow": "",
@@ -1893,7 +2327,7 @@
     "price": 0.953
    }
   ],
-  "id": 70
+  "id": 87
  },
  {
   "a": "0xc851cd9bee7d262afd78674f861f9f576a12cd2a",
@@ -1911,13 +2345,13 @@
   "shares": 1927.13,
   "ts": 1795605160,
   "held": 53538.94,
-  "heldUsd": 6264.06,
+  "heldUsd": 6290.83,
   "peak": 53538.94,
   "chip": "With",
   "split": "3/5",
   "arrow": "",
   "fills": [],
-  "id": 71
+  "id": 88
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1941,7 +2375,7 @@
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 72
+  "id": 89
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1958,14 +2392,14 @@
   "usd": 62.28,
   "shares": 616.61,
   "ts": 1795605094,
-  "held": 93.74,
-  "heldUsd": 10.31,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 616.61,
   "chip": "Against",
-  "split": "8/12",
-  "arrow": "\u2193",
+  "split": "8/11",
+  "arrow": "",
   "fills": [],
-  "id": 73
+  "id": 90
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1982,14 +2416,14 @@
   "usd": 555.49,
   "shares": 616.6,
   "ts": 1795605094,
-  "held": 101.24,
-  "heldUsd": 91.62,
+  "held": 7.5,
+  "heldUsd": 6.79,
   "peak": 616.6,
   "chip": "Against",
   "split": "9/10",
   "arrow": "\u2193",
   "fills": [],
-  "id": 74
+  "id": 91
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2010,10 +2444,10 @@
   "heldUsd": 0.0,
   "peak": 616.61,
   "chip": "Against",
-  "split": "3/3",
+  "split": "4/4",
   "arrow": "",
   "fills": [],
-  "id": 75
+  "id": 92
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -2074,7 +2508,7 @@
     "price": 0.1
    }
   ],
-  "id": 76
+  "id": 93
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -2095,7 +2529,7 @@
   "heldUsd": 95.83,
   "peak": 13689.83,
   "chip": "With",
-  "split": "3/3",
+  "split": "4/4",
   "arrow": "",
   "fills": [
    {
@@ -2111,7 +2545,7 @@
     "price": 0.006
    }
   ],
-  "id": 77
+  "id": 94
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -2132,8 +2566,8 @@
   "heldUsd": 1423.95,
   "peak": 1999.94,
   "chip": "Against",
-  "split": "8/12",
-  "arrow": "\u2193",
+  "split": "8/11",
+  "arrow": "",
   "fills": [
    {
     "ts": 1795605094,
@@ -2148,7 +2582,7 @@
     "price": 0.891
    }
   ],
-  "id": 78
+  "id": 95
  },
  {
   "a": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
@@ -2172,7 +2606,7 @@
   "split": "5/9",
   "arrow": "\u2193",
   "fills": [],
-  "id": 79
+  "id": 96
  },
  {
   "a": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
@@ -2196,7 +2630,7 @@
   "split": "7/9",
   "arrow": "",
   "fills": [],
-  "id": 80
+  "id": 97
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2233,7 +2667,7 @@
     "price": 0.985
    }
   ],
-  "id": 81
+  "id": 98
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2250,8 +2684,8 @@
   "usd": 1061.11,
   "shares": 1069.52,
   "ts": 1795604969,
-  "held": 23.93,
-  "heldUsd": 23.75,
+  "held": 16.93,
+  "heldUsd": 16.81,
   "peak": 1619.52,
   "chip": "Against",
   "split": "2/3",
@@ -2270,7 +2704,7 @@
     "price": 0.993
    }
   ],
-  "id": 82
+  "id": 99
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2313,7 +2747,7 @@
     "price": 0.49
    }
   ],
-  "id": 83
+  "id": 100
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2330,12 +2764,12 @@
   "usd": 579.33,
   "shares": 1069.52,
   "ts": 1795604969,
-  "held": 7.0,
-  "heldUsd": 3.78,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 1619.52,
   "chip": "Against",
-  "split": "3/4",
-  "arrow": "\u2193",
+  "split": "3/3",
+  "arrow": "",
   "fills": [
    {
     "ts": 1795604917,
@@ -2350,7 +2784,7 @@
     "price": 0.53
    }
   ],
-  "id": 84
+  "id": 101
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2387,7 +2821,7 @@
     "price": 0.994
    }
   ],
-  "id": 85
+  "id": 102
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -2411,7 +2845,7 @@
   "split": "3/5",
   "arrow": "\u2193",
   "fills": [],
-  "id": 86
+  "id": 103
  },
  {
   "a": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
@@ -2435,7 +2869,7 @@
   "split": "1/1",
   "arrow": "\u2191",
   "fills": [],
-  "id": 87
+  "id": 104
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2472,7 +2906,7 @@
     "price": 0.14
    }
   ],
-  "id": 88
+  "id": 105
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2489,9 +2923,9 @@
   "usd": 402.93,
   "shares": 506.2,
   "ts": 1795604848,
-  "held": 755.04,
-  "heldUsd": 638.0,
-  "peak": 755.04,
+  "held": 755.38,
+  "heldUsd": 638.29,
+  "peak": 755.38,
   "chip": "First",
   "split": "",
   "arrow": "",
@@ -2509,7 +2943,7 @@
     "price": 0.81
    }
   ],
-  "id": 89
+  "id": 106
  },
  {
   "a": "0xe639e41094bbeae18f3e6d1790c17299183f082a",
@@ -2526,14 +2960,14 @@
   "usd": 822.25,
   "shares": 862.8,
   "ts": 1795604839,
-  "held": 354840.63,
-  "heldUsd": 339227.64,
-  "peak": 354840.63,
+  "held": 356713.33,
+  "heldUsd": 340839.59,
+  "peak": 356713.33,
   "chip": "Against",
   "split": "4/7",
   "arrow": "",
   "fills": [],
-  "id": 90
+  "id": 107
  },
  {
   "a": "0x43440ab002eaac9fede6f9d21bea96d84228f90d",
@@ -2588,7 +3022,7 @@
     "price": 0.15
    }
   ],
-  "id": 91
+  "id": 108
  },
  {
   "a": "0xe639e41094bbeae18f3e6d1790c17299183f082a",
@@ -2605,14 +3039,14 @@
   "usd": 486.86,
   "shares": 510.87,
   "ts": 1795604684,
-  "held": 354840.63,
-  "heldUsd": 339227.64,
-  "peak": 354840.63,
+  "held": 356713.33,
+  "heldUsd": 340839.59,
+  "peak": 356713.33,
   "chip": "Against",
   "split": "4/7",
   "arrow": "",
   "fills": [],
-  "id": 92
+  "id": 109
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -2630,13 +3064,13 @@
   "shares": 658.73,
   "ts": 1795604491,
   "held": 1976.21,
-  "heldUsd": 597.8,
+  "heldUsd": 598.79,
   "peak": 2634.94,
   "chip": "With",
   "split": "6/11",
   "arrow": "\u2191",
   "fills": [],
-  "id": 93
+  "id": 110
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -2660,7 +3094,7 @@
   "split": "4/7",
   "arrow": "",
   "fills": [],
-  "id": 94
+  "id": 111
  },
  {
   "a": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
@@ -2678,13 +3112,13 @@
   "shares": 86.04,
   "ts": 1795604450,
   "held": 788.51,
-  "heldUsd": 716.36,
+  "heldUsd": 717.15,
   "peak": 788.51,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 95
+  "id": 112
  },
  {
   "a": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
@@ -2708,7 +3142,7 @@
   "split": "4/7",
   "arrow": "\u2193",
   "fills": [],
-  "id": 96
+  "id": 113
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2732,7 +3166,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 97
+  "id": 114
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2756,7 +3190,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 98
+  "id": 115
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2774,13 +3208,13 @@
   "shares": 20.0,
   "ts": 1795604407,
   "held": 2.93,
-  "heldUsd": 1.11,
+  "heldUsd": 1.46,
   "peak": 20.0,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 99
+  "id": 116
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2804,7 +3238,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 100
+  "id": 117
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2828,7 +3262,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 101
+  "id": 118
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -2852,446 +3286,6 @@
   "split": "4/7",
   "arrow": "",
   "fills": [],
-  "id": 102
- },
- {
-  "a": "0xf1f9a438f2697381b4ac8eb283d6f4dd772d1245",
-  "n": "tunatyler",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-566685-689e8606-e3cf-4fb0-b4b1-d55fa3c39874.jpg",
-  "t": "Will Lee Shu-chuan win the next New Taipei Mayor election?",
-  "url": "https://polymarket.com/event/new-taipei-mayor-election-winner-20260813125857200/will-lee-shu-chuan-win-the-next-new-taipei-mayor-election-20260813125857201",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/pf26tw-lee-shu-chuan-q865-818a492dbd.jpg",
-  "cid": "0x0ff4131bebd7e76a8d4e10951cf22ed92616ed2b5631d71e80721e7afd94f6ed",
-  "slug": "will-lee-shu-chuan-win-the-next-new-taipei-mayor-election-20260813125857201",
-  "side": "SELL",
-  "out": "Yes",
-  "price": 0.42,
-  "usd": 96.58,
-  "shares": 229.95,
-  "ts": 1795604132,
-  "held": 4890.77,
-  "heldUsd": 2029.67,
-  "peak": 5132.41,
-  "chip": "Against",
-  "split": "1/2",
-  "arrow": "",
-  "fills": [],
-  "id": 103
- },
- {
-  "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
-  "n": "Tenebrus7",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
-  "t": "Will there be no change in Fed interest rates after the December 2026 meeting?",
-  "url": "https://polymarket.com/event/fed-decision-in-december-20260729232808632/will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/fed-decision-in-september-762-c4RyWuxRPo1L.jpg",
-  "cid": "0x723822eb2b143cee54c0bd7c1efba322b21f0051984c266df8879c394f1011c0",
-  "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.961,
-  "usd": 4518.99,
-  "shares": 4702.38,
-  "ts": 1795604089,
-  "held": 4797.59,
-  "heldUsd": 4586.5,
-  "peak": 9499.97,
-  "chip": "With",
-  "split": "4/7",
-  "arrow": "",
-  "fills": [],
-  "id": 104
- },
- {
-  "a": "0xf1f9a438f2697381b4ac8eb283d6f4dd772d1245",
-  "n": "tunatyler",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-566685-689e8606-e3cf-4fb0-b4b1-d55fa3c39874.jpg",
-  "t": "Will Su Chiao-hui win the next New Taipei Mayor election?",
-  "url": "https://polymarket.com/event/new-taipei-mayor-election-winner-20260813125857200/will-su-chiao-hui-win-the-next-new-taipei-mayor-election-20260813125857202",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/pf26r-su-chiao-hui-q865-7ea41d48b9.jpg",
-  "cid": "0x598c99fbef3a7d4fb2c3a5af62e67e4ef5f5f7447e966569aee6c917bff12a25",
-  "slug": "will-su-chiao-hui-win-the-next-new-taipei-mayor-election-20260813125857202",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.42,
-  "usd": 2.04,
-  "shares": 4.86,
-  "ts": 1795604060,
-  "held": 6596.48,
-  "heldUsd": 2737.54,
-  "peak": 7500.0,
-  "chip": "Against",
-  "split": "1/1",
-  "arrow": "",
-  "fills": [],
-  "id": 105
- },
- {
-  "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
-  "n": "Tenebrus7",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
-  "t": "Will the Democrats win the 2028 US Presidential Election?",
-  "url": "https://polymarket.com/event/which-party-wins-2028-us-presidential-election/will-the-democrats-win-the-2028-us-presidential-election",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/democrats+2028+donkey.png",
-  "cid": "0xb106a3c9d1c59ed8117493dae6459a3ff79369a8f7cddaf62f4a05828b89195e",
-  "slug": "will-the-democrats-win-the-2028-us-presidential-election",
-  "side": "SELL",
-  "out": "Yes",
-  "price": 0.68,
-  "usd": 683.4,
-  "shares": 1005.0,
-  "ts": 1795604041,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 2009.99,
-  "chip": "With",
-  "split": "1/1",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 106
- },
- {
-  "a": "0xa4b366ad22fc0d06f1e934ff468e8922431a87b8",
-  "n": "HolyMoses7",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1522789-c42e11fc-0535-4449-9628-d1ef34735d9d.jpg",
-  "t": "Will the Joint List be in the next Israeli government?",
-  "url": "https://polymarket.com/event/which-parties-will-be-in-the-next-israeli-government/will-the-joint-list-be-in-the-next-israeli-government",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/flag+israel.png",
-  "cid": "0x60f87adf9be26eba946aef0ec5fc1ec75b4053bab701aeb839bfaa76a4fae47a",
-  "slug": "will-the-joint-list-be-in-the-next-israeli-government",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.94,
-  "usd": 11.62,
-  "shares": 12.36,
-  "ts": 1795604030,
-  "held": 954.74,
-  "heldUsd": 893.16,
-  "peak": 954.74,
-  "chip": "First",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 107
- },
- {
-  "a": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
-  "n": "PaddyAlpha",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
-  "t": "Jensen Huang announced resignation or removal again by December 31, 2026?",
-  "url": "https://polymarket.com/event/jensen-huang-out-as-nvidia-ceo-again-byptptpt/jensen-huang-announced-resignation-or-removal-again-by-december-31-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0x602bf4a63f17aaccf05e62a9884f6abd6f01ca41c4ceb657d34957ed22b00179",
-  "slug": "jensen-huang-announced-resignation-or-removal-again-by-december-31-2026",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.052,
-  "usd": 1.23,
-  "shares": 23.57,
-  "ts": 1795604029,
-  "held": 284.0,
-  "heldUsd": 14.91,
-  "peak": 430.69,
-  "chip": "With",
-  "split": "3/5",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 108
- },
- {
-  "a": "0x614dc8d3542c12103d2c6a3553fd761e391d1546",
-  "n": "mr.ozi",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Capture_2c5e68de-e9d9-41e8-b25d-2dcc67eefc45_1721219990648.PNG",
-  "t": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
-  "url": "https://polymarket.com/event/next-prime-minister-of-sweden/will-magdalena-andersson-be-the-next-prime-minister-of-sweden",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/se-pm-26-magdalena-andersson-se-pm-e78fde4ca5.jpg",
-  "cid": "0x58d5cc2bf06a3289b127049239aee051f3b941f219efebbca02d3f50f0eb2a64",
-  "slug": "will-magdalena-andersson-be-the-next-prime-minister-of-sweden",
-  "side": "SELL",
-  "out": "Yes",
-  "price": 0.27,
-  "usd": 4785.11,
-  "shares": 17722.64,
-  "ts": 1795604011,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 25003.25,
-  "chip": "Against",
-  "split": "6/8",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 109
- },
- {
-  "a": "0x614dc8d3542c12103d2c6a3553fd761e391d1546",
-  "n": "mr.ozi",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Capture_2c5e68de-e9d9-41e8-b25d-2dcc67eefc45_1721219990648.PNG",
-  "t": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
-  "url": "https://polymarket.com/event/next-prime-minister-of-sweden/will-magdalena-andersson-be-the-next-prime-minister-of-sweden",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/se-pm-26-magdalena-andersson-se-pm-e78fde4ca5.jpg",
-  "cid": "0x58d5cc2bf06a3289b127049239aee051f3b941f219efebbca02d3f50f0eb2a64",
-  "slug": "will-magdalena-andersson-be-the-next-prime-minister-of-sweden",
-  "side": "SELL",
-  "out": "Yes",
-  "price": 0.27,
-  "usd": 75.77,
-  "shares": 280.61,
-  "ts": 1795603868,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 25003.25,
-  "chip": "Against",
-  "split": "6/8",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 110
- },
- {
-  "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
-  "n": "Tenebrus7",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
-  "t": "Will Magdalena Andersson be the next Prime Minister of Sweden?",
-  "url": "https://polymarket.com/event/next-prime-minister-of-sweden/will-magdalena-andersson-be-the-next-prime-minister-of-sweden",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/se-pm-26-magdalena-andersson-se-pm-e78fde4ca5.jpg",
-  "cid": "0x58d5cc2bf06a3289b127049239aee051f3b941f219efebbca02d3f50f0eb2a64",
-  "slug": "will-magdalena-andersson-be-the-next-prime-minister-of-sweden",
-  "side": "SELL",
-  "out": "Yes",
-  "price": 0.26,
-  "usd": 130.0,
-  "shares": 500.0,
-  "ts": 1795603868,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 500.0,
-  "chip": "Against",
-  "split": "6/8",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 111
- },
- {
-  "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
-  "n": "Tenebrus7",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
-  "t": "Will David Lisnard win the 2027 French presidential election?",
-  "url": "https://polymarket.com/event/next-french-presidential-election/will-david-lisnard-win-the-2027-french-presidential-election",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/pf26f-david-lisnard-q142-75c6bcc876.jpg",
-  "cid": "0xce610556ec78cfd7894f4169d91fe70e31c2fb49f927fffd7fe7d06530f88d56",
-  "slug": "will-david-lisnard-win-the-2027-french-presidential-election",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.7571,
-  "usd": 984.23,
-  "shares": 1300.0,
-  "ts": 1795603841,
-  "held": 25690.5,
-  "heldUsd": 19948.67,
-  "peak": 27990.5,
-  "chip": "Against",
-  "split": "5/5",
-  "arrow": "",
-  "fills": [
-   {
-    "ts": 1795603795,
-    "usd": 228.11,
-    "shares": 300.0,
-    "price": 0.7692
-   },
-   {
-    "ts": 1795603841,
-    "usd": 756.13,
-    "shares": 1000.0,
-    "price": 0.7651
-   }
-  ],
-  "id": 112
- },
- {
-  "a": "0x1c144e30f405a25f991cbd8baa15d40599090869",
-  "n": "bernardbulletin",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-765853-745c728b-99ca-4c24-8b78-3fc38c3477b7.png",
-  "t": "255-259 votes for Hakeem Jeffries to be Speaker on first ballot?",
-  "url": "https://polymarket.com/event/how-many-votes-will-hakeem-jeffries-get-on-first-ballot/255-259-votes-for-hakeem-jeffries-to-be-speaker-on-first-ballot",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us+house+of+representatives.png",
-  "cid": "0x583f425d06281eda55139ce0ac67a7a8cc2c801c1dcb09ba32223779c32b8e26",
-  "slug": "255-259-votes-for-hakeem-jeffries-to-be-speaker-on-first-ballot",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.2473,
-  "usd": 222.61,
-  "shares": 900.31,
-  "ts": 1795603802,
-  "held": 900.31,
-  "heldUsd": 319.61,
-  "peak": 900.31,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 113
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will CMI declare the Navier-Stokes problem solved by December 31, 2026?",
-  "url": "https://polymarket.com/event/will-cmi-declare-the-navier-stokes-problem-solved-by/will-cmi-declare-the-navier-stokes-problem-solved-by-december-31-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-a-millennium-prize-problem-be-solved-before-the-end-of-2025-o952nXYzhLWZ.jpg",
-  "cid": "0x54cf6c11d721d99a1036ba011bcc083939082fbdbeced511546799ae07729f5d",
-  "slug": "will-cmi-declare-the-navier-stokes-problem-solved-by-december-31-2026",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.984,
-  "usd": 191.84,
-  "shares": 194.96,
-  "ts": 1795603745,
-  "held": 2564.49,
-  "heldUsd": 2524.74,
-  "peak": 2759.45,
-  "chip": "Against",
-  "split": "1/1",
-  "arrow": "",
-  "fills": [],
-  "id": 114
- },
- {
-  "a": "0xe639e41094bbeae18f3e6d1790c17299183f082a",
-  "n": "0xe639e4",
-  "avatar": "",
-  "t": "Will there be no change in Fed interest rates after the December 2026 meeting?",
-  "url": "https://polymarket.com/event/fed-decision-in-december-20260729232808632/will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/fed-decision-in-september-762-c4RyWuxRPo1L.jpg",
-  "cid": "0x723822eb2b143cee54c0bd7c1efba322b21f0051984c266df8879c394f1011c0",
-  "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-december-2026-meeting-20260729232808635",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.953,
-  "usd": 828.23,
-  "shares": 869.08,
-  "ts": 1795603744,
-  "held": 354840.63,
-  "heldUsd": 339227.64,
-  "peak": 354840.63,
-  "chip": "Against",
-  "split": "4/7",
-  "arrow": "",
-  "fills": [],
-  "id": 115
- },
- {
-  "a": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
-  "n": "classified",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-2637613-f573f7f0-53b7-4a8d-b884-fec7b37d1b7d.png",
-  "t": "Netanyahu out by March 31, 2027?",
-  "url": "https://polymarket.com/event/netanyahu-out-before-2027/netanyahu-out-by-march-31-2027",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/netanyahu-out-in-2025-Vc7bE4GtiJzM.jpg",
-  "cid": "0x617291b57122421aa1e468a11fe03c9726a1d5ff5213b15cb7ac3c6cd8d6e9da",
-  "slug": "netanyahu-out-by-march-31-2027",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.4001,
-  "usd": 430.44,
-  "shares": 1075.84,
-  "ts": 1795603721,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 1075.84,
-  "chip": "Against",
-  "split": "1/1",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 116
- },
- {
-  "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
-  "n": "Tenebrus7",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
-  "t": "US announces end of Iranian blockade by December 31, 2026?",
-  "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080/us-announces-end-of-iranian-blockade-by-december-31-2026-20260727171803489-375-949-645-919-269-157-255-857",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-announces-blockade-on-iran-byptptpt-20260622191049039-hE3ZTZ51JJy3.jpg",
-  "cid": "0x46ca741da4abd7ffa993f59ac65bfe83de43ae027accac71d263a493e44064e7",
-  "slug": "us-announces-end-of-iranian-blockade-by-december-31-2026-20260727171803489-375-949-645-919-269-157-255-857",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.861,
-  "usd": 196.04,
-  "shares": 227.69,
-  "ts": 1795603715,
-  "held": 1977.05,
-  "heldUsd": 1706.19,
-  "peak": 1977.05,
-  "chip": "With",
-  "split": "7/13",
-  "arrow": "",
-  "fills": [],
-  "id": 117
- },
- {
-  "a": "0x1f0a343513aa6060488fabe96960e6d1e177f7aa",
-  "n": "archaic",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/d_d_usepic_b134fd85-ac75-4474-b983-d5196b546338_1739983370667.webp",
-  "t": "Edi Rama out as Albania PM in 2026?",
-  "url": "https://polymarket.com/event/edi-rama-out-as-albania-pm-in-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/edi-rama-out-as-albania-pm-in-2026-BCskl1egdIu6.jpg",
-  "cid": "0x15e8b539b6e6bed3285dbabb6fa3de5c528e562a089edda1ba7c0dcb5a073657",
-  "slug": "edi-rama-out-as-albania-pm-in-2026",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.94,
-  "usd": 1.32,
-  "shares": 1.4,
-  "ts": 1795603487,
-  "held": 1298.82,
-  "heldUsd": 1175.43,
-  "peak": 1300.22,
-  "chip": "With",
-  "split": "1/2",
-  "arrow": "",
-  "fills": [],
-  "id": 118
- },
- {
-  "a": "0x1f0a343513aa6060488fabe96960e6d1e177f7aa",
-  "n": "archaic",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/d_d_usepic_b134fd85-ac75-4474-b983-d5196b546338_1739983370667.webp",
-  "t": "Edi Rama out as Albania PM in 2026?",
-  "url": "https://polymarket.com/event/edi-rama-out-as-albania-pm-in-2026",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/edi-rama-out-as-albania-pm-in-2026-BCskl1egdIu6.jpg",
-  "cid": "0x15e8b539b6e6bed3285dbabb6fa3de5c528e562a089edda1ba7c0dcb5a073657",
-  "slug": "edi-rama-out-as-albania-pm-in-2026",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.8949,
-  "usd": 242.12,
-  "shares": 270.57,
-  "ts": 1795603484,
-  "held": 1298.82,
-  "heldUsd": 1175.43,
-  "peak": 1300.22,
-  "chip": "Against",
-  "split": "1/2",
-  "arrow": "",
-  "fills": [
-   {
-    "ts": 1795603484,
-    "usd": 132.38,
-    "shares": 148.74,
-    "price": 0.89
-   },
-   {
-    "ts": 1795603484,
-    "usd": 60.06,
-    "shares": 66.0,
-    "price": 0.91
-   },
-   {
-    "ts": 1795603484,
-    "usd": 49.69,
-    "shares": 55.83,
-    "price": 0.89
-   }
-  ],
   "id": 119
  }
 ]
