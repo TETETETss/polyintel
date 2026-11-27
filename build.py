@@ -70,6 +70,19 @@ def wallet_avatars():
                 if img: cache[name]=img
         json.dump({k:v for k,v in cache.items() if v}, open(path,'w'))
     return {k:v for k,v in cache.items() if v}
+def _r(v, n):
+    return round(v, n) if isinstance(v, float) else v
+for m in out:
+    m['bid'], m['ask'], m['tot'] = _r(m.get('bid'), 4), _r(m.get('ask'), 4), _r(m.get('tot'), 2)
+    for t in m['tr']:
+        t['sh'], t['avg'], t['val'] = _r(t.get('sh'), 2), _r(t.get('avg'), 4), _r(t.get('val'), 2)
+def _traders():
+    tr = json.load(open('traders.json'))
+    for t in tr:
+        if isinstance(t.get('pnl'), float): t['pnl'] = round(t['pnl'], 2)
+        if isinstance(t.get('mpnl'), float): t['mpnl'] = round(t['mpnl'], 2)
+        if isinstance(t.get('s'), list): t['s'] = [round(x) if isinstance(x, float) else x for x in t['s']]
+    return tr
 _av=wallet_avatars()
-html=open('tpl.html').read().replace('__AV__',_js(_av)).replace('__INFLOW__',_js(_in)).replace('__NLIVE__',str(len(_live))).replace('__LIVE__',_js(_live)).replace('__DATA__',json.dumps(out)).replace('__TRADERS__',open('traders.json').read()).replace('{{BUILT}}',__import__('datetime').datetime.now(__import__('datetime').timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')).replace('{{NTRADERS}}',str(len(json.load(open('data/wallets.json')))))
+html=open('tpl.html').read().replace('__AV__',_js(_av)).replace('__INFLOW__',_js(_in)).replace('__NLIVE__',str(len(_live))).replace('__LIVE__',_js(_live)).replace('__DATA__',_js(out)).replace('__TRADERS__',_js(_traders())).replace('{{BUILT}}',__import__('datetime').datetime.now(__import__('datetime').timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')).replace('{{NTRADERS}}',str(len(json.load(open('data/wallets.json')))))
 open('index.html.new','w').write(html)

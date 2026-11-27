@@ -1,0 +1,10 @@
+# HTML is rebuilt every few minutes. The in-page refresh uses ?t= so it
+# bypasses this. Images and the icon can stay cached.
+/
+  Cache-Control: public, max-age=0, must-revalidate
+/index.html
+  Cache-Control: public, max-age=0, must-revalidate
+/favicon.svg
+  Cache-Control: public, max-age=604800
+/read-a-market-card.webp
+  Cache-Control: public, max-age=604800
