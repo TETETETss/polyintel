@@ -1,5 +1,549 @@
 [
  {
+  "a": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
+  "n": "Lolakis",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
+  "t": "Will Etched name a second customer by December 31, 2026?",
+  "url": "https://polymarket.com/event/etched-names-a-second-customer-by/etched-names-a-second-customer-by-december-31-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/etched-names-a-second-customer-by-march-31-2027-Mv7k2mb4eab_.jpg",
+  "cid": "0x929240b1778805bb4c3f1ac7701b8a84cf8ae29ca4ff0764d9c6195d7a335789",
+  "slug": "etched-names-a-second-customer-by-december-31-2026",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.2615,
+  "usd": 230.84,
+  "shares": 882.75,
+  "ts": 1795813363,
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 882.75,
+  "chip": "Exited",
+  "split": "",
+  "arrow": "",
+  "fills": [],
+  "id": 0
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the highest temperature in Karachi be 31\u00b0C on November 29?",
+  "url": "https://polymarket.com/event/highest-temperature-in-karachi-on-november-29-2026/highest-temperature-in-karachi-on-november-29-2026-31c",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/karachi-dcb1d7dafc.jpg",
+  "cid": "0x1190b2f5bff9fcce6bd62777041978e6f9245ca8b635449e349abee0ce29f0a8",
+  "slug": "highest-temperature-in-karachi-on-november-29-2026-31c",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.5347,
+  "usd": 46.86,
+  "shares": 87.63,
+  "ts": 1795813225,
+  "held": 87.63,
+  "heldUsd": 44.69,
+  "peak": 87.63,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [
+   {
+    "ts": 1795813223,
+    "usd": 36.21,
+    "shares": 68.0,
+    "price": 0.53
+   },
+   {
+    "ts": 1795813225,
+    "usd": 10.65,
+    "shares": 19.63,
+    "price": 0.54
+   }
+  ],
+  "id": 1
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the highest temperature in Karachi be 28\u00b0C on November 29?",
+  "url": "https://polymarket.com/event/highest-temperature-in-karachi-on-november-29-2026/highest-temperature-in-karachi-on-november-29-2026-28c",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/karachi-dcb1d7dafc.jpg",
+  "cid": "0xcaeb71b01b130fc58006fef2bd99930bf8b337cf8287a8f69aec21d1b05db5c6",
+  "slug": "highest-temperature-in-karachi-on-november-29-2026-28c",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.998,
+  "usd": 19.94,
+  "shares": 19.98,
+  "ts": 1795813225,
+  "held": 19.98,
+  "heldUsd": 19.9,
+  "peak": 19.98,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 2
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the highest temperature in Karachi be 29\u00b0C on November 29?",
+  "url": "https://polymarket.com/event/highest-temperature-in-karachi-on-november-29-2026/highest-temperature-in-karachi-on-november-29-2026-29c",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/karachi-dcb1d7dafc.jpg",
+  "cid": "0xeb6cb07278d9f720e61e20bf576ce9013d4c30057e87d8bc8e0544d81a0e6252",
+  "slug": "highest-temperature-in-karachi-on-november-29-2026-29c",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9901,
+  "usd": 89.26,
+  "shares": 90.15,
+  "ts": 1795813225,
+  "held": 90.15,
+  "heldUsd": 88.93,
+  "peak": 90.15,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [
+   {
+    "ts": 1795813223,
+    "usd": 69.46,
+    "shares": 70.15,
+    "price": 0.99
+   },
+   {
+    "ts": 1795813225,
+    "usd": 19.8,
+    "shares": 20.0,
+    "price": 0.99
+   }
+  ],
+  "id": 3
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the highest temperature in Karachi be 33\u00b0C on November 29?",
+  "url": "https://polymarket.com/event/highest-temperature-in-karachi-on-november-29-2026/highest-temperature-in-karachi-on-november-29-2026-33c",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/karachi-dcb1d7dafc.jpg",
+  "cid": "0x1e666903f6f59e063743a1929df99ccaa153e0da11ab8df05b1a0b8fe55a7fc1",
+  "slug": "highest-temperature-in-karachi-on-november-29-2026-33c",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9947,
+  "usd": 67.08,
+  "shares": 67.44,
+  "ts": 1795813223,
+  "held": 67.44,
+  "heldUsd": 67.27,
+  "peak": 67.44,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 4
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the highest temperature in Karachi be 30\u00b0C on November 29?",
+  "url": "https://polymarket.com/event/highest-temperature-in-karachi-on-november-29-2026/highest-temperature-in-karachi-on-november-29-2026-30c",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/karachi-dcb1d7dafc.jpg",
+  "cid": "0x47e98b68fb27353a8a07b3217f3467b61b5a35ceae330b4a21b8a2ffda2490e7",
+  "slug": "highest-temperature-in-karachi-on-november-29-2026-30c",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.5389,
+  "usd": 48.5,
+  "shares": 90.0,
+  "ts": 1795813223,
+  "held": 90.0,
+  "heldUsd": 47.25,
+  "peak": 90.0,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [
+   {
+    "ts": 1795813223,
+    "usd": 21.6,
+    "shares": 40.0,
+    "price": 0.54
+   },
+   {
+    "ts": 1795813223,
+    "usd": 16.5,
+    "shares": 30.0,
+    "price": 0.55
+   },
+   {
+    "ts": 1795813223,
+    "usd": 10.4,
+    "shares": 20.0,
+    "price": 0.52
+   }
+  ],
+  "id": 5
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the price of Bitcoin be above $62,000 on November 28?",
+  "url": "https://polymarket.com/event/bitcoin-above-on-november-28-2026/bitcoin-above-62k-on-november-28-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
+  "cid": "0xae5bd803a7b6507b2c17f2c7c4be8d0d76dc4764a4679ffa34e07c8209a52fe1",
+  "slug": "bitcoin-above-62k-on-november-28-2026",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.95,
+  "usd": 380.0,
+  "shares": 400.0,
+  "ts": 1795813217,
+  "held": 400.0,
+  "heldUsd": 385.8,
+  "peak": 400.0,
+  "chip": "Exited",
+  "split": "",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 6
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the price of Bitcoin be between $62,000 and $64,000 on November 28?",
+  "url": "https://polymarket.com/event/bitcoin-price-on-november-28-2026/will-the-price-of-bitcoin-be-between-62000-64000-on-november-28-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
+  "cid": "0x1ebf31c95374a13dc096c3797dda7d789014bc95c01e63e03010bb8f45c17c31",
+  "slug": "will-the-price-of-bitcoin-be-between-62000-64000-on-november-28-2026",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.0222,
+  "usd": 8.88,
+  "shares": 399.82,
+  "ts": 1795813216,
+  "held": 793.62,
+  "heldUsd": 16.67,
+  "peak": 793.62,
+  "chip": "First",
+  "split": "",
+  "arrow": "",
+  "fills": [],
+  "id": 7
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the highest temperature in Karachi be 32\u00b0C on November 28?",
+  "url": "https://polymarket.com/event/highest-temperature-in-karachi-on-november-28-2026/highest-temperature-in-karachi-on-november-28-2026-32c",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/karachi-dcb1d7dafc.jpg",
+  "cid": "0x33da337428ee11528d8f07955c06a5b0ac0387a430ce8e2e83addf14271a7dad",
+  "slug": "highest-temperature-in-karachi-on-november-28-2026-32c",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.6314,
+  "usd": 34.96,
+  "shares": 55.37,
+  "ts": 1795813208,
+  "held": 60.0,
+  "heldUsd": 39.0,
+  "peak": 60.0,
+  "chip": "First",
+  "split": "",
+  "arrow": "",
+  "fills": [],
+  "id": 8
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the highest temperature in Karachi be 33\u00b0C on November 28?",
+  "url": "https://polymarket.com/event/highest-temperature-in-karachi-on-november-28-2026/highest-temperature-in-karachi-on-november-28-2026-33c",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/karachi-dcb1d7dafc.jpg",
+  "cid": "0x4778597e88b8feeb4f14ce74d7872ad30d6870ea45f3be2f6f8aeb9a400459f1",
+  "slug": "highest-temperature-in-karachi-on-november-28-2026-33c",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9845,
+  "usd": 30.05,
+  "shares": 30.52,
+  "ts": 1795813208,
+  "held": 30.53,
+  "heldUsd": 30.45,
+  "peak": 30.53,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 9
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the highest temperature in Karachi be 31\u00b0C on November 28?",
+  "url": "https://polymarket.com/event/highest-temperature-in-karachi-on-november-28-2026/highest-temperature-in-karachi-on-november-28-2026-31c",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/karachi-dcb1d7dafc.jpg",
+  "cid": "0xd3a442e15dea94be433ebdabfcd183837db2c0a681fb8d763408c6c7d0b9dbaa",
+  "slug": "highest-temperature-in-karachi-on-november-28-2026-31c",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.3767,
+  "usd": 22.6,
+  "shares": 60.0,
+  "ts": 1795813208,
+  "held": 60.0,
+  "heldUsd": 22.8,
+  "peak": 60.0,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [
+   {
+    "ts": 1795813208,
+    "usd": 7.2,
+    "shares": 20.0,
+    "price": 0.36
+   },
+   {
+    "ts": 1795813208,
+    "usd": 7.6,
+    "shares": 20.0,
+    "price": 0.38
+   },
+   {
+    "ts": 1795813208,
+    "usd": 7.8,
+    "shares": 20.0,
+    "price": 0.39
+   }
+  ],
+  "id": 10
+ },
+ {
+  "a": "0x8a4c788f043023b8b28a762216d037e9f148532b",
+  "n": "occasionalAwareness",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-66621-bb0a834b-8130-4d89-a00d-16c8453096db.png",
+  "t": "Will Anthropic's valuation hit (HIGH) $1.6T by December 31?",
+  "url": "https://polymarket.com/event/will-anthropics-valuation-hit-by-december-31/will-anthropics-valuation-hit-high-1pt6t-by-december-31",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/anthropic-ipo-closing-market-cap-jdfele1g0krx.png",
+  "cid": "0x6b1e24483a166e3e0b197003075f65a2e5c91b83e3293fb25990fdd379f6f878",
+  "slug": "will-anthropics-valuation-hit-high-1pt6t-by-december-31",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.22,
+  "usd": 28.21,
+  "shares": 128.21,
+  "ts": 1795813162,
+  "held": 141.24,
+  "heldUsd": 31.78,
+  "peak": 141.24,
+  "chip": "With",
+  "split": "2/2",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 11
+ },
+ {
+  "a": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
+  "n": "Lolakis",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4635510-1e9cb6ca-f3b8-4d22-b821-f3f350790ef4.png",
+  "t": "Will the average Ornn H200 rental price in December 2026 be above $6.00?",
+  "url": "https://polymarket.com/event/h200-average-rental-price-in-december-2026/h200-average-rental-price-in-december-2026-above-6pt00",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/h200-5724eab7ad.jpg",
+  "cid": "0x66724ca682bb4d0380d325127cce2294fd76ad95711ea2b1e4e7649fc9d4dd20",
+  "slug": "h200-average-rental-price-in-december-2026-above-6pt00",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.81,
+  "usd": 429.53,
+  "shares": 530.28,
+  "ts": 1795813097,
+  "held": 530.28,
+  "heldUsd": 432.18,
+  "peak": 530.28,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 12
+ },
+ {
+  "a": "0x08458f7e9d2858027de579e4c3ca305475496b6f",
+  "n": "GollumGekko",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/gollum_bc5f507a-12cf-4a51-a483-ad7cd84966a5_1736427633048.JPG",
+  "t": "Kimberly Powell announced resignation or removal by December 31, 2026?",
+  "url": "https://polymarket.com/event/nvidia-vp-kimberly-powell-announced-resignation-or-removal-byptptpt/kimberly-powell-announced-resignation-or-removal-by-december-31-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/misc-kimberly-powell-a3ecb6d98c.jpg",
+  "cid": "0xf7d8c139d43719d589f9b85946b18c015a85e2e527d758dcd30ce0ff06182541",
+  "slug": "kimberly-powell-announced-resignation-or-removal-by-december-31-2026",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.86,
+  "usd": 215.0,
+  "shares": 250.0,
+  "ts": 1795813073,
+  "held": 22172.02,
+  "heldUsd": 19178.8,
+  "peak": 22172.02,
+  "chip": "Against",
+  "split": "2/4",
+  "arrow": "",
+  "fills": [],
+  "id": 13
+ },
+ {
+  "a": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
+  "n": "classified",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-2637613-f573f7f0-53b7-4a8d-b884-fec7b37d1b7d.png",
+  "t": "Netanyahu out by March 31, 2027?",
+  "url": "https://polymarket.com/event/netanyahu-out-before-2027/netanyahu-out-by-march-31-2027",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/netanyahu-out-in-2025-Vc7bE4GtiJzM.jpg",
+  "cid": "0x617291b57122421aa1e468a11fe03c9726a1d5ff5213b15cb7ac3c6cd8d6e9da",
+  "slug": "netanyahu-out-by-march-31-2027",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.2,
+  "usd": 30.02,
+  "shares": 150.1,
+  "ts": 1795813039,
+  "held": 1457.52,
+  "heldUsd": 298.79,
+  "peak": 1457.52,
+  "chip": "Against",
+  "split": "2/4",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 14
+ },
+ {
+  "a": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
+  "n": "classified",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-2637613-f573f7f0-53b7-4a8d-b884-fec7b37d1b7d.png",
+  "t": "Netanyahu out by end of 2026?",
+  "url": "https://polymarket.com/event/netanyahu-out-before-2027/netanyahu-out-before-2027-684-719-226-657",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/netanyahu-out-in-2025-Vc7bE4GtiJzM.jpg",
+  "cid": "0xd1796c09d0d6f876f8580086ae9808ec991784e3a74b25a1830a25de71a78c96",
+  "slug": "netanyahu-out-before-2027-684-719-226-657",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.29,
+  "usd": 1266.82,
+  "shares": 4368.35,
+  "ts": 1795813000,
+  "held": 724.39,
+  "heldUsd": 199.21,
+  "peak": 5092.74,
+  "chip": "With",
+  "split": "5/9",
+  "arrow": "",
+  "fills": [],
+  "id": 15
+ },
+ {
+  "a": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
+  "n": "classified",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-2637613-f573f7f0-53b7-4a8d-b884-fec7b37d1b7d.png",
+  "t": "Israel x Iran ceasefire continues through December 15?",
+  "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963/israel-x-iran-ceasefire-continues-through-december-15",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963-FEQHrNm5Q53X.jpg",
+  "cid": "0x3a0c86d7d9d3e4e82d533d2b1351b5d3e63577f8e1495e2804b9ae540135a556",
+  "slug": "israel-x-iran-ceasefire-continues-through-december-15",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.16,
+  "usd": 416.46,
+  "shares": 2602.86,
+  "ts": 1795812940,
+  "held": 11593.21,
+  "heldUsd": 1796.95,
+  "peak": 14196.07,
+  "chip": "With",
+  "split": "3/6",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 16
+ },
+ {
+  "a": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
+  "n": "classified",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-2637613-f573f7f0-53b7-4a8d-b884-fec7b37d1b7d.png",
+  "t": "Israel x Iran ceasefire continues through December 15?",
+  "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963/israel-x-iran-ceasefire-continues-through-december-15",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963-FEQHrNm5Q53X.jpg",
+  "cid": "0x3a0c86d7d9d3e4e82d533d2b1351b5d3e63577f8e1495e2804b9ae540135a556",
+  "slug": "israel-x-iran-ceasefire-continues-through-december-15",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.85,
+  "usd": 25.0,
+  "shares": 29.41,
+  "ts": 1795812940,
+  "held": 37159.19,
+  "heldUsd": 31399.52,
+  "peak": 44284.98,
+  "chip": "Against",
+  "split": "3/6",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 17
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the highest temperature in Atlanta be between 52-53\u00b0F on November 27?",
+  "url": "https://polymarket.com/event/highest-temperature-in-atlanta-on-november-27-2026/highest-temperature-in-atlanta-on-november-27-2026-52-53f",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/highest-temperature-in-atlanta-on-december-5--dClj_prA8Ny.jpg",
+  "cid": "0x9c9151ac41a717add282997ca43c017b7c23a2b653edbda28ed245c9e8d99827",
+  "slug": "highest-temperature-in-atlanta-on-november-27-2026-52-53f",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.9666,
+  "usd": 58.48,
+  "shares": 60.5,
+  "ts": 1795812884,
+  "held": 60.5,
+  "heldUsd": 55.36,
+  "peak": 60.5,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 18
+ },
+ {
+  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
+  "n": "balthazar",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
+  "t": "Will the highest temperature in Atlanta be between 50-51\u00b0F on November 27?",
+  "url": "https://polymarket.com/event/highest-temperature-in-atlanta-on-november-27-2026/highest-temperature-in-atlanta-on-november-27-2026-50-51f",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/highest-temperature-in-atlanta-on-december-5--dClj_prA8Ny.jpg",
+  "cid": "0xc849548ef2817ef59763635326c83166ace3e88e61b4c46353693c6371daf79f",
+  "slug": "highest-temperature-in-atlanta-on-november-27-2026-50-51f",
+  "side": "BUY",
+  "out": "No",
+  "price": 0.02,
+  "usd": 1.2,
+  "shares": 60.0,
+  "ts": 1795812884,
+  "held": 60.01,
+  "heldUsd": 5.7,
+  "peak": 80.0,
+  "chip": "First",
+  "split": "",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 19
+ },
+ {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
   "n": "paddaa",
   "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3154451-d1120fcc-6e76-4148-b6a3-3622eebeee2e.jpeg",
@@ -15,13 +559,13 @@
   "shares": 4774.49,
   "ts": 1795812667,
   "held": 4774.49,
-  "heldUsd": 279.31,
+  "heldUsd": 269.76,
   "peak": 4774.49,
   "chip": "With",
   "split": "1/2",
   "arrow": "",
   "fills": [],
-  "id": 0
+  "id": 20
  },
  {
   "a": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
@@ -39,7 +583,7 @@
   "shares": 150.0,
   "ts": 1795812667,
   "held": 1204.29,
-  "heldUsd": 70.45,
+  "heldUsd": 68.04,
   "peak": 2417.08,
   "chip": "Against",
   "split": "1/2",
@@ -58,7 +602,7 @@
     "price": 0.044
    }
   ],
-  "id": 1
+  "id": 21
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -76,7 +620,7 @@
   "shares": 626.62,
   "ts": 1795812667,
   "held": 1181.53,
-  "heldUsd": 1112.41,
+  "heldUsd": 1114.78,
   "peak": 1181.53,
   "chip": "Against",
   "split": "1/2",
@@ -95,7 +639,7 @@
     "price": 0.957
    }
   ],
-  "id": 2
+  "id": 22
  },
  {
   "a": "0x1c144e30f405a25f991cbd8baa15d40599090869",
@@ -119,7 +663,7 @@
   "split": "6/9",
   "arrow": "",
   "fills": [],
-  "id": 3
+  "id": 23
  },
  {
   "a": "0x3dca854f147d9b9ecc56d37800f36b347ce23c13",
@@ -137,13 +681,13 @@
   "shares": 12095.0,
   "ts": 1795812497,
   "held": 34190.26,
-  "heldUsd": 8889.47,
+  "heldUsd": 9060.42,
   "peak": 34190.26,
   "chip": "With",
   "split": "4/7",
   "arrow": "\u2193",
   "fills": [],
-  "id": 4
+  "id": 24
  },
  {
   "a": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
@@ -161,7 +705,7 @@
   "shares": 157.0,
   "ts": 1795812412,
   "held": 5041.53,
-  "heldUsd": 3881.98,
+  "heldUsd": 3856.77,
   "peak": 5198.53,
   "chip": "Against",
   "split": "2/2",
@@ -186,7 +730,7 @@
     "price": 0.76
    }
   ],
-  "id": 5
+  "id": 25
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -210,7 +754,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 6
+  "id": 26
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -228,13 +772,13 @@
   "shares": 193.0,
   "ts": 1795812319,
   "held": 234.65,
-  "heldUsd": 174.81,
+  "heldUsd": 177.16,
   "peak": 433.74,
   "chip": "Against",
   "split": "3/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 7
+  "id": 27
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -258,7 +802,7 @@
   "split": "5/8",
   "arrow": "",
   "fills": [],
-  "id": 8
+  "id": 28
  },
  {
   "a": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
@@ -282,7 +826,7 @@
   "split": "5/8",
   "arrow": "",
   "fills": [],
-  "id": 9
+  "id": 29
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -306,7 +850,7 @@
   "split": "5/8",
   "arrow": "",
   "fills": [],
-  "id": 10
+  "id": 30
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -324,13 +868,13 @@
   "shares": 20.0,
   "ts": 1795812170,
   "held": 28.73,
-  "heldUsd": 26.46,
+  "heldUsd": 26.43,
   "peak": 60.0,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 11
+  "id": 31
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -354,7 +898,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 12
+  "id": 32
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -372,13 +916,13 @@
   "shares": 6.09,
   "ts": 1795812079,
   "held": 234.65,
-  "heldUsd": 174.81,
+  "heldUsd": 177.16,
   "peak": 433.74,
   "chip": "Against",
   "split": "3/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 13
+  "id": 33
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -402,7 +946,7 @@
   "split": "3/4",
   "arrow": "",
   "fills": [],
-  "id": 14
+  "id": 34
  },
  {
   "a": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
@@ -439,7 +983,7 @@
     "price": 0.118
    }
   ],
-  "id": 15
+  "id": 35
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -482,7 +1026,7 @@
     "price": 0.32
    }
   ],
-  "id": 16
+  "id": 36
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -506,7 +1050,7 @@
   "split": "1/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 17
+  "id": 37
  },
  {
   "a": "0x154794795d978c5890b3f69264311f0bd966d066",
@@ -530,7 +1074,7 @@
   "split": "9/14",
   "arrow": "\u2191",
   "fills": [],
-  "id": 18
+  "id": 38
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -554,7 +1098,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 19
+  "id": 39
  },
  {
   "a": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
@@ -572,13 +1116,13 @@
   "shares": 655.57,
   "ts": 1795811594,
   "held": 655.57,
-  "heldUsd": 580.18,
+  "heldUsd": 576.9,
   "peak": 655.57,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 20
+  "id": 40
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -602,7 +1146,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 21
+  "id": 41
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -621,12 +1165,12 @@
   "ts": 1795811579,
   "held": 20.0,
   "heldUsd": 8.7,
-  "peak": 316.15,
+  "peak": 296.15,
   "chip": "Against",
   "split": "4/8",
   "arrow": "\u2193",
   "fills": [],
-  "id": 22
+  "id": 42
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -650,7 +1194,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 23
+  "id": 43
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -674,7 +1218,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 24
+  "id": 44
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -698,7 +1242,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 25
+  "id": 45
  },
  {
   "a": "0xed107a85a4585a381e48c7f7ca4144909e7dd2e5",
@@ -722,7 +1266,7 @@
   "split": "4/4",
   "arrow": "",
   "fills": [],
-  "id": 26
+  "id": 46
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -746,7 +1290,7 @@
   "split": "1/1",
   "arrow": "\u2191",
   "fills": [],
-  "id": 27
+  "id": 47
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -770,7 +1314,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 28
+  "id": 48
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -807,7 +1351,7 @@
     "price": 0.045
    }
   ],
-  "id": 29
+  "id": 49
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -831,7 +1375,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 30
+  "id": 50
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -855,7 +1399,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 31
+  "id": 51
  },
  {
   "a": "0x8a4c788f043023b8b28a762216d037e9f148532b",
@@ -879,7 +1423,7 @@
   "split": "3/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 32
+  "id": 52
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -903,7 +1447,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 33
+  "id": 53
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -927,7 +1471,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 34
+  "id": 54
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -951,7 +1495,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 35
+  "id": 55
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -975,7 +1519,7 @@
   "split": "1/1",
   "arrow": "\u2191",
   "fills": [],
-  "id": 36
+  "id": 56
  },
  {
   "a": "0x08458f7e9d2858027de579e4c3ca305475496b6f",
@@ -993,13 +1537,13 @@
   "shares": 3500.0,
   "ts": 1795811228,
   "held": 3645.0,
-  "heldUsd": 1000.55,
+  "heldUsd": 987.79,
   "peak": 3645.0,
   "chip": "With",
   "split": "2/4",
   "arrow": "\u2193",
   "fills": [],
-  "id": 37
+  "id": 57
  },
  {
   "a": "0x1ee9a5fc09665909c0cce297c581703bfbb9197f",
@@ -1017,13 +1561,13 @@
   "shares": 1004.17,
   "ts": 1795811173,
   "held": 1651.25,
-  "heldUsd": 1378.79,
+  "heldUsd": 1387.05,
   "peak": 1651.25,
   "chip": "With",
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 38
+  "id": 58
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1041,7 +1585,7 @@
   "shares": 120.0,
   "ts": 1795811173,
   "held": 8.81,
-  "heldUsd": 1.45,
+  "heldUsd": 1.41,
   "peak": 120.0,
   "chip": "Against",
   "split": "1/2",
@@ -1060,7 +1604,7 @@
     "price": 0.19
    }
   ],
-  "id": 39
+  "id": 59
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1084,7 +1628,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 40
+  "id": 60
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -1108,7 +1652,7 @@
   "split": "9/11",
   "arrow": "\u2193",
   "fills": [],
-  "id": 41
+  "id": 61
  },
  {
   "a": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
@@ -1132,7 +1676,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 42
+  "id": 62
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -1150,13 +1694,13 @@
   "shares": 7013.49,
   "ts": 1795811069,
   "held": 7013.49,
-  "heldUsd": 3226.21,
+  "heldUsd": 3121.01,
   "peak": 7013.49,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 43
+  "id": 63
  },
  {
   "a": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
@@ -1180,7 +1724,7 @@
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 44
+  "id": 64
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -1204,7 +1748,7 @@
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 45
+  "id": 65
  },
  {
   "a": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
@@ -1222,7 +1766,7 @@
   "shares": 4500.0,
   "ts": 1795811053,
   "held": 4501.0,
-  "heldUsd": 3353.25,
+  "heldUsd": 3398.26,
   "peak": 4501.0,
   "chip": "With",
   "split": "3/4",
@@ -1247,7 +1791,7 @@
     "price": 0.75
    }
   ],
-  "id": 46
+  "id": 66
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -1265,13 +1809,13 @@
   "shares": 6818.18,
   "ts": 1795810963,
   "held": 27146.26,
-  "heldUsd": 6922.3,
+  "heldUsd": 6650.83,
   "peak": 27146.26,
   "chip": "Against",
   "split": "3/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 47
+  "id": 67
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -1289,13 +1833,13 @@
   "shares": 500.0,
   "ts": 1795810963,
   "held": 2324.94,
-  "heldUsd": 1732.08,
+  "heldUsd": 1755.33,
   "peak": 2324.94,
   "chip": "With",
   "split": "3/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 48
+  "id": 68
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -1313,7 +1857,7 @@
   "shares": 399.99,
   "ts": 1795810940,
   "held": 1599.99,
-  "heldUsd": 1443.99,
+  "heldUsd": 1448.79,
   "peak": 1599.99,
   "chip": "With",
   "split": "4/6",
@@ -1332,7 +1876,7 @@
     "price": 0.925
    }
   ],
-  "id": 49
+  "id": 69
  },
  {
   "a": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
@@ -1350,13 +1894,13 @@
   "shares": 50.0,
   "ts": 1795810939,
   "held": 34.0,
-  "heldUsd": 3.31,
+  "heldUsd": 3.21,
   "peak": 84.0,
   "chip": "With",
   "split": "4/6",
   "arrow": "\u2191",
   "fills": [],
-  "id": 50
+  "id": 70
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -1374,13 +1918,13 @@
   "shares": 1800.0,
   "ts": 1795810937,
   "held": 3751.35,
-  "heldUsd": 2888.54,
+  "heldUsd": 2869.78,
   "peak": 5551.35,
   "chip": "Against",
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 51
+  "id": 71
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1404,7 +1948,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 52
+  "id": 72
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1428,7 +1972,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 53
+  "id": 73
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1452,7 +1996,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 54
+  "id": 74
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1476,7 +2020,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 55
+  "id": 75
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1494,13 +2038,13 @@
   "shares": 80.0,
   "ts": 1795810907,
   "held": 1.11,
-  "heldUsd": 1.03,
+  "heldUsd": 1.04,
   "peak": 80.0,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 56
+  "id": 76
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1524,7 +2068,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 57
+  "id": 77
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1548,7 +2092,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 58
+  "id": 78
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1572,7 +2116,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 59
+  "id": 79
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1596,7 +2140,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 60
+  "id": 80
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1620,7 +2164,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 61
+  "id": 81
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1638,13 +2182,13 @@
   "shares": 79.91,
   "ts": 1795810907,
   "held": 1.02,
-  "heldUsd": 0.93,
+  "heldUsd": 0.92,
   "peak": 79.91,
   "chip": "First",
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 62
+  "id": 82
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1668,7 +2212,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 63
+  "id": 83
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1692,7 +2236,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 64
+  "id": 84
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -1716,7 +2260,7 @@
   "split": "5/7",
   "arrow": "",
   "fills": [],
-  "id": 65
+  "id": 85
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1740,7 +2284,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 66
+  "id": 86
  },
  {
   "a": "0x2e0b70d482e6b389e81dea528be57d825dd48070",
@@ -1758,13 +2302,13 @@
   "shares": 100.0,
   "ts": 1795810582,
   "held": 20120.25,
-  "heldUsd": 19385.86,
+  "heldUsd": 19375.8,
   "peak": 20120.25,
   "chip": "Against",
   "split": "3/6",
   "arrow": "\u2193",
   "fills": [],
-  "id": 67
+  "id": 87
  },
  {
   "a": "0x3dca854f147d9b9ecc56d37800f36b347ce23c13",
@@ -1801,7 +2345,7 @@
     "price": 0.36
    }
   ],
-  "id": 68
+  "id": 88
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1825,7 +2369,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 69
+  "id": 89
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1849,7 +2393,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 70
+  "id": 90
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1873,7 +2417,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 71
+  "id": 91
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1891,7 +2435,7 @@
   "shares": 7.77,
   "ts": 1795810337,
   "held": 2.83,
-  "heldUsd": 1.51,
+  "heldUsd": 1.5,
   "peak": 7.77,
   "chip": "First",
   "split": "",
@@ -1910,7 +2454,7 @@
     "price": 0.53
    }
   ],
-  "id": 72
+  "id": 92
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1934,7 +2478,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 73
+  "id": 93
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1958,7 +2502,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 74
+  "id": 94
  },
  {
   "a": "0x8a4c788f043023b8b28a762216d037e9f148532b",
@@ -1975,14 +2519,14 @@
   "usd": 2.87,
   "shares": 13.03,
   "ts": 1795810310,
-  "held": 13.03,
-  "heldUsd": 2.93,
-  "peak": 13.03,
+  "held": 141.24,
+  "heldUsd": 31.78,
+  "peak": 141.24,
   "chip": "With",
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 75
+  "id": 95
  },
  {
   "a": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
@@ -2025,7 +2569,7 @@
     "price": 0.76
    }
   ],
-  "id": 76
+  "id": 96
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -2049,7 +2593,7 @@
   "split": "1/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 77
+  "id": 97
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2073,7 +2617,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 78
+  "id": 98
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2097,7 +2641,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 79
+  "id": 99
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -2134,7 +2678,7 @@
     "price": 0.64
    }
   ],
-  "id": 80
+  "id": 100
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -2152,13 +2696,13 @@
   "shares": 5551.35,
   "ts": 1795810111,
   "held": 3751.35,
-  "heldUsd": 2888.54,
+  "heldUsd": 2869.78,
   "peak": 5551.35,
   "chip": "With",
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 81
+  "id": 101
  },
  {
   "a": "0x1c144e30f405a25f991cbd8baa15d40599090869",
@@ -2201,7 +2745,7 @@
     "price": 0.08
    }
   ],
-  "id": 82
+  "id": 102
  },
  {
   "a": "0x63d43bbb87f85af03b8f2f9e2fad7b54334fa2f1",
@@ -2225,7 +2769,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 83
+  "id": 103
  },
  {
   "a": "0x63d43bbb87f85af03b8f2f9e2fad7b54334fa2f1",
@@ -2249,7 +2793,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 84
+  "id": 104
  },
  {
   "a": "0x63d43bbb87f85af03b8f2f9e2fad7b54334fa2f1",
@@ -2273,7 +2817,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 85
+  "id": 105
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2292,12 +2836,12 @@
   "ts": 1795809926,
   "held": 20.0,
   "heldUsd": 8.7,
-  "peak": 316.15,
+  "peak": 296.15,
   "chip": "Against",
   "split": "4/8",
   "arrow": "\u2193",
   "fills": [],
-  "id": 86
+  "id": 106
  },
  {
   "a": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
@@ -2321,7 +2865,7 @@
   "split": "4/6",
   "arrow": "",
   "fills": [],
-  "id": 87
+  "id": 107
  },
  {
   "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
@@ -2339,7 +2883,7 @@
   "shares": 173.38,
   "ts": 1795809881,
   "held": 1181.53,
-  "heldUsd": 1112.41,
+  "heldUsd": 1114.78,
   "peak": 1181.53,
   "chip": "Against",
   "split": "1/2",
@@ -2364,7 +2908,7 @@
     "price": 0.957
    }
   ],
-  "id": 88
+  "id": 108
  },
  {
   "a": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
@@ -2382,7 +2926,7 @@
   "shares": 467.65,
   "ts": 1795809880,
   "held": 1204.29,
-  "heldUsd": 70.45,
+  "heldUsd": 68.04,
   "peak": 2417.08,
   "chip": "Against",
   "split": "1/2",
@@ -2401,7 +2945,7 @@
     "price": 0.043
    }
   ],
-  "id": 89
+  "id": 109
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -2425,7 +2969,7 @@
   "split": "1/2",
   "arrow": "",
   "fills": [],
-  "id": 90
+  "id": 110
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -2449,7 +2993,7 @@
   "split": "2/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 91
+  "id": 111
  },
  {
   "a": "0x08458f7e9d2858027de579e4c3ca305475496b6f",
@@ -2467,7 +3011,7 @@
   "shares": 145.0,
   "ts": 1795809811,
   "held": 3645.0,
-  "heldUsd": 1000.55,
+  "heldUsd": 987.79,
   "peak": 3645.0,
   "chip": "With",
   "split": "2/4",
@@ -2486,7 +3030,7 @@
     "price": 0.2498
    }
   ],
-  "id": 92
+  "id": 112
  },
  {
   "a": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
@@ -2510,7 +3054,7 @@
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 93
+  "id": 113
  },
  {
   "a": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
@@ -2534,7 +3078,7 @@
   "split": "1/1",
   "arrow": "",
   "fills": [],
-  "id": 94
+  "id": 114
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -2558,7 +3102,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 95
+  "id": 115
  },
  {
   "a": "0x1ee9a5fc09665909c0cce297c581703bfbb9197f",
@@ -2582,7 +3126,7 @@
   "split": "1/2",
   "arrow": "",
   "fills": [],
-  "id": 96
+  "id": 116
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -2606,7 +3150,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 97
+  "id": 117
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -2643,7 +3187,7 @@
     "price": 0.3538
    }
   ],
-  "id": 98
+  "id": 118
  },
  {
   "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
@@ -2666,590 +3210,6 @@
   "chip": "Against",
   "split": "2/2",
   "arrow": "\u2191",
-  "fills": [],
-  "id": 99
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the average Ornn B200 rental price in March 2027 be above $11.00?",
-  "url": "https://polymarket.com/event/b200-average-rental-price-in-march-2027/b200-average-rental-price-in-march-2027-above-11pt00",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/B200-d60f23acf1.jpg",
-  "cid": "0x0eda0f7c1b437b77f1e94ca113ee8bf84fa2e940548daf5f8314a9439e2e14cd",
-  "slug": "b200-average-rental-price-in-march-2027-above-11pt00",
-  "side": "SELL",
-  "out": "No",
-  "price": 0.71,
-  "usd": 71.0,
-  "shares": 100.0,
-  "ts": 1795809472,
-  "held": 488.28,
-  "heldUsd": 349.12,
-  "peak": 588.28,
-  "chip": "With",
-  "split": "1/2",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 100
- },
- {
-  "a": "0x60a92c8620846d81f5ea17b0564e0d4b7c545a71",
-  "n": "paddaa",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3154451-d1120fcc-6e76-4148-b6a3-3622eebeee2e.jpeg",
-  "t": "Will the average Ornn B200 rental price in March 2027 be above $11.00?",
-  "url": "https://polymarket.com/event/b200-average-rental-price-in-march-2027/b200-average-rental-price-in-march-2027-above-11pt00",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/B200-d60f23acf1.jpg",
-  "cid": "0x0eda0f7c1b437b77f1e94ca113ee8bf84fa2e940548daf5f8314a9439e2e14cd",
-  "slug": "b200-average-rental-price-in-march-2027-above-11pt00",
-  "side": "SELL",
-  "out": "Yes",
-  "price": 0.29,
-  "usd": 1972.0,
-  "shares": 6800.0,
-  "ts": 1795809472,
-  "held": 11956.0,
-  "heldUsd": 3407.46,
-  "peak": 18756.0,
-  "chip": "Against",
-  "split": "1/2",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 101
- },
- {
-  "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
-  "n": "Tenebrus7",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
-  "t": "Jensen Huang announced resignation or removal again by December 31, 2027?",
-  "url": "https://polymarket.com/event/jensen-huang-out-as-nvidia-ceo-again-byptptpt/jensen-huang-announced-resignation-or-removal-again-by-december-31-2027",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0x648d2923c599233086a8b4aebf7755212c2c97a715e7994d88afc91c1d47fd7a",
-  "slug": "jensen-huang-announced-resignation-or-removal-again-by-december-31-2027",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.64,
-  "usd": 209.2,
-  "shares": 326.87,
-  "ts": 1795809467,
-  "held": 2326.81,
-  "heldUsd": 1500.79,
-  "peak": 2326.81,
-  "chip": "With",
-  "split": "2/2",
-  "arrow": "",
-  "fills": [
-   {
-    "ts": 1795809442,
-    "usd": 113.2,
-    "shares": 176.87,
-    "price": 0.64
-   },
-   {
-    "ts": 1795809467,
-    "usd": 96.0,
-    "shares": 150.0,
-    "price": 0.64
-   }
-  ],
-  "id": 102
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Jensen Huang announced resignation or removal again by March 31, 2027?",
-  "url": "https://polymarket.com/event/jensen-huang-out-as-nvidia-ceo-again-byptptpt/jensen-huang-announced-resignation-or-removal-again-by-march-31-2027",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0x128e8e725fff25f7ab942cbdae8eca9ed287ea8efc6cfa1cc9b1230f2fca2162",
-  "slug": "jensen-huang-announced-resignation-or-removal-again-by-march-31-2027",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.7532,
-  "usd": 326.69,
-  "shares": 433.74,
-  "ts": 1795809466,
-  "held": 234.65,
-  "heldUsd": 174.81,
-  "peak": 433.74,
-  "chip": "With",
-  "split": "3/4",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1795809466,
-    "usd": 53.09,
-    "shares": 73.74,
-    "price": 0.72
-   },
-   {
-    "ts": 1795809466,
-    "usd": 273.6,
-    "shares": 360.0,
-    "price": 0.76
-   }
-  ],
-  "id": 103
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Jensen Huang announced resignation or removal again by June 30, 2027?",
-  "url": "https://polymarket.com/event/jensen-huang-out-as-nvidia-ceo-again-byptptpt/jensen-huang-announced-resignation-or-removal-again-by-june-30-2027",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0x7984413c06173ea743fda42cd724a1b54d004620aa03111d705b304c44afabfd",
-  "slug": "jensen-huang-announced-resignation-or-removal-again-by-june-30-2027",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.2286,
-  "usd": 99.14,
-  "shares": 433.73,
-  "ts": 1795809464,
-  "held": 333.73,
-  "heldUsd": 90.11,
-  "peak": 433.73,
-  "chip": "With",
-  "split": "2/2",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1795809464,
-    "usd": 16.85,
-    "shares": 73.73,
-    "price": 0.22
-   },
-   {
-    "ts": 1795809464,
-    "usd": 82.29,
-    "shares": 360.0,
-    "price": 0.22
-   }
-  ],
-  "id": 104
- },
- {
-  "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
-  "n": "Tenebrus7",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
-  "t": "Jensen Huang announced resignation or removal again by March 31, 2027?",
-  "url": "https://polymarket.com/event/jensen-huang-out-as-nvidia-ceo-again-byptptpt/jensen-huang-announced-resignation-or-removal-again-by-march-31-2027",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-jensen-huang-be-richest-person-on-december-31-iU8eWlv0KU_b.jpg",
-  "cid": "0x128e8e725fff25f7ab942cbdae8eca9ed287ea8efc6cfa1cc9b1230f2fca2162",
-  "slug": "jensen-huang-announced-resignation-or-removal-again-by-march-31-2027",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.79,
-  "usd": 474.0,
-  "shares": 600.0,
-  "ts": 1795809464,
-  "held": 2324.94,
-  "heldUsd": 1732.08,
-  "peak": 2324.94,
-  "chip": "With",
-  "split": "3/4",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 105
- },
- {
-  "a": "0xe639e41094bbeae18f3e6d1790c17299183f082a",
-  "n": "0xe639e4",
-  "avatar": "",
-  "t": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
-  "url": "https://polymarket.com/event/fed-decision-in-december-20260729232808632/will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/fed-decision-in-september-762-c4RyWuxRPo1L.jpg",
-  "cid": "0x8a4196617dcb703e49d9bb36d3847bf6a75fd364dbd19f8d408ac944bf1a03d8",
-  "slug": "will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636",
-  "side": "BUY",
-  "out": "Yes",
-  "price": 0.94,
-  "usd": 11.87,
-  "shares": 12.63,
-  "ts": 1795809361,
-  "held": 173186.97,
-  "heldUsd": 163661.68,
-  "peak": 173186.97,
-  "chip": "With",
-  "split": "7/8",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 106
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Pedro S\u00e1nchez be the next Prime Minister of Spain?",
-  "url": "https://polymarket.com/event/next-prime-minister-of-spain-20260625005215443/will-pedro-sanchez-be-the-next-prime-minister-of-spain-20260625005710096",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/spain-pm-fade3-pedro-sanchez-b30c281cfa.jpg",
-  "cid": "0x91e20860241f7c90fcff5ec348a68f953bd66a02d5662ac26cab32ac1f904be6",
-  "slug": "will-pedro-sanchez-be-the-next-prime-minister-of-spain-20260625005710096",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.877,
-  "usd": 191.78,
-  "shares": 218.68,
-  "ts": 1795809254,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 4371.57,
-  "chip": "With",
-  "split": "3/3",
-  "arrow": "\u2191",
-  "fills": [],
-  "id": 107
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Alberto N\u00fa\u00f1ez Feij\u00f3o be the next Prime Minister of Spain?",
-  "url": "https://polymarket.com/event/next-prime-minister-of-spain-20260625005215443/will-alberto-nunez-feijoo-be-the-next-prime-minister-of-spain-20260625005710103",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/spain-pm-fade3-alberto-nunez-feijoo-8444e4250e.jpg",
-  "cid": "0x97c0b1316b8d9ba677414e8a682948e7560c1af60fc239b085a68cc467c21f23",
-  "slug": "will-alberto-nunez-feijoo-be-the-next-prime-minister-of-spain-20260625005710103",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.1211,
-  "usd": 26.47,
-  "shares": 218.67,
-  "ts": 1795809254,
-  "held": 6.62,
-  "heldUsd": 0.83,
-  "peak": 4376.23,
-  "chip": "Against",
-  "split": "2/3",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 108
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Chiang Wan-an win the next Taipei Mayor election?",
-  "url": "https://polymarket.com/event/taipei-mayor-election-winner-20260813125857100/will-chiang-wan-an-win-the-next-taipei-mayor-election-20260813125857101",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/tw2026-chiang-wan-an-taipei-v3-db4706c7ae.jpg",
-  "cid": "0xbf7a9da08326512f76129d4accf9f7d852dbf1cb7dd2c512479ff40c872f5659",
-  "slug": "will-chiang-wan-an-win-the-next-taipei-mayor-election-20260813125857101",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.45,
-  "usd": 8.83,
-  "shares": 19.63,
-  "ts": 1795809251,
-  "held": 20.0,
-  "heldUsd": 8.7,
-  "peak": 316.15,
-  "chip": "Against",
-  "split": "4/8",
-  "arrow": "\u2193",
-  "fills": [],
-  "id": 109
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the highest temperature in San Francisco be between 60-61\u00b0F on November 27?",
-  "url": "https://polymarket.com/event/highest-temperature-in-san-francisco-on-november-27-2026/highest-temperature-in-san-francisco-on-november-27-2026-60-61f",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/san-francisco-e705a842df.jpg",
-  "cid": "0x202aacf3552eb6ed4fd5e36963e52c43fbc3642216ce05e6883b0d3e754d9d03",
-  "slug": "highest-temperature-in-san-francisco-on-november-27-2026-60-61f",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.61,
-  "usd": 12.2,
-  "shares": 20.0,
-  "ts": 1795809247,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 20.0,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 110
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the highest temperature in Qingdao be 15\u00b0C on November 29?",
-  "url": "https://polymarket.com/event/highest-temperature-in-qingdao-on-november-29-2026/highest-temperature-in-qingdao-on-november-29-2026-15c",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/qingdao-64680595db.jpg",
-  "cid": "0x358f761d81421f5e168b979fcc838b0416ff0baf91b4336c8c4d287a00fd5ad3",
-  "slug": "highest-temperature-in-qingdao-on-november-29-2026-15c",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.995,
-  "usd": 19.87,
-  "shares": 19.97,
-  "ts": 1795809247,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 19.97,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [
-   {
-    "ts": 1795809247,
-    "usd": 14.96,
-    "shares": 15.04,
-    "price": 0.995
-   },
-   {
-    "ts": 1795809247,
-    "usd": 4.91,
-    "shares": 4.93,
-    "price": 0.995
-   }
-  ],
-  "id": 111
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the highest temperature in San Francisco be between 62-63\u00b0F on November 27?",
-  "url": "https://polymarket.com/event/highest-temperature-in-san-francisco-on-november-27-2026/highest-temperature-in-san-francisco-on-november-27-2026-62-63f",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/san-francisco-e705a842df.jpg",
-  "cid": "0x596ff936827881e15d5fddf06127a138dbf996fbc1a2c3ab4f54ce3f925adecb",
-  "slug": "highest-temperature-in-san-francisco-on-november-27-2026-62-63f",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.5125,
-  "usd": 10.25,
-  "shares": 20.0,
-  "ts": 1795809247,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 20.0,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 112
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the highest temperature in Qingdao be 9\u00b0C on November 29?",
-  "url": "https://polymarket.com/event/highest-temperature-in-qingdao-on-november-29-2026/highest-temperature-in-qingdao-on-november-29-2026-9c",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/qingdao-64680595db.jpg",
-  "cid": "0x858a5d88d94d0f897b0678198790c540603fb4704c24898a741c0ac8f457f2f6",
-  "slug": "highest-temperature-in-qingdao-on-november-29-2026-9c",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.997,
-  "usd": 19.93,
-  "shares": 19.99,
-  "ts": 1795809247,
-  "held": 0.1,
-  "heldUsd": 0.1,
-  "peak": 19.99,
-  "chip": "First",
-  "split": "",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1795809247,
-    "usd": 4.93,
-    "shares": 4.94,
-    "price": 0.997
-   },
-   {
-    "ts": 1795809247,
-    "usd": 15.0,
-    "shares": 15.04,
-    "price": 0.997
-   }
-  ],
-  "id": 113
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the highest temperature in San Francisco be between 58-59\u00b0F on November 27?",
-  "url": "https://polymarket.com/event/highest-temperature-in-san-francisco-on-november-27-2026/highest-temperature-in-san-francisco-on-november-27-2026-58-59f",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/san-francisco-e705a842df.jpg",
-  "cid": "0x8d29793c9e2d0eacbd10b87a1372e1df577798b627507a60e570aa6808c7c470",
-  "slug": "highest-temperature-in-san-francisco-on-november-27-2026-58-59f",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9842,
-  "usd": 19.68,
-  "shares": 20.0,
-  "ts": 1795809247,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 20.0,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 114
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the highest temperature in San Francisco be between 68-69\u00b0F on November 27?",
-  "url": "https://polymarket.com/event/highest-temperature-in-san-francisco-on-november-27-2026/highest-temperature-in-san-francisco-on-november-27-2026-68-69f",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/san-francisco-e705a842df.jpg",
-  "cid": "0xb60d448cfaa6963d856e7f37c42a4d1b2f90d5fbca8aae64f05fa2bd6bcc66e1",
-  "slug": "highest-temperature-in-san-francisco-on-november-27-2026-68-69f",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.997,
-  "usd": 19.94,
-  "shares": 20.0,
-  "ts": 1795809247,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 20.0,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 115
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the highest temperature in Qingdao be 10\u00b0C on November 29?",
-  "url": "https://polymarket.com/event/highest-temperature-in-qingdao-on-november-29-2026/highest-temperature-in-qingdao-on-november-29-2026-10c",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/qingdao-64680595db.jpg",
-  "cid": "0xe008806d3af87ad33f101efc0765fa0e088e319e12a0e92663845f1387472df9",
-  "slug": "highest-temperature-in-qingdao-on-november-29-2026-10c",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.994,
-  "usd": 19.85,
-  "shares": 19.97,
-  "ts": 1795809247,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 19.97,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [
-   {
-    "ts": 1795809247,
-    "usd": 14.94,
-    "shares": 15.03,
-    "price": 0.9942
-   },
-   {
-    "ts": 1795809247,
-    "usd": 4.91,
-    "shares": 4.94,
-    "price": 0.993
-   }
-  ],
-  "id": 116
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the highest temperature in Qingdao be 13\u00b0C on November 29?",
-  "url": "https://polymarket.com/event/highest-temperature-in-qingdao-on-november-29-2026/highest-temperature-in-qingdao-on-november-29-2026-13c",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/qingdao-64680595db.jpg",
-  "cid": "0xb44c4e99e27f0784688a3defb34cb9154894231d2854ada6b4445fde7badce60",
-  "slug": "highest-temperature-in-qingdao-on-november-29-2026-13c",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.61,
-  "usd": 12.2,
-  "shares": 20.0,
-  "ts": 1795809245,
-  "held": 0.11,
-  "heldUsd": 0.06,
-  "peak": 20.0,
-  "chip": "First",
-  "split": "",
-  "arrow": "\u2191",
-  "fills": [
-   {
-    "ts": 1795809245,
-    "usd": 9.18,
-    "shares": 15.05,
-    "price": 0.61
-   },
-   {
-    "ts": 1795809245,
-    "usd": 3.02,
-    "shares": 4.95,
-    "price": 0.61
-   }
-  ],
-  "id": 117
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the highest temperature in Qingdao be 12\u00b0C on November 29?",
-  "url": "https://polymarket.com/event/highest-temperature-in-qingdao-on-november-29-2026/highest-temperature-in-qingdao-on-november-29-2026-12c",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/qingdao-64680595db.jpg",
-  "cid": "0xde76fdef0d372796b5af1d1f53f2338cdab54b9286bd82cb491cdfd89f50a993",
-  "slug": "highest-temperature-in-qingdao-on-november-29-2026-12c",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.5025,
-  "usd": 9.64,
-  "shares": 19.18,
-  "ts": 1795809245,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 19.18,
-  "chip": "First",
-  "split": "",
-  "arrow": "",
-  "fills": [
-   {
-    "ts": 1795809245,
-    "usd": 7.26,
-    "shares": 14.44,
-    "price": 0.5
-   },
-   {
-    "ts": 1795809245,
-    "usd": 2.38,
-    "shares": 4.74,
-    "price": 0.5
-   }
-  ],
-  "id": 118
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will the highest temperature in Helsinki be 1\u00b0C on November 29?",
-  "url": "https://polymarket.com/event/highest-temperature-in-helsinki-on-november-29-2026/highest-temperature-in-helsinki-on-november-29-2026-1c",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/hel-537d0cb3c2.jpg",
-  "cid": "0x158f010cb0a8e3ece7950a613de4b458ca88d0fbe96382d8b355f1728c3bb6e1",
-  "slug": "highest-temperature-in-helsinki-on-november-29-2026-1c",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9505,
-  "usd": 19.59,
-  "shares": 20.61,
-  "ts": 1795809244,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 20.61,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
   "fills": [],
   "id": 119
  }
