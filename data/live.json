@@ -1,5 +1,302 @@
 [
  {
+  "a": "0x08458f7e9d2858027de579e4c3ca305475496b6f",
+  "n": "GollumGekko",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/gollum_bc5f507a-12cf-4a51-a483-ad7cd84966a5_1736427633048.JPG",
+  "t": "Russia military action against an EU country by December 31, 2027?",
+  "url": "https://polymarket.com/event/russia-military-action-against-eu-country-byptptpt/russia-military-action-against-an-eu-country-by-december-31-2027",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-russia-invade-a-nato-country-in-2025-VY0jfZfvLhyJ.jpg",
+  "cid": "0xef36219a5c150ad7b0bf37607bf3833e16e88efa42f2c3da63742cbf1a65eaf4",
+  "slug": "russia-military-action-against-an-eu-country-by-december-31-2027",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.55,
+  "usd": 53.35,
+  "shares": 97.0,
+  "ts": 1795875188,
+  "held": 2073.16,
+  "heldUsd": 1140.24,
+  "peak": 2073.16,
+  "chip": "With",
+  "split": "4/5",
+  "arrow": "",
+  "fills": [],
+  "id": 0
+ },
+ {
+  "a": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
+  "n": "PaddyAlpha",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
+  "t": "US announces end of Iranian blockade by December 15, 2026?",
+  "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080/us-announces-end-of-iranian-blockade-by-december-15-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-announces-blockade-on-iran-byptptpt-20260622191049039-hE3ZTZ51JJy3.jpg",
+  "cid": "0x6de8e2164b364eb87838b2289db8622fab81b5ce5931bb325e1b3a679314f1a7",
+  "slug": "us-announces-end-of-iranian-blockade-by-december-15-2026",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.07,
+  "usd": 14.35,
+  "shares": 205.0,
+  "ts": 1795875103,
+  "held": 4055.75,
+  "heldUsd": 263.62,
+  "peak": 4055.75,
+  "chip": "With",
+  "split": "2/3",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 1
+ },
+ {
+  "a": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
+  "n": "PaddyAlpha",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1240150-021c4d43-6f52-420d-a457-6c631c9d922d.gif",
+  "t": "US announces end of Iranian blockade by December 15, 2026?",
+  "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080/us-announces-end-of-iranian-blockade-by-december-15-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-announces-blockade-on-iran-byptptpt-20260622191049039-hE3ZTZ51JJy3.jpg",
+  "cid": "0x6de8e2164b364eb87838b2289db8622fab81b5ce5931bb325e1b3a679314f1a7",
+  "slug": "us-announces-end-of-iranian-blockade-by-december-15-2026",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.93,
+  "usd": 372.0,
+  "shares": 400.0,
+  "ts": 1795875103,
+  "held": 130.0,
+  "heldUsd": 121.55,
+  "peak": 630.0,
+  "chip": "With",
+  "split": "2/3",
+  "arrow": "\u2191",
+  "fills": [],
+  "id": 2
+ },
+ {
+  "a": "0xa8c63f775ddbbe66b56614191747def3021444e8",
+  "n": "Tenebrus7",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-561226-af4d2e36-9a46-4216-8305-ab6d8c97d1ce.png",
+  "t": "US announces end of Iranian blockade by December 15, 2026?",
+  "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080/us-announces-end-of-iranian-blockade-by-december-15-2026",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-announces-blockade-on-iran-byptptpt-20260622191049039-hE3ZTZ51JJy3.jpg",
+  "cid": "0x6de8e2164b364eb87838b2289db8622fab81b5ce5931bb325e1b3a679314f1a7",
+  "slug": "us-announces-end-of-iranian-blockade-by-december-15-2026",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.0633,
+  "usd": 95.0,
+  "shares": 1499.99,
+  "ts": 1795875103,
+  "held": 1499.99,
+  "heldUsd": 97.5,
+  "peak": 1999.99,
+  "chip": "With",
+  "split": "2/3",
+  "arrow": "\u2191",
+  "fills": [
+   {
+    "ts": 1795875103,
+    "usd": 60.0,
+    "shares": 1000.0,
+    "price": 0.06
+   },
+   {
+    "ts": 1795875103,
+    "usd": 35.0,
+    "shares": 499.99,
+    "price": 0.07
+   }
+  ],
+  "id": 3
+ },
+ {
+  "a": "0xf1f9a438f2697381b4ac8eb283d6f4dd772d1245",
+  "n": "tunatyler",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-566685-689e8606-e3cf-4fb0-b4b1-d55fa3c39874.jpg",
+  "t": "Will PSOE win the most seats in the 2026 Spanish general election?",
+  "url": "https://polymarket.com/event/spain-general-election-winner/will-psoe-win-the-most-seats-in-the-2026-spanish-general-election",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/es26-psoe-99bb5820c4.jpg",
+  "cid": "0x989e60030a12b3b8c3014ca744df34fce5bc014a803f5a0c717557e11a0a04b8",
+  "slug": "will-psoe-win-the-most-seats-in-the-2026-spanish-general-election",
+  "side": "BUY",
+  "out": "Yes",
+  "price": 0.28,
+  "usd": 106.72,
+  "shares": 381.14,
+  "ts": 1795874966,
+  "held": 11374.27,
+  "heldUsd": 3241.67,
+  "peak": 11374.27,
+  "chip": "With",
+  "split": "4/6",
+  "arrow": "\u2193",
+  "fills": [
+   {
+    "ts": 1795874882,
+    "usd": 1.51,
+    "shares": 5.38,
+    "price": 0.28
+   },
+   {
+    "ts": 1795874882,
+    "usd": 1.8,
+    "shares": 6.42,
+    "price": 0.28
+   },
+   {
+    "ts": 1795874887,
+    "usd": 2.32,
+    "shares": 8.27,
+    "price": 0.28
+   },
+   {
+    "ts": 1795874887,
+    "usd": 6.68,
+    "shares": 23.85,
+    "price": 0.28
+   },
+   {
+    "ts": 1795874891,
+    "usd": 3.29,
+    "shares": 11.75,
+    "price": 0.28
+   },
+   {
+    "ts": 1795874894,
+    "usd": 6.47,
+    "shares": 23.1,
+    "price": 0.28
+   },
+   {
+    "ts": 1795874896,
+    "usd": 46.75,
+    "shares": 166.98,
+    "price": 0.28
+   },
+   {
+    "ts": 1795874906,
+    "usd": 1.62,
+    "shares": 5.8,
+    "price": 0.28
+   },
+   {
+    "ts": 1795874908,
+    "usd": 3.36,
+    "shares": 12.01,
+    "price": 0.28
+   },
+   {
+    "ts": 1795874909,
+    "usd": 3.27,
+    "shares": 11.69,
+    "price": 0.28
+   },
+   {
+    "ts": 1795874911,
+    "usd": 24.05,
+    "shares": 85.89,
+    "price": 0.28
+   },
+   {
+    "ts": 1795874966,
+    "usd": 5.6,
+    "shares": 20.0,
+    "price": 0.28
+   }
+  ],
+  "id": 4
+ },
+ {
+  "a": "0x3dca854f147d9b9ecc56d37800f36b347ce23c13",
+  "n": "Ryxon21",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3741982-fa6ae504-06b2-4a07-82e9-9d1726c7bd34.webp",
+  "t": "Will PSOE win the most seats in the 2026 Spanish general election?",
+  "url": "https://polymarket.com/event/spain-general-election-winner/will-psoe-win-the-most-seats-in-the-2026-spanish-general-election",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/es26-psoe-99bb5820c4.jpg",
+  "cid": "0x989e60030a12b3b8c3014ca744df34fce5bc014a803f5a0c717557e11a0a04b8",
+  "slug": "will-psoe-win-the-most-seats-in-the-2026-spanish-general-election",
+  "side": "SELL",
+  "out": "Yes",
+  "price": 0.29,
+  "usd": 883.33,
+  "shares": 3045.95,
+  "ts": 1795874911,
+  "held": 1405.55,
+  "heldUsd": 400.58,
+  "peak": 6000.43,
+  "chip": "Against",
+  "split": "4/6",
+  "arrow": "\u2193",
+  "fills": [
+   {
+    "ts": 1795874881,
+    "usd": 580.0,
+    "shares": 2000.0,
+    "price": 0.29
+   },
+   {
+    "ts": 1795874882,
+    "usd": 1.45,
+    "shares": 5.0,
+    "price": 0.29
+   },
+   {
+    "ts": 1795874891,
+    "usd": 1.56,
+    "shares": 5.37,
+    "price": 0.29
+   },
+   {
+    "ts": 1795874896,
+    "usd": 5.33,
+    "shares": 18.37,
+    "price": 0.29
+   },
+   {
+    "ts": 1795874902,
+    "usd": 290.0,
+    "shares": 1000.0,
+    "price": 0.29
+   },
+   {
+    "ts": 1795874911,
+    "usd": 3.36,
+    "shares": 11.58,
+    "price": 0.29
+   },
+   {
+    "ts": 1795874911,
+    "usd": 1.63,
+    "shares": 5.63,
+    "price": 0.29
+   }
+  ],
+  "id": 5
+ },
+ {
+  "a": "0x3dca854f147d9b9ecc56d37800f36b347ce23c13",
+  "n": "Ryxon21",
+  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3741982-fa6ae504-06b2-4a07-82e9-9d1726c7bd34.webp",
+  "t": "Will PP win the most seats in the 2026 Spanish general election?",
+  "url": "https://polymarket.com/event/spain-general-election-winner/will-pp-win-the-most-seats-in-the-2026-spanish-general-election",
+  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/es26-pp-d0f8023be4.jpg",
+  "cid": "0x162e356bfab7ad18fe4e3029d5811d9a95fce95d93858b42924a3b9ffbcf1a93",
+  "slug": "will-pp-win-the-most-seats-in-the-2026-spanish-general-election",
+  "side": "SELL",
+  "out": "No",
+  "price": 0.29,
+  "usd": 181.25,
+  "shares": 625.0,
+  "ts": 1795874768,
+  "held": 32115.59,
+  "heldUsd": 9152.94,
+  "peak": 34190.26,
+  "chip": "Against",
+  "split": "4/7",
+  "arrow": "\u2193",
+  "fills": [],
+  "id": 6
+ },
+ {
   "a": "0x1f0a343513aa6060488fabe96960e6d1e177f7aa",
   "n": "archaic",
   "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/d_d_usepic_b134fd85-ac75-4474-b983-d5196b546338_1739983370667.webp",
@@ -14,14 +311,14 @@
   "usd": 90.0,
   "shares": 100.0,
   "ts": 1795874678,
-  "held": 520.02,
-  "heldUsd": 465.41,
-  "peak": 620.02,
+  "held": 420.02,
+  "heldUsd": 380.11,
+  "peak": 520.02,
   "chip": "Against",
-  "split": "2/2",
+  "split": "3/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 0
+  "id": 7
  },
  {
   "a": "0x6d9fc316c3b8377060a44b852ba664adbfd59790",
@@ -38,14 +335,14 @@
   "usd": 6134.68,
   "shares": 6816.31,
   "ts": 1795874678,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 6816.31,
+  "held": 6818.05,
+  "heldUsd": 6170.34,
+  "peak": 6818.05,
   "chip": "With",
-  "split": "2/2",
+  "split": "3/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 1
+  "id": 8
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -62,14 +359,14 @@
   "usd": 3.04,
   "shares": 7.51,
   "ts": 1795874662,
-  "held": 7.51,
-  "heldUsd": 4.08,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 7.51,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 2
+  "id": 9
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -86,14 +383,14 @@
   "usd": 7.41,
   "shares": 7.5,
   "ts": 1795874662,
-  "held": 7.5,
-  "heldUsd": 7.38,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 7.5,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 3
+  "id": 10
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -110,14 +407,14 @@
   "usd": 4.51,
   "shares": 7.5,
   "ts": 1795874662,
-  "held": 7.5,
-  "heldUsd": 3.94,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 7.5,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 4
+  "id": 11
  },
  {
   "a": "0xf1f9a438f2697381b4ac8eb283d6f4dd772d1245",
@@ -134,14 +431,14 @@
   "usd": 1.61,
   "shares": 5.74,
   "ts": 1795874558,
-  "held": 10985.44,
-  "heldUsd": 3130.85,
-  "peak": 10985.44,
+  "held": 11374.27,
+  "heldUsd": 3241.67,
+  "peak": 11374.27,
   "chip": "With",
   "split": "4/6",
   "arrow": "\u2193",
   "fills": [],
-  "id": 5
+  "id": 12
  },
  {
   "a": "0x3dca854f147d9b9ecc56d37800f36b347ce23c13",
@@ -158,14 +455,14 @@
   "usd": 9.96,
   "shares": 34.34,
   "ts": 1795874549,
-  "held": 4451.5,
-  "heldUsd": 1268.68,
+  "held": 1405.55,
+  "heldUsd": 400.58,
   "peak": 6000.43,
   "chip": "Against",
   "split": "4/6",
   "arrow": "\u2193",
   "fills": [],
-  "id": 6
+  "id": 13
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -183,7 +480,7 @@
   "shares": 200.0,
   "ts": 1795874524,
   "held": 200.0,
-  "heldUsd": 0.3,
+  "heldUsd": 0.1,
   "peak": 200.0,
   "chip": "First",
   "split": "",
@@ -202,7 +499,7 @@
     "price": 0.03
    }
   ],
-  "id": 7
+  "id": 14
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -220,7 +517,7 @@
   "shares": 169.76,
   "ts": 1795874524,
   "held": 169.76,
-  "heldUsd": 162.21,
+  "heldUsd": 168.66,
   "peak": 169.76,
   "chip": "First",
   "split": "",
@@ -239,7 +536,7 @@
     "price": 0.086
    }
   ],
-  "id": 8
+  "id": 15
  },
  {
   "a": "0xf1f9a438f2697381b4ac8eb283d6f4dd772d1245",
@@ -294,7 +591,7 @@
     "price": 0.87
    }
   ],
-  "id": 9
+  "id": 16
  },
  {
   "a": "0x154794795d978c5890b3f69264311f0bd966d066",
@@ -331,7 +628,7 @@
     "price": 0.84
    }
   ],
-  "id": 10
+  "id": 17
  },
  {
   "a": "0x8f42ae0a01c0383c7ca8bd060b86a645ee74b88f",
@@ -355,7 +652,7 @@
   "split": "3/4",
   "arrow": "\u2191",
   "fills": [],
-  "id": 11
+  "id": 18
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -373,13 +670,13 @@
   "shares": 40.0,
   "ts": 1795874236,
   "held": 45.01,
-  "heldUsd": 44.96,
+  "heldUsd": 44.94,
   "peak": 45.01,
   "chip": "Exited",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 12
+  "id": 19
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -396,14 +693,14 @@
   "usd": 18.95,
   "shares": 18.99,
   "ts": 1795874236,
-  "held": 18.99,
-  "heldUsd": 18.92,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 18.99,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 13
+  "id": 20
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -421,13 +718,13 @@
   "shares": 40.0,
   "ts": 1795874236,
   "held": 40.0,
-  "heldUsd": 39.96,
+  "heldUsd": 39.94,
   "peak": 40.0,
   "chip": "Exited",
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 14
+  "id": 21
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -445,13 +742,13 @@
   "shares": 25.97,
   "ts": 1795874236,
   "held": 30.98,
-  "heldUsd": 30.95,
+  "heldUsd": 30.93,
   "peak": 30.98,
   "chip": "Exited",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 15
+  "id": 22
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -469,13 +766,13 @@
   "shares": 40.0,
   "ts": 1795874236,
   "held": 40.0,
-  "heldUsd": 39.96,
+  "heldUsd": 39.94,
   "peak": 40.0,
   "chip": "Exited",
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 16
+  "id": 23
  },
  {
   "a": "0x08458f7e9d2858027de579e4c3ca305475496b6f",
@@ -493,13 +790,13 @@
   "shares": 123.0,
   "ts": 1795874137,
   "held": 20827.72,
-  "heldUsd": 6550.32,
+  "heldUsd": 6685.7,
   "peak": 20827.72,
   "chip": "With",
   "split": "3/5",
   "arrow": "\u2193",
   "fills": [],
-  "id": 17
+  "id": 24
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -516,14 +813,14 @@
   "usd": 2.57,
   "shares": 8.57,
   "ts": 1795873963,
-  "held": 9.0,
-  "heldUsd": 2.48,
-  "peak": 9.0,
-  "chip": "First",
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 8.57,
+  "chip": "Exited",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 18
+  "id": 25
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -540,14 +837,14 @@
   "usd": 6.84,
   "shares": 8.57,
   "ts": 1795873963,
-  "held": 8.99,
-  "heldUsd": 7.51,
-  "peak": 8.99,
-  "chip": "First",
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 8.57,
+  "chip": "Exited",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 19
+  "id": 26
  },
  {
   "a": "0x3dca854f147d9b9ecc56d37800f36b347ce23c13",
@@ -564,8 +861,8 @@
   "usd": 40.0,
   "shares": 137.93,
   "ts": 1795873936,
-  "held": 4451.5,
-  "heldUsd": 1268.68,
+  "held": 1405.55,
+  "heldUsd": 400.58,
   "peak": 6000.43,
   "chip": "Against",
   "split": "4/6",
@@ -584,7 +881,7 @@
     "price": 0.29
    }
   ],
-  "id": 20
+  "id": 27
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -601,14 +898,14 @@
   "usd": 56.77,
   "shares": 100.0,
   "ts": 1795873891,
-  "held": 100.0,
-  "heldUsd": 60.55,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 318.65,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 21
+  "id": 28
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -625,8 +922,8 @@
   "usd": 43.5,
   "shares": 100.0,
   "ts": 1795873891,
-  "held": 103.98,
-  "heldUsd": 42.63,
+  "held": 3.99,
+  "heldUsd": 1.61,
   "peak": 318.67,
   "chip": "First",
   "split": "",
@@ -645,7 +942,7 @@
     "price": 0.44
    }
   ],
-  "id": 22
+  "id": 29
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -662,14 +959,14 @@
   "usd": 99.13,
   "shares": 99.99,
   "ts": 1795873891,
-  "held": 100.38,
-  "heldUsd": 99.12,
-  "peak": 100.38,
+  "held": 0.38,
+  "heldUsd": 0.38,
+  "peak": 99.99,
   "chip": "First",
   "split": "",
-  "arrow": "",
+  "arrow": "\u2191",
   "fills": [],
-  "id": 23
+  "id": 30
  },
  {
   "a": "0x6d9fc316c3b8377060a44b852ba664adbfd59790",
@@ -687,13 +984,13 @@
   "shares": 20.0,
   "ts": 1795873867,
   "held": 1573.47,
-  "heldUsd": 1078.61,
+  "heldUsd": 1068.38,
   "peak": 4488.99,
   "chip": "With",
   "split": "3/5",
   "arrow": "\u2193",
   "fills": [],
-  "id": 24
+  "id": 31
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -710,14 +1007,14 @@
   "usd": 68.89,
   "shares": 89.99,
   "ts": 1795873855,
-  "held": 89.99,
-  "heldUsd": 67.49,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 119.11,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 25
+  "id": 32
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -734,14 +1031,14 @@
   "usd": 18.0,
   "shares": 90.0,
   "ts": 1795873855,
-  "held": 90.01,
-  "heldUsd": 23.85,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 119.12,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 26
+  "id": 33
  },
  {
   "a": "0xf1f9a438f2697381b4ac8eb283d6f4dd772d1245",
@@ -758,9 +1055,9 @@
   "usd": 3.82,
   "shares": 13.63,
   "ts": 1795873849,
-  "held": 10985.44,
-  "heldUsd": 3130.85,
-  "peak": 10985.44,
+  "held": 11374.27,
+  "heldUsd": 3241.67,
+  "peak": 11374.27,
   "chip": "With",
   "split": "4/6",
   "arrow": "\u2193",
@@ -778,7 +1075,7 @@
     "price": 0.28
    }
   ],
-  "id": 27
+  "id": 34
  },
  {
   "a": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
@@ -815,7 +1112,7 @@
     "price": 0.88
    }
   ],
-  "id": 28
+  "id": 35
  },
  {
   "a": "0xf1f9a438f2697381b4ac8eb283d6f4dd772d1245",
@@ -839,7 +1136,7 @@
   "split": "2/2",
   "arrow": "",
   "fills": [],
-  "id": 29
+  "id": 36
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -856,12 +1153,12 @@
   "usd": 3.33,
   "shares": 18.0,
   "ts": 1795873709,
-  "held": 95.0,
-  "heldUsd": 20.09,
-  "peak": 95.0,
-  "chip": "Exited",
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 93.0,
+  "chip": "First",
   "split": "",
-  "arrow": "\u2193",
+  "arrow": "\u2191",
   "fills": [
    {
     "ts": 1795873645,
@@ -876,7 +1173,7 @@
     "price": 0.185
    }
   ],
-  "id": 30
+  "id": 37
  },
  {
   "a": "0xf1f9a438f2697381b4ac8eb283d6f4dd772d1245",
@@ -893,14 +1190,14 @@
   "usd": 2.02,
   "shares": 7.2,
   "ts": 1795873682,
-  "held": 10985.44,
-  "heldUsd": 3130.85,
-  "peak": 10985.44,
+  "held": 11374.27,
+  "heldUsd": 3241.67,
+  "peak": 11374.27,
   "chip": "With",
   "split": "4/6",
   "arrow": "\u2193",
   "fills": [],
-  "id": 31
+  "id": 38
  },
  {
   "a": "0x3dca854f147d9b9ecc56d37800f36b347ce23c13",
@@ -917,14 +1214,14 @@
   "usd": 25.03,
   "shares": 86.31,
   "ts": 1795873672,
-  "held": 4451.5,
-  "heldUsd": 1268.68,
+  "held": 1405.55,
+  "heldUsd": 400.58,
   "peak": 6000.43,
   "chip": "Against",
   "split": "4/6",
   "arrow": "\u2193",
   "fills": [],
-  "id": 32
+  "id": 39
  },
  {
   "a": "0xe639e41094bbeae18f3e6d1790c17299183f082a",
@@ -948,7 +1245,7 @@
   "split": "7/8",
   "arrow": "\u2193",
   "fills": [],
-  "id": 33
+  "id": 40
  },
  {
   "a": "0x6d9fc316c3b8377060a44b852ba664adbfd59790",
@@ -966,13 +1263,13 @@
   "shares": 5.0,
   "ts": 1795873541,
   "held": 1573.47,
-  "heldUsd": 1078.61,
+  "heldUsd": 1068.38,
   "peak": 4488.99,
   "chip": "With",
   "split": "3/5",
   "arrow": "\u2193",
   "fills": [],
-  "id": 34
+  "id": 41
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -996,7 +1293,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 35
+  "id": 42
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1020,7 +1317,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 36
+  "id": 43
  },
  {
   "a": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
@@ -1044,7 +1341,7 @@
   "split": "1/1",
   "arrow": "\u2193",
   "fills": [],
-  "id": 37
+  "id": 44
  },
  {
   "a": "0x6d9fc316c3b8377060a44b852ba664adbfd59790",
@@ -1062,13 +1359,13 @@
   "shares": 20.0,
   "ts": 1795873271,
   "held": 1573.47,
-  "heldUsd": 1078.61,
+  "heldUsd": 1068.38,
   "peak": 4488.99,
   "chip": "With",
   "split": "3/5",
   "arrow": "\u2193",
   "fills": [],
-  "id": 38
+  "id": 45
  },
  {
   "a": "0x3dca854f147d9b9ecc56d37800f36b347ce23c13",
@@ -1085,14 +1382,14 @@
   "usd": 40.6,
   "shares": 140.0,
   "ts": 1795873261,
-  "held": 32740.59,
-  "heldUsd": 9331.07,
+  "held": 32115.59,
+  "heldUsd": 9152.94,
   "peak": 34190.26,
   "chip": "Against",
   "split": "4/7",
   "arrow": "\u2193",
   "fills": [],
-  "id": 39
+  "id": 46
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1110,13 +1407,13 @@
   "shares": 9.02,
   "ts": 1795873237,
   "held": 395.32,
-  "heldUsd": 380.3,
+  "heldUsd": 384.05,
   "peak": 395.32,
   "chip": "Exited",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 40
+  "id": 47
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1140,7 +1437,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 41
+  "id": 48
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1164,7 +1461,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 42
+  "id": 49
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1181,12 +1478,12 @@
   "usd": 19.18,
   "shares": 40.0,
   "ts": 1795873196,
-  "held": 95.0,
-  "heldUsd": 20.09,
-  "peak": 95.0,
-  "chip": "Exited",
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 93.0,
+  "chip": "First",
   "split": "",
-  "arrow": "\u2193",
+  "arrow": "\u2191",
   "fills": [
    {
     "ts": 1795873141,
@@ -1201,7 +1498,7 @@
     "price": 0.417
    }
   ],
-  "id": 43
+  "id": 50
  },
  {
   "a": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
@@ -1238,7 +1535,7 @@
     "price": 0.59
    }
   ],
-  "id": 44
+  "id": 51
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1255,14 +1552,14 @@
   "usd": 19.9,
   "shares": 20.0,
   "ts": 1795873174,
-  "held": 1.82,
-  "heldUsd": 1.81,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 20.0,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 45
+  "id": 52
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1279,14 +1576,14 @@
   "usd": 19.78,
   "shares": 19.98,
   "ts": 1795873174,
-  "held": 1.8,
-  "heldUsd": 1.75,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 19.98,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 46
+  "id": 53
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1303,14 +1600,14 @@
   "usd": 10.2,
   "shares": 20.0,
   "ts": 1795873174,
-  "held": 1.82,
-  "heldUsd": 0.86,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 20.0,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 47
+  "id": 54
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1327,14 +1624,14 @@
   "usd": 19.86,
   "shares": 20.0,
   "ts": 1795873174,
-  "held": 1.82,
-  "heldUsd": 1.8,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 20.0,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 48
+  "id": 55
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1354,11 +1651,11 @@
   "held": 0.0,
   "heldUsd": 0.0,
   "peak": 18.18,
-  "chip": "Exited",
+  "chip": "First",
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 49
+  "id": 56
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1375,14 +1672,14 @@
   "usd": 19.77,
   "shares": 19.99,
   "ts": 1795873174,
-  "held": 1.81,
-  "heldUsd": 1.79,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 19.99,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 50
+  "id": 57
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1399,14 +1696,14 @@
   "usd": 19.92,
   "shares": 20.02,
   "ts": 1795873174,
-  "held": 1.84,
-  "heldUsd": 1.83,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 20.02,
-  "chip": "First",
+  "chip": "Exited",
   "split": "",
-  "arrow": "\u2191",
+  "arrow": "",
   "fills": [],
-  "id": 51
+  "id": 58
  },
  {
   "a": "0xe639e41094bbeae18f3e6d1790c17299183f082a",
@@ -1430,7 +1727,7 @@
   "split": "7/8",
   "arrow": "\u2193",
   "fills": [],
-  "id": 52
+  "id": 59
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1447,14 +1744,14 @@
   "usd": 11.0,
   "shares": 20.0,
   "ts": 1795872985,
-  "held": 95.0,
-  "heldUsd": 20.09,
-  "peak": 95.0,
-  "chip": "Exited",
+  "held": 0.0,
+  "heldUsd": 0.0,
+  "peak": 93.0,
+  "chip": "First",
   "split": "",
-  "arrow": "\u2193",
+  "arrow": "\u2191",
   "fills": [],
-  "id": 53
+  "id": 60
  },
  {
   "a": "0x6d9fc316c3b8377060a44b852ba664adbfd59790",
@@ -1472,13 +1769,13 @@
   "shares": 20.0,
   "ts": 1795872976,
   "held": 1573.47,
-  "heldUsd": 1078.61,
+  "heldUsd": 1068.38,
   "peak": 4488.99,
   "chip": "With",
   "split": "3/5",
   "arrow": "\u2193",
   "fills": [],
-  "id": 54
+  "id": 61
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1495,12 +1792,12 @@
   "usd": 12.26,
   "shares": 30.0,
   "ts": 1795872959,
-  "held": 99.35,
-  "heldUsd": 78.34,
+  "held": 4.35,
+  "heldUsd": 3.16,
   "peak": 380.0,
-  "chip": "Exited",
+  "chip": "First",
   "split": "",
-  "arrow": "\u2193",
+  "arrow": "\u2191",
   "fills": [
    {
     "ts": 1795872902,
@@ -1515,7 +1812,7 @@
     "price": 0.4455
    }
   ],
-  "id": 55
+  "id": 62
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1558,7 +1855,7 @@
     "price": 0.419
    }
   ],
-  "id": 56
+  "id": 63
  },
  {
   "a": "0x0787a58e205a70320db638113fe8da18c8800ca3",
@@ -1601,7 +1898,7 @@
     "price": 0.28
    }
   ],
-  "id": 57
+  "id": 64
  },
  {
   "a": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
@@ -1625,7 +1922,7 @@
   "split": "1/1",
   "arrow": "\u2191",
   "fills": [],
-  "id": 58
+  "id": 65
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1649,7 +1946,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 59
+  "id": 66
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1673,7 +1970,7 @@
   "split": "",
   "arrow": "\u2191",
   "fills": [],
-  "id": 60
+  "id": 67
  },
  {
   "a": "0xe639e41094bbeae18f3e6d1790c17299183f082a",
@@ -1697,7 +1994,7 @@
   "split": "7/8",
   "arrow": "\u2193",
   "fills": [],
-  "id": 61
+  "id": 68
  },
  {
   "a": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
@@ -1721,7 +2018,7 @@
   "split": "3/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 62
+  "id": 69
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1738,12 +2035,12 @@
   "usd": 177.44,
   "shares": 222.76,
   "ts": 1795872323,
-  "held": 191.08,
-  "heldUsd": 142.36,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 322.75,
   "chip": "Exited",
   "split": "",
-  "arrow": "\u2193",
+  "arrow": "",
   "fills": [
    {
     "ts": 1795872251,
@@ -1758,7 +2055,7 @@
     "price": 0.69
    }
   ],
-  "id": 63
+  "id": 70
  },
  {
   "a": "0x154794795d978c5890b3f69264311f0bd966d066",
@@ -1782,7 +2079,7 @@
   "split": "2/2",
   "arrow": "\u2191",
   "fills": [],
-  "id": 64
+  "id": 71
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1799,12 +2096,12 @@
   "usd": 73.8,
   "shares": 240.0,
   "ts": 1795872251,
-  "held": 208.34,
-  "heldUsd": 56.25,
+  "held": 18.08,
+  "heldUsd": 4.88,
   "peak": 340.0,
-  "chip": "Exited",
+  "chip": "First",
   "split": "",
-  "arrow": "\u2193",
+  "arrow": "\u2191",
   "fills": [
    {
     "ts": 1795872251,
@@ -1825,7 +2122,7 @@
     "price": 0.32
    }
   ],
-  "id": 65
+  "id": 72
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1849,7 +2146,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 66
+  "id": 73
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1873,7 +2170,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 67
+  "id": 74
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1890,14 +2187,14 @@
   "usd": 29.85,
   "shares": 29.94,
   "ts": 1795872233,
-  "held": 29.94,
-  "heldUsd": 29.82,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 29.94,
-  "chip": "Exited",
+  "chip": "First",
   "split": "",
-  "arrow": "\u2193",
+  "arrow": "",
   "fills": [],
-  "id": 68
+  "id": 75
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1915,13 +2212,13 @@
   "shares": 15.0,
   "ts": 1795872233,
   "held": 15.0,
-  "heldUsd": 14.97,
+  "heldUsd": 14.99,
   "peak": 15.0,
   "chip": "Exited",
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 69
+  "id": 76
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -1938,14 +2235,14 @@
   "usd": 22.56,
   "shares": 29.98,
   "ts": 1795872233,
-  "held": 29.98,
-  "heldUsd": 23.09,
+  "held": 0.0,
+  "heldUsd": 0.0,
   "peak": 29.98,
-  "chip": "Exited",
+  "chip": "First",
   "split": "",
-  "arrow": "\u2193",
+  "arrow": "",
   "fills": [],
-  "id": 70
+  "id": 77
  },
  {
   "a": "0x9ad091ca2e8f1bd69f27662edcb49dceeaa5bf3d",
@@ -1963,13 +2260,13 @@
   "shares": 250.0,
   "ts": 1795872224,
   "held": 366.46,
-  "heldUsd": 317.72,
+  "heldUsd": 318.27,
   "peak": 616.46,
   "chip": "Against",
   "split": "7/13",
   "arrow": "",
   "fills": [],
-  "id": 71
+  "id": 78
  },
  {
   "a": "0x0787a58e205a70320db638113fe8da18c8800ca3",
@@ -1993,7 +2290,7 @@
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 72
+  "id": 79
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2017,7 +2314,7 @@
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 73
+  "id": 80
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2041,7 +2338,7 @@
   "split": "1/2",
   "arrow": "\u2193",
   "fills": [],
-  "id": 74
+  "id": 81
  },
  {
   "a": "0x401ee31e9ebf9ab9f6315cd95faca5f950436fc9",
@@ -2065,7 +2362,7 @@
   "split": "2/3",
   "arrow": "\u2191",
   "fills": [],
-  "id": 75
+  "id": 82
  },
  {
   "a": "0x6d9fc316c3b8377060a44b852ba664adbfd59790",
@@ -2083,13 +2380,13 @@
   "shares": 1197.6,
   "ts": 1795872203,
   "held": 1573.47,
-  "heldUsd": 1078.61,
+  "heldUsd": 1068.38,
   "peak": 4488.99,
   "chip": "With",
   "split": "3/5",
   "arrow": "\u2193",
   "fills": [],
-  "id": 76
+  "id": 83
  },
  {
   "a": "0x12d6cccfc7470a3f4bafc53599a4779cbf2cf2a8",
@@ -2113,7 +2410,7 @@
   "split": "1/1",
   "arrow": "\u2193",
   "fills": [],
-  "id": 77
+  "id": 84
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2137,7 +2434,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 78
+  "id": 85
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2161,7 +2458,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 79
+  "id": 86
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2179,7 +2476,7 @@
   "shares": 270.0,
   "ts": 1795872131,
   "held": 2.37,
-  "heldUsd": 1.47,
+  "heldUsd": 1.45,
   "peak": 270.0,
   "chip": "First",
   "split": "",
@@ -2198,7 +2495,7 @@
     "price": 0.675
    }
   ],
-  "id": 80
+  "id": 87
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2222,7 +2519,7 @@
   "split": "",
   "arrow": "\u2193",
   "fills": [],
-  "id": 81
+  "id": 88
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2246,7 +2543,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 82
+  "id": 89
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2270,7 +2567,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 83
+  "id": 90
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2294,7 +2591,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 84
+  "id": 91
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2318,7 +2615,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 85
+  "id": 92
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2342,7 +2639,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 86
+  "id": 93
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2366,7 +2663,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 87
+  "id": 94
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2390,7 +2687,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 88
+  "id": 95
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2414,7 +2711,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 89
+  "id": 96
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2438,7 +2735,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 90
+  "id": 97
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2462,7 +2759,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 91
+  "id": 98
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2486,7 +2783,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 92
+  "id": 99
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2510,7 +2807,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 93
+  "id": 100
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2534,7 +2831,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 94
+  "id": 101
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2558,7 +2855,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 95
+  "id": 102
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2582,7 +2879,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 96
+  "id": 103
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2606,7 +2903,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 97
+  "id": 104
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2630,7 +2927,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 98
+  "id": 105
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2654,7 +2951,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 99
+  "id": 106
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2678,7 +2975,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 100
+  "id": 107
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2702,7 +2999,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 101
+  "id": 108
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2726,7 +3023,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 102
+  "id": 109
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2750,7 +3047,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 103
+  "id": 110
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2774,7 +3071,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 104
+  "id": 111
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2798,7 +3095,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 105
+  "id": 112
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2822,7 +3119,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 106
+  "id": 113
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2846,7 +3143,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 107
+  "id": 114
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2870,7 +3167,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 108
+  "id": 115
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2894,7 +3191,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 109
+  "id": 116
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2918,7 +3215,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 110
+  "id": 117
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2942,7 +3239,7 @@
   "split": "",
   "arrow": "",
   "fills": [],
-  "id": 111
+  "id": 118
  },
  {
   "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
@@ -2957,174 +3254,6 @@
   "out": "No",
   "price": 0.9905,
   "usd": 14.15,
-  "shares": 14.28,
-  "ts": 1795872092,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 14.28,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 112
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will mzinho be the PGL Major Singapore 2026 MVP?",
-  "url": "https://polymarket.com/event/pgl-major-singapore-2026-mvp/will-mzinho-be-the-pgl-major-singapore-2026-mvp",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-draft-ComO6xrObtyN.jpg",
-  "cid": "0x7ec9992bdc3d4f5318b868663a9072fbc001f8226aa55d2f350b9682a6bf9d12",
-  "slug": "will-mzinho-be-the-pgl-major-singapore-2026-mvp",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9971,
-  "usd": 14.24,
-  "shares": 14.28,
-  "ts": 1795872092,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 14.28,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 113
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will Xant3r be the PGL Major Singapore 2026 MVP?",
-  "url": "https://polymarket.com/event/pgl-major-singapore-2026-mvp/will-xant3r-be-the-pgl-major-singapore-2026-mvp",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-draft-ComO6xrObtyN.jpg",
-  "cid": "0x817f94888750cbc433f2eda5ff3dfaab359d935f7dc1b5b030c6f04d9ffff0bc",
-  "slug": "will-xant3r-be-the-pgl-major-singapore-2026-mvp",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9971,
-  "usd": 14.24,
-  "shares": 14.28,
-  "ts": 1795872092,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 14.28,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 114
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will xKacpersky be the PGL Major Singapore 2026 MVP?",
-  "url": "https://polymarket.com/event/pgl-major-singapore-2026-mvp/will-xkacpersky-be-the-pgl-major-singapore-2026-mvp",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-draft-ComO6xrObtyN.jpg",
-  "cid": "0x920f4569bdb796742511ae7497b2263ad06c7e6813a4d3dd8736b08fd20f6d22",
-  "slug": "will-xkacpersky-be-the-pgl-major-singapore-2026-mvp",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9971,
-  "usd": 14.24,
-  "shares": 14.28,
-  "ts": 1795872092,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 14.28,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 115
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will molodoy be the PGL Major Singapore 2026 MVP?",
-  "url": "https://polymarket.com/event/pgl-major-singapore-2026-mvp/will-molodoy-be-the-pgl-major-singapore-2026-mvp",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-draft-ComO6xrObtyN.jpg",
-  "cid": "0xbdf4f84aefdb5b53af6f0644a364ed24714e23431dd09348d555c296fb8943f9",
-  "slug": "will-molodoy-be-the-pgl-major-singapore-2026-mvp",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9905,
-  "usd": 14.15,
-  "shares": 14.28,
-  "ts": 1795872092,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 14.28,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 116
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will YEKINDAR be the PGL Major Singapore 2026 MVP?",
-  "url": "https://polymarket.com/event/pgl-major-singapore-2026-mvp/will-yekindar-be-the-pgl-major-singapore-2026-mvp",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-draft-ComO6xrObtyN.jpg",
-  "cid": "0xbea79eab68797590a4b12a8b467396a67143f4c48a1bf5f7082c2e2afbd5567e",
-  "slug": "will-yekindar-be-the-pgl-major-singapore-2026-mvp",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9886,
-  "usd": 14.12,
-  "shares": 14.28,
-  "ts": 1795872092,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 14.28,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 117
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will torzsi be the PGL Major Singapore 2026 MVP?",
-  "url": "https://polymarket.com/event/pgl-major-singapore-2026-mvp/will-torzsi-be-the-pgl-major-singapore-2026-mvp",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-draft-ComO6xrObtyN.jpg",
-  "cid": "0xdb0b616d9f6b64475b659c70021080f259c0a0dc5ae06c17b9231e2e2351ec1c",
-  "slug": "will-torzsi-be-the-pgl-major-singapore-2026-mvp",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9829,
-  "usd": 14.03,
-  "shares": 14.28,
-  "ts": 1795872092,
-  "held": 0.0,
-  "heldUsd": 0.0,
-  "peak": 14.28,
-  "chip": "Exited",
-  "split": "",
-  "arrow": "",
-  "fills": [],
-  "id": 118
- },
- {
-  "a": "0x5a218c7ad04135830a45c41aaed7294df7809318",
-  "n": "balthazar",
-  "avatar": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1873784-90701920-ed3d-4d2c-bfee-9129b7f735a0.gif",
-  "t": "Will sh1ro be the PGL Major Singapore 2026 MVP?",
-  "url": "https://polymarket.com/event/pgl-major-singapore-2026-mvp/will-sh1ro-be-the-pgl-major-singapore-2026-mvp",
-  "img": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-draft-ComO6xrObtyN.jpg",
-  "cid": "0xe5d674236fd9122fbcdc49c02ed9b0fce0710f14e998ae47ec37f01cc62bf3f9",
-  "slug": "will-sh1ro-be-the-pgl-major-singapore-2026-mvp",
-  "side": "BUY",
-  "out": "No",
-  "price": 0.9895,
-  "usd": 14.13,
   "shares": 14.28,
   "ts": 1795872092,
   "held": 0.0,
